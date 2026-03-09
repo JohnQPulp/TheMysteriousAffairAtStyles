@@ -534,8 +534,6 @@ My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein. I
 
 To make this part of my story clear, I append the following plan of the first floor of Styles. The servants’ rooms are reached through the door B. They have no communication with the right wing, where the Inglethorps’ rooms were situated.
 
-![A plan of the first floor of Styles. The building is in a horseshoe shape with a courtyard in the middle. Spare rooms surround the courtyard. The rooms of the characters face outwards.](images/styles-first-floor.png)
-
 It seemed to be the middle of the night when I was awakened by Lawrence Cavendish. He had a candle in his hand, and the agitation of his face told me at once that something was seriously wrong.
 
 “What’s the matter?” I asked, sitting up in bed, and trying to collect my scattered thoughts.
@@ -834,8 +832,6 @@ Poirot locked the door on the inside, and proceeded to a minute inspection of th
 
 “What have you, my friend,” he cried, “that you remain there like﻿—how do you say it?﻿—ah, yes, the stuck pig?”
 
-![A plan of Mrs. Inglethorp’s bedroom. There is a door on three out of four walls, and two windows on the fourth wall. There is a table, a second, overturned table, a chest of drawers, a wardrobe, a bed, a washstand, a writing desk, and a fireplace. Candle grease is on the floor.](images/mrs-inglethorps-bedroom.png)
-
 I explained that I was afraid of obliterating any footmarks.
 
 “Footmarks? But what an idea! There has already been practically an army in the room! What footmarks are we likely to find? No, come here and aid me in my search. I will put down my little case until I need it.”
@@ -921,8 +917,6 @@ I quickly handed them to him, and with skill he extracted a small piece of half 
 “There, *mon ami*!” he cried. “What do you think of that?”
 
 I scrutinized the fragment. This is an exact reproduction of it:﻿—
-
-![A small piece of half-charred paper with cursive letters “ll” and “and” visible.](images/charred-paper.png)
 
 I was puzzled. It was unusually thick, quite unlike ordinary notepaper. Suddenly an idea struck me.
 
@@ -1289,8 +1283,6 @@ I felt that my friend was not what he had been as he rambled on disconnectedly:
 “There were no stamps in his desk, but there might have been, eh, *mon ami*? There might have been? Yes”﻿—his eyes wandered round the room﻿—“this boudoir has nothing more to tell us. It did not yield much. Only this.”
 
 He pulled a crumpled envelope out of his pocket, and tossed it over to me. It was rather a curious document. A plain, dirty looking old envelope with a few words scrawled across it, apparently at random. The following is a facsimile of it.
-
-![A crumpled envelope. Writing is scrawled on it: “possessed,” “I am possessed,” “He is possessed.”](images/crumpled-envelope.png)
 
 ## 5. “It Isn’t Strychnine, Is It?”
 
@@ -4812,11 +4804,7 @@ Poirot paused. Mary looked up at him, the colour slowly rising in her face.
 
 “There was no need to introduce it. It was already there﻿—in the mixture. The strychnine that killed Mrs. Inglethorp was the identical strychnine prescribed by Dr. Wilkins. To make that clear to you, I will read you an extract from a book on dispensing which I found in the Dispensary of the Red Cross Hospital at Tadminster:
 
-“ ‘The following prescription has become famous in text books:
-
-Strychninae Sulph. gr. I<br>Potass. Bromide ³vi<br>Aqua ad ³viii<br>Fiat mistura
-
-“ ‘This solution deposits in a few hours the greater part of the strychnine salt as an insoluble bromide in transparent crystals. A lady in England lost her life by taking a similar mixture: the precipitated strychnine collected at the bottom, and in taking the last dose she swallowed nearly all of it!’
+“ ‘The following prescription has become famous in text books:<br>Strychninae Sulph. gr. I<br>Potass. Bromide ³vi<br>Aqua ad ³viii<br>Fiat misturaThis solution deposits in a few hours the greater part of the strychnine salt as an insoluble bromide in transparent crystals. A lady in England lost her life by taking a similar mixture: the precipitated strychnine collected at the bottom, and in taking the last dose she swallowed nearly all of it!’
 
 “Now there was, of course, no bromide in Dr. Wilkins’ prescription, but you will remember that I mentioned an empty box of bromide powders. One or two of those powders introduced into the full bottle of medicine would effectually precipitate the strychnine, as the book describes, and cause it to be taken in the last dose. You will learn later that the person who usually poured out Mrs. Inglethorp’s medicine was always extremely careful not to shake the bottle, but to leave the sediment at the bottom of it undisturbed.
 
@@ -4828,7 +4816,7 @@ Amid breathless excitement, he held out three thin strips of paper.
 
 In the deathly silence, Poirot pieced together the slips of paper and, clearing his throat, read:
 
-“ ‘Dearest Evelyn:<br>‘You will be anxious at hearing nothing. It is all right﻿—only it will be tonight instead of last night. You understand. There’s a good time coming once the old woman is dead and out of the way. No one can possibly bring home the crime to me. That idea of yours about the bromides was a stroke of genius! But we must be very circumspect. A false step﻿—’
+“ ‘Dearest Evelyn:<br>You will be anxious at hearing nothing. It is all right﻿—only it will be tonight instead of last night. You understand. There’s a good time coming once the old woman is dead and out of the way. No one can possibly bring home the crime to me. That idea of yours about the bromides was a stroke of genius! But we must be very circumspect. A false step﻿—’
 
 “Here, my friends, the letter breaks off. Doubtless the writer was interrupted; but there can be no question as to his identity. We all know this handwriting and﻿—”
 

@@ -1,4 +1,4 @@
-The Mysterious Affair at Styles by Agatha Christie
+<div class='center'><span class='big italics'>The Mysterious Affair at Styles</span> by&nbsp;Agatha&nbsp;Christie</div>
 
 
 To my Mother
@@ -1181,13 +1181,10 @@ To make this part of my story clear, I append the following plan of the first fl
 e:hastings=neutral
 
 The servants’ rooms are reached through the door B. They have no communication with the right wing, where the Inglethorps’ rooms were situated.
-
-
-![A plan of the first floor of Styles. The building is in a horseshoe shape with a courtyard in the middle. Spare rooms surround the courtyard. The rooms of the characters face outwards.](images/styles-first-floor.png)
-
+o=illustration1
 
 It seemed to be the middle of the night when I was awakened by Lawrence Cavendish.
-
+o=
 
 He had a candle in his hand, and the agitation of his face told me at once that something was seriously wrong.
 e:lawrence=fearful
@@ -1970,10 +1967,10 @@ We went up together to the room of the tragedy.
 s=none
 
 For convenience I append a plan of the room and the principal articles of furniture in it.
-
+o=illustration2
 
 Poirot locked the door on the inside, and proceeded to a minute inspection of the room.
-
+o=
 
 He darted from one object to the other with the agility of a grasshopper.
 e:poirot=excited
@@ -1986,9 +1983,6 @@ Poirot, however, did not seem grateful to me for my forbearance.
 
 “What have you, my friend,” he cried, “that you remain there like—how do you say it?—ah, yes, the stuck pig?”
 s=poirot;e:poirot=annoyed
-
-![A plan of Mrs. Inglethorp’s bedroom. There is a door on three out of four walls, and two windows on the fourth wall. There is a table, a second, overturned table, a chest of drawers, a wardrobe, a bed, a washstand, a writing desk, and a fireplace. Candle grease is on the floor.](images/mrs-inglethorps-bedroom.png)
-s=none
 
 I explained that I was afraid of obliterating any footmarks.
 s=none;e:hastings=wary
@@ -2195,10 +2189,7 @@ I scrutinized the fragment.
 s=none;e:hastings=thinking
 
 This is an exact reproduction of it:—
-
-
-![A small piece of half-charred paper with cursive letters “ll” and “and” visible.](images/charred-paper.png)
-
+o=illustration3
 
 I was puzzled.
 e:hastings=confused
@@ -2225,7 +2216,7 @@ s=hastings
 s=poirot;e:poirot=serious
 
 I relinquished the piece of paper, and watched him put it away in his case, with the same methodical care that he bestowed on everything.
-s=none
+s=none;o=
 
 My brain was in a whirl. What was this complication of a will? Who had destroyed it?
 e:hastings=confused
@@ -2963,10 +2954,7 @@ He pulled a crumpled envelope out of his pocket, and tossed it over to me. It wa
 s=none;e:hastings=surprised
 
 A plain, dirty looking old envelope with a few words scrawled across it, apparently at random. The following is a facsimile of it.
-
-
-![A crumpled envelope. Writing is scrawled on it: “possessed,” “I am possessed,” “He is possessed.”](images/crumpled-envelope.png)
-
+o=illustration4
 
 ## 5. “It Isn’t Strychnine, Is It?”
 r=title
@@ -5314,20 +5302,17 @@ Poirot and I had, of course already seen it. It added nothing to our knowledge o
 The following is a facsimile:
 
 
-Styles Court<br>Essex<br>Hand written note: July 17th
+<div class='center'><span class='upper'>Styles Court<br>Essex</span><br><span class='italics'>Hand written note: July 17th</span></div>
 
 
-My dear Evelyn<br>Can we not bury the hachet?
-
-
-I have found it hard to forgive the things you said against my dear husband but I am an old woman & very fond of you
-
+My dear Evelyn<br>Can we not bury the hachet? I have found it hard to forgive the things you said against my dear husband but I am an old woman & very fond of you
+m=margin
 
 Yours affectionately,<br>Emily Inglethorpe
 
 
 It was handed to the jury who scrutinized it attentively.
-
+m=
 
 “I fear it does not help us much,” said the Coroner, with a sigh.
 s=wells;e:wells=weary
@@ -6325,7 +6310,7 @@ We had read of such things—now we ourselves were actors in the drama.
 Tomorrow the daily papers, all over England, would blazon out the news in staring headlines:
 
 
-“Mysterious Tragedy in Essex”<br>“Wealthy Lady Poisoned”
+<div class='upper center'>“Mysterious Tragedy in Essex”<br>“Wealthy Lady Poisoned”</div>
 
 
 There would be pictures of Styles, snapshots of “The family leaving the Inquest”—the village photographer had not been idle!
@@ -10834,17 +10819,11 @@ e:poirot=serious
 “To make that clear to you, I will read you an extract from a book on dispensing which I found in the Dispensary of the Red Cross Hospital at Tadminster:”
 
 
-“ ‘The following prescription has become famous in text books:”
-
-
-“Strychninae Sulph. gr. I<br>Potass. Bromide ³vi<br>Aqua ad ³viii<br>Fiat mistura”
-
-
-“ ‘This solution deposits in a few hours the greater part of the strychnine salt as an insoluble bromide in transparent crystals. A lady in England lost her life by taking a similar mixture: the precipitated strychnine collected at the bottom, and in taking the last dose she swallowed nearly all of it!’”
-
+“ ‘The following prescription has become famous in text books:<br><div class='center'>Strychninae Sulph. gr. I<br>Potass. Bromide ³vi<br>Aqua ad ³viii<br>Fiat mistura</div>This solution deposits in a few hours the greater part of the strychnine salt as an insoluble bromide in transparent crystals. A lady in England lost her life by taking a similar mixture: the precipitated strychnine collected at the bottom, and in taking the last dose she swallowed nearly all of it!’”
+m=margin
 
 “Now there was, of course, no bromide in Dr. Wilkins’ prescription, but you will remember that I mentioned an empty box of bromide powders.”
-e:poirot=serious
+e:poirot=serious;m=
 
 “One or two of those powders introduced into the full bottle of medicine would effectually precipitate the strychnine, as the book describes, and cause it to be taken in the last dose.”
 
@@ -10876,11 +10855,11 @@ e:poirot=serious
 In the deathly silence, Poirot pieced together the slips of paper and, clearing his throat, read:
 s=none
 
-“ ‘Dearest Evelyn:<br>‘You will be anxious at hearing nothing. It is all right﻿—only it will be tonight instead of last night. You understand. There’s a good time coming once the old woman is dead and out of the way. No one can possibly bring home the crime to me. That idea of yours about the bromides was a stroke of genius! But we must be very circumspect. A false step﻿—’”
-s=poirot
+“ ‘Dearest Evelyn:<br>You will be anxious at hearing nothing. It is all right﻿—only it will be tonight instead of last night. You understand. There’s a good time coming once the old woman is dead and out of the way. No one can possibly bring home the crime to me. That idea of yours about the bromides was a stroke of genius! But we must be very circumspect. A false step﻿—’”
+s=poirot;m=margin
 
 “Here, my friends, the letter breaks off.”
-
+m=
 
 “Doubtless the writer was interrupted; but there can be no question as to his identity.”
 
