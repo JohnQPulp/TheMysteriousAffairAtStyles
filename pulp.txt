@@ -376,8 +376,14 @@ e:hastings=contemplative
 “My system is based on his﻿—though of course I have progressed rather further. He was a funny little man, a great dandy, but wonderfully clever.”
 e:hastings=smirking
 
-“Like a good detective story myself,” remarked Miss Howard. “Lots of nonsense written, though. Criminal discovered in last chapter. Everyone dumbfounded. Real crime﻿—you’d know at once.”
+“Like a good detective story myself,” remarked Miss Howard.
 s=evie;e:evie=neutral
+
+“Lots of nonsense written, though. Criminal discovered in last chapter. Everyone dumbfounded.”<e>Christie, no! You have 60 more years of mystery novels to write!</e>
+
+
+“Real crime﻿—you’d know at once.”
+
 
 “There have been a great number of undiscovered crimes,” I argued.
 s=hastings;e:hastings=serious
@@ -451,8 +457,14 @@ s=hastings;e:hastings=neutral
 “And she is terrified of ‘Sisters.’ ”
 
 
-“I don’t wonder. Sisters *are*, you know, Mr. Hastings. They simp﻿—ly *are*! You’ve no idea! But I’m not a nurse, thank heaven, I work in the dispensary.”
+“I don’t wonder. Sisters *are*, you know, Mr. Hastings. They simp﻿—ly *are*!”<e>They <i>what</i>?</e>
 s=cynthia;e:cynthia=happy
+
+“You’ve no idea!”
+
+
+“But I’m not a nurse, thank heaven, I work in the dispensary.”
+
 
 “How many people do you poison?” I asked, smiling.
 s=hastings;e:hastings=smirking
@@ -1489,7 +1501,7 @@ s=none;e:hastings=weary
 We were all silent, but I suppose I voiced the thoughts of us all when I at last broke it by saying:
 e:hastings=thinking
 
-“Where is Mr. Inglethorp?”
+<e>"Where is Poirot?"</e>“Where is Mr. Inglethorp?”
 s=hastings;e:hastings=serious
 
 John shook his head.
@@ -2956,7 +2968,7 @@ s=none;e:hastings=surprised
 A plain, dirty looking old envelope with a few words scrawled across it, apparently at random. The following is a facsimile of it.
 o=illustration4
 
-## 5. “It Isn’t Strychnine, Is It?”
+## 5. “It Isn’t Strychnine, Is It?”<e>"The strychnine's right behind me, isn't it?"</e>
 r=title
 
 “Where did you find this?” I asked Poirot, in lively curiosity.
@@ -7093,7 +7105,7 @@ s=dorcas;e:dorcas=happy
 “I didn’t know as there was a beard up there at all. It must have been got quite lately, I think. There was a red wig, I know, but nothing else in the way of hair.”
 e:dorcas=thinking
 
-“Burnt corks they use mostly—though ’tis messy getting it off again. Miss Cynthia was a nigger once, and, oh, the trouble she had.”
+“Burnt corks they use mostly—though ’tis messy getting it off again. Miss Cynthia was a nigger once, and, oh, the trouble she had.”<e>Well at least she didn't use the word in the title of her book this time.</e>
 
 
 “So Dorcas knows nothing about that black beard,” said Poirot thoughtfully, as we walked out into the hall again.
@@ -7768,8 +7780,11 @@ s=john
 “Oh,” she shrugged her shoulders, “if it is only village gossip that you mind!”
 s=mary;e:mary=annoyed
 
-“But it isn’t. I’ve had enough of the fellow hanging about. He’s a Polish Jew, anyway.”
+“But it isn’t. I’ve had enough of the fellow hanging about.”
 s=john;e:john=scowling
+
+“He’s a Polish Jew, anyway.”<e>Bauerstein is, huh. It's always the ones you most suspect.</e>
+
 
 “A tinge of Jewish blood is not a bad thing. It leavens the”﻿—she looked at him﻿—“stolid stupidity of the ordinary Englishman.”
 s=mary;e:mary=smirking
@@ -8368,7 +8383,7 @@ s=oldwoman
 I waited to hear no more, but tore up the village to find Poirot.
 s=none;e:hastings=excited
 
-## 10. The Arrest
+## 10. The Arrest<e>You could've waited to hear a little more.</e>
 r=title
 
 To my extreme annoyance, Poirot was not in, and the old Belgian who answered my knock informed me that he believed he had gone to London.
@@ -8554,8 +8569,11 @@ s=poirot;e:poirot=smirking
 “No,” I confessed, “I never thought of such a thing.”
 s=hastings;e:hastings=weary
 
-“He is, of course, a German by birth,” said Poirot thoughtfully, “though he has practiced so long in this country that nobody thinks of him as anything but an Englishman. He was naturalized about fifteen years ago. A very clever man—a Jew, of course.”
+“He is, of course, a German by birth,” said Poirot thoughtfully, “though he has practiced so long in this country that nobody thinks of him as anything but an Englishman.”
 s=poirot;e:poirot=thinking
+
+“He was naturalized about fifteen years ago. A very clever man—a Jew, of course.”
+
 
 “The blackguard!” I cried indignantly.
 s=hastings;e:hastings=angry
@@ -9199,7 +9217,7 @@ s=poirot;e:poirot=thinking
 “What is that?”
 s=hastings
 
-“Why, that there is altogether too much strychnine about this case. This is the third time we run up against it.”
+“Why, that there is altogether too much strychnine about this case. This is the third time we run up against it.”<e>Plus, the strychnine in the guacamole.</e>
 s=poirot;e:poirot=annoyed
 
 “There was strychnine in Mrs. Inglethorp’s tonic. There is the strychnine sold across the counter at Styles St. Mary by Mace. Now we have more strychnine, handled by one of the household.”
@@ -9238,7 +9256,7 @@ s=none
 “remember, Papa Poirot is always at your service.”
 s=poirot;m=;n:poirot=Papa Poirot;e:poirot=smirking
 
-She stared at him for a few minutes, as though seeking to read some deeper meaning into his words.
+She stared at him for a few minutes, as though seeking to read some deeper meaning into his words.<e>TODO: insert "few minutes" timer.</e>
 s=none;e:mary=thinking;n:poirot=Hercule Poirot
 
 Then she turned abruptly away.
@@ -11014,7 +11032,7 @@ s=hastings;e:hastings=surprised
 “But, certainly. Who else? It was most easy for her.”
 s=poirot;e:poirot=neutral
 
-“She is of a good height, her voice is deep and manly; moreover, remember, she and Inglethorp are cousins, and there is a distinct resemblance between them, especially in their gait and bearing.”
+“She is of a good height, her voice is deep and manly; moreover, remember, she and Inglethorp are cousins, and there is a distinct resemblance between them, especially in their gait and bearing.”<e>So the "second cousin or something" remark from chapter one was actually true. Why include the insanely sus "or something" part then, lmao.</e>
 
 
 “It was simplicity itself. They are a clever pair!”
@@ -11083,7 +11101,10 @@ s=poirot;e:poirot=serious
 “And then﻿—he makes his slip.”
 
 
-“Mrs. Inglethorp is out, and he sits down to write to his accomplice, who, he fears, may be in a panic at the nonsuccess of their plan. It is probable that Mrs. Inglethorp returned earlier than he expected.”
+“Mrs. Inglethorp is out, and he sits down to write to his accomplice, who, he fears, may be in a panic at the nonsuccess of their plan.”<e>Very cool final "clue", Christie: a full, written confession.</e>
+
+
+“It is probable that Mrs. Inglethorp returned earlier than he expected.”
 
 
 “Caught in the act, and somewhat flurried he hastily shuts and locks his desk. He fears that if he remains in the room he may have to open it again, and that Mrs. Inglethorp might catch sight of the letter before he could snatch it up.”
@@ -11431,7 +11452,7 @@ s=poirot;e:poirot=serious
 “And he was perfectly right.”
 e:poirot=happy
 
-“One thing more. What did Mrs. Inglethorp mean by her dying words?”
+“One thing more. What did Mrs. Inglethorp mean by her dying words?”<e>…That's your last question?</e>
 s=hastings;e:hastings=thinking
 
 “They were, of course, an accusation against her husband.”
