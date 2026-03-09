@@ -2322,18 +2322,11 @@ The Coroner smiled.
 
 Miss Howard produced the letter written to her by Mrs. Inglethorp on the evening of the 17th. Poirot and I had, of course already seen it. It added nothing to our knowledge of the tragedy. The following is a facsimile:
 
-> Styles Court
->
-> Essex
->
-> Hand written note: July 17th
->
-> My dear Evelyn
->
-> Can we not bury the hachet? I have found it hard to forgive the things you said against my dear husband but I am an old woman & very fond of you
->
-> Yours affectionately,  
-> Emily Inglethorpe
+Styles Court<br>Essex<br>Hand written note: July 17th
+
+My dear Evelyn<br>Can we not bury the hachet? I have found it hard to forgive the things you said against my dear husband but I am an old woman & very fond of you
+
+Yours affectionately,<br>Emily Inglethorpe
 
 It was handed to the jury who scrutinized it attentively.
 
@@ -2761,9 +2754,7 @@ Personally, I was not sanguine. Poirot might have excellent reasons for his beli
 
 Before very long we had all trooped into the drawing-room, the door of which Japp closed. Poirot politely set chairs for everyone. The Scotland Yard men were the cynosure of all eyes. I think that for the first time we realized that the thing was not a bad dream, but a tangible reality. We had read of such things﻿—now we ourselves were actors in the drama. Tomorrow the daily papers, all over England, would blazon out the news in staring headlines:
 
-> “Mysterious Tragedy in Essex”
->
-> “Wealthy Lady Poisoned”
+“Mysterious Tragedy in Essex”<br>“Wealthy Lady Poisoned”
 
 There would be pictures of Styles, snapshots of “The family leaving the Inquest”﻿—the village photographer had not been idle! All the things that one had read a hundred times﻿—things that happen to other people, not to oneself. And now, in this house, a murder had been committed. In front of us were “the detectives in charge of the case.” The well-known glib phraseology passed rapidly through my mind in the interval before Poirot opened the proceedings.
 
@@ -4821,16 +4812,11 @@ Poirot paused. Mary looked up at him, the colour slowly rising in her face.
 
 “There was no need to introduce it. It was already there﻿—in the mixture. The strychnine that killed Mrs. Inglethorp was the identical strychnine prescribed by Dr. Wilkins. To make that clear to you, I will read you an extract from a book on dispensing which I found in the Dispensary of the Red Cross Hospital at Tadminster:
 
-> “ ‘The following prescription has become famous in text books:
->
-> |                    |       |
-> |--------------------|-------|
-> | Strychninae Sulph. | gr. I |
-> | Potass. Bromide    | ³vi   |
-> | Aqua ad            | ³viii |
-> | Fiat mistura       |       |
->
-> “ ‘This solution deposits in a few hours the greater part of the strychnine salt as an insoluble bromide in transparent crystals. A lady in England lost her life by taking a similar mixture: the precipitated strychnine collected at the bottom, and in taking the last dose she swallowed nearly all of it!’
+“ ‘The following prescription has become famous in text books:
+
+Strychninae Sulph. gr. I<br>Potass. Bromide ³vi<br>Aqua ad ³viii<br>Fiat mistura
+
+“ ‘This solution deposits in a few hours the greater part of the strychnine salt as an insoluble bromide in transparent crystals. A lady in England lost her life by taking a similar mixture: the precipitated strychnine collected at the bottom, and in taking the last dose she swallowed nearly all of it!’
 
 “Now there was, of course, no bromide in Dr. Wilkins’ prescription, but you will remember that I mentioned an empty box of bromide powders. One or two of those powders introduced into the full bottle of medicine would effectually precipitate the strychnine, as the book describes, and cause it to be taken in the last dose. You will learn later that the person who usually poured out Mrs. Inglethorp’s medicine was always extremely careful not to shake the bottle, but to leave the sediment at the bottom of it undisturbed.
 
@@ -4842,9 +4828,7 @@ Amid breathless excitement, he held out three thin strips of paper.
 
 In the deathly silence, Poirot pieced together the slips of paper and, clearing his throat, read:
 
-> “ ‘Dearest Evelyn:
->
-> “ ‘You will be anxious at hearing nothing. It is all right﻿—only it will be tonight instead of last night. You understand. There’s a good time coming once the old woman is dead and out of the way. No one can possibly bring home the crime to me. That idea of yours about the bromides was a stroke of genius! But we must be very circumspect. A false step﻿—’
+“ ‘Dearest Evelyn:<br>“ ‘You will be anxious at hearing nothing. It is all right﻿—only it will be tonight instead of last night. You understand. There’s a good time coming once the old woman is dead and out of the way. No one can possibly bring home the crime to me. That idea of yours about the bromides was a stroke of genius! But we must be very circumspect. A false step﻿—’
 
 “Here, my friends, the letter breaks off. Doubtless the writer was interrupted; but there can be no question as to his identity. We all know this handwriting and﻿—”
 
