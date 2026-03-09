@@ -412,10 +412,10 @@ s=none;e:cynthia=happy
 “Why, Cynthia, you are late today. This is Mr. Hastings﻿—Miss Murdoch.”
 s=emily;e:emily=neutral
 
-Cynthia Murdoch was a fresh-looking young creature, full of life and vigour. She tossed off her little V.A.D.
+Cynthia Murdoch was a fresh-looking young creature, full of life and vigour.
 s=none
 
-cap, and I admired the great loose waves of her auburn hair, and the smallness and whiteness of the hand she held out to claim her tea.
+She tossed off her little V.A.D. cap, and I admired the great loose waves of her auburn hair, and the smallness and whiteness of the hand she held out to claim her tea.
 e:hastings=happy
 
 With dark eyes and eyelashes she would have been a beauty.
@@ -439,11 +439,8 @@ s=none
 “For my sins.”
 s=cynthia;e:cynthia=smirking
 
-“Do they bully you, then?”
+“Do they bully you, then?” I asked, smiling.
 s=hastings;e:hastings=happy
-
-I asked, smiling.
-s=none
 
 “I should like to see them!” cried Cynthia with dignity.
 s=cynthia;e:cynthia=smirking
@@ -643,11 +640,8 @@ As the motor drove away, Mrs. Cavendish suddenly detached herself from the group
 The colour rose in her cheeks as she held out her hand to him.
 e:mary=nervous
 
-“Who is that?”
+“Who is that?” I asked sharply, for instinctively I distrusted the man.
 s=hastings;e:hastings=wary
-
-I asked sharply, for instinctively I distrusted the man.
-s=none;e:hastings=suspicious
 
 “That’s Dr. Bauerstein,” said John shortly.
 s=john;n:bauerstein=Dr. Bauerstein;e:john=annoyed
@@ -1198,11 +1192,8 @@ It seemed to be the middle of the night when I was awakened by Lawrence Cavendis
 He had a candle in his hand, and the agitation of his face told me at once that something was seriously wrong.
 e:lawrence=fearful
 
-“What’s the matter?”
+“What’s the matter?” I asked, sitting up in bed, and trying to collect my scattered thoughts.
 s=hastings;e:hastings=confused
-
-I asked, sitting up in bed, and trying to collect my scattered thoughts.
-s=none
 
 “We are afraid my mother is very ill. She seems to be having some kind of fit.”
 s=lawrence
@@ -1609,11 +1600,8 @@ s=john;e:john=surprised
 “Yes, time is an advantage if—if—there has been foul play.”
 s=hastings
 
-“Rubbish!”
+“Rubbish!” cried Lawrence angrily.
 s=lawrence;e:lawrence=angry
-
-cried Lawrence angrily.
-s=none
 
 “In my opinion the whole thing is a mare’s nest of Bauerstein’s!”
 s=lawrence
@@ -3019,14 +3007,11 @@ s=poirot;e:poirot=excited
 “My dear Poirot! What on earth is the good of that, now that we know about the cocoa?”
 s=hastings;e:hastings=annoyed
 
-“Oh, la la! That miserable cocoa!”
+“Oh, la la! That miserable cocoa!” cried Poirot flippantly.
 s=poirot;e:poirot=smirking
 
-cried Poirot flippantly.
-s=none
-
 He laughed with apparent enjoyment, raising his arms to heaven in mock despair, in what I could not but consider the worst possible taste.
-e:poirot=happy;e:hastings=annoyed
+e:poirot=happy;e:hastings=annoyed;s=
 
 “And, anyway,” I said, with increasing coldness, “as Mrs. Inglethorp took her coffee upstairs with her, I do not see what you expect to find, unless you consider it likely that we shall discover a packet of strychnine on the coffee tray!”
 s=hastings
@@ -3925,11 +3910,8 @@ s=evie;e:evie=angry
 “My dear Evie, do be careful. Lawrence is of the opinion that my mother died from heart seizure.”
 s=john;e:john=nervous
 
-“More fool, Lawrence!”
+“More fool, Lawrence!” retorted Miss Howard.
 s=evie
-
-retorted Miss Howard.
-s=none
 
 “Of course Alfred Inglethorp murdered poor Emily—as I always told you he would.”
 s=evie
@@ -7567,14 +7549,11 @@ s=none
 “I say, what was the end of that message? Say it over again, will you?”
 s=lawrence;e:lawrence=thinking
 
-“ ‘Find the extra coffee-cup, and you can rest in peace.’ Are you sure you don’t know what it means?”
-s=hastings
-
-I asked him earnestly.
-s=none;e:hastings=serious
+“ ‘Find the extra coffee-cup, and you can rest in peace.’ Are you sure you don’t know what it means?” I asked him earnestly.
+s=hastings;e:hastings=serious
 
 He shook his head.
-
+s=
 
 “No,” he said musingly, “I don’t. I﻿—I wish I did.”
 s=lawrence;e:lawrence=contemplative
@@ -8107,11 +8086,11 @@ s=john;e:john=serious;e:hastings=surprised
 “Something which makes me doubt if what you say can be true.”
 
 
-“What’s that?”
-s=hastings;e:hastings=nervous
+“What’s that?” I asked,
+s=hastings;e:hastings=nervous;m=allowbreak
 
-I asked, thankful that he had gone away from the subject of how the poison could have been introduced into the cocoa.
-s=none
+thankful that he had gone away from the subject of how the poison could have been introduced into the cocoa.
+s=none;m=
 
 “Why, the fact that Bauerstein demanded a postmortem. He needn’t have done so.”
 s=john;e:john=thinking
