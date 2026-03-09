@@ -91,11 +91,8 @@ e:hastings=neutral
 John noticed my surprise at the news of his mother’s remarriage and smiled rather ruefully.
 e:john=smirking
 
-“Rotten little bounder too!”
+“Rotten little bounder too!” he said savagely.
 s=john;e:john=angry
-
-he said savagely.
-s=none
 
 “I can tell you, Hastings, it’s making life jolly difficult for us. As for Evie﻿—you remember Evie?”
 s=john;e:john=annoyed
@@ -3002,6 +2999,1935 @@ A plain, dirty looking old envelope with a few words scrawled across it, apparen
 
 
 ![A crumpled envelope. Writing is scrawled on it: “possessed,” “I am possessed,” “He is possessed.”](images/crumpled-envelope.png)
+
+
+## 5. “It Isn’t Strychnine, Is It?”
+
+
+“Where did you find this?” I asked Poirot, in lively curiosity.
+s=hastings;e:hastings=surprised
+
+“In the wastepaper basket. You recognise the handwriting?”
+s=poirot;e:poirot=neutral
+
+“Yes, it is Mrs. Inglethorp’s. But what does it mean?”
+s=hastings;e:hastings=confused
+
+Poirot shrugged his shoulders.
+s=none;e:poirot=neutral
+
+“I cannot say—but it is suggestive.”
+s=poirot;e:poirot=thinking
+
+A wild idea flashed across me.
+s=none;e:hastings=surprised
+
+Was it possible that Mrs. Inglethorp’s mind was deranged?
+e:hastings=thinking
+
+Had she some fantastic idea of demoniacal possession?
+
+
+And, if that were so, was it not also possible that she might have taken her own life?
+
+
+I was about to expound these theories to Poirot, when his own words distracted me.
+
+
+“Come,” he said, “now to examine the coffee-cups!”
+s=poirot;e:poirot=excited
+
+“My dear Poirot! What on earth is the good of that, now that we know about the cocoa?”
+s=hastings;e:hastings=annoyed
+
+“Oh, la la! That miserable cocoa!”
+s=poirot;e:poirot=smirking
+
+cried Poirot flippantly.
+s=none
+
+He laughed with apparent enjoyment, raising his arms to heaven in mock despair, in what I could not but consider the worst possible taste.
+e:poirot=happy;e:hastings=annoyed
+
+“And, anyway,” I said, with increasing coldness, “as Mrs. Inglethorp took her coffee upstairs with her, I do not see what you expect to find, unless you consider it likely that we shall discover a packet of strychnine on the coffee tray!”
+s=hastings
+
+Poirot was sobered at once.
+s=none;e:poirot=serious
+
+“Come, come, my friend,” he said, slipping his arms through mine.
+s=poirot;e:poirot=neutral
+
+“*Ne vous fâchez pas!* Allow me to interest myself in my coffee-cups, and I will respect your cocoa. There! Is it a bargain?”
+s=poirot;e:poirot=smirking
+
+He was so quaintly humorous that I was forced to laugh;
+s=none;e:poirot=happy;e:hastings=happy
+
+and we went together to the drawing-room, where the coffee-cups and tray remained undisturbed as we had left them.
+e:poirot=neutral;e:hastings=neutral
+
+Poirot made me recapitulate the scene of the night before, listening very carefully, and verifying the position of the various cups.
+e:poirot=thinking
+
+“So Mrs. Cavendish stood by the tray—and poured out. Yes.”
+s=poirot
+
+“Then she came across to the window where you sat with Mademoiselle Cynthia. Yes.”
+
+
+“Here are the three cups. And the cup on the mantelpiece, half drunk, that would be Mr. Lawrence Cavendish’s. And the one on the tray?”
+
+
+“John Cavendish’s. I saw him put it down there.”
+s=hastings;e:hastings=neutral
+
+“Good. One, two, three, four, five—but where, then, is the cup of Mr. Inglethorp?”
+s=poirot;e:poirot=thinking
+
+“He does not take coffee.”
+s=hastings
+
+“Then all are accounted for. One moment, my friend.”
+s=poirot;e:poirot=serious
+
+With infinite care, he took a drop or two from the grounds in each cup, sealing them up in separate test tubes, tasting each in turn as he did so.
+s=none
+
+His physiognomy underwent a curious change.
+e:poirot=surprised
+
+An expression gathered there that I can only describe as half puzzled, and half relieved.
+e:poirot=confused
+
+“*Bien!*” he said at last.
+s=poirot
+
+“It is evident! I had an idea—but clearly I was mistaken. Yes, altogether I was mistaken.”
+s=poirot;e:poirot=thinking
+
+“Yet it is strange. But no matter!”
+
+
+And, with a characteristic shrug, he dismissed whatever it was that was worrying him from his mind.
+s=none;e:poirot=neutral
+
+I could have told him from the beginning that this obsession of his over the coffee was bound to end in a blind alley, but I restrained my tongue.
+e:hastings=smirking
+
+After all, though he was old, Poirot had been a great man in his day.
+e:hastings=neutral
+
+“Breakfast is ready,” said John Cavendish, coming in from the hall.
+s=john;e:john=neutral
+
+“You will breakfast with us, Monsieur Poirot?”
+s=john
+
+Poirot acquiesced.
+s=none;e:poirot=neutral
+
+I observed John. Already he was almost restored to his normal self.
+
+
+The shock of the events of the last night had upset him temporarily, but his equable poise soon swung back to the normal.
+
+
+He was a man of very little imagination, in sharp contrast with his brother, who had, perhaps, too much.
+e:john=serious
+
+Ever since the early hours of the morning, John had been hard at work, sending telegrams—one of the first had gone to Evelyn Howard—writing notices for the papers, and generally occupying himself with the melancholy duties that a death entails.
+
+
+“May I ask how things are proceeding?” he said.
+s=john
+
+“Do your investigations point to my mother having died a natural death—or—or must we prepare ourselves for the worst?”
+s=john;e:john=nervous
+
+“I think, Mr. Cavendish,” said Poirot gravely, “that you would do well not to buoy yourself up with any false hopes. Can you tell me the views of the other members of the family?”
+s=poirot;e:poirot=serious
+
+“My brother Lawrence is convinced that we are making a fuss over nothing.”
+s=john;e:john=annoyed
+
+“He says that everything points to its being a simple case of heart failure.”
+
+
+“He does, does he? That is very interesting—very interesting,” murmured Poirot softly.
+s=poirot;e:poirot=thinking
+
+“And Mrs. Cavendish?”
+s=poirot
+
+A faint cloud passed over John’s face.
+s=none;e:john=upset
+
+“I have not the least idea what my wife’s views on the subject are.”
+s=john
+
+The answer brought a momentary stiffness in its train.
+s=none
+
+John broke the rather awkward silence by saying with a slight effort:
+e:john=nervous
+
+“I told you, didn’t I, that Mr. Inglethorp has returned?”
+s=john
+
+Poirot bent his head.
+s=none;e:poirot=neutral
+
+“It’s an awkward position for all of us.”
+s=john;e:john=upset
+
+“Of course one has to treat him as usual—but, hang it all, one’s gorge does rise at sitting down to eat with a possible murderer!”
+e:john=angry
+
+Poirot nodded sympathetically.
+s=none;e:poirot=serious
+
+“I quite understand. It is a very difficult situation for you, Mr. Cavendish.”
+s=poirot
+
+“I would like to ask you one question. Mr. Inglethorp’s reason for not returning last night was, I believe, that he had forgotten the latchkey. Is not that so?”
+
+
+“Yes.”
+s=john;e:john=neutral
+
+“I suppose you are quite sure that the latchkey *was* forgotten—that he did not take it after all?”
+s=poirot;e:poirot=thinking
+
+“I have no idea. I never thought of looking.”
+s=john;e:john=confused
+
+“We always keep it in the hall drawer. I’ll go and see if it’s there now.”
+
+
+Poirot held up his hand with a faint smile.
+s=none;e:poirot=smirking
+
+“No, no, Mr. Cavendish, it is too late now. I am certain that you would find it.”
+s=poirot
+
+“If Mr. Inglethorp did take it, he has had ample time to replace it by now.”
+
+
+“But do you think—”
+s=john;e:john=surprised
+
+“I think nothing.”
+s=poirot;e:poirot=neutral
+
+“If anyone had chanced to look this morning before his return, and seen it there, it would have been a valuable point in his favour. That is all.”
+e:poirot=thinking
+
+John looked perplexed.
+s=none;e:john=confused
+
+“Do not worry,” said Poirot smoothly.
+s=poirot;e:poirot=neutral
+
+“I assure you that you need not let it trouble you. Since you are so kind, let us go and have some breakfast.”
+s=poirot
+
+Everyone was assembled in the dining-room. Under the circumstances, we were naturally not a cheerful party.
+s=none;e:hastings=serious
+
+The reaction after a shock is always trying, and I think we were all suffering from it.
+
+
+Decorum and good breeding naturally enjoined that our demeanour should be much as usual, yet I could not help wondering if this self-control were really a matter of great difficulty.
+e:hastings=contemplative
+
+There were no red eyes, no signs of secretly indulged grief.
+
+
+I felt that I was right in my opinion that Dorcas was the person most affected by the personal side of the tragedy.
+
+
+I pass over Alfred Inglethorp, who acted the bereaved widower in a manner that I felt to be disgusting in its hypocrisy.
+e:hastings=annoyed;e:alfred=sad
+
+Did he know that we suspected him, I wondered.
+e:hastings=suspicious
+
+Surely he could not be unaware of the fact, conceal it as we would.
+
+
+Did he feel some secret stirring of fear, or was he confident that his crime would go unpunished?
+
+
+Surely the suspicion in the atmosphere must warn him that he was already a marked man.
+
+
+But did everyone suspect him? What about Mrs. Cavendish?
+e:mary=neutral
+
+I watched her as she sat at the head of the table, graceful, composed, enigmatic.
+
+
+In her soft grey frock, with white ruffles at the wrists falling over her slender hands, she looked very beautiful.
+
+
+When she chose, however, her face could be sphinxlike in its inscrutability.
+
+
+She was very silent, hardly opening her lips, and yet in some queer way I felt that the great strength of her personality was dominating us all.
+e:mary=serious
+
+And little Cynthia? Did she suspect? She looked very tired and ill, I thought.
+e:cynthia=weary
+
+The heaviness and languor of her manner were very marked.
+
+
+I asked her if she were feeling ill, and she answered frankly:
+e:hastings=nervous
+
+“Yes, I’ve got the most beastly headache.”
+s=cynthia;e:cynthia=unhappy
+
+“Have another cup of coffee, mademoiselle?” said Poirot solicitously.
+s=poirot;e:poirot=neutral
+
+“It will revive you. It is unparalleled for the *mal de tête*.”
+s=poirot
+
+He jumped up and took her cup.
+s=none
+
+“No sugar,” said Cynthia, watching him, as he picked up the sugar-tongs.
+s=cynthia;e:cynthia=neutral
+
+“No sugar? You abandon it in the wartime, eh?”
+s=poirot;e:poirot=confused
+
+“No, I never take it in coffee.”
+s=cynthia
+
+“*Sacré!*” murmured Poirot to himself, as he brought back the replenished cup.
+s=poirot;e:poirot=surprised
+
+Only I heard him, and glancing up curiously at the little man I saw that his face was working with suppressed excitement, and his eyes were as green as a cat’s.
+s=none;e:poirot=excited;e:hastings=surprised
+
+He had heard or seen something that had affected him strongly—but what was it?
+e:hastings=confused
+
+I do not usually label myself as dense, but I must confess that nothing out of the ordinary had attracted *my* attention.
+e:hastings=annoyed
+
+In another moment, the door opened and Dorcas appeared.
+e:dorcas=neutral
+
+“Mr. Wells to see you, sir,” she said to John.
+n:wells=Mr. Wells;s=dorcas
+
+I remembered the name as being that of the lawyer to whom Mrs. Inglethorp had written the night before.
+e:hastings=thinking;s=none
+
+John rose immediately.
+e:john=serious
+
+“Show him into my study.”
+s=john
+
+Then he turned to us.
+s=none
+
+“My mother’s lawyer,” he explained.
+s=john
+
+And in a lower voice:
+s=none
+
+“He is also Coroner—you understand. Perhaps you would like to come with me?”
+s=john
+
+We acquiesced and followed him out of the room.
+s=none
+
+John strode on ahead and I took the opportunity of whispering to Poirot:
+e:hastings=wary
+
+“There will be an inquest then?”
+s=hastings
+
+Poirot nodded absently.
+s=none;e:poirot=thinking
+
+He seemed absorbed in thought; so much so that my curiosity was aroused.
+e:hastings=confused
+
+“What is it? You are not attending to what I say.”
+s=hastings
+
+“It is true, my friend. I am much worried.”
+s=poirot;e:poirot=nervous
+
+“Why?”
+s=hastings
+
+“Because Mademoiselle Cynthia does not take sugar in her coffee.”
+s=poirot;e:poirot=serious
+
+“What? You cannot be serious?”
+s=hastings;e:hastings=surprised
+
+“But I am most serious. Ah, there is something there that I do not understand. My instinct was right.”
+s=poirot;e:poirot=thinking
+
+“What instinct?”
+s=hastings;e:hastings=confused
+
+“The instinct that led me to insist on examining those coffee-cups. *Chut!* no more now!”
+s=poirot;e:poirot=wary
+
+We followed John into his study, and he closed the door behind us.
+s=none
+
+Mr. Wells was a pleasant man of middle-age, with keen eyes, and the typical lawyer’s mouth.
+e:wells=neutral
+
+John introduced us both, and explained the reason of our presence.
+
+
+“You will understand, Wells,” he added, “that this is all strictly private. We are still hoping that there will turn out to be no need for investigation of any kind.”
+s=john;e:john=nervous
+
+“Quite so, quite so,” said Mr. Wells soothingly.
+s=wells;e:wells=neutral
+
+“I wish we could have spared you the pain and publicity of an inquest, but of course it’s quite unavoidable in the absence of a doctor’s certificate.”
+s=wells
+
+“Yes, I suppose so.”
+s=john;e:john=upset
+
+“Clever man, Bauerstein. Great authority on toxicology, I believe.”
+s=wells
+
+“Indeed,” said John with a certain stiffness in his manner.
+s=john;e:john=annoyed
+
+Then he added rather hesitatingly:
+s=none;e:john=nervous
+
+“Shall we have to appear as witnesses—all of us, I mean?”
+s=john
+
+“You, of course—and ah—er—Mr.—er—Inglethorp.”
+s=wells
+
+A slight pause ensued before the lawyer went on in his soothing manner:
+s=none
+
+“Any other evidence will be simply confirmatory, a mere matter of form.”
+s=wells
+
+“I see.”
+s=john;e:john=neutral
+
+A faint expression of relief swept over John’s face.
+s=none
+
+It puzzled me, for I saw no occasion for it.
+e:hastings=confused
+
+“If you know of nothing to the contrary,” pursued Mr. Wells, “I had thought of Friday. That will give us plenty of time for the doctor’s report. The postmortem is to take place tonight, I believe?”
+s=wells
+
+“Yes.”
+s=john
+
+“Then that arrangement will suit you?”
+s=wells
+
+“Perfectly.”
+s=john
+
+“I need not tell you, my dear Cavendish, how distressed I am at this most tragic affair.”
+s=wells;e:wells=sad
+
+“Can you give us no help in solving it, monsieur?” interposed Poirot, speaking for the first time since we had entered the room.
+s=poirot;e:poirot=serious
+
+“I?”
+s=wells;e:wells=surprised
+
+“Yes, we heard that Mrs. Inglethorp wrote to you last night. You should have received the letter this morning.”
+s=poirot
+
+“I did, but it contains no information. It is merely a note asking me to call upon her this morning, as she wanted my advice on a matter of great importance.”
+s=wells;e:wells=neutral
+
+“She gave you no hint as to what that matter might be?”
+s=poirot
+
+“Unfortunately, no.”
+s=wells
+
+“That is a pity,” said John.
+s=john;e:john=upset
+
+“A great pity,” agreed Poirot gravely.
+s=poirot;e:poirot=serious
+
+There was silence. Poirot remained lost in thought for a few minutes.
+s=none;e:poirot=thinking
+
+Finally he turned to the lawyer again.
+
+
+“Mr. Wells, there is one thing I should like to ask you—that is, if it is not against professional etiquette.”
+s=poirot;e:poirot=neutral
+
+“In the event of Mrs. Inglethorp’s death, who would inherit her money?”
+
+
+The lawyer hesitated a moment, and then replied:
+s=none;e:wells=thinking
+
+“The knowledge will be public property very soon, so if Mr. Cavendish does not object—”
+s=wells
+
+“Not at all,” interpolated John.
+s=john;e:john=neutral
+
+“I do not see any reason why I should not answer your question.”
+s=wells;e:wells=neutral
+
+“By her last will, dated August of last year, after various unimportant legacies to servants, etc., she gave her entire fortune to her stepson, Mr. John Cavendish.”
+
+
+“Was not that—pardon the question, Mr. Cavendish—rather unfair to her other stepson, Mr. Lawrence Cavendish?”
+s=poirot;e:poirot=thinking
+
+“No, I do not think so.”
+s=john
+
+“You see, under the terms of their father’s will, while John inherited the property, Lawrence, at his stepmother’s death, would come into a considerable sum of money.”
+
+
+“Mrs. Inglethorp left her money to her elder stepson, knowing that he would have to keep up Styles. It was, to my mind, a very fair and equitable distribution.”
+
+
+Poirot nodded thoughtfully.
+s=none;e:poirot=thinking
+
+“I see. But I am right in saying, am I not, that by your English law that will was automatically revoked when Mrs. Inglethorp remarried?”
+s=poirot
+
+Mr. Wells bowed his head.
+s=none;e:wells=serious
+
+“As I was about to proceed, Monsieur Poirot, that document is now null and void.”
+s=wells
+
+“*Hein!*” said Poirot.
+s=poirot
+
+He reflected for a moment, and then asked:
+s=none
+
+“Was Mrs. Inglethorp herself aware of that fact?”
+s=poirot
+
+“I do not know. She may have been.”
+s=wells
+
+“She was,” said John unexpectedly.
+s=john;e:john=serious
+
+“We were discussing the matter of wills being revoked by marriage only yesterday.”
+s=john
+
+“Ah! One more question, Mr. Wells. You say ‘her last will.’ Had Mrs. Inglethorp, then, made several former wills?”
+s=poirot;e:poirot=thinking
+
+“On an average, she made a new will at least once a year,” said Mr. Wells imperturbably.
+s=wells;e:wells=neutral
+
+“She was given to changing her mind as to her testamentary dispositions, now benefiting one, now another member of her family.”
+s=wells
+
+“Suppose,” suggested Poirot, “that, unknown to you, she had made a new will in favour of someone who was not, in any sense of the word, a member of the family—we will say Miss Howard, for instance—would you be surprised?”
+s=poirot
+
+“Not in the least.”
+s=wells
+
+“Ah!”
+s=poirot
+
+Poirot seemed to have exhausted his questions.
+s=none;e:poirot=neutral
+
+I drew close to him, while John and the lawyer were debating the question of going through Mrs. Inglethorp’s papers.
+
+
+“Do you think Mrs. Inglethorp made a will leaving all her money to Miss Howard?” I asked in a low voice, with some curiosity.
+s=hastings;e:hastings=curious
+
+Poirot smiled.
+s=none;e:poirot=smirking
+
+“No.”
+s=poirot
+
+“Then why did you ask?”
+s=hastings
+
+“Hush!”
+s=poirot;e:poirot=wary
+
+John Cavendish had turned to Poirot.
+s=none;e:john=neutral
+
+“Will you come with us, Monsieur Poirot? We are going through my mother’s papers.”
+s=john
+
+“Mr. Inglethorp is quite willing to leave it entirely to Mr. Wells and myself.”
+
+
+“Which simplifies matters very much,” murmured the lawyer.
+s=wells;e:wells=smirking
+
+“As technically, of course, he was entitled—”
+s=wells
+
+He did not finish the sentence.
+s=none
+
+“We will look through the desk in the boudoir first,” explained John, “and go up to her bedroom afterwards. She kept her most important papers in a purple despatch-case, which we must look through carefully.”
+s=john;e:john=serious
+
+“Yes,” said the lawyer, “it is quite possible that there may be a later will than the one in my possession.”
+s=wells;e:wells=neutral
+
+“There *is* a later will.”
+s=poirot;e:poirot=serious
+
+It was Poirot who spoke.
+s=none
+
+“What?”
+s=john;e:john=surprised
+
+John and the lawyer looked at him startled.
+s=none;e:wells=surprised
+
+“Or, rather,” pursued my friend imperturbably, “there *was* one.”
+s=poirot
+
+“What do you mean—there was one? Where is it now?”
+s=john;e:john=confused
+
+“Burnt!”
+s=poirot;e:poirot=serious
+
+“Burnt?”
+s=john;e:john=surprised
+
+“Yes. See here.”
+s=poirot
+
+He took out the charred fragment we had found in the grate in Mrs. Inglethorp’s room, and handed it to the lawyer with a brief explanation of when and where he had found it.
+s=none
+
+“But possibly this is an old will?”
+s=wells;e:wells=thinking
+
+“I do not think so. In fact I am almost certain that it was made no earlier than yesterday afternoon.”
+s=poirot;e:poirot=neutral
+
+“What?” “Impossible!” broke simultaneously from both men.
+s=none;e:john=surprised;e:wells=surprised
+
+Poirot turned to John.
+
+
+“If you will allow me to send for your gardener, I will prove it to you.”
+s=poirot
+
+“Oh, of course—but I don’t see—”
+s=john;e:john=confused
+
+Poirot raised his hand.
+s=none;e:poirot=serious
+
+“Do as I ask you. Afterwards you shall question as much as you please.”
+s=poirot
+
+“Very well.”
+s=john;e:john=neutral
+
+He rang the bell.
+s=none
+
+Dorcas answered it in due course.
+e:dorcas=neutral
+
+“Dorcas, will you tell Manning to come round and speak to me here.”
+s=john
+
+“Yes, sir.”
+s=dorcas
+
+Dorcas withdrew.
+s=none
+
+We waited in a tense silence.
+e:hastings=nervous
+
+Poirot alone seemed perfectly at his ease, and dusted a forgotten corner of the bookcase.
+e:poirot=neutral
+
+The clumping of hobnailed boots on the gravel outside proclaimed the approach of Manning.
+n:manning=Manning
+
+John looked questioningly at Poirot.
+e:john=confused
+
+The latter nodded.
+
+
+“Come inside, Manning,” said John, “I want to speak to you.”
+s=john;e:john=serious
+
+Manning came slowly and hesitatingly through the French window, and stood as near it as he could.
+s=none;e:manning=nervous
+
+He held his cap in his hands, twisting it very carefully round and round.
+
+
+His back was much bent, though he was probably not as old as he looked, but his eyes were sharp and intelligent, and belied his slow and rather cautious speech.
+e:manning=wary
+
+“Manning,” said John, “this gentleman will put some questions to you which I want you to answer.”
+s=john
+
+“Yes sir,” mumbled Manning.
+s=manning
+
+Poirot stepped forward briskly.
+s=none;e:poirot=serious
+
+Manning’s eye swept over him with a faint contempt.
+e:manning=annoyed
+
+“You were planting a bed of begonias round by the south side of the house yesterday afternoon, were you not, Manning?”
+s=poirot
+
+“Yes, sir, me and Willum.”
+s=manning;e:manning=neutral
+
+“And Mrs. Inglethorp came to the window and called you, did she not?”
+s=poirot
+
+“Yes, sir, she did.”
+s=manning
+
+“Tell me in your own words exactly what happened after that.”
+s=poirot
+
+“Well, sir, nothing much.”
+s=manning
+
+“She just told Willum to go on his bicycle down to the village, and bring back a form of will, or suchlike—I don’t know what exactly—she wrote it down for him.”
+
+
+“Well?”
+s=poirot
+
+“Well, he did, sir.”
+s=manning
+
+“And what happened next?”
+s=poirot
+
+“We went on with the begonias, sir.”
+s=manning
+
+“Did not Mrs. Inglethorp call you again?”
+s=poirot
+
+“Yes, sir, both me and Willum, she called.”
+s=manning
+
+“And then?”
+s=poirot
+
+“She made us come right in, and sign our names at the bottom of a long paper—under where she’d signed.”
+s=manning
+
+“Did you see anything of what was written above her signature?” asked Poirot sharply.
+s=poirot;e:poirot=wary
+
+“No, sir, there was a bit of blotting paper over that part.”
+s=manning
+
+“And you signed where she told you?”
+s=poirot;e:poirot=neutral
+
+“Yes, sir, first me and then Willum.”
+s=manning
+
+“What did she do with it afterwards?”
+s=poirot
+
+“Well, sir, she slipped it into a long envelope, and put it inside a sort of purple box that was standing on the desk.”
+s=manning
+
+“What time was it when she first called you?”
+s=poirot
+
+“About four, I should say, sir.”
+s=manning
+
+“Not earlier? Couldn’t it have been about half-past three?”
+s=poirot;e:poirot=thinking
+
+“No, I shouldn’t say so, sir. It would be more likely to be a bit after four—not before it.”
+s=manning
+
+“Thank you, Manning, that will do,” said Poirot pleasantly.
+s=poirot;e:poirot=happy
+
+The gardener glanced at his master, who nodded, whereupon Manning lifted a finger to his forehead with a low mumble, and backed cautiously out of the window.
+s=none
+
+We all looked at each other.
+
+
+“Good heavens!” murmured John.
+s=john;e:john=surprised
+
+“What an extraordinary coincidence.”
+s=john
+
+“How—a coincidence?”
+s=wells;e:wells=confused
+
+“That my mother should have made a will on the very day of her death!”
+s=john;e:john=surprised
+
+Mr. Wells cleared his throat and remarked drily:
+s=none;e:wells=serious
+
+“Are you so sure it is a coincidence, Cavendish?”
+s=wells
+
+“What do you mean?”
+s=john;e:john=confused
+
+“Your mother, you tell me, had a violent quarrel with—someone yesterday afternoon—”
+s=wells;e:wells=thinking
+
+“What do you mean?” cried John again.
+s=john;e:john=nervous
+
+There was a tremor in his voice, and he had gone very pale.
+s=none;e:john=fearful
+
+“In consequence of that quarrel, your mother very suddenly and hurriedly makes a new will.”
+s=wells;e:wells=serious
+
+“The contents of that will we shall never know. She told no one of its provisions.”
+
+
+“This morning, no doubt, she would have consulted me on the subject—but she had no chance.”
+
+
+“The will disappears, and she takes its secret with her to her grave. Cavendish, I much fear there is no coincidence there.”
+
+
+“Monsieur Poirot, I am sure you agree with me that the facts are very suggestive.”
+
+
+“Suggestive, or not,” interrupted John, “we are most grateful to Monsieur Poirot for elucidating the matter. But for him, we should never have known of this will.”
+s=john;e:john=serious
+
+“I suppose, I may not ask you, monsieur, what first led you to suspect the fact?”
+
+
+Poirot smiled and answered:
+s=none;e:poirot=smirking
+
+“A scribbled over old envelope, and a freshly planted bed of begonias.”
+s=poirot
+
+John, I think, would have pressed his questions further, but at that moment the loud purr of a motor was audible, and we all turned to the window as it swept past.
+s=none;e:john=surprised
+
+“Evie!” cried John.
+s=john;e:john=excited
+
+“Excuse me, Wells.”
+s=john;e:john=neutral
+
+He went hurriedly out into the hall.
+s=none
+
+Poirot looked inquiringly at me.
+e:poirot=confused
+
+“Miss Howard,” I explained.
+s=hastings;e:hastings=neutral
+
+“Ah, I am glad she has come.”
+s=poirot;e:poirot=happy
+
+“There is a woman with a head and a heart too, Hastings. Though the good God gave her no beauty!”
+
+
+I followed John’s example, and went out into the hall, where Miss Howard was endeavouring to extricate herself from the voluminous mass of veils that enveloped her head.
+s=none;e:evie=neutral
+
+As her eyes fell on me, a sudden pang of guilt shot through me.
+e:hastings=wary
+
+This was the woman who had warned me so earnestly, and to whose warning I had, alas, paid no heed!
+e:hastings=upset
+
+How soon, and how contemptuously, I had dismissed it from my mind.
+
+
+Now that she had been proved justified in so tragic a manner, I felt ashamed.
+
+
+She had known Alfred Inglethorp only too well.
+
+
+I wondered whether, if she had remained at Styles, the tragedy would have taken place, or would the man have feared her watchful eyes?
+e:hastings=thinking
+
+I was relieved when she shook me by the hand, with her well remembered painful grip.
+e:hastings=neutral;e:evie=sad
+
+The eyes that met mine were sad, but not reproachful;
+
+
+that she had been crying bitterly, I could tell by the redness of her eyelids, but her manner was unchanged from its old gruffness.
+e:evie=serious
+
+“Started the moment I got the wire. Just come off night duty. Hired car. Quickest way to get here.”
+s=evie
+
+“Have you had anything to eat this morning, Evie?” asked John.
+s=john;e:john=wary
+
+“No.”
+s=evie
+
+“I thought not. Come along, breakfast’s not cleared away yet, and they’ll make you some fresh tea.”
+s=john;e:john=neutral
+
+He turned to me.
+s=none
+
+“Look after her, Hastings, will you? Wells is waiting for me. Oh, here’s Monsieur Poirot. He’s helping us, you know, Evie.”
+s=john
+
+Miss Howard shook hands with Poirot, but glanced suspiciously over her shoulder at John.
+s=none;e:evie=suspicious
+
+“What do you mean—helping us?”
+s=evie
+
+“Helping us to investigate.”
+s=john;e:john=neutral
+
+“Nothing to investigate. Have they taken him to prison yet?”
+s=evie;e:evie=angry
+
+“Taken who to prison?”
+s=john;e:john=confused
+
+“Who? Alfred Inglethorp, of course!”
+s=evie;e:evie=angry
+
+“My dear Evie, do be careful. Lawrence is of the opinion that my mother died from heart seizure.”
+s=john;e:john=nervous
+
+“More fool, Lawrence!”
+s=evie
+
+retorted Miss Howard.
+s=none
+
+“Of course Alfred Inglethorp murdered poor Emily—as I always told you he would.”
+s=evie
+
+“My dear Evie, don’t shout so. Whatever we may think or suspect, it is better to say as little as possible for the present. The inquest isn’t until Friday.”
+s=john;e:john=wary
+
+“Not until fiddlesticks!”
+s=evie
+
+The snort Miss Howard gave was truly magnificent.
+s=none
+
+“You’re all off your heads. The man will be out of the country by then. If he’s any sense, he won’t stay here tamely and wait to be hanged.”
+s=evie
+
+John Cavendish looked at her helplessly.
+s=none;e:john=weary
+
+“I know what it is,” she accused him, “you’ve been listening to the doctors. Never should. What do they know? Nothing at all—or just enough to make them dangerous.”
+s=evie;e:evie=angry
+
+“I ought to know—my own father was a doctor.”
+
+
+“That little Wilkins is about the greatest fool that even I have ever seen. Heart seizure! Sort of thing he would say.”
+
+
+“Anyone with any sense could see at once that her husband had poisoned her. I always said he’d murder her in her bed, poor soul.”
+
+
+“Now he’s done it. And all you can do is to murmur silly things about ‘heart seizure’ and ‘inquest on Friday.’ You ought to be ashamed of yourself, John Cavendish.”
+
+
+“What do you want me to do?” asked John, unable to help a faint smile.
+s=john;e:john=neutral
+
+“Dash it all, Evie, I can’t haul him down to the local police station by the scruff of his neck.”
+s=john
+
+“Well, you might do something. Find out how he did it. He’s a crafty beggar. Dare say he soaked fly papers. Ask Cook if she’s missed any.”
+s=evie
+
+It occurred to me very forcibly at that moment that to harbour Miss Howard and Alfred Inglethorp under the same roof, and keep the peace between them, was likely to prove a Herculean task, and I did not envy John.
+s=none;e:hastings=nervous
+
+I could see by the expression of his face that he fully appreciated the difficulty of the position.
+e:john=weary
+
+For the moment, he sought refuge in retreat, and left the room precipitately.
+
+
+Dorcas brought in fresh tea.
+e:dorcas=neutral
+
+As she left the room, Poirot came over from the window where he had been standing, and sat down facing Miss Howard.
+e:poirot=serious
+
+“Mademoiselle,” he said gravely, “I want to ask you something.”
+s=poirot
+
+“Ask away,” said the lady, eyeing him with some disfavour.
+s=evie;e:evie=suspicious
+
+“I want to be able to count upon your help.”
+s=poirot
+
+“I’ll help you to hang Alfred with pleasure,” she replied gruffly.
+s=evie;e:evie=angry
+
+“Hanging’s too good for him. Ought to be drawn and quartered, like in good old times.”
+s=evie
+
+“We are at one then,” said Poirot, “for I, too, want to hang the criminal.”
+s=poirot
+
+“Alfred Inglethorp?”
+s=evie;e:evie=serious
+
+“Him, or another.”
+s=poirot
+
+“No question of another.”
+s=evie;e:evie=angry
+
+“Poor Emily was never murdered until *he* came along. I don’t say she wasn’t surrounded by sharks—she was. But it was only her purse they were after.”
+
+
+“Her life was safe enough. But along comes Mr. Alfred Inglethorp—and within two months—hey presto!”
+
+
+“Believe me, Miss Howard,” said Poirot very earnestly, “if Mr. Inglethorp is the man, he shall not escape me. On my honour, I will hang him as high as Haman!”
+s=poirot;e:poirot=serious
+
+“That’s better,” said Miss Howard more enthusiastically.
+s=evie;e:evie=happy
+
+“But I must ask you to trust me. Now your help may be very valuable to me.”
+s=poirot;e:poirot=serious
+
+“I will tell you why. Because, in all this house of mourning, yours are the only eyes that have wept.”
+e:poirot=sad
+
+Miss Howard blinked, and a new note crept into the gruffness of her voice.
+s=none;e:evie=sad
+
+“If you mean that I was fond of her—yes, I was.”
+s=evie
+
+“You know, Emily was a selfish old woman in her way. She was very generous, but she always wanted a return.”
+
+
+“She never let people forget what she had done for them—and, that way she missed love. Don’t think she ever realized it, though, or felt the lack of it. Hope not, anyway.”
+
+
+“I was on a different footing. I took my stand from the first. ‘So many pounds a year I’m worth to you. Well and good. But not a penny piece besides—not a pair of gloves, nor a theatre ticket.’”
+
+
+“She didn’t understand—was very offended sometimes. Said I was foolishly proud.”
+
+
+“It wasn’t that—but I couldn’t explain. Anyway, I kept my self-respect.”
+
+
+“And so, out of the whole bunch, I was the only one who could allow myself to be fond of her.”
+
+
+“I watched over her. I guarded her from the lot of them, and then a glib-tongued scoundrel comes along, and pooh! all my years of devotion go for nothing.”
+e:evie=angry
+
+Poirot nodded sympathetically.
+s=none;e:poirot=serious
+
+“I understand, mademoiselle, I understand all you feel. It is most natural.”
+s=poirot
+
+“You think that we are lukewarm—that we lack fire and energy—but trust me, it is not so.”
+
+
+John stuck his head in at this juncture, and invited us both to come up to Mrs. Inglethorp’s room, as he and Mr. Wells had finished looking through the desk in the boudoir.
+s=none;e:john=neutral
+
+As we went up the stairs, John looked back to the dining-room door, and lowered his voice confidentially:
+e:john=wary
+
+“Look here, what’s going to happen when these two meet?”
+s=john
+
+I shook my head helplessly.
+s=none;e:hastings=weary
+
+“I’ve told Mary to keep them apart if she can.”
+s=john
+
+“Will she be able to do so?”
+s=hastings
+
+“The Lord only knows. There’s one thing, Inglethorp himself won’t be too keen on meeting her.”
+s=john
+
+“You’ve got the keys still, haven’t you, Poirot?” I asked, as we reached the door of the locked room.
+s=hastings;e:hastings=neutral
+
+Taking the keys from Poirot, John unlocked it, and we all passed in. The lawyer went straight to the desk, and John followed him.
+s=none
+
+“My mother kept most of her important papers in this despatch-case, I believe,” he said.
+s=john
+
+Poirot drew out the small bunch of keys.
+s=none;e:poirot=neutral
+
+“Permit me. I locked it, out of precaution, this morning.”
+s=poirot
+
+“But it’s not locked now.”
+s=john;e:john=surprised
+
+“Impossible!”
+s=poirot;e:poirot=surprised
+
+“See.”
+s=john
+
+And John lifted the lid as he spoke.
+s=none
+
+“*Milles tonnerres!*”
+s=poirot;e:poirot=angry
+
+cried Poirot, dumbfounded.
+s=none
+
+“And I—who have both the keys in my pocket!”
+s=poirot
+
+He flung himself upon the case. Suddenly he stiffened.
+s=none;e:poirot=shocked
+
+“*En voilà une affaire!* This lock has been forced.”
+s=poirot;e:poirot=serious
+
+“What?”
+s=john;e:john=surprised
+
+Poirot laid down the case again.
+s=none
+
+“But who forced it? Why should they? When? But the door was locked?”
+s=hastings;e:hastings=confused
+
+These exclamations burst from us disjointedly.
+s=none
+
+Poirot answered them categorically—almost mechanically.
+e:poirot=serious
+
+“Who? That is the question. Why? Ah, if I only knew.”
+s=poirot
+
+“When? Since I was here an hour ago. As to the door being locked, it is a very ordinary lock. Probably any other of the doorkeys in this passage would fit it.”
+
+
+We stared at one another blankly.
+s=none;e:john=confused;e:hastings=confused
+
+Poirot had walked over to the mantelpiece.
+
+
+He was outwardly calm, but I noticed his hands, which from long force of habit were mechanically straightening the spill vases on the mantelpiece, were shaking violently.
+e:poirot=angry
+
+“See here, it was like this,” he said at last.
+s=poirot
+
+“There was something in that case—some piece of evidence, slight in itself perhaps, but still enough of a clue to connect the murderer with the crime.”
+s=poirot
+
+“It was vital to him that it should be destroyed before it was discovered and its significance appreciated.”
+
+
+“Therefore, he took the risk, the great risk, of coming in here. Finding the case locked, he was obliged to force it, thus betraying his presence.”
+
+
+“For him to take that risk, it must have been something of great importance.”
+
+
+“But what was it?”
+s=hastings
+
+“Ah!” cried Poirot, with a gesture of anger.
+s=poirot;e:poirot=angry
+
+“That, I do not know! A document of some kind, without doubt, possibly the scrap of paper Dorcas saw in her hand yesterday afternoon.”
+s=poirot
+
+“And I—” his anger burst forth freely—“miserable animal that I am! I guessed nothing! I have behaved like an imbecile!”
+
+
+“I should never have left that case here. I should have carried it away with me.”
+
+
+“Ah, triple pig! And now it is gone. It is destroyed—but is it destroyed? Is there not yet a chance—we must leave no stone unturned—”
+
+
+He rushed like a madman from the room, and I followed him as soon as I had sufficiently recovered my wits.
+s=none;e:hastings=surprised
+
+But, by the time I had reached the top of the stairs, he was out of sight.
+
+
+Mary Cavendish was standing where the staircase branched, staring down into the hall in the direction in which he had disappeared.
+e:mary=confused
+
+“What has happened to your extraordinary little friend, Mr. Hastings? He has just rushed past me like a mad bull.”
+s=mary
+
+“He’s rather upset about something,” I remarked feebly.
+s=hastings;e:hastings=nervous
+
+I really did not know how much Poirot would wish me to disclose.
+s=none;e:hastings=thinking
+
+As I saw a faint smile gather on Mrs. Cavendish’s expressive mouth, I endeavoured to try and turn the conversation by saying:
+e:mary=smirking
+
+“They haven’t met yet, have they?”
+s=hastings
+
+“Who?”
+s=mary;e:mary=neutral
+
+“Mr. Inglethorp and Miss Howard.”
+s=hastings
+
+She looked at me in rather a disconcerting manner.
+s=none;e:mary=wary
+
+“Do you think it would be such a disaster if they did meet?”
+s=mary
+
+“Well, don’t you?” I said, rather taken aback.
+s=hastings;e:hastings=surprised
+
+“No.”
+s=mary;e:mary=smirking
+
+She was smiling in her quiet way.
+s=none
+
+“I should like to see a good flare up. It would clear the air. At present we are all thinking so much, and saying so little.”
+s=mary
+
+“John doesn’t think so,” I remarked.
+s=hastings;e:hastings=neutral
+
+“He’s anxious to keep them apart.”
+s=hastings
+
+“Oh, John!”
+s=mary;e:mary=annoyed
+
+Something in her tone fired me, and I blurted out:
+s=none;e:hastings=angry
+
+“Old John’s an awfully good sort.”
+s=hastings
+
+She studied me curiously for a minute or two, and then said, to my great surprise:
+s=none;e:mary=contemplative
+
+“You are loyal to your friend. I like you for that.”
+s=mary;e:mary=smirking
+
+“Aren’t you my friend too?”
+s=hastings;e:hastings=surprised
+
+“I am a very bad friend.”
+s=mary;e:mary=sad
+
+“Why do you say that?”
+s=hastings
+
+“Because it is true. I am charming to my friends one day, and forget all about them the next.”
+s=mary;e:mary=neutral
+
+I don’t know what impelled me, but I was nettled, and I said foolishly and not in the best of taste:
+s=none;e:hastings=angry
+
+“Yet you seem to be invariably charming to Dr. Bauerstein!”
+s=hastings
+
+Instantly I regretted my words. Her face stiffened.
+s=none;e:hastings=nervous;e:mary=angry
+
+I had the impression of a steel curtain coming down and blotting out the real woman.
+
+
+Without a word, she turned and went swiftly up the stairs, whilst I stood like an idiot gaping after her.
+
+
+I was recalled to other matters by a frightful row going on below.
+e:hastings=surprised
+
+I could hear Poirot shouting and expounding.
+
+
+I was vexed to think that my diplomacy had been in vain.
+e:hastings=annoyed
+
+The little man appeared to be taking the whole house into his confidence, a proceeding of which I, for one, doubted the wisdom.
+
+
+Once again I could not help regretting that my friend was so prone to lose his head in moments of excitement.
+
+
+I stepped briskly down the stairs. The sight of me calmed Poirot almost immediately.
+e:poirot=serious
+
+I drew him aside.
+
+
+“My dear fellow,” I said, “is this wise? Surely you don’t want the whole house to know of this occurrence? You are actually playing into the criminal’s hands.”
+s=hastings;e:hastings=wary
+
+“You think so, Hastings?”
+s=poirot;e:poirot=confused
+
+“I am sure of it.”
+s=hastings;e:hastings=serious
+
+“Well, well, my friend, I will be guided by you.”
+s=poirot;e:poirot=neutral
+
+“Good. Although, unfortunately, it is a little too late now.”
+s=hastings;e:hastings=weary
+
+“Sure.”
+s=poirot;e:poirot=upset
+
+He looked so crestfallen and abashed that I felt quite sorry, though I still thought my rebuke a just and wise one.
+s=none
+
+“Well,” he said at last, “let us go, *mon ami*.”
+s=poirot;e:poirot=neutral
+
+“You have finished here?”
+s=hastings
+
+“For the moment, yes. You will walk back with me to the village?”
+s=poirot
+
+“Willingly.”
+s=hastings
+
+He picked up his little suitcase, and we went out through the open window in the drawing-room.
+s=none
+
+Cynthia Murdoch was just coming in, and Poirot stood aside to let her pass.
+e:cynthia=neutral
+
+“Excuse me, mademoiselle, one minute.”
+s=poirot
+
+“Yes?” she turned inquiringly.
+s=cynthia;e:cynthia=confused
+
+“Did you ever make up Mrs. Inglethorp’s medicines?”
+s=poirot;e:poirot=serious
+
+A slight flush rose in her face, as she answered rather constrainedly:
+s=none;e:cynthia=nervous
+
+“No.”
+s=cynthia
+
+“Only her powders?”
+s=poirot
+
+The flush deepened as Cynthia replied:
+s=none
+
+“Oh, yes, I did make up some sleeping powders for her once.”
+s=cynthia
+
+“These?”
+s=poirot
+
+Poirot produced the empty box which had contained powders.
+s=none
+
+She nodded.
+
+
+“Can you tell me what they were? Sulphonal? Veronal?”
+s=poirot
+
+“No, they were bromide powders.”
+s=cynthia
+
+“Ah! Thank you, mademoiselle; good morning.”
+s=poirot;e:poirot=neutral
+
+As we walked briskly away from the house, I glanced at him more than once.
+s=none;e:hastings=thinking
+
+I had often before noticed that, if anything excited him, his eyes turned green like a cat’s.
+
+
+They were shining like emeralds now.
+
+
+“My friend,” he broke out at last, “I have a little idea, a very strange, and probably utterly impossible idea. And yet—it fits in.”
+s=poirot;e:poirot=excited
+
+I shrugged my shoulders.
+s=none;e:hastings=annoyed
+
+I privately thought that Poirot was rather too much given to these fantastic ideas.
+
+
+In this case, surely, the truth was only too plain and apparent.
+
+
+“So that is the explanation of the blank label on the box,” I remarked.
+s=hastings
+
+“Very simple, as you said. I really wonder that I did not think of it myself.”
+s=hastings
+
+Poirot did not appear to be listening to me.
+s=none;e:poirot=thinking
+
+“They have made one more discovery, *la-bas*,” he observed, jerking his thumb over his shoulder in the direction of Styles.
+s=poirot
+
+“Mr. Wells told me as we were going upstairs.”
+s=poirot
+
+“What was it?”
+s=hastings;e:hastings=curious
+
+“Locked up in the desk in the boudoir, they found a will of Mrs. Inglethorp’s, dated before her marriage, leaving her fortune to Alfred Inglethorp.”
+s=poirot
+
+“It must have been made just at the time they were engaged. It came quite as a surprise to Wells—and to John Cavendish also.”
+
+
+“It was written on one of those printed will forms, and witnessed by two of the servants—not Dorcas.”
+
+
+“Did Mr. Inglethorp know of it?”
+s=hastings;e:hastings=suspicious
+
+“He says not.”
+s=poirot
+
+“One might take that with a grain of salt,” I remarked sceptically.
+s=hastings;e:hastings=smirking
+
+“All these wills are very confusing. Tell me, how did those scribbled words on the envelope help you to discover that a will was made yesterday afternoon?”
+s=hastings;e:hastings=confused
+
+Poirot smiled.
+s=none;e:poirot=smirking
+
+“*Mon ami*, have you ever, when writing a letter, been arrested by the fact that you did not know how to spell a certain word?”
+s=poirot
+
+“Yes, often. I suppose everyone has.”
+s=hastings;e:hastings=neutral
+
+“Exactly. And have you not, in such a case, tried the word once or twice on the edge of the blotting-paper, or a spare scrap of paper, to see if it looked right?”
+s=poirot
+
+“Well, that is what Mrs. Inglethorp did. You will notice that the word ‘possessed’ is spelt first with one *s* and subsequently with two—correctly.”
+
+
+“To make sure, she had further tried it in a sentence, thus: ‘I am possessed.’ Now, what did that tell me?”
+
+
+“It told me that Mrs. Inglethorp had been writing the word ‘possessed’ that afternoon, and, having the fragment of paper found in the grate fresh in my mind, the possibility of a will—(a document almost certain to contain that word)—occurred to me at once.”
+
+
+“This possibility was confirmed by a further circumstance. In the general confusion, the boudoir had not been swept that morning, and near the desk were several traces of brown mould and earth.”
+
+
+“The weather had been perfectly fine for some days, and no ordinary boots would have left such a heavy deposit.”
+
+
+“I strolled to the window, and saw at once that the begonia beds had been newly planted.”
+
+
+“The mould in the beds was exactly similar to that on the floor of the boudoir, and also I learnt from you that they had been planted yesterday afternoon.”
+
+
+“I was now sure that one, or possibly both of the gardeners—for there were two sets of footprints in the bed—had entered the boudoir, for if Mrs. Inglethorp had merely wished to speak to them she would in all probability have stood at the window, and they would not have come into the room at all.”
+
+
+“I was now quite convinced that she had made a fresh will, and had called the two gardeners in to witness her signature.”
+
+
+“Events proved that I was right in my supposition.”
+
+
+“That was very ingenious,” I could not help admitting.
+s=hastings;e:hastings=surprised
+
+“I must confess that the conclusions I drew from those few scribbled words were quite erroneous.”
+s=hastings
+
+He smiled.
+s=none;e:poirot=smirking
+
+“You gave too much rein to your imagination. Imagination is a good servant, and a bad master.”
+s=poirot
+
+“The simplest explanation is always the most likely.”
+
+
+“Another point—how did you know that the key of the despatch-case had been lost?”
+s=hastings;e:hastings=confused
+
+“I did not know it. It was a guess that turned out to be correct.”
+s=poirot
+
+“You observed that it had a piece of twisted wire through the handle.”
+
+
+“That suggested to me at once that it had possibly been wrenched off a flimsy keyring.”
+
+
+“Now, if it had been lost and recovered, Mrs. Inglethorp would at once have replaced it on her bunch;”
+
+
+“but on her bunch I found what was obviously the duplicate key, very new and bright, which led me to the hypothesis that somebody else had inserted the original key in the lock of the despatch-case.”
+
+
+“Yes,” I said, “Alfred Inglethorp, without doubt.”
+s=hastings;e:hastings=serious
+
+Poirot looked at me curiously.
+s=none;e:poirot=thinking
+
+“You are very sure of his guilt?”
+s=poirot
+
+“Well, naturally.”
+s=hastings
+
+“Every fresh circumstance seems to establish it more clearly.”
+
+
+“On the contrary,” said Poirot quietly, “there are several points in his favour.”
+s=poirot;e:poirot=serious
+
+“Oh, come now!”
+s=hastings;e:hastings=annoyed
+
+“Yes.”
+s=poirot
+
+“I see only one.”
+s=hastings
+
+“And that?”
+s=poirot
+
+“That he was not in the house last night.”
+s=hastings
+
+“‘Bad shot!’ as you English say! You have chosen the one point that to my mind tells against him.”
+s=poirot;e:poirot=smirking
+
+“How is that?”
+s=hastings;e:hastings=confused
+
+“Because if Mr. Inglethorp knew that his wife would be poisoned last night, he would certainly have arranged to be away from the house.”
+s=poirot;e:poirot=serious
+
+“His excuse was an obviously trumped up one. That leaves us two possibilities: either he knew what was going to happen or he had a reason of his own for his absence.”
+
+
+“And that reason?” I asked sceptically.
+s=hastings;e:hastings=suspicious
+
+Poirot shrugged his shoulders.
+s=none;e:poirot=neutral
+
+“How should I know? Discreditable, without doubt.”
+s=poirot
+
+“This Mr. Inglethorp, I should say, is somewhat of a scoundrel—but that does not of necessity make him a murderer.”
+
+
+I shook my head, unconvinced.
+s=none;e:hastings=annoyed
+
+“We do not agree, eh?” said Poirot.
+s=poirot
+
+“Well, let us leave it.”
+s=poirot
+
+“Time will show which of us is right. Now let us turn to other aspects of the case.”
+
+
+“What do you make of the fact that all the doors of the bedroom were bolted on the inside?”
+e:poirot=thinking
+
+“Well—” I considered.
+s=hastings;e:hastings=thinking
+
+“One must look at it logically.”
+s=hastings
+
+“True.”
+s=poirot;e:poirot=neutral
+
+“I should put it this way.”
+s=hastings
+
+“The doors *were* bolted—our own eyes have told us that—yet the presence of the candle grease on the floor, and the destruction of the will, prove that during the night someone entered the room.”
+
+
+“You agree so far?”
+
+
+“Perfectly. Put with admirable clearness. Proceed.”
+s=poirot;e:poirot=happy
+
+“Well,” I said, encouraged, “as the person who entered did not do so by the window, nor by miraculous means, it follows that the door must have been opened from inside by Mrs. Inglethorp herself.”
+s=hastings
+
+“That strengthens the conviction that the person in question was her husband.”
+
+
+“She would naturally open the door to her own husband.”
+
+
+Poirot shook his head.
+s=none;e:poirot=serious
+
+“Why should she?”
+s=poirot
+
+“She had bolted the door leading into his room—a most unusual proceeding on her part—she had had a most violent quarrel with him that very afternoon.”
+
+
+“No, he was the last person she would admit.”
+
+
+“But you agree with me that the door must have been opened by Mrs. Inglethorp herself?”
+s=hastings;e:hastings=confused
+
+“There is another possibility. She may have forgotten to bolt the door into the passage when she went to bed, and have got up later, towards morning, and bolted it then.”
+s=poirot
+
+“Poirot, is that seriously your opinion?”
+s=hastings;e:hastings=surprised
+
+“No, I do not say it is so, but it might be.”
+s=poirot;e:poirot=neutral
+
+“Now, to turn to another feature, what do you make of the scrap of conversation you overheard between Mrs. Cavendish and her mother-in-law?”
+e:poirot=thinking
+
+“I had forgotten that,” I said thoughtfully.
+s=hastings;e:hastings=surprised
+
+“That is as enigmatical as ever.”
+s=hastings;e:hastings=thinking
+
+“It seems incredible that a woman like Mrs. Cavendish, proud and reticent to the last degree, should interfere so violently in what was certainly not her affair.”
+
+
+“Precisely. It was an astonishing thing for a woman of her breeding to do.”
+s=poirot;e:poirot=serious
+
+“It is certainly curious,” I agreed.
+s=hastings;e:hastings=neutral
+
+“Still, it is unimportant, and need not be taken into account.”
+s=hastings
+
+A groan burst from Poirot.
+s=none;e:poirot=annoyed
+
+“What have I always told you? Everything must be taken into account.”
+s=poirot
+
+“If the fact will not fit the theory—let the theory go.”
+
+
+“Well, we shall see,” I said, nettled.
+s=hastings;e:hastings=annoyed
+
+“Yes, we shall see.”
+s=poirot;e:poirot=neutral
+
+We had reached Leastways Cottage, and Poirot ushered me upstairs to his own room.
+s=none
+
+He offered me one of the tiny Russian cigarettes he himself occasionally smoked.
+
+
+I was amused to notice that he stowed away the used matches most carefully in a little china pot. My momentary annoyance vanished.
+e:hastings=smirking
+
+Poirot had placed our two chairs in front of the open window which commanded a view of the village street. The fresh air blew in warm and pleasant. It was going to be a hot day.
+e:poirot=neutral
+
+Suddenly my attention was arrested by a weedy looking young man rushing down the street at a great pace.
+e:hastings=surprised
+
+It was the expression on his face that was extraordinary—a curious mingling of terror and agitation.
+
+
+“Look, Poirot!” I said.
+s=hastings
+
+He leant forward.
+s=none
+
+“*Tiens!*” he said.
+s=poirot;e:poirot=surprised
+
+“It is Mr. Mace, from the chemist’s shop. He is coming here.”
+n:mace=Mr. Mace;s=poirot
+
+The young man came to a halt before Leastways Cottage, and, after hesitating a moment, pounded vigorously at the door.
+s=none;e:mace=nervous
+
+“A little minute,” cried Poirot from the window.
+s=poirot
+
+“I come.”
+s=poirot
+
+Motioning to me to follow him, he ran swiftly down the stairs and opened the door. Mr. Mace began at once.
+s=none
+
+“Oh, Mr. Poirot, I’m sorry for the inconvenience, but I heard that you’d just come back from the Hall?”
+s=mace
+
+“Yes, we have.”
+s=poirot;e:poirot=neutral
+
+The young man moistened his dry lips. His face was working curiously.
+s=none;e:mace=fearful
+
+“It’s all over the village about old Mrs. Inglethorp dying so suddenly.”
+s=mace
+
+“They do say—” he lowered his voice cautiously—“that it’s poison?”
+
+
+Poirot’s face remained quite impassive.
+s=none;e:poirot=serious
+
+“Only the doctors can tell us that, Mr. Mace.”
+s=poirot
+
+“Yes, exactly—of course—”
+s=mace
+
+The young man hesitated, and then his agitation was too much for him.
+s=none
+
+He clutched Poirot by the arm, and sank his voice to a whisper:
+
+
+“Just tell me this, Mr. Poirot, it isn’t—it isn’t strychnine, is it?”
+s=mace
+
+I hardly heard what Poirot replied. Something evidently of a noncommittal nature.
+s=none;e:hastings=thinking
+
+The young man departed, and as he closed the door Poirot’s eyes met mine.
+e:poirot=serious
+
+“Yes,” he said, nodding gravely.
+s=poirot
+
+“He will have evidence to give at the inquest.”
+s=poirot
+
+We went slowly upstairs again. I was opening my lips, when Poirot stopped me with a gesture of his hand.
+s=none;e:hastings=confused
+
+“Not now, not now, *mon ami*.”
+s=poirot
+
+“I have need of reflection. My mind is in some disorder—which is not well.”
+e:poirot=thinking
+
+For about ten minutes he sat in dead silence, perfectly still, except for several expressive motions of his eyebrows, and all the time his eyes grew steadily greener.
+s=none
+
+At last he heaved a deep sigh.
+
+
+“It is well.”
+s=poirot;e:poirot=neutral
+
+“The bad moment has passed. Now all is arranged and classified. One must never permit confusion.”
+
+
+“The case is not clear yet—no. For it is of the most complicated! It puzzles *me*. *Me*, Hercule Poirot!”
+e:poirot=serious
+
+“There are two facts of significance.”
+
+
+“And what are they?”
+s=hastings;e:hastings=curious
+
+“The first is the state of the weather yesterday.”
+s=poirot
+
+“That is very important.”
+
+
+“But it was a glorious day!” I interrupted.
+s=hastings;e:hastings=surprised
+
+“Poirot, you’re pulling my leg!”
+s=hastings
+
+“Not at all.”
+s=poirot;e:poirot=serious
+
+“The thermometer registered 80 degrees in the shade. Do not forget that, my friend.”
+
+
+“It is the key to the whole riddle!”
+
+
+“And the second point?” I asked.
+s=hastings;e:hastings=confused
+
+“The important fact that Monsieur Inglethorp wears very peculiar clothes, has a black beard, and uses glasses.”
+s=poirot
+
+“Poirot, I cannot believe you are serious.”
+s=hastings;e:hastings=surprised
+
+“I am absolutely serious, my friend.”
+s=poirot;e:poirot=serious
+
+“But this is childish!”
+s=hastings;e:hastings=annoyed
+
+“No, it is very momentous.”
+s=poirot
+
+“And supposing the Coroner’s jury returns a verdict of Wilful Murder against Alfred Inglethorp.”
+s=hastings;e:hastings=serious
+
+“What becomes of your theories, then?”
+
+
+“They would not be shaken because twelve stupid men had happened to make a mistake!”
+s=poirot
+
+“But that will not occur. For one thing, a country jury is not anxious to take responsibility upon itself, and Mr. Inglethorp stands practically in the position of local squire.”
+
+
+“Also,” he added placidly, “I should not allow it!”
+e:poirot=smirking
+
+“*You* would not allow it?”
+s=hastings;e:hastings=surprised
+
+“No.”
+s=poirot;e:poirot=neutral
+
+I looked at the extraordinary little man, divided between annoyance and amusement.
+s=none;e:hastings=confused
+
+He was so tremendously sure of himself.
+
+
+As though he read my thoughts, he nodded gently.
+e:poirot=smirking
+
+“Oh, yes, *mon ami*, I would do what I say.”
+s=poirot
+
+He got up and laid his hand on my shoulder.
+s=none;e:poirot=serious
+
+His physiognomy underwent a complete change.
+e:poirot=sad
+
+Tears came into his eyes.
+e:poirot=crying
+
+“In all this, you see, I think of that poor Mrs. Inglethorp who is dead.”
+s=poirot
+
+“She was not extravagantly loved—no. But she was very good to us Belgians—I owe her a debt.”
+
+
+I endeavoured to interrupt, but Poirot swept on.
+s=none
+
+“Let me tell you this, Hastings.”
+s=poirot;e:poirot=serious
+
+“She would never forgive me if I let Alfred Inglethorp, her husband, be arrested now—when a word from me could save him!”
 
 
 
