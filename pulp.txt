@@ -64,20 +64,11 @@ She was a most generous woman, and possessed a considerable fortune of her own.
 Their country-place, Styles Court, had been purchased by Mr. Cavendish early in their married life.
 
 
-He had been completely under his wife’s ascendancy, so much so that, on dying, he left the place to her for her lifetime, as well as the larger part of his income;
-
-
-an arrangement that was distinctly unfair to his two sons. Their stepmother, however, had always been most generous to them;
-
-
-indeed, they were so young at the time of their father’s remarriage that they always thought of her as their own mother.
+He had been completely under his wife’s ascendancy, so much so that, on dying, he left the place to her for her lifetime, as well as the larger part of his income; an arrangement that was distinctly unfair to his two sons. Their stepmother, however, had always been most generous to them; indeed, they were so young at the time of their father’s remarriage that they always thought of her as their own mother.
 e:hastings=neutral
 
-Lawrence, the younger, had been a delicate youth. He had qualified as a doctor but early relinquished the profession of medicine, and lived at home while pursuing literary ambitions;
+Lawrence, the younger, had been a delicate youth. He had qualified as a doctor but early relinquished the profession of medicine, and lived at home while pursuing literary ambitions; though his verses never had any marked success.
 n:lawrence=Lawrence Cavendish
-
-though his verses never had any marked success.
-
 
 John practiced for some time as a barrister, but had finally settled down to the more congenial life of a country squire.
 
@@ -241,11 +232,8 @@ s=john
 I shall never forget my first sight of Mary Cavendish.
 s=none;e:hastings=surprised
 
-Her tall, slender form, outlined against the bright light; the vivid sense of slumbering fire that seemed to find expression only in those wonderful tawny eyes of hers, remarkable eyes, different from any other woman’s that I have ever known;
+Her tall, slender form, outlined against the bright light; the vivid sense of slumbering fire that seemed to find expression only in those wonderful tawny eyes of hers, remarkable eyes, different from any other woman’s that I have ever known; the intense power of stillness she possessed, which nevertheless conveyed the impression of a wild untamed spirit in an exquisitely civilised body﻿—all these things are burnt into my memory.
 e:hastings=contemplative
-
-the intense power of stillness she possessed, which nevertheless conveyed the impression of a wild untamed spirit in an exquisitely civilised body﻿—all these things are burnt into my memory.
-
 
 I shall never forget them.
 
@@ -2023,11 +2011,8 @@ s=poirot;e:poirot=smirking
 “No, come here and aid me in my search. I will put down my little case until I need it.”
 e:poirot=neutral
 
-He did so, on the round table by the window, but it was an ill-advised proceeding;
-s=none
-
-for, the top of it being loose, it tilted up, and precipitated the despatch-case on the floor.
-e:poirot=surprised
+He did so, on the round table by the window, but it was an ill-advised proceeding; for, the top of it being loose, it tilted up, and precipitated the despatch-case on the floor.
+s=none;e:poirot=surprised
 
 “*Eh voilà une table!*” cried Poirot. “Ah, my friend, one may live in a big house and yet have no comfort.”
 s=poirot;e:poirot=annoyed
@@ -2050,11 +2035,8 @@ Next, he examined the framework of the door we had broken in, assuring himself t
 Then he went to the door opposite leading into Cynthia’s room. That door was also bolted, as I had stated.
 
 
-However, he went to the length of unbolting it, and opening and shutting it several times;
+However, he went to the length of unbolting it, and opening and shutting it several times; this he did with the utmost precaution against making any noise.
 e:poirot=thinking
-
-this he did with the utmost precaution against making any noise.
-
 
 Suddenly something in the bolt itself seemed to rivet his attention.
 e:poirot=surprised
@@ -2845,11 +2827,8 @@ s=poirot
 Annie hesitated.
 s=none;e:annie=thinking
 
-“I couldn’t rightly say, sir;”
+“I couldn’t rightly say, sir; it was shut but I couldn’t say whether it was bolted or not.”
 s=annie;e:annie=nervous
-
-“it was shut but I couldn’t say whether it was bolted or not.”
-
 
 “When you finally left the room, did Mrs. Inglethorp bolt the door after you?”
 s=poirot
@@ -3061,11 +3040,8 @@ s=poirot;e:poirot=neutral
 “*Ne vous fâchez pas!* Allow me to interest myself in my coffee-cups, and I will respect your cocoa. There! Is it a bargain?”
 s=poirot;e:poirot=smirking
 
-He was so quaintly humorous that I was forced to laugh;
-s=none;e:poirot=happy;e:hastings=happy
-
-and we went together to the drawing-room, where the coffee-cups and tray remained undisturbed as we had left them.
-e:poirot=neutral;e:hastings=neutral
+He was so quaintly humorous that I was forced to laugh; and we went together to the drawing-room, where the coffee-cups and tray remained undisturbed as we had left them.
+s=none;e:poirot=happy;e:hastings=happy;e:poirot=neutral;e:hastings=neutral
 
 Poirot made me recapitulate the scene of the night before, listening very carefully, and verifying the position of the various cups.
 e:poirot=thinking
@@ -3907,10 +3883,7 @@ e:hastings=thinking
 I was relieved when she shook me by the hand, with her well remembered painful grip.
 e:hastings=neutral;e:evie=sad
 
-The eyes that met mine were sad, but not reproachful;
-
-
-that she had been crying bitterly, I could tell by the redness of her eyelids, but her manner was unchanged from its old gruffness.
+The eyes that met mine were sad, but not reproachful; that she had been crying bitterly, I could tell by the redness of her eyelids, but her manner was unchanged from its old gruffness.
 e:evie=serious
 
 “Started the moment I got the wire. Just come off night duty. Hired car. Quickest way to get here.”
@@ -4549,10 +4522,7 @@ s=poirot
 “That suggested to me at once that it had possibly been wrenched off a flimsy keyring.”
 
 
-“Now, if it had been lost and recovered, Mrs. Inglethorp would at once have replaced it on her bunch;”
-
-
-“but on her bunch I found what was obviously the duplicate key, very new and bright, which led me to the hypothesis that somebody else had inserted the original key in the lock of the despatch-case.”
+“Now, if it had been lost and recovered, Mrs. Inglethorp would at once have replaced it on her bunch; but on her bunch I found what was obviously the duplicate key, very new and bright, which led me to the hypothesis that somebody else had inserted the original key in the lock of the despatch-case.”
 
 
 “Yes,” I said, “Alfred Inglethorp, without doubt.”
@@ -4945,10 +4915,7 @@ He also took long walks into the country.
 I rather resented his not taking me into his confidence, the more so as I could not in the least guess what he was driving at.
 e:hastings=annoyed
 
-It occurred to me that he might have been making inquiries at Raikes’s farm;
-
-
-so, finding him out when I called at Leastways Cottage on Wednesday evening, I walked over there by the fields, hoping to meet him.
+It occurred to me that he might have been making inquiries at Raikes’s farm; so, finding him out when I called at Leastways Cottage on Wednesday evening, I walked over there by the fields, hoping to meet him.
 e:hastings=neutral
 
 But there was no sign of him, and I hesitated to go right up to the farm itself.
@@ -5503,11 +5470,8 @@ s=wells
 “Yes, sir.”
 s=mace
 
-It was produced;
+It was produced; and, with a few words of stern censure, the Coroner dismissed the wretched Mr. Mace.
 s=none
-
-and, with a few words of stern censure, the Coroner dismissed the wretched Mr. Mace.
-
 
 Then, amidst a breathless silence, Alfred Inglethorp was called. Did he realize, I wondered, how closely the halter was being drawn around his neck?
 e:alfred=neutral
@@ -6328,11 +6292,8 @@ s=none;e:poirot=contemplative
 “Miss Murdoch too,” I continued, “there’s nothing untruthful about *her*.”
 s=hastings;e:hastings=serious
 
-“No. But it was strange that she never heard a sound, sleeping next door;”
+“No. But it was strange that she never heard a sound, sleeping next door; whereas Mrs. Cavendish, in the other wing of the building, distinctly heard the table fall.”
 s=poirot;e:poirot=thinking
-
-“whereas Mrs. Cavendish, in the other wing of the building, distinctly heard the table fall.”
-
 
 “Well, she’s young.”
 s=hastings;e:hastings=neutral
@@ -6778,10 +6739,7 @@ s=hastings;e:hastings=nervous
 “Not at all. Why should I?”
 s=poirot;e:poirot=neutral
 
-“I can’t help feeling,” I continued blunderingly;
-s=none
-
-“that we’ve rather left her out of the possible suspects, simply on the strength of her having been away from the place.”
+“I can’t help feeling,” I continued blunderingly; “that we’ve rather left her out of the possible suspects, simply on the strength of her having been away from the place.”
 s=hastings
 
 “But, after all, she was only fifteen miles away. A car would do it in half an hour. Can we say positively that she was away from Styles on the night of the murder?”
@@ -7087,10 +7045,7 @@ s=dorcas;e:dorcas=happy
 Dear old Dorcas! As she stood there, with her honest face upturned to mine, I thought what a fine specimen she was of the old-fashioned servant that is so fast dying out.
 s=none
 
-I thought I might as well go down to the village at once, and look up Poirot;
-
-
-but I met him halfway, coming up to the house, and at once gave him Dorcas’s message.
+I thought I might as well go down to the village at once, and look up Poirot; but I met him halfway, coming up to the house, and at once gave him Dorcas’s message.
 e:poirot=happy
 
 “Ah, the brave Dorcas! We will look at the chest, although—but no matter—we will examine it all the same.”
@@ -7102,10 +7057,7 @@ s=none;e:poirot=neutral
 Sure enough, there was the chest, a fine old piece, all studded with brass nails, and full to overflowing with every imaginable type of garment.
 
 
-Poirot bundled everything out on the floor with scant ceremony. There were one or two green fabrics of varying shades;
-
-
-but Poirot shook his head over them all. He seemed somewhat apathetic in the search, as though he expected no great results from it.
+Poirot bundled everything out on the floor with scant ceremony. There were one or two green fabrics of varying shades; but Poirot shook his head over them all. He seemed somewhat apathetic in the search, as though he expected no great results from it.
 e:poirot=weary
 
 Suddenly he gave an exclamation.
@@ -8353,13 +8305,10 @@ s=none
 I don’t know what possessed me.
 e:hastings=confused
 
-Her beauty, perhaps, as she sat there, with the sunlight glinting down on her head;
-e:hastings=contemplative
-
-perhaps the sense of relief at encountering someone who so obviously could have no connection with the tragedy;
+Her beauty, perhaps, as she sat there, with the sunlight glinting down on her head; perhaps the sense of relief at encountering someone who so obviously could have no connection with the tragedy; perhaps honest pity for her youth and loneliness.
 
 
-perhaps honest pity for her youth and loneliness. Anyway, I leant forward, and taking her little hand, I said awkwardly:
+Anyway, I leant forward, and taking her little hand, I said awkwardly:
 e:hastings=nervous
 
 “Marry me, Cynthia.”
@@ -8539,11 +8488,8 @@ e:hastings=thinking
 It worried me just a little, for it suggested the possibility that there might be further arrests to come.
 e:hastings=wary
 
-After breakfast, I decided to go down to the village, and see if Poirot had returned yet;
+After breakfast, I decided to go down to the village, and see if Poirot had returned yet; but, before I could start, a well-known face blocked one of the windows, and the well-known voice said:
 e:hastings=neutral
-
-but, before I could start, a well-known face blocked one of the windows, and the well-known voice said:
-
 
 “*Bon jour, mon ami!*”
 s=poirot;e:poirot=happy
@@ -9130,11 +9076,8 @@ After pausing a few minutes respectfully, so as not to spoil his effect, I gave 
 “Aha!” he cried. “So he has found the extra coffee-cup. That is good. He has more intelligence than would appear, this long-faced Monsieur Lawrence of yours!”
 s=poirot;e:poirot=excited
 
-I did not myself think very highly of Lawrence’s intelligence;
+I did not myself think very highly of Lawrence’s intelligence; but I forebore to contradict Poirot, and gently took him to task for forgetting my instructions as to which were Cynthia’s days off.
 s=none;e:hastings=weary
-
-but I forebore to contradict Poirot, and gently took him to task for forgetting my instructions as to which were Cynthia’s days off.
-
 
 “It is true. I have the head of a sieve. However, the other young lady was most kind. She was sorry for my disappointment, and showed me everything in the kindest way.”
 s=poirot;e:poirot=happy
@@ -9622,10 +9565,7 @@ Deceased had already made a will in his favour before her marriage, but﻿—and
 What had induced the deceased to make a fresh will, with the old one still extant, he could not say.
 
 
-She was an old lady, and might possibly have forgotten the former one;
-
-
-or﻿—this seemed to him more likely﻿—she may have had an idea that it was revoked by her marriage, as there had been some conversation on the subject.
+She was an old lady, and might possibly have forgotten the former one; or﻿—this seemed to him more likely﻿—she may have had an idea that it was revoked by her marriage, as there had been some conversation on the subject.
 
 
 Ladies were not always very well versed in legal knowledge.
@@ -9868,8 +9808,11 @@ s=hastings;e:hastings=serious
 “Yes,” she said meditatively;
 s=mary;e:mary=contemplative
 
-then suddenly dropped her voice. “Mr. Hastings, you do not think﻿—surely it could not have been Lawrence﻿—Oh, no, that could not be!”
-e:mary=fearful
+then suddenly dropped her voice.
+s=none
+
+“Mr. Hastings, you do not think﻿—surely it could not have been Lawrence﻿—Oh, no, that could not be!”
+e:mary=fearful;s=mary
 
 But I myself was puzzled, and as soon as I was alone with Poirot I asked him what he thought Sir Ernest was driving at.
 s=none;e:hastings=confused
@@ -10930,10 +10873,7 @@ e:poirot=thinking
 “On that day, Mrs. Inglethorp’s bell wire was neatly cut, and on Monday evening Mademoiselle Cynthia was spending the night with friends, so that Mrs. Inglethorp would have been quite alone in the right wing, completely shut off from help of any kind, and would have died, in all probability, before medical aid could have been summoned.”
 e:poirot=serious
 
-“But in her hurry to be in time for the village entertainment Mrs. Inglethorp forgot to take her medicine, and the next day she lunched away from home, so that the last﻿—and fatal﻿—dose was actually taken twenty-four hours later than had been anticipated by the murderer;”
-
-
-“and it is owing to that delay that the final proof﻿—the last link of the chain﻿—is now in my hands.”
+“But in her hurry to be in time for the village entertainment Mrs. Inglethorp forgot to take her medicine, and the next day she lunched away from home, so that the last﻿—and fatal﻿—dose was actually taken twenty-four hours later than had been anticipated by the murderer; and it is owing to that delay that the final proof﻿—the last link of the chain﻿—is now in my hands.”
 e:poirot=excited
 
 Amid breathless excitement, he held out three thin strips of paper.
@@ -11521,10 +11461,7 @@ s=hastings;e:hastings=confused
 “I was fairly certain that it was Mrs. Cavendish who had hidden it, but I had to make sure.”
 s=poirot;e:poirot=serious
 
-“Monsieur Lawrence did not know at all what I meant;”
-
-
-“but, on reflection, he came to the conclusion that if he could find an extra coffee-cup anywhere his lady love would be cleared of suspicion.”
+“Monsieur Lawrence did not know at all what I meant; but, on reflection, he came to the conclusion that if he could find an extra coffee-cup anywhere his lady love would be cleared of suspicion.”
 
 
 “And he was perfectly right.”
