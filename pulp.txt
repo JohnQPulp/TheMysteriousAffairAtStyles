@@ -5,7 +5,7 @@ To my Mother
 
 
 ## 1. I Go to Styles
-
+r=title
 
 The intense interest aroused in the public by what was known at the time as “The Styles Case” has now somewhat subsided.
 n:hastings=?;e:hastings=thinking
@@ -743,7 +743,7 @@ Just for a moment I had a premonition of approaching evil.
 e:hastings=fearful
 
 ## 2. The 16th and 17th of July
-
+r=title
 
 I had arrived at Styles on the 5th of July. I come now to the events of the 16th and 17th of that month.
 e:hastings=neutral
@@ -1667,7 +1667,7 @@ I spent it in ransacking the library until I discovered a medical book which gav
 
 
 ## 4. Poirot Investigates
-
+r=title
 
 The house which the Belgians occupied in the village was quite close to the park gates.
 
@@ -3002,7 +3002,7 @@ A plain, dirty looking old envelope with a few words scrawled across it, apparen
 
 
 ## 5. “It Isn’t Strychnine, Is It?”
-
+r=title
 
 “Where did you find this?” I asked Poirot, in lively curiosity.
 s=hastings;e:hastings=surprised
@@ -7514,7 +7514,7 @@ There are times when it is one’s duty to assert oneself.
 e:hastings=serious
 
 ## 9. Dr. Bauerstein
-
+r=title
 
 I had had no opportunity as yet of passing on Poirot’s message to Lawrence.
 e:hastings=contemplative
@@ -8456,7 +8456,7 @@ I waited to hear no more, but tore up the village to find Poirot.
 s=none;e:hastings=excited
 
 ## 10. The Arrest
-
+r=title
 
 To my extreme annoyance, Poirot was not in, and the old Belgian who answered my knock informed me that he believed he had gone to London.
 s=none;e:hastings=annoyed
@@ -9386,7 +9386,7 @@ Behind me, with a wild cry, Mary Cavendish fell heavily against me, and as I tur
 s=none;e:mary=crying;e:poirot=smirking
 
 ## 11. The Case for the Prosecution
-
+r=title
 
 The trial of John Cavendish for the murder of his stepmother took place two months later.
 
@@ -10439,7 +10439,7 @@ But night fell, and Poirot had not returned.
 s=none
 
 ## 12. The Last Link
-
+r=title
 
 Poirot’s abrupt departure had intrigued us all greatly.
 
