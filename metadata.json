@@ -1,0 +1,16 @@
+{
+  "title": "The Mysterious Affair at Styles",
+  "shortTitle": "The Mysterious Affair at Styles",
+  "author": "Agatha Christie",
+  "year": 1920,
+  "source": "https://standardebooks.org/ebooks/agatha-christie/the-mysterious-affair-at-styles",
+  "words": 1,
+  "pulpDate": null,
+  "repo": "https://github.com/JohnQPulp/TheMysteriousAffairAtStyles",
+  "links": {
+    "Goodreads": "https://www.goodreads.com/book/show/52843028-the-mysterious-affair-at-styles",
+    "Wikipedia": "https://en.wikipedia.org/wiki/The_Mysterious_Affair_at_Styles"
+  },
+  "blurb": "foo",
+  "blurb2": "bar"
+}
