@@ -9244,11 +9244,17 @@ s=poirot;e:poirot=smirking
 “I will some day, if you ask me,” she promised him, smiling.
 s=mary;e:mary=happy
 
-“That is well. If you should need a father confessor, madame”—she started ever so slightly—“remember, Papa Poirot is always at your service.”
-s=poirot;e:poirot=serious;e:mary=surprised
+“That is well. If you should need a father confessor, madame”—
+s=poirot;e:poirot=serious;e:mary=surprised;m=allowbreak;m=nospace
+
+she started ever so slightly—
+s=none
+
+“remember, Papa Poirot is always at your service.”
+s=poirot;m=;n:poirot=Papa Poirot;e:poirot=smirking
 
 She stared at him for a few minutes, as though seeking to read some deeper meaning into his words.
-s=none;e:mary=thinking
+s=none;e:mary=thinking;n:poirot=Hercule Poirot
 
 Then she turned abruptly away.
 
