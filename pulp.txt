@@ -1258,7 +1258,7 @@ s=none;e:hastings=serious
 There were therefore three witnesses who could swear that Mrs. Inglethorp was carrying her coffee, as yet untasted, in her hand.
 b=think
 
-My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein. It seemed to me the man would never go.<e>"Could this day get any worse?"</e>
+My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein. It seemed to me the man would never go.<e>"Could this evening be any more complicated?"</e>
 e:hastings=annoyed;b=styles-drawing-night
 
 He rose at last, however, and I breathed a sigh of relief.
@@ -1280,22 +1280,22 @@ s=alfred
 r=title
 
 To make this part of my story clear, I append the following plan of the first floor of Styles.
-e:hastings=neutral
+e:hastings=neutral;b=light
 
 The servants’ rooms are reached through the door B. They have no communication with the right wing, where the Inglethorps’ rooms were situated.
 o=illustration1
 
 It seemed to be the middle of the night when I was awakened by Lawrence Cavendish.
-o=
+o=;b=hastings-room-night
 
 He had a candle in his hand, and the agitation of his face told me at once that something was seriously wrong.
 e:lawrence=fearful
 
 “What’s the matter?” I asked, sitting up in bed, and trying to collect my scattered thoughts.
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=confused;x:hastings=night1
 
 “We are afraid my mother is very ill. She seems to be having some kind of fit.”
-s=lawrence
+s=lawrence;x:lawrence=night
 
 “Unfortunately she has locked herself in.”
 
@@ -1303,8 +1303,11 @@ s=lawrence
 “I’ll come at once.”
 s=hastings;e:hastings=serious
 
-I sprang out of bed; and, pulling on a dressing-gown, followed Lawrence along the passage and the gallery to the right wing of the house.
-s=none
+I sprang out of bed; and, pulling on a dressing-gown,
+s=none;x:hastings=night2;m=joined
+
+followed Lawrence along the passage and the gallery to the right wing of the house.
+m=;b=styles-right-hall-night
 
 John Cavendish joined us, and one or two of the servants were standing round in a state of awestricken excitement.
 e:john=nervous
@@ -1313,10 +1316,10 @@ Lawrence turned to his brother.
 
 
 “What do you think we had better do?”
-s=lawrence
+s=lawrence;x:john=night;e:lawrence=nervous
 
 Never, I thought, had his indecision of character been more apparent.
-s=none;e:lawrence=nervous;e:hastings=thinking
+s=none;e:hastings=thinking
 
 John rattled the handle of Mrs. Inglethorp’s door violently, but with no effect.
 e:john=upset
@@ -1331,13 +1334,16 @@ The most alarming sounds were audible from the interior of the room. Clearly som
 s=dorcas;e:dorcas=fearful
 
 “Oh, the poor mistress!”
-s=dorcas;e:dorcas=crying
+s=dorcas;e:dorcas=upset
 
 Suddenly I realized that Alfred Inglethorp was not with us—that he alone had given no sign of his presence.
-s=none;e:hastings=surprised
+s=none;e:hastings=surprised;b=think
 
-John opened the door of his room. It was pitch dark, but Lawrence was following with the candle, and by its feeble light we saw that the bed had not been slept in, and that there was no sign of the room having been occupied.
+John opened the door of his room.
 
+
+It was pitch dark, but Lawrence was following with the candle, and by its feeble light we saw that the bed had not been slept in, and that there was no sign of the room having been occupied.
+b=alfred-room-dark
 
 We went straight to the connecting door. That, too, was locked or bolted on the inside.
 
@@ -1346,7 +1352,7 @@ What was to be done?
 e:hastings=thinking
 
 “Oh, dear, sir,” cried Dorcas, wringing her hands, “what ever shall we do?”
-s=dorcas;e:dorcas=crying
+s=dorcas;e:dorcas=upset
 
 “We must try and break the door in, I suppose. It’ll be a tough job, though.”
 s=john;e:john=serious
@@ -1358,16 +1364,16 @@ n:baily=Baily;n:wilkins=Dr. Wilkins
 
 
 “Yes, sir, but that’s always bolted. It’s never been undone.”
-s=dorcas;e:dorcas=neutral
+s=dorcas;e:dorcas=upset
 
 “Well, we might just see.”
 s=john
 
 He ran rapidly down the corridor to Cynthia’s room. Mary Cavendish was there, shaking the girl—who must have been an unusually sound sleeper—and trying to wake her.
-s=none;e:mary=wary;e:cynthia=weary
+s=none;e:mary=wary;e:cynthia=weary;b=think
 
 In a moment or two he was back.
-e:john=upset
+;b=alfred-room-dark
 
 “No good. That’s bolted too. We must break in the door.”
 s=john
@@ -1375,17 +1381,26 @@ s=john
 “I think this one is a shade less solid than the one in the passage.”
 
 
-We strained and heaved together. The framework of the door was solid, and for a long time it resisted our efforts, but at last we felt it give beneath our weight, and finally, with a resounding crash, it was burst open.
-s=none
+We strained and heaved together.
+s=none;b=think
 
-We stumbled in together, Lawrence still holding his candle. Mrs. Inglethorp was lying on the bed, her whole form agitated by violent convulsions, in one of which she must have overturned the table beside her.
+The framework of the door was solid, and for a long time it resisted our efforts,
+m=joined
 
+but at last we felt it give beneath our weight, and finally, with a resounding crash, it was burst open.
+b=action;m=
 
-As we entered, however, her limbs relaxed, and she fell back upon the pillows.
-e:emily=weary
+We stumbled in together, Lawrence still holding his candle.
+b=think
 
-John strode across the room, and lit the gas. Turning to Annie, one of the housemaids, he sent her downstairs to the dining-room for brandy.
-n:annie=Annie;e:john=serious
+Mrs. Inglethorp was lying on the bed, her whole form agitated by violent convulsions, in one of which she must have overturned the table beside her. As we entered, however, her limbs relaxed, and she fell back upon the pillows.
+b=emily-bed
+
+John strode across the room, and lit the gas.
+n:annie=Annie;e:john=serious;b=emily-windows
+
+Turning to Annie, one of the housemaids, he sent her downstairs to the dining-room for brandy.
+
 
 Then he went across to his mother whilst I unbolted the door that gave on the corridor.
 
@@ -1394,25 +1409,25 @@ I turned to Lawrence, to suggest that I had better leave them now that there was
 e:hastings=surprised
 
 Never have I seen such a ghastly look on any man’s face.
-e:lawrence=fearful
+e:lawrence=fearful;b=think
 
 He was white as chalk, the candle he held in his shaking hand was sputtering onto the carpet, and his eyes, petrified with terror, or some such kindred emotion, stared fixedly over my head at a point on the further wall.
-
+b=lawrence-candle
 
 It was as though he had seen something that turned him to stone.
 
 
 I instinctively followed the direction of his eyes, but I could see nothing unusual.
-e:hastings=confused
+e:hastings=confused;b=emily-windows
 
 The still feebly flickering ashes in the grate, and the row of prim ornaments on the mantelpiece, were surely harmless enough.
 
 
 The violence of Mrs. Inglethorp’s attack seemed to be passing. She was able to speak in short gasps.
-e:emily=weary
+e:emily=
 
 “Better now—very sudden—stupid of me—to lock myself in.”
-s=emily
+s=emily;x:emily=dying
 
 A shadow fell on the bed and, looking up, I saw Mary Cavendish standing near the door with her arm around Cynthia.
 s=none;e:mary=serious;e:cynthia=weary
@@ -1424,7 +1439,7 @@ Her face was heavily flushed, and she yawned repeatedly.
 
 
 “Poor Cynthia is quite frightened,” said Mrs. Cavendish in a low clear voice.
-s=mary
+s=mary;x:mary=smock;x:cynthia=night
 
 She herself, I noticed, was dressed in her white land smock. Then it must be later than I thought.
 e:hastings=thinking;s=none
@@ -1433,13 +1448,13 @@ I saw that a faint streak of daylight was showing through the curtains of the wi
 
 
 A strangled cry from the bed startled me. A fresh access of pain seized the unfortunate old lady.
-e:hastings=surprised;e:emily=fearful
+e:hastings=surprised;e:emily=fearful;b=emily-bed
 
 The convulsions were of a violence terrible to behold. Everything was confusion.
 
 
 We thronged round her, powerless to help or alleviate. A final convulsion lifted her from the bed, until she appeared to rest upon her head and her heels, with her body arched in an extraordinary manner.
-e:hastings=fearful
+e:hastings=fearful;b=emily-windows
 
 In vain Mary and John tried to administer more brandy. The moments flew.
 e:mary=fearful;e:john=fearful
@@ -1454,7 +1469,7 @@ For one instant he stopped dead, staring at the figure on the bed, and, at the s
 e:bauerstein=surprised
 
 “Alfred—Alfred—”
-s=emily
+s=emily;e:emily=
 
 Then she fell back motionless on the pillows.
 s=none
@@ -1490,19 +1505,16 @@ With a faint gesture of the hand, he indicated the figure on the bed.
 s=wilkins;e:wilkins=unhappy
 
 “Poor dear lady. Always did far too much—far too much—against my advice.”
-s=wilkins
+s=wilkins;x:wilkins=night
 
 “I warned her. Her heart was far from strong.”
+x:wilkins=thinking
 
-
-“‘Take it easy,’ I said to her, ‘Take—it—easy.’ But no—her zeal for good works was too great.”
-
-
-“Nature rebelled. Na-ture re-belled.”
+“‘Take it easy,’ I said to her, ‘Take—it—easy.’ But no—her zeal for good works was too great. Nature rebelled. Na-ture re-belled.”
 
 
 Dr. Bauerstein, I noticed, was watching the local doctor narrowly. He still kept his eyes fixed on him as he spoke.
-s=none;e:bauerstein=suspicious
+s=none;e:bauerstein=serious
 
 “The convulsions were of a peculiar violence, Dr. Wilkins. I am sorry you were not here in time to witness them.”
 s=bauerstein
@@ -1526,16 +1538,16 @@ s=bauerstein
 s=john;e:john=neutral
 
 We all trooped out into the corridor, leaving the two doctors alone, and I heard the key turned in the lock behind us.
-s=none
+s=none;b=styles-right-hall
 
 We went slowly down the stairs. I was violently excited.
-e:hastings=excited
+e:hastings=excited;b=styles-stairs
 
 I have a certain talent for deduction, and Dr. Bauerstein’s manner had started a flock of wild surmises in my mind.
 e:hastings=thinking
 
 Mary Cavendish laid her hand upon my arm.
-e:mary=wary
+e:mary=wary;b=styles-down-hall
 
 “What is it? Why did Dr. Bauerstein seem so—peculiar?”
 s=mary
@@ -1559,7 +1571,7 @@ I lowered my voice to a whisper.
 
 
 “I believe she has been poisoned! I’m certain Dr. Bauerstein suspects it.”
-s=hastings
+s=hastings;e:hastings=serious
 
 “*What?*”
 s=mary;e:mary=fearful
@@ -1573,25 +1585,31 @@ e:hastings=surprised
 “No, no—not that—not that!”
 s=mary
 
-And breaking from me, fled up the stairs. I followed her, afraid that she was going to faint.
+And breaking from me, fled up the stairs.
 s=none;e:mary=crying
+
+I followed her, afraid that she was going to faint.
+b=styles-stairs
 
 I found her leaning against the bannisters, deadly pale. She waved me away impatiently.
 e:mary=annoyed
 
 “No, no—leave me. I’d rather be alone.”
-s=mary
+s=mary;e:mary=upset
 
 “Let me just be quiet for a minute or two. Go down to the others.”
 
 
-I obeyed her reluctantly. John and Lawrence were in the dining-room. I joined them.
-s=none;e:hastings=weary
+I obeyed her reluctantly.
+s=
 
-We were all silent, but I suppose I voiced the thoughts of us all when I at last broke it by saying:
+John and Lawrence were in the dining-room. I joined them.
+s=none;e:hastings=weary;b=styles-dining
+
+We were all silent, but I suppose I voiced the thoughts of us all when I at last broke it by saying:<e>"Where is Poirot?"</e>
 e:hastings=thinking
 
-<e>"Where is Poirot?"</e>“Where is Mr. Inglethorp?”
+“Where is Mr. Inglethorp?”
 s=hastings;e:hastings=serious
 
 John shook his head.
@@ -1603,11 +1621,8 @@ s=john
 Our eyes met. Where *was* Alfred Inglethorp?
 s=none;e:hastings=surprised
 
-His absence was strange and inexplicable. I remembered Mrs. Inglethorp’s dying words. What lay beneath them?
+His absence was strange and inexplicable. I remembered Mrs. Inglethorp’s dying words. What lay beneath them? What more could she have told us, if she had had time?
 e:hastings=thinking
-
-What more could she have told us, if she had had time?
-
 
 At last we heard the doctors descending the stairs. Dr. Wilkins was looking important and excited, and trying to conceal an inward exultation under a manner of decorous calm.
 e:wilkins=excited
@@ -1619,7 +1634,7 @@ He addressed himself to John:
 
 
 “Mr. Cavendish, I should like your consent to a postmortem.”
-s=wilkins
+s=wilkins;e:wilkins=serious
 
 “Is that necessary?” asked John gravely.
 s=john;e:john=wary
@@ -1652,7 +1667,7 @@ And he glanced at the daylight.
 s=none
 
 “Under the circumstances, I am afraid an inquest can hardly be avoided—these formalities are necessary, but I beg that you won’t distress yourselves.”
-s=wilkins
+s=wilkins;e:wilkins=serious
 
 There was a pause, and then Dr. Bauerstein drew two keys from his pocket, and handed them to John.
 s=none;e:bauerstein=serious
@@ -1663,13 +1678,10 @@ s=bauerstein
 The doctors then departed.
 s=none
 
-I had been turning over an idea in my head, and I felt that the moment had now come to broach it.
+I had been turning over an idea in my head, and I felt that the moment had now come to broach it. Yet I was a little chary of doing so.
 e:hastings=thinking
 
-Yet I was a little chary of doing so. John, I knew, had a horror of any kind of publicity, and was an easygoing optimist, who preferred never to meet trouble halfway.
-e:john=neutral
-
-It might be difficult to convince him of the soundness of my plan.
+John, I knew, had a horror of any kind of publicity, and was an easygoing optimist, who preferred never to meet trouble halfway. It might be difficult to convince him of the soundness of my plan.
 
 
 Lawrence, on the other hand, being less conventional, and having more imagination, I felt I might count upon as an ally.
@@ -1702,14 +1714,11 @@ s=hastings
 “Rubbish!” cried Lawrence angrily.
 s=lawrence;e:lawrence=angry
 
-“In my opinion the whole thing is a mare’s nest of Bauerstein’s!”
+“In my opinion the whole thing is a mare’s nest of Bauerstein’s! Wilkins hadn’t an idea of such a thing, until Bauerstein put it into his head. But, like all specialists, Bauerstein’s got a bee in his bonnet.”
 s=lawrence
 
-“Wilkins hadn’t an idea of such a thing, until Bauerstein put it into his head. But, like all specialists, Bauerstein’s got a bee in his bonnet.”
-
-
 “Poisons are his hobby, so of course he sees them everywhere.”
-e:lawrence=annoyed
+
 
 I confess that I was surprised by Lawrence’s attitude. He was so seldom vehement about anything.
 s=none;e:hastings=surprised
@@ -1724,7 +1733,7 @@ s=john;e:john=serious
 s=john;e:john=wary
 
 “No, no,” I cried eagerly, “you need have no fear of that. Poirot is discretion itself.”
-s=hastings;e:hastings=excited
+s=hastings;e:hastings=serious
 
 “Very well, then, have it your own way. I leave it in your hands.”
 s=john;e:john=weary
@@ -1736,7 +1745,7 @@ I looked at my watch. It was six o’clock. I determined to lose no time.
 s=none;e:hastings=serious
 
 Five minutes’ delay, however, I allowed myself.
-
+b=think
 
 I spent it in ransacking the library until I discovered a medical book which gave a description of strychnine poisoning.
 
