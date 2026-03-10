@@ -1,14 +1,14 @@
 <div class='center'><span class='big italics'>The Mysterious Affair at Styles</span> by&nbsp;Agatha&nbsp;Christie</div>
+b=title;t=author
 
-
-To my Mother
-
+<div class='center'>To my Mother</div>
+t=
 
 ## 1. I Go to Styles
 r=title
 
 The intense interest aroused in the public by what was known at the time as “The Styles Case” has now somewhat subsided.
-n:hastings=?;e:hastings=thinking
+n:hastings=?;e:hastings=thinking;b=styles-wide
 
 Nevertheless, in view of the worldwide notoriety which attended it, I have been asked, both by my friend Poirot and the family themselves, to write an account of the whole story.
 
@@ -20,25 +20,25 @@ I will therefore briefly set down the circumstances which led to my being connec
 e:hastings=neutral
 
 I had been invalided home from the Front; and, after spending some months in a rather depressing Convalescent Home, was given a month’s sick leave.
-e:hastings=weary
+e:hastings=weary;b=arbitrary
 
 Having no near relations or friends, I was trying to make up my mind what to do, when I ran across John Cavendish.
-n:john=John Cavendish;e:hastings=neutral
+n:john=John Cavendish;e:hastings=neutral;x:john=hat;x:hastings=hat
 
 I had seen very little of him for some years. Indeed, I had never known him particularly well.
-
+b=light
 
 He was a good fifteen years my senior, for one thing, though he hardly looked his forty-five years.
-
+c=john
 
 As a boy, though, I had often stayed at Styles, his mother’s place in Essex.
-
+c=
 
 We had a good yarn about old times, and it ended in his inviting me down to Styles to spend my leave there.
-e:hastings=happy;e:john=happy
+e:hastings=happy;e:john=happy;b=arbitrary
 
 “The mater will be delighted to see you again﻿—after all those years,” he added.
-s=john
+s=john;c=john
 
 “Your mother keeps well?” I asked.
 s=hastings;e:hastings=neutral
@@ -47,10 +47,10 @@ s=hastings;e:hastings=neutral
 s=john;e:john=neutral
 
 I am afraid I showed my surprise rather plainly.
-s=none;e:hastings=surprised
+s=none;e:hastings=surprised;c=
 
 Mrs. Cavendish, who had married John’s father when he was a widower with two sons, had been a handsome woman of middle-age as I remembered her.
-e:hastings=thinking
+e:hastings=thinking;b=think
 
 She certainly could not be a day less than seventy now.
 e:hastings=surprised
@@ -62,13 +62,16 @@ She was a most generous woman, and possessed a considerable fortune of her own.
 
 
 Their country-place, Styles Court, had been purchased by Mr. Cavendish early in their married life.
+b=styles-wide
 
-
-He had been completely under his wife’s ascendancy, so much so that, on dying, he left the place to her for her lifetime, as well as the larger part of his income; an arrangement that was distinctly unfair to his two sons. Their stepmother, however, had always been most generous to them; indeed, they were so young at the time of their father’s remarriage that they always thought of her as their own mother.
+He had been completely under his wife’s ascendancy, so much so that, on dying, he left the place to her for her lifetime, as well as the larger part of his income; an arrangement that was distinctly unfair to his two sons.
 e:hastings=neutral
 
+Their stepmother, however, had always been most generous to them; indeed, they were so young at the time of their father’s remarriage that they always thought of her as their own mother.
+
+
 Lawrence, the younger, had been a delicate youth. He had qualified as a doctor but early relinquished the profession of medicine, and lived at home while pursuing literary ambitions; though his verses never had any marked success.
-n:lawrence=Lawrence Cavendish
+n:lawrence=Lawrence Cavendish;b=think
 
 John practiced for some time as a barrister, but had finally settled down to the more congenial life of a country squire.
 
@@ -80,25 +83,28 @@ Mrs. Cavendish, however, was a lady who liked to make her own plans, and expecte
 e:hastings=neutral
 
 John noticed my surprise at the news of his mother’s remarriage and smiled rather ruefully.
-e:john=smirking
+e:john=smirking;b=arbitrary
 
 “Rotten little bounder too!” he said savagely.
-s=john;e:john=angry
+s=john;e:john=angry;c=john
 
-“I can tell you, Hastings, it’s making life jolly difficult for us. As for Evie﻿—you remember Evie?”
+“I can tell you, Hastings, it’s making life jolly difficult for us.”
 s=john;e:john=annoyed
+
+“As for Evie﻿—you remember Evie?”
+e:john=
 
 “No.”
 n:hastings=Mr. Hastings;s=hastings;e:hastings=neutral
 
-“Oh, I suppose she was after your time. She’s the mater’s factotum, companion, Jack of all trades!”
+“Oh, I suppose she was after your time.”
 s=john;n:evie=Evelyn Howard;e:john=neutral
 
-“A great sport﻿—old Evie! Not precisely young and beautiful, but as game as they make them.”
+“She’s the mater’s factotum, companion, Jack of all trades! A great sport﻿—old Evie! Not precisely young and beautiful, but as game as they make them.”
 e:john=happy
 
 “You were going to say﻿—?”
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=contemplative
 
 “Oh, this fellow! He turned up from nowhere, on the pretext of being a second cousin or something of Evie’s, though she didn’t seem particularly keen to acknowledge the relationship.”
 s=john;e:john=annoyed
@@ -115,11 +121,11 @@ s=none;e:hastings=neutral
 “Well, of course the war has turned the hundreds into thousands. No doubt the fellow was very useful to her.”
 s=john;e:john=thinking
 
-“But you could have knocked us all down with a feather when, three months ago, she suddenly announced that she and Alfred were engaged!”
-n:alfred=Alfred Inglethorp;e:john=surprised
+“But you could have knocked us all down with a feather when, three months ago, she suddenly announced that she and Alfred were engaged! The fellow must be at least twenty years younger than she is!”
+n:alfred=Alfred Inglethorp;e:john=scowling
 
-“The fellow must be at least twenty years younger than she is! It’s simply barefaced fortune hunting; but there you are﻿—she is her own mistress, and she’s married him.”
-e:john=angry
+“It’s simply barefaced fortune hunting; but there you are﻿—she is her own mistress, and she’s married him.”
+e:john=annoyed
 
 “It must be a difficult situation for you all.”
 s=hastings;e:hastings=serious
@@ -128,7 +134,7 @@ s=hastings;e:hastings=serious
 s=john;e:john=angry
 
 Thus it came about that, three days later, I descended from the train at Styles St. Mary, an absurd little station, with no apparent reason for existence, perched up in the midst of green fields and country lanes.
-s=none;e:hastings=neutral
+s=none;e:hastings=neutral;b=train-platform
 
 John Cavendish was waiting on the platform, and piloted me out to the car.
 e:john=neutral
@@ -136,14 +142,20 @@ e:john=neutral
 “Got a drop or two of petrol still, you see,” he remarked. “Mainly owing to the mater’s activities.”
 s=john;e:john=smirking
 
-The village of Styles St. Mary was situated about two miles from the little station, and Styles Court lay a mile the other side of it.
-s=none
+The village of Styles St. Mary was situated about two miles from the little station,
+s=none;b=village-wide;m=joined
+
+and Styles Court lay a mile the other side of it.
+b=styles-wide;m=
 
 It was a still, warm day in early July. As one looked out over the flat Essex country, lying so green and peaceful under the afternoon sun, it seemed almost impossible to believe that, not so very far away, a great war was running its appointed course.
-e:hastings=contemplative
+e:hastings=contemplative;b=essex-wide
 
-I felt I had suddenly strayed into another world. As we turned in at the lodge gates, John said:
+I felt I had suddenly strayed into another world.
 
+
+As we turned in at the lodge gates, John said:
+b=styles-drive
 
 “I’m afraid you’ll find it very quiet down here, Hastings.”
 s=john;e:john=neutral
@@ -163,8 +175,11 @@ e:john=annoyed
 He checked the car suddenly, and glanced at his watch.
 s=none;e:john=surprised
 
-“I wonder if we’ve time to pick up Cynthia. No, she’ll have started from the hospital by now.”
-s=john;n:cynthia=Cynthia Murdoch;e:john=thinking
+“I wonder if we’ve time to pick up Cynthia.”
+s=john;n:cynthia=Cynthia Murdoch;e:john=contemplative
+
+“No, she’ll have started from the hospital by now.”
+
 
 “Cynthia! That’s not your wife?”
 s=hastings;e:hastings=confused
@@ -172,11 +187,14 @@ s=hastings;e:hastings=confused
 “No, Cynthia is a protégée of my mother’s, the daughter of an old schoolfellow of hers, who married a rascally solicitor.”
 s=john;e:john=neutral
 
-“He came a cropper, and the girl was left an orphan and penniless. My mother came to the rescue, and Cynthia has been with us nearly two years now. She works in the Red Cross Hospital at Tadminster, seven miles away.”
+“He came a cropper, and the girl was left an orphan and penniless. My mother came to the rescue, and Cynthia has been with us nearly two years now.”
+b=think
 
+“She works in the Red Cross Hospital at Tadminster, seven miles away.”
+b=hospital-wide;f:b:hospital-wide=blur(3px)
 
 As he spoke the last words, we drew up in front of the fine old house.
-s=none
+s=none;b=styles-entrance
 
 A lady in a stout tweed skirt, who was bending over a flower bed, straightened herself at our approach.
 e:evie=neutral
@@ -191,7 +209,7 @@ I had an impression of very blue eyes in a sunburnt face.
 e:hastings=thinking
 
 She was a pleasant-looking woman of about forty, with a deep voice, almost manly in its stentorian tones, and had a large sensible square body, with feet to match﻿—these last encased in good thick boots.
-
+c=evie;x:evie=gardening
 
 Her conversation, I soon found, was couched in the telegraphic style.
 e:hastings=neutral
@@ -206,10 +224,10 @@ s=hastings;e:hastings=happy
 s=evie;e:evie=neutral
 
 “You’re a cynic, Evie,” said John, laughing.
-s=none;e:john=happy
+s=none;e:john=smirking
 
 “Where’s tea today﻿—inside or out?”
-s=john
+s=john;e:john=happy
 
 “Out. Too fine a day to be cooped up in the house.”
 s=evie
@@ -218,10 +236,10 @@ s=evie
 s=john;e:john=happy
 
 “Well,” said Miss Howard, drawing off her gardening gloves, “I’m inclined to agree with you.”
-s=evie;e:evie=neutral
+s=evie;e:evie=degloving
 
 She led the way round the house to where tea was spread under the shade of a large sycamore.
-s=none
+s=none;b=styles-gardens;c=
 
 A figure rose from one of the basket chairs, and came a few steps to meet us.
 e:mary=neutral
@@ -230,16 +248,19 @@ e:mary=neutral
 s=john
 
 I shall never forget my first sight of Mary Cavendish.
-s=none;e:hastings=surprised
+s=none;e:hastings=surprised;b=think
 
-Her tall, slender form, outlined against the bright light; the vivid sense of slumbering fire that seemed to find expression only in those wonderful tawny eyes of hers, remarkable eyes, different from any other woman’s that I have ever known; the intense power of stillness she possessed, which nevertheless conveyed the impression of a wild untamed spirit in an exquisitely civilised body﻿—all these things are burnt into my memory.
-e:hastings=contemplative
+Her tall, slender form, outlined against the bright light; the vivid sense of slumbering fire that seemed to find expression only in those wonderful tawny eyes of hers, remarkable eyes, different from any other woman’s that I have ever known;
+e:hastings=contemplative;b=mary-outlined
+
+the intense power of stillness she possessed, which nevertheless conveyed the impression of a wild untamed spirit in an exquisitely civilised body﻿—all these things are burnt into my memory.
+
 
 I shall never forget them.
-
+b=think
 
 She greeted me with a few words of pleasant welcome in a low clear voice, and I sank into a basket chair feeling distinctly glad that I had accepted John’s invitation.
-e:hastings=happy;e:mary=happy
+e:hastings=happy;e:mary=happy;b=styles-gardens
 
 Mrs. Cavendish gave me some tea, and her few quiet remarks heightened my first impression of her as a thoroughly fascinating woman.
 
@@ -254,7 +275,7 @@ At that moment a well remembered voice floated through the open French window ne
 e:hastings=surprised
 
 “Then you’ll write to the Princess after tea, Alfred? I’ll write to Lady Tadminster for the second day, myself.”
-n:emily=Mrs. Inglethorp;s=emily;e:emily=happy
+n:emily=Mrs. Inglethorp;m=dialogue
 
 “Or shall we wait until we hear from the Princess? In case of a refusal, Lady Tadminster might open it the first day, and Mrs. Crosbie the second. Then there’s the Duchess﻿—about the school fête.”
 
@@ -263,46 +284,43 @@ There was the murmur of a man’s voice, and then Mrs. Inglethorp’s rose in re
 s=none
 
 “Yes, certainly. After tea will do quite well. You are so thoughtful, Alfred dear.”
-s=emily
+
 
 The French window swung open a little wider, and a handsome white-haired old lady, with a somewhat masterful cast of features, stepped out of it on to the lawn.
-s=none;e:emily=neutral
+s=none;e:emily=neutral;m=
 
 A man followed her, a suggestion of deference in his manner.
 e:alfred=neutral
 
 Mrs. Inglethorp greeted me with effusion.
-e:emily=excited
+e:emily=happy
 
-“Why, if it isn’t too delightful to see you again, Mr. Hastings, after all these years. Alfred, darling, Mr. Hastings﻿—my husband.”
+“Why, if it isn’t too delightful to see you again, Mr. Hastings, after all these years.”
 s=emily
 
+“Alfred, darling, Mr. Hastings﻿—my husband.”
+
+
 I looked with some curiosity at “Alfred darling.” He certainly struck a rather alien note.
-s=none;e:hastings=thinking
+s=none;e:hastings=thinking;b=light
 
-I did not wonder at John objecting to his beard.
+I did not wonder at John objecting to his beard. It was one of the longest and blackest I have ever seen.
+c=alfred
 
-
-It was one of the longest and blackest I have ever seen.
-
-
-He wore gold-rimmed pince-nez, and had a curious impassivity of feature.
-
-
-It struck me that he might look natural on a stage, but was strangely out of place in real life.
+He wore gold-rimmed pince-nez, and had a curious impassivity of feature. It struck me that he might look natural on a stage, but was strangely out of place in real life.
 
 
 His voice was rather deep and unctuous. He placed a wooden hand in mine and said:
-
+c=
 
 “This is a pleasure, Mr. Hastings.”
-s=alfred;e:alfred=neutral
+s=alfred;e:alfred=neutral;b=styles-gardens;x:alfred=hat
 
 Then, turning to his wife:
 s=
 
 “Emily dearest, I think that cushion is a little damp.”
-s=alfred;e:alfred=serious
+s=alfred;e:alfred=
 
 She beamed fondly on him, as he substituted another with every demonstration of the tenderest care.
 s=none;e:emily=happy;n:emily=Emily Inglethorp
@@ -310,10 +328,10 @@ s=none;e:emily=happy;n:emily=Emily Inglethorp
 Strange infatuation of an otherwise sensible woman!
 e:hastings=confused
 
-With the presence of Mr. Inglethorp, a sense of constraint and veiled hostility seemed to settle down upon the company.
+With the presence of Mr. Inglethorp, a sense of constraint and veiled hostility seemed to settle down upon the company. Miss Howard, in particular, took no pains to conceal her feelings.
 e:john=scowling;e:evie=annoyed
 
-Miss Howard, in particular, took no pains to conceal her feelings. Mrs. Inglethorp, however, seemed to notice nothing unusual.
+Mrs. Inglethorp, however, seemed to notice nothing unusual.
 e:emily=happy
 
 Her volubility, which I remembered of old, had lost nothing in the intervening years, and she poured out a steady flood of conversation, mainly on the subject of the forthcoming bazaar which she was organizing and which was to take place shortly.
@@ -338,13 +356,13 @@ s=hastings;e:hastings=neutral
 s=alfred
 
 “Perhaps. Either that or a fresh start altogether.”
-s=hastings
+s=hastings;e:hastings=contemplative
 
 Mary Cavendish leant forward.
 s=none;e:mary=curious
 
 “What would you really choose as a profession, if you could just consult your inclination?”
-s=mary;e:mary=neutral
+s=mary
 
 “Well, that depends.”
 s=hastings
@@ -353,7 +371,7 @@ s=hastings
 s=mary;e:mary=smirking
 
 “You’ll laugh at me.”
-s=hastings;e:hastings=nervous
+s=hastings;e:hastings=thinking
 
 She smiled.
 s=none;e:mary=happy
@@ -362,13 +380,13 @@ s=none;e:mary=happy
 s=mary
 
 “Well, I’ve always had a secret hankering to be a detective!”
-s=hastings;e:hastings=excited
+s=hastings;e:hastings=contemplative
 
 “The real thing﻿—Scotland Yard? Or Sherlock Holmes?”
-s=mary
+s=mary;e:mary=
 
 “Oh, Sherlock Holmes by all means. But really, seriously, I am awfully drawn to it.”
-s=hastings;e:hastings=serious
+s=hastings;e:hastings=
 
 “I came across a man in Belgium once, a very famous detective, and he quite inflamed me. He was a marvellous little fellow. He used to say that all good detective work was a mere matter of method.”
 e:hastings=contemplative
@@ -379,17 +397,17 @@ e:hastings=smirking
 “Like a good detective story myself,” remarked Miss Howard.
 s=evie;e:evie=neutral
 
-“Lots of nonsense written, though. Criminal discovered in last chapter. Everyone dumbfounded.”<e>Christie, no! You have 60 more years of mystery novels to write!</e>
-
+“Lots of nonsense written, though. Criminal discovered in last chapter. Everyone dumbfounded.”<e>Christie, no! You still have 60 more years worth of mysteries to write — you can't start lampshading already.</e>
+e:evie=thinking
 
 “Real crime﻿—you’d know at once.”
 
 
 “There have been a great number of undiscovered crimes,” I argued.
-s=hastings;e:hastings=serious
+s=hastings;e:hastings=
 
 “Don’t mean the police, but the people that are right in it. The family. You couldn’t really hoodwink them. They’d know.”
-s=evie;e:evie=thinking
+s=evie;e:evie=serious
 
 “Then,” I said, much amused, “you think that if you were mixed up in a crime, say a murder, you’d be able to spot the murderer right off?”
 s=hastings;e:hastings=smirking
@@ -403,17 +421,26 @@ s=hastings;e:hastings=smirking
 “Might. But murder’s a violent crime. Associate it more with a man.”
 s=evie;e:evie=thinking
 
-“Not in a case of poisoning.” Mrs. Cavendish’s clear voice startled me.
-s=mary;e:mary=serious;e:hastings=surprised
+“Not in a case of poisoning.”
+s=mary;e:mary=;e:hastings=surprised
+
+Mrs. Cavendish’s clear voice startled me.
+s=
 
 “Dr. Bauerstein was saying yesterday that, owing to the general ignorance of the more uncommon poisons among the medical profession, there were probably countless cases of poisoning quite unsuspected.”
+s=mary;e:mary=contemplative
 
+“Why, Mary, what a gruesome conversation!” cried Mrs. Inglethorp.
+s=emily;e:emily=unhappy
 
-“Why, Mary, what a gruesome conversation!” cried Mrs. Inglethorp. “It makes me feel as if a goose were walking over my grave. Oh, there’s Cynthia!”
-s=emily;e:emily=nervous
+“It makes me feel as if a goose were walking over my grave.”
+e:emily=contemplative
+
+“Oh, there’s Cynthia!”
+e:emily=happy
 
 A young girl in V.A.D. uniform ran lightly across the lawn.
-s=none;e:cynthia=happy
+s=none;e:cynthia=happy;x:cynthia=vad
 
 “Why, Cynthia, you are late today. This is Mr. Hastings﻿—Miss Murdoch.”
 s=emily;e:emily=neutral
@@ -422,7 +449,7 @@ Cynthia Murdoch was a fresh-looking young creature, full of life and vigour.
 s=none
 
 She tossed off her little V.A.D. cap, and I admired the great loose waves of her auburn hair, and the smallness and whiteness of the hand she held out to claim her tea.
-e:hastings=happy
+e:hastings=happy;x:cynthia=vad,capless
 
 With dark eyes and eyelashes she would have been a beauty.
 
@@ -451,20 +478,14 @@ s=hastings;e:hastings=happy
 “I should like to see them!” cried Cynthia with dignity.
 s=cynthia;e:cynthia=smirking
 
-“I have got a cousin who is nursing,” I remarked.
+“I have got a cousin who is nursing,” I remarked. “And she is terrified of ‘Sisters.’ ”
 s=hastings;e:hastings=neutral
 
-“And she is terrified of ‘Sisters.’ ”
-
-
-“I don’t wonder. Sisters *are*, you know, Mr. Hastings. They simp﻿—ly *are*!”<e>They <i>what</i>?</e>
+“I don’t wonder. Sisters *are*, you know, Mr. Hastings. They simp﻿—ly *are*! You’ve no idea!”<e>"They simp" —Agatha Christie</e>
 s=cynthia;e:cynthia=happy
 
-“You’ve no idea!”
-
-
 “But I’m not a nurse, thank heaven, I work in the dispensary.”
-
+e:cynthia=
 
 “How many people do you poison?” I asked, smiling.
 s=hastings;e:hastings=smirking
@@ -476,10 +497,10 @@ s=none;e:cynthia=smirking
 s=cynthia
 
 “Cynthia,” called Mrs. Inglethorp, “do you think you could write a few notes for me?”
-s=emily;e:emily=neutral
+s=emily;e:emily=
 
 “Certainly, Aunt Emily.”
-s=cynthia;e:cynthia=neutral
+s=cynthia;e:cynthia=
 
 She jumped up promptly, and something in her manner reminded me that her position was a dependent one, and that Mrs. Inglethorp, kind as she might be in the main, did not allow her to forget it.
 s=none;e:hastings=thinking
@@ -490,14 +511,20 @@ e:emily=neutral
 “John will show you your room. Supper is at half-past seven. We have given up late dinner for some time now.”
 s=emily
 
-“Lady Tadminster, our Member’s wife﻿—she was the late Lord Abbotsbury’s daughter﻿—does the same. She agrees with me that one must set an example of economy. We are quite a war household; nothing is wasted here﻿—every scrap of waste paper, even, is saved and sent away in sacks.”
+“Lady Tadminster, our Member’s wife﻿—she was the late Lord Abbotsbury’s daughter﻿—does the same. She agrees with me that one must set an example of economy.”
 
 
-I expressed my appreciation, and John took me into the house and up the broad staircase, which forked right and left halfway to different wings of the building.
-s=none;e:hastings=neutral
+“We are quite a war household; nothing is wasted here﻿—every scrap of waste paper, even, is saved and sent away in sacks.”
+
+
+I expressed my appreciation,
+s=none;e:hastings=neutral;m=joined
+
+and John took me into the house and up the broad staircase, which forked right and left halfway to different wings of the building.
+b=styles-stairs;m=
 
 My room was in the left wing, and looked out over the park.
-
+b=hastings-room
 
 John left me, and a few minutes later I saw him from my window walking slowly across the grass arm in arm with Cynthia Murdoch.
 e:hastings=thinking
@@ -521,22 +548,22 @@ Then I dismissed him from my mind, and returned to the contemplation of my own a
 e:hastings=neutral
 
 The evening passed pleasantly enough; and I dreamed that night of that enigmatical woman, Mary Cavendish.
-e:hastings=contemplative
+e:hastings=contemplative;b=dream
 
 The next morning dawned bright and sunny, and I was full of the anticipation of a delightful visit.
-e:hastings=happy
+e:hastings=happy;b=styles-wide
 
 I did not see Mrs. Cavendish until lunchtime, when she volunteered to take me for a walk, and we spent a charming afternoon roaming in the woods, returning to the house about five.
 
 
 As we entered the large hall, John beckoned us both into the smoking-room.
-e:john=serious
+e:john=serious;x:john=;x:hastings=;b=styles-stairs
 
 I saw at once by his face that something disturbing had occurred.
 e:hastings=wary
 
 We followed him in, and he shut the door after us.
-
+b=styles-smoking
 
 “Look here, Mary, there’s the deuce of a mess. Evie’s had a row with Alfred Inglethorp, and she’s off.”
 s=john;e:john=upset
@@ -548,7 +575,7 @@ John nodded gloomily.
 s=none;e:john=unhappy
 
 “Yes; you see she went to the mater, and﻿—Oh, here’s Evie herself.”
-s=john
+s=john;x:evie=
 
 Miss Howard entered.
 s=none
@@ -572,10 +599,13 @@ s=none;e:evie=serious
 s=evie
 
 “I said right out: ‘You’re an old woman, Emily, and there’s no fool like an old fool. The man’s twenty years younger than you, and don’t you fool yourself as to what he married you for. Money! Well, don’t let him have too much of it. Farmer Raikes has got a very pretty young wife. Just ask your Alfred how much time he spends over there.’”
-e:evie=scowling
+e:evie=
 
-“She was very angry. Natural! I went on, ‘I’m going to warn you, whether you like it or not. That man would as soon murder you in your bed as look at you. He’s a bad lot. You can say what you like to me, but remember what I’ve told you. He’s a bad lot!’ ”
+“She was very angry. Natural!”
+e:evie=thinking
 
+“I went on, ‘I’m going to warn you, whether you like it or not. That man would as soon murder you in your bed as look at you. He’s a bad lot. You can say what you like to me, but remember what I’ve told you. He’s a bad lot!’ ”
+e:evie=serious
 
 “What did she say?”
 s=mary;e:mary=wary
@@ -590,7 +620,7 @@ s=evie
 e:evie=annoyed
 
 “But not now?”
-s=mary;e:mary=surprised
+s=mary;e:mary=unhappy
 
 “This minute!”
 s=evie;e:evie=angry
@@ -617,10 +647,13 @@ She laid her hand on my arm, and sank her voice to a whisper.
 
 
 “Look after her, Mr. Hastings. My poor Emily. They’re a lot of sharks﻿—all of them.”
-s=evie;e:evie=worried
+s=evie;e:evie=
 
-“Oh, I know what I’m talking about. There isn’t one of them that’s not hard up and trying to get money out of her. I’ve protected her as much as I could. Now I’m out of the way, they’ll impose upon her.”
+“Oh, I know what I’m talking about. There isn’t one of them that’s not hard up and trying to get money out of her.”
 e:evie=upset
+
+“I’ve protected her as much as I could. Now I’m out of the way, they’ll impose upon her.”
+
 
 “Of course, Miss Howard,” I said, “I’ll do everything I can, but I’m sure you’re excited and overwrought.”
 s=hastings;e:hastings=nervous
@@ -631,11 +664,8 @@ s=none;e:evie=serious
 “Young man, trust me. I’ve lived in the world rather longer than you have. All I ask you is to keep your eyes open. You’ll see what I mean.”
 s=evie
 
-The throb of the motor came through the open window, and Miss Howard rose and moved to the door.
+The throb of the motor came through the open window, and Miss Howard rose and moved to the door. John’s voice sounded outside. With her hand on the handle, she turned her head over her shoulder, and beckoned to me.
 s=none
-
-John’s voice sounded outside. With her hand on the handle, she turned her head over her shoulder, and beckoned to me.
-
 
 “Above all, Mr. Hastings, watch that devil﻿—her husband!”
 s=evie;e:evie=angry
@@ -659,10 +689,10 @@ s=hastings;e:hastings=wary
 s=john;n:bauerstein=Dr. Bauerstein;e:john=annoyed
 
 “And who is Dr. Bauerstein?”
-s=hastings;e:hastings=curious
+s=hastings;e:hastings=contemplative
 
 “He’s staying in the village doing a rest cure, after a bad nervous breakdown. He’s a London specialist; a very clever man﻿—one of the greatest living experts on poisons, I believe.”
-s=john;e:john=neutral
+s=john;e:john=contemplative
 
 “And he’s a great friend of Mary’s,” put in Cynthia, the irrepressible.
 s=cynthia;e:cynthia=smirking
@@ -674,16 +704,16 @@ s=none;e:john=scowling
 s=john;e:john=weary
 
 He took the path through the plantation, and we walked down to the village through the woods which bordered one side of the estate.
-s=none
+s=none;b=light
 
 As we passed through one of the gates on our way home again, a pretty young woman of gipsy type coming in the opposite direction bowed and smiled.
-n:raikes=Mrs. Raikes;e:raikes=happy
+n:raikes=Mrs. Raikes;e:raikes=happy;b=styles-drive
 
 “That’s a pretty girl,” I remarked appreciatively.
-s=hastings;e:hastings=happy
+s=hastings;e:hastings=
 
 John’s face hardened.
-s=none;e:john=scowling
+s=none;e:john=serious
 
 “That is Mrs. Raikes.”
 s=john
@@ -701,28 +731,28 @@ I brushed it aside.
 e:hastings=neutral
 
 “Styles is really a glorious old place,” I said to John.
-s=hastings;e:hastings=happy
+s=hastings;e:hastings=
 
 He nodded rather gloomily.
 s=none;e:john=unhappy
 
 “Yes, it’s a fine property. It’ll be mine some day﻿—should be mine now by rights, if my father had only made a decent will. And then I shouldn’t be so damned hard up as I am now.”
-s=john;e:john=annoyed
+s=john;e:john=unhappy
 
 “Hard up, are you?”
-s=hastings;e:hastings=surprised
+s=hastings;e:hastings=contemplative
 
 “My dear Hastings, I don’t mind telling you that I’m at my wit’s end for money.”
 s=john;e:john=weary
 
 “Couldn’t your brother help you?”
-s=hastings;e:hastings=thinking
+s=hastings;e:hastings=
 
 “Lawrence? He’s gone through every penny he ever had, publishing rotten verses in fancy bindings. No, we’re an impecunious lot.”
-s=john;e:john=annoyed
+s=john;e:john=contemplative
 
 “My mother’s always been awfully good to us, I must say. That is, up to now. Since her marriage, of course﻿—” he broke off, frowning.
-e:john=scowling
+e:john=unhappy
 
 For the first time I felt that, with Evelyn Howard, something indefinable had gone from the atmosphere.
 s=none;e:hastings=wary
