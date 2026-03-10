@@ -191,7 +191,7 @@ s=john;e:john=neutral
 b=think
 
 “She works in the Red Cross Hospital at Tadminster, seven miles away.”
-b=hospital-wide;f:b:hospital-wide=blur(3px)
+b=hospital-ext;f:b:hospital-ext=blur(3px)
 
 As he spoke the last words, we drew up in front of the fine old house.
 s=none;b=styles-entrance
@@ -599,7 +599,7 @@ s=none;e:evie=serious
 s=evie
 
 “I said right out: ‘You’re an old woman, Emily, and there’s no fool like an old fool. The man’s twenty years younger than you, and don’t you fool yourself as to what he married you for. Money! Well, don’t let him have too much of it. Farmer Raikes has got a very pretty young wife. Just ask your Alfred how much time he spends over there.’”
-e:evie=
+e:evie=;b=argument-room;f:b:argument-room=blur(3px)
 
 “She was very angry. Natural!”
 e:evie=thinking
@@ -617,7 +617,7 @@ s=none;e:evie=scowling
 s=evie
 
 “The sooner I left her house the better. So I’m off.”
-e:evie=annoyed
+e:evie=annoyed;b=styles-smoking
 
 “But not now?”
 s=mary;e:mary=unhappy
@@ -704,7 +704,7 @@ s=none;e:john=scowling
 s=john;e:john=weary
 
 He took the path through the plantation, and we walked down to the village through the woods which bordered one side of the estate.
-s=none;b=light
+s=none;b=light;x:john=hat;x:hastings=hat
 
 As we passed through one of the gates on our way home again, a pretty young woman of gipsy type coming in the opposite direction bowed and smiled.
 n:raikes=Mrs. Raikes;e:raikes=happy;b=styles-drive
@@ -770,13 +770,16 @@ e:hastings=fearful
 r=title
 
 I had arrived at Styles on the 5th of July. I come now to the events of the 16th and 17th of that month.
-e:hastings=neutral
+e:hastings=neutral;b=styles-wide
 
-For the convenience of the reader I will recapitulate the incidents of those days in as exact a manner as possible. They were elicited subsequently at the trial by a process of long and tedious cross-examinations.
+For the convenience of the reader I will recapitulate the incidents of those days in as exact a manner as possible.
+f:b:styles-wide=blur(3px)
+
+They were elicited subsequently at the trial by a process of long and tedious cross-examinations.
 
 
 I received a letter from Evelyn Howard a couple of days after her departure, telling me she was working as a nurse at the big hospital in Middlingham, a manufacturing town some fifteen miles away, and begging me to let her know if Mrs. Inglethorp should show any wish to be reconciled.
-
+b=light
 
 The only fly in the ointment of my peaceful days was Mrs. Cavendish’s extraordinary, and, for my part, unaccountable preference for the society of Dr. Bauerstein.
 e:hastings=annoyed
@@ -787,14 +790,17 @@ e:hastings=confused
 The 16th of July fell on a Monday. It was a day of turmoil. The famous bazaar had taken place on Saturday, and an entertainment, in connection with the same charity, at which Mrs. Inglethorp was to recite a War poem, was to be held that night.
 e:hastings=neutral
 
-We were all busy during the morning arranging and decorating the Hall in the village where it was to take place. We had a late luncheon and spent the afternoon resting in the garden.
+We were all busy during the morning arranging and decorating the Hall in the village where it was to take place.
 
+
+We had a late luncheon and spent the afternoon resting in the garden.
+b=styles-gardens
 
 I noticed that John’s manner was somewhat unusual. He seemed very excited and restless.
 e:john=nervous;e:hastings=thinking
 
 After tea, Mrs. Inglethorp went to lie down to rest before her efforts in the evening and I challenged Mary Cavendish to a single at tennis.
-
+b=styles-wide;f:b:styles-wide=
 
 About a quarter to seven, Mrs. Inglethorp called us that we should be late as supper was early that night.
 e:emily=excited
@@ -802,14 +808,17 @@ e:emily=excited
 We had rather a scramble to get ready in time; and before the meal was over the motor was waiting at the door.
 
 
-The entertainment was a great success, Mrs. Inglethorp’s recitation receiving tremendous applause. There were also some tableaux in which Cynthia took part.
-e:emily=happy;e:cynthia=happy
+The entertainment was a great success, Mrs. Inglethorp’s recitation receiving tremendous applause.
+e:emily=happy;e:cynthia=happy;b=light
 
-She did not return with us, having been asked to a supper party, and to remain the night with some friends who had been acting with her in the tableaux.
+There were also some tableaux in which Cynthia took part. She did not return with us, having been asked to a supper party, and to remain the night with some friends who had been acting with her in the tableaux.
 
 
-The following morning, Mrs. Inglethorp stayed in bed to breakfast, as she was rather overtired; but she appeared in her briskest mood about 12:30, and swept Lawrence and myself off to a luncheon party.
-e:emily=happy
+The following morning, Mrs. Inglethorp stayed in bed to breakfast, as she was rather overtired;
+e:emily=happy;m=joined;b=styles-hall
+
+but she appeared in her briskest mood about 12:30, and swept Lawrence and myself off to a luncheon party.
+m=;b=styles-drawing
 
 “Such a charming invitation from Mrs. Rolleston. Lady Tadminster’s sister, you know. The Rollestons came over with the Conqueror—one of our oldest families.”
 s=emily
@@ -818,16 +827,16 @@ Mary had excused herself on the plea of an engagement with Dr. Bauerstein.
 s=none;e:mary=neutral
 
 We had a pleasant luncheon, and as we drove away Lawrence suggested that we should return by Tadminster, which was barely a mile out of our way, and pay a visit to Cynthia in her dispensary.
-e:lawrence=happy
+e:lawrence=happy;b=light
 
 Mrs. Inglethorp replied that this was an excellent idea, but as she had several letters to write she would drop us there, and we could come back with Cynthia in the pony-trap.
 
 
 We were detained under suspicion by the hospital porter, until Cynthia appeared to vouch for us, looking very cool and sweet in her long white overall.
-e:cynthia=happy
+e:cynthia=happy;x:cynthia=vad;b=hospital-ext
 
 She took us up to her sanctum, and introduced us to her fellow dispenser, a rather awe-inspiring individual, whom Cynthia cheerily addressed as “Nibs.”
-n:nibs=Nibs;e:nibs=serious
+n:nibs=Nibs;e:nibs=serious;b=hospital-bottles
 
 “What a lot of bottles!” I exclaimed, as my eye travelled round the small room.
 s=hastings;e:hastings=surprised
@@ -839,7 +848,7 @@ s=hastings;e:hastings=surprised
 s=cynthia;e:cynthia=annoyed
 
 “Every single person who comes up here says that. We are really thinking of bestowing a prize on the first individual who does *not* say: ‘What a lot of bottles!’ ”
-
+e:cynthia=smirking
 
 “And I know the next thing you’re going to say is: ‘How many people have you poisoned?’ ”
 
@@ -847,14 +856,20 @@ s=cynthia;e:cynthia=annoyed
 I pleaded guilty with a laugh.
 s=none;e:hastings=happy
 
-“If you people only knew how fatally easy it is to poison someone by mistake, you wouldn’t joke about it. Come on, let’s have tea.”
-s=cynthia;e:cynthia=serious
+“If you people only knew how fatally easy it is to poison someone by mistake, you wouldn’t joke about it.”
+s=cynthia;e:cynthia=thinking
 
-“We’ve got all sorts of secret stories in that cupboard. No, Lawrence—that’s the poison cupboard. The big cupboard—that’s right.”
+“Come on, let’s have tea.”
+e:cynthia=
+
+“We’ve got all sorts of secret stories in that cupboard.”
+
+
+“No, Lawrence—that’s the poison cupboard. The big cupboard—that’s right.”
 
 
 We had a very cheery tea, and assisted Cynthia to wash up afterwards. We had just put away the last teaspoon when a knock came at the door.
-s=none;e:cynthia=happy;e:lawrence=happy
+s=none;e:cynthia=happy;e:lawrence=happy;b=hospital-tea
 
 The countenances of Cynthia and Nibs were suddenly petrified into a stern and forbidding expression.
 e:cynthia=serious;e:nibs=serious
@@ -899,13 +914,16 @@ I laughed.
 e:hastings=happy
 
 “Discipline must be maintained?”
-s=hastings
+s=hastings;e:hastings=smirking
 
-“Exactly. Come out on our little balcony. You can see all the outside wards there.”
-s=cynthia;e:cynthia=happy
+“Exactly.”
+s=cynthia;e:cynthia=smirking
+
+“Come out on our little balcony. You can see all the outside wards there.”
+e:cynthia=happy
 
 I followed Cynthia and her friend and they pointed out the different wards to me.
-s=none
+s=none;b=hospital-balcony
 
 Lawrence remained behind, but after a few moments Cynthia called to him over her shoulder to come and join us.
 
@@ -914,7 +932,7 @@ Then she looked at her watch.
 
 
 “Nothing more to do, Nibs?”
-s=cynthia
+s=cynthia;e:cynthia=
 
 “No.”
 s=nibs
@@ -923,28 +941,28 @@ s=nibs
 s=cynthia
 
 I had seen Lawrence in quite a different light that afternoon. Compared to John, he was an astoundingly difficult person to get to know.
-s=none;e:hastings=thinking
+s=none;e:hastings=thinking;b=light
 
 He was the opposite of his brother in almost every respect, being unusually shy and reserved. Yet he had a certain charm of manner, and I fancied that, if one really knew him well, one could have a deep affection for him.
-e:lawrence=neutral
+e:lawrence=thinking;c=lawrence
 
 I had always fancied that his manner to Cynthia was rather constrained, and that she on her side was inclined to be shy of him.
-
+c=cynthia;e:cynthia=contemplative
 
 But they were both gay enough this afternoon, and chatted together like a couple of children.
-e:lawrence=happy;e:cynthia=happy
+e:lawrence=happy;e:cynthia=happy;c=
 
 As we drove through the village, I remembered that I wanted some stamps, so accordingly we pulled up at the post office.
-
+b=village-road
 
 As I came out again, I cannoned into a little man who was just entering.
 
 
 I drew aside and apologised, when suddenly, with a loud exclamation, he clasped me in his arms and kissed me warmly.
-n:poirot=?;e:poirot=excited
+n:poirot=?;e:poirot=excited;x:hastings=hat;x:lawrence=hat
 
 “*Mon ami* Hastings!” he cried. “It is indeed *mon ami* Hastings!”
-s=poirot
+s=poirot;x:poirot=hat
 
 “Poirot!” I exclaimed.
 s=hastings;e:hastings=surprised
@@ -965,25 +983,31 @@ Then, as I looked at him inquiringly:
 s=none
 
 “Yes, my friend, she had kindly extended hospitality to seven of my countrypeople who, alas, are refugees from their native land. We Belgians will always remember her with gratitude.”
-s=poirot
+s=poirot;e:poirot=thinking
 
-Poirot was an extraordinary looking little man. He was hardly more than five feet, four inches, but carried himself with great dignity.
-s=none
+Poirot was an extraordinary looking little man.
+s=;b=light
 
-His head was exactly the shape of an egg, and he always perched it a little on one side. His moustache was very stiff and military. The neatness of his attire was almost incredible.
+He was hardly more than five feet, four inches, but carried himself with great dignity.
+s=none;c=poirot;e:poirot=dignity
+
+His head was exactly the shape of an egg, and he always perched it a little on one side. His moustache was very stiff and military. The neatness of his attire was almost incredible. I believe a speck of dust would have caused him more pain than a bullet wound.
 
 
-I believe a speck of dust would have caused him more pain than a bullet wound. Yet this quaint dandyfied little man who, I was sorry to see, now limped badly, had been in his time one of the most celebrated members of the Belgian police.
-
+Yet this quaint dandyfied little man who, I was sorry to see, now limped badly, had been in his time one of the most celebrated members of the Belgian police.
+c=
 
 As a detective, his flair had been extraordinary, and he had achieved triumphs by unravelling some of the most baffling cases of the day.
 
 
-He pointed out to me the little house inhabited by him and his fellow Belgians, and I promised to go and see him at an early date. Then he raised his hat with a flourish to Cynthia, and we drove away.
+He pointed out to me the little house inhabited by him and his fellow Belgians, and I promised to go and see him at an early date.
+b=village-road
+
+Then he raised his hat with a flourish to Cynthia, and we drove away.
 
 
 “He’s a dear little man,” said Cynthia. “I’d no idea you knew him.”
-s=cynthia;e:cynthia=happy
+s=cynthia;e:cynthia=happy;b=light
 
 “You’ve been entertaining a celebrity unawares,” I replied.
 s=hastings;e:hastings=smirking
@@ -991,17 +1015,23 @@ s=hastings;e:hastings=smirking
 And, for the rest of the way home, I recited to them the various exploits and triumphs of Hercule Poirot.
 s=none;n:poirot=Hercule Poirot
 
-We arrived back in a very cheerful mood. As we entered the hall, Mrs. Inglethorp came out of her boudoir. She looked flushed and upset.
-e:emily=upset
+We arrived back in a very cheerful mood.
+b=styles-wide
+
+As we entered the hall, Mrs. Inglethorp came out of her boudoir. She looked flushed and upset.
+e:emily=upset;b=styles-down-hall
 
 “Oh, it’s you,” she said.
-s=emily
+s=emily;x:hastings=;x:lawrence=
 
 “Is there anything the matter, Aunt Emily?” asked Cynthia.
 s=cynthia;e:cynthia=wary
 
-“Certainly not,” said Mrs. Inglethorp sharply. “What should there be?”
-s=emily;e:emily=angry
+“Certainly not,” said Mrs. Inglethorp sharply.
+s=emily;e:emily=annoyed
+
+“What should there be?”
+
 
 Then catching sight of Dorcas, the parlourmaid, going into the dining-room, she called to her to bring some stamps into the boudoir.
 n:dorcas=Dorcas;s=none
@@ -1015,11 +1045,14 @@ s=none;e:dorcas=nervous
 “Don’t you think, m’m, you’d better get to bed? You’re looking very tired.”
 s=dorcas
 
-“Perhaps you’re right, Dorcas—yes—no—not now. I’ve some letters I must finish by post-time. Have you lighted the fire in my room as I told you?”
-s=emily
+“Perhaps you’re right, Dorcas—yes—no—not now.”
+s=emily;e:emily=thinking
+
+“I’ve some letters I must finish by post-time. Have you lighted the fire in my room as I told you?”
+e:emily=serious
 
 “Yes, m’m.”
-s=dorcas
+s=dorcas;e:dorcas=
 
 “Then I’ll go to bed directly after supper.”
 s=emily
@@ -1033,29 +1066,35 @@ s=cynthia
 He did not seem to have heard her, for without a word he turned on his heel and went out of the house.
 s=none;e:lawrence=serious
 
-I suggested a quick game of tennis before supper and, Cynthia agreeing, I ran upstairs to fetch my racquet.
+I suggested a quick game of tennis before supper and, Cynthia agreeing,
+m=joined
 
+I ran upstairs to fetch my racquet.
+m=;;b=styles-stairs
 
 Mrs. Cavendish was coming down the stairs. It may have been my fancy, but she, too, was looking odd and disturbed.
 e:mary=upset
 
 “Had a good walk with Dr. Bauerstein?” I asked, trying to appear as indifferent as I could.
-s=hastings
+s=hastings;e:hastings=
 
-“I didn’t go,” she replied abruptly. “Where is Mrs. Inglethorp?”
+“I didn’t go,” she replied abruptly.
 s=mary;e:mary=annoyed
 
+“Where is Mrs. Inglethorp?”
+
+
 “In the boudoir.”
-s=hastings
+s=hastings;e:hastings=contemplative
 
 Her hand clenched itself on the banisters, then she seemed to nerve herself for some encounter, and went rapidly past me down the stairs across the hall to the boudoir, the door of which she shut behind her.
 s=none;e:mary=serious
 
 As I ran out to the tennis court a few moments later, I had to pass the open boudoir window, and was unable to help overhearing the following scrap of dialogue.
-
+b=styles-gardens
 
 Mary Cavendish was saying in the voice of a woman desperately controlling herself:
-e:mary=angry
+e:mary=angry;m=nospeaker
 
 “Then you won’t show it to me?”
 s=mary
@@ -1079,64 +1118,79 @@ s=none;e:mary=upset
 s=mary
 
 Cynthia was waiting for me, and greeted me eagerly with:
-s=none;e:cynthia=excited
+s=none;e:cynthia=excited;m=;b=tennis-court;x:cynthia=tennis;c=cynthia
 
 “I say! There’s been the most awful row! I’ve got it all out of Dorcas.”
-s=cynthia
+s=cynthia;x:hastings=
 
 “What kind of a row?”
 s=hastings;e:hastings=surprised
 
-“Between Aunt Emily and *him*. I do hope she’s found him out at last!”
+“Between Aunt Emily and *him*.”
 s=cynthia;e:cynthia=annoyed
+
+“I do hope she’s found him out at last!”
+e:cynthia=scowling
 
 “Was Dorcas there, then?”
 s=hastings;e:hastings=thinking
 
-“Of course not. She ‘happened to be near the door.’ It was a real old bust-up. I do wish I knew what it was all about.”
+“Of course not. She ‘happened to be near the door.’ It was a real old bust-up.”
+s=cynthia;e:cynthia=smirking
+
+“I do wish I knew what it was all about.”
 s=cynthia;e:cynthia=thinking
 
-I thought of Mrs. Raikes’s gipsy face, and Evelyn Howard’s warnings, but wisely decided to hold my peace, whilst Cynthia exhausted every possible hypothesis, and cheerfully hoped, “Aunt Emily will send him away, and will never speak to him again.”
-s=none;e:hastings=contemplative
+I thought of Mrs. Raikes’s gipsy face, and Evelyn Howard’s warnings, but wisely decided to hold my peace, whilst Cynthia exhausted every possible hypothesis, and cheerfully hoped,
+s=none;e:hastings=contemplative;c=;b=think
+
+“Aunt Emily will send him away, and will never speak to him again.”
+e:cynthia=happy;b=tennis-court
 
 I was anxious to get hold of John, but he was nowhere to be seen.
 e:hastings=wary
 
-Evidently something very momentous had occurred that afternoon. I tried to forget the few words I had overheard; but, do what I would, I could not dismiss them altogether from my mind.
-e:hastings=thinking
+Evidently something very momentous had occurred that afternoon.
+e:hastings=thinking;b=think
+
+I tried to forget the few words I had overheard; but, do what I would, I could not dismiss them altogether from my mind.
+
 
 What was Mary Cavendish’s concern in the matter?
 
 
-Mr. Inglethorp was in the drawing-room when I came down to supper. His face was impassive as ever, and the strange unreality of the man struck me afresh.
-e:alfred=neutral
+Mr. Inglethorp was in the drawing-room when I came down to supper.
+e:alfred=neutral;b=styles-drawing
+
+His face was impassive as ever, and the strange unreality of the man struck me afresh.
+
 
 Mrs. Inglethorp came down last. She still looked agitated, and during the meal there was a somewhat constrained silence. Inglethorp was unusually quiet.
-e:emily=nervous
+e:emily=nervous;b=think
 
 As a rule, he surrounded his wife with little attentions, placing a cushion at her back, and altogether playing the part of the devoted husband.
 
 
 Immediately after supper, Mrs. Inglethorp retired to her boudoir again.
-
+b=styles-down-hall
 
 “Send my coffee in here, Mary,” she called.
-s=emily
+s=emily;e:emily=serious
 
 “I’ve just five minutes to catch the post.”
 
 
 Cynthia and I went and sat by the open window in the drawing-room.
-s=none;e:cynthia=neutral
+s=none;e:cynthia=neutral;b=styles-drawing-night
 
 Mary Cavendish brought our coffee to us. She seemed excited.
-e:mary=excited
+e:mary=smirking
 
 “Do you young people want lights, or do you enjoy the twilight?” she asked.
-s=mary
+s=mary;x:cynthia=;x:hastings=
 
 “Will you take Mrs. Inglethorp her coffee, Cynthia? I will pour it out.”
-
+e:mary=
 
 “Do not trouble, Mary,” said Inglethorp.
 s=alfred;e:alfred=neutral
@@ -1154,7 +1208,7 @@ We three sat for some time in silence. It was a glorious night, hot and still. M
 e:mary=neutral
 
 “It’s almost too hot,” she murmured. “We shall have a thunderstorm.”
-s=mary
+s=mary;e:mary=leaf
 
 Alas, that these harmonious moments can never endure! My paradise was rudely shattered by the sound of a well known, and heartily disliked, voice in the hall.
 s=none;e:hastings=annoyed
@@ -1166,7 +1220,7 @@ I glanced jealously at Mary Cavendish, but she seemed quite undisturbed, the del
 s=none;e:mary=neutral
 
 In a few moments, Alfred Inglethorp had ushered the doctor in, the latter laughing, and protesting that he was in no fit state for a drawing-room.
-e:bauerstein=happy
+e:bauerstein=happy;x:bauerstein=mud
 
 In truth, he presented a sorry spectacle, being literally plastered with mud.
 
@@ -1178,13 +1232,13 @@ s=mary;e:mary=surprised
 s=bauerstein;e:bauerstein=neutral
 
 “Well, Bauerstein, you are in a plight,” said John, strolling in from the hall.
-s=john;e:john=smirking
+s=john;e:john=surprised
 
 “Have some coffee, and tell us what you have been up to.”
-
+e:john=contemplative
 
 “Thank you, I will.”
-s=bauerstein
+s=bauerstein;e:bauerstein=smirking
 
 He laughed rather ruefully, as he described how he had discovered a very rare species of fern in an inaccessible place, and in his efforts to obtain it had lost his footing, and slipped ignominiously into a neighbouring pond.
 s=none;e:bauerstein=smirking
@@ -1196,19 +1250,25 @@ At this juncture, Mrs. Inglethorp called to Cynthia from the hall, and the girl 
 s=none
 
 “Just carry up my despatch-case, will you, dear? I’m going to bed.”
-s=emily
+s=emily;e:emily=weary
 
-The door into the hall was a wide one. I had risen when Cynthia did, John was close by me. There were therefore three witnesses who could swear that Mrs. Inglethorp was carrying her coffee, as yet untasted, in her hand.
+The door into the hall was a wide one. I had risen when Cynthia did, John was close by me.
 s=none;e:hastings=serious
 
-My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein.
-e:hastings=annoyed
+There were therefore three witnesses who could swear that Mrs. Inglethorp was carrying her coffee, as yet untasted, in her hand.
+b=think
 
-It seemed to me the man would never go. He rose at last, however, and I breathed a sigh of relief.
+My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein. It seemed to me the man would never go.<e>"Could this day get any worse?"</e>
+e:hastings=annoyed;b=styles-drawing-night
+
+He rose at last, however, and I breathed a sigh of relief.
 e:hastings=happy
 
-“I’ll walk down to the village with you,” said Mr. Inglethorp. “I must see our agent over those estate accounts.”
+“I’ll walk down to the village with you,” said Mr. Inglethorp.
 s=alfred;e:alfred=neutral
+
+“I must see our agent over those estate accounts.”
+
 
 He turned to John.
 s=none
