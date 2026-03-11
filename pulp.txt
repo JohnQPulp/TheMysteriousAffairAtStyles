@@ -6488,7 +6488,7 @@ Poirot seized his hat, gave a ferocious twist to his moustache, and, carefully b
 e:poirot=neutral
 
 there we joined the detectives and set out for Styles.
-b=belgium-ext;x:hastings=hat;x:poirot=hat
+b=belgium-ext;
 
 I think the appearance of the two Scotland Yard men was rather a shock—especially to John, though of course after the verdict, he had realized that it was only a matter of time.
 e:john=surprised;b=think
@@ -6664,16 +6664,31 @@ e:poirot=excited
 ## 8. Fresh Suspicions
 r=title
 
-There was a moment’s stupefied silence. Japp, who was the least surprised of any of us, was the first to speak.
-s=none
+There was a moment’s stupefied silence.
+s=none;b=styles-drawing
 
-“My word,” he cried, “you’re the goods! And no mistake, Mr. Poirot! These witnesses of yours are all right, I suppose?”
+Japp, who was the least surprised of any of us, was the first to speak.
+
+
+“My word,” he cried, “you’re the goods!”
 s=japp;e:japp=surprised
 
-“*Voilà!* I have prepared a list of them—names and addresses. You must see them, of course. But you will find it all right.”
+“And no mistake, Mr. Poirot! These witnesses of yours are all right, I suppose?”
+e:japp=serious
+
+“*Voilà!* I have prepared a list of them—names and addresses.”
 s=poirot;e:poirot=smirking
 
-“I’m sure of that.” Japp lowered his voice. “I’m much obliged to you. A pretty mare’s nest arresting him would have been.”
+“You must see them, of course. But you will find it all right.”
+
+
+“I’m sure of that.”
+s=japp;e:japp=thinking
+
+Japp lowered his voice.
+s=
+
+“I’m much obliged to you. A pretty mare’s nest arresting him would have been.”
 s=japp;e:japp=serious
 
 He turned to Inglethorp.
@@ -6682,8 +6697,11 @@ s=none
 “But, if you’ll excuse me, sir, why couldn’t you say all this at the inquest?”
 s=japp;e:japp=confused
 
-“I will tell you why,” interrupted Poirot. “There was a certain rumour—”
+“I will tell you why,” interrupted Poirot.
 s=poirot;e:poirot=serious
+
+“There was a certain rumour—”
+
 
 “A most malicious and utterly untrue one,” interrupted Alfred Inglethorp in an agitated voice.
 s=alfred;e:alfred=angry
@@ -6697,26 +6715,32 @@ s=alfred;e:alfred=serious
 “With my poor Emily not yet buried, can you wonder I was anxious that no more lying rumours should be started.”
 s=alfred;e:alfred=upset
 
-“Between you and me, sir,” remarked Japp, “I’d sooner have any amount of rumours than be arrested for murder. And I venture to think your poor lady would have felt the same.”
-s=japp;e:japp=smirking
+“Between you and me, sir,” remarked Japp, “I’d sooner have any amount of rumours than be arrested for murder.”
+s=japp;e:japp=serious
+
+“And I venture to think your poor lady would have felt the same.”
+
 
 “And, if it hadn’t been for Mr. Poirot here, arrested you would have been, as sure as eggs is eggs!”
+e:japp=thinking
 
+“I was foolish, no doubt,” murmured Inglethorp.
+s=alfred;e:alfred=contemplative
 
-“I was foolish, no doubt,” murmured Inglethorp. “But you do not know, inspector, how I have been persecuted and maligned.”
-s=alfred;e:alfred=weary
+“But you do not know, inspector, how I have been persecuted and maligned.”
+e:alfred=weary
 
 And he shot a baleful glance at Evelyn Howard.
 s=none;e:alfred=scowling
 
 “Now, sir,” said Japp, turning briskly to John, “I should like to see the lady’s bedroom, please, and after that I’ll have a little chat with the servants.”
-s=japp;e:japp=serious
+s=japp;e:japp=
 
 “Don’t you bother about anything. Mr. Poirot, here, will show me the way.”
 
 
 As they all went out of the room, Poirot turned and made me a sign to follow him upstairs.
-s=none
+s=none;b=styles-stairs
 
 There he caught me by the arm, and drew me aside.
 
@@ -6728,7 +6752,7 @@ Then, turning rapidly, he rejoined the two detectives.
 s=none
 
 I followed his instructions, taking up my position by the baize door, and wondering what on earth lay behind the request.
-e:hastings=confused
+e:hastings=confused;b=styles-hall
 
 Why was I to stand in this particular spot on guard?
 e:hastings=thinking
@@ -6736,13 +6760,13 @@ e:hastings=thinking
 I looked thoughtfully down the corridor in front of me. An idea struck me.
 e:hastings=contemplative
 
-With the exception of Cynthia Murdoch’s, everyone’s room was in this left wing. Had that anything to do with it?
+With the exception of Cynthia Murdoch’s, everyone’s room was in this left wing. Had that anything to do with it? Was I to report who came or went?
 
 
-Was I to report who came or went? I stood faithfully at my post. The minutes passed. Nobody came.
+I stood faithfully at my post.
 
 
-Nothing happened.
+The minutes passed. Nobody came. Nothing happened.
 
 
 It must have been quite twenty minutes before Poirot rejoined me.
@@ -6752,25 +6776,28 @@ e:poirot=neutral
 s=poirot
 
 “No, I’ve stuck here like a rock. Nothing’s happened.”
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=contemplative
 
-“Ah!” Was he pleased, or disappointed?
+“Ah!”
 s=none;e:poirot=thinking
 
+Was he pleased, or disappointed?
+s=
+
 “You’ve seen nothing at all?”
-s=poirot
+s=poirot;e:poirot=serious
 
 “No.”
-s=hastings
+s=hastings;e:poirot=confused
 
 “But you have probably heard something? A big bump—eh, *mon ami*?”
-s=poirot;e:poirot=smirking
+s=poirot;e:poirot=serious
 
 “No.”
 s=hastings
 
 “Is it possible? Ah, but I am vexed with myself! I am not usually clumsy.”
-s=poirot;e:poirot=annoyed
+s=poirot;e:poirot=unhappy
 
 “I made but a slight gesture”—I know Poirot’s gestures—“with the left hand, and over went the table by the bed!”
 
@@ -6779,34 +6806,46 @@ He looked so childishly vexed and crestfallen that I hastened to console him.
 s=none
 
 “Never mind, old chap. What does it matter? Your triumph downstairs excited you. I can tell you, that was a surprise to us all.”
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=happy
 
-“There must be more in this affair of Inglethorp’s with Mrs. Raikes than we thought, to make him hold his tongue so persistently. What are you going to do now? Where are the Scotland Yard fellows?”
+“There must be more in this affair of Inglethorp’s with Mrs. Raikes than we thought, to make him hold his tongue so persistently.”
 e:hastings=contemplative
 
-“Gone down to interview the servants. I showed them all our exhibits. I am disappointed in Japp. He has no method!”
-s=poirot;e:poirot=scowling
+“What are you going to do now? Where are the Scotland Yard fellows?”
 
-“Hullo!” I said, looking out of the window. “Here’s Dr. Bauerstein. I believe you’re right about that man, Poirot. I don’t like him.”
+
+“Gone down to interview the servants. I showed them all our exhibits.”
+s=poirot;e:poirot=
+
+“I am disappointed in Japp. He has no method!”
+e:poirot=scowling
+
+“Hullo!” I said, looking out of the window.
 s=hastings;e:hastings=suspicious
+
+“Here’s Dr. Bauerstein. I believe you’re right about that man, Poirot. I don’t like him.”
+
 
 “He is clever,” observed Poirot meditatively.
 s=poirot;e:poirot=contemplative
 
-“Oh, clever as the devil! I must say I was overjoyed to see him in the plight he was in on Tuesday. You never saw such a spectacle!”
-s=hastings;e:hastings=excited
+“Oh, clever as the devil!”
+s=hastings;e:hastings=scowling
+
+“I must say I was overjoyed to see him in the plight he was in on Tuesday. You never saw such a spectacle!”
+e:hastings=smirking
 
 And I described the doctor’s adventure.
 s=none
 
 “He looked a regular scarecrow! Plastered with mud from head to foot.”
-s=hastings;e:hastings=happy
+s=hastings
 
 “You saw him, then?”
 s=poirot;e:poirot=surprised
 
 “Yes. Of course, he didn’t want to come in—it was just after dinner—but Mr. Inglethorp insisted.”
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=thinking
 
 “What?”
 s=poirot;e:poirot=surprised
@@ -6814,23 +6853,35 @@ s=poirot;e:poirot=surprised
 Poirot caught me violently by the shoulders.
 s=none;e:poirot=excited
 
-“Was Dr. Bauerstein here on Tuesday evening? Here? And you never told me? Why did you not tell me? Why? Why?”
+“Was Dr. Bauerstein here on Tuesday evening? Here? And you never told me?”
 s=poirot;e:poirot=angry
+
+“Why did you not tell me? Why? Why?”
+
 
 He appeared to be in an absolute frenzy.
 s=none
 
-“My dear Poirot,” I expostulated, “I never thought it would interest you. I didn’t know it was of any importance.”
+“My dear Poirot,” I expostulated, “I never thought it would interest you.”
 s=hastings;e:hastings=confused
 
-“Importance? It is of the first importance! So Dr. Bauerstein was here on Tuesday night—the night of the murder.”
-s=poirot;e:poirot=serious
+“I didn’t know it was of any importance.”
+
+
+“Importance? It is of the first importance!”
+s=poirot;e:poirot=angry
+
+“So Dr. Bauerstein was here on Tuesday night—the night of the murder.”
+e:poirot=thinking
 
 “Hastings, do you not see? That alters everything—everything!”
+e:poirot=upset
 
-
-I had never seen him so upset. Loosening his hold of me, he mechanically straightened a pair of candlesticks, still murmuring to himself:
+I had never seen him so upset.
 s=none;e:poirot=thinking
+
+Loosening his hold of me, he mechanically straightened a pair of candlesticks, still murmuring to himself:
+
 
 “Yes, that alters everything—everything.”
 s=poirot
@@ -6838,14 +6889,20 @@ s=poirot
 Suddenly he seemed to come to a decision.
 s=none;e:poirot=serious
 
-“*Allons!*” he said. “We must act at once. Where is Mr. Cavendish?”
-s=poirot
+“*Allons!*” he said.
+s=poirot;e:poirot=excited
+
+“We must act at once. Where is Mr. Cavendish?”
+e:poirot=serious
 
 John was in the smoking-room. Poirot went straight to him.
-s=none;e:john=neutral
+s=none;e:john=neutral;b=styles-smoking
 
-“Mr. Cavendish, I have some important business in Tadminster. A new clue. May I take your motor?”
+“Mr. Cavendish, I have some important business in Tadminster. A new clue.”
 s=poirot
+
+“May I take your motor?”
+
 
 “Why, of course. Do you mean at once?”
 s=john;e:john=surprised
@@ -6857,7 +6914,7 @@ John rang the bell, and ordered round the car.
 s=none
 
 In another ten minutes, we were racing down the park and along the high road to Tadminster.
-
+b=car;x:hastings=hat;x:poirot=hat
 
 “Now, Poirot,” I remarked resignedly, “perhaps you will tell me what all this is about?”
 s=hastings;e:hastings=weary
@@ -6869,22 +6926,19 @@ s=poirot;e:poirot=neutral
 
 
 “I have ascertained that anyone in the household, with the exception of Mrs. Cavendish, who was playing tennis with you, could have personated Mr. Inglethorp on Monday evening.”
+e:poirot=thinking
 
-
-“In the same way, we have his statement that he put the coffee down in the hall.”
-
-
-“No one took much notice of that at the inquest—but now it has a very different significance.”
+“In the same way, we have his statement that he put the coffee down in the hall. No one took much notice of that at the inquest—but now it has a very different significance.”
 
 
 “We must find out who did take that coffee to Mrs. Inglethorp eventually, or who passed through the hall whilst it was standing there.”
-
+e:poirot=serious
 
 “From your account, there are only two people whom we can positively say did not go near the coffee—Mrs. Cavendish, and Mademoiselle Cynthia.”
 
 
 “Yes, that is so.”
-s=hastings;e:hastings=happy
+s=hastings;e:hastings=contemplative
 
 I felt an inexpressible lightening of the heart. Mary Cavendish could certainly not rest under suspicion.
 s=none
@@ -6916,11 +6970,14 @@ s=hastings
 “It’s so utterly foolish.”
 
 
-“Come now,” urged Poirot encouragingly. “Do not fear. Speak your mind. You should always pay attention to your instincts.”
-s=poirot;e:poirot=smirking
+“Come now,” urged Poirot encouragingly.
+s=poirot;e:poirot=happy
+
+“Do not fear. Speak your mind. You should always pay attention to your instincts.”
+
 
 “Well then,” I blurted out, “it’s absurd—but I suspect Miss Howard of not telling all she knows!”
-s=hastings;e:hastings=excited
+s=hastings;e:hastings=thinking
 
 “Miss Howard?”
 s=poirot;e:poirot=surprised
@@ -6937,22 +6994,34 @@ s=hastings
 “But, after all, she was only fifteen miles away. A car would do it in half an hour. Can we say positively that she was away from Styles on the night of the murder?”
 e:hastings=suspicious
 
-“Yes, my friend,” said Poirot unexpectedly, “we can. One of my first actions was to ring up the hospital where she was working.”
-s=poirot;e:poirot=serious
+“Yes, my friend,” said Poirot unexpectedly, “we can.”
+s=poirot;e:poirot=thinking
+
+“One of my first actions was to ring up the hospital where she was working.”
+
 
 “Well?”
 s=hastings;e:hastings=confused
 
-“Well, I learnt that Miss Howard had been on afternoon duty on Tuesday, and that—a convoy coming in unexpectedly—she had kindly offered to remain on night duty, which offer was gratefully accepted. That disposes of that.”
+“Well, I learnt that Miss Howard had been on afternoon duty on Tuesday, and that—a convoy coming in unexpectedly—she had kindly offered to remain on night duty, which offer was gratefully accepted.”
 s=poirot;e:poirot=neutral
+
+“That disposes of that.”
+
 
 “Oh!” I said, rather nonplussed.
 s=hastings;e:hastings=surprised
 
-“Really,” I continued, “it’s her extraordinary vehemence against Inglethorp that started me off suspecting her. I can’t help feeling she’d do anything against him.”
+“Really,” I continued, “it’s her extraordinary vehemence against Inglethorp that started me off suspecting her.”
 e:hastings=thinking
 
-“And I had an idea she might know something about the destroying of the will. She might have burnt the new one, mistaking it for the earlier one in his favour. She is so terribly bitter against him.”
+“I can’t help feeling she’d do anything against him.”
+
+
+“And I had an idea she might know something about the destroying of the will. She might have burnt the new one, mistaking it for the earlier one in his favour.”
+
+
+“She is so terribly bitter against him.”
 
 
 “You consider her vehemence unnatural?”
@@ -6974,7 +7043,7 @@ s=poirot;e:poirot=serious
 s=hastings;e:hastings=nervous
 
 “My idea was—a very ridiculous one, no doubt—that she had intended to poison him—and that, in some way, Mrs. Inglethorp got hold of it by mistake.”
-
+e:hastings=contemplative
 
 “But I don’t at all see how it could have been done. The whole thing is absurd and ridiculous to the last degree.”
 
@@ -6983,7 +7052,7 @@ s=hastings;e:hastings=nervous
 s=poirot;e:poirot=smirking
 
 “Now, what reasons are there against Miss Howard’s having deliberately poisoned Mrs. Inglethorp?”
-
+e:poirot=thinking
 
 “Why, she was devoted to her!” I exclaimed.
 s=hastings;e:hastings=surprised
@@ -6992,10 +7061,10 @@ s=hastings;e:hastings=surprised
 s=poirot;e:poirot=annoyed
 
 “You argue like a child. If Miss Howard were capable of poisoning the old lady, she would be quite equally capable of simulating devotion. No, we must look elsewhere.”
-e:poirot=serious
+
 
 “You are perfectly correct in your assumption that her vehemence against Alfred Inglethorp is too violent to be natural; but you are quite wrong in the deduction you draw from it.”
-
+e:poirot=serious
 
 “I have drawn my own deductions, which I believe to be correct, but I will not speak of them at present.”
 e:poirot=smirking
@@ -7007,10 +7076,10 @@ s=none
 s=poirot;e:poirot=thinking
 
 “And that is?”
-s=hastings
+s=hastings;e:hastings=contemplative
 
 “That in no possible way could Mrs. Inglethorp’s death benefit Miss Howard. Now there is no murder without a motive.”
-s=poirot
+s=poirot;e:poirot=serious
 
 I reflected.
 s=none;e:hastings=thinking
@@ -7045,11 +7114,11 @@ s=poirot;e:poirot=serious
 I accepted his assurance, though I did not really see how he could be so positive about the matter.
 s=none;e:hastings=wary
 
-“Well,” I said, with a sigh, “we will acquit Miss Howard, then. It is partly your fault that I ever came to suspect her.”
+“Well,” I said, with a sigh, “we will acquit Miss Howard, then.”
 s=hastings;e:hastings=weary
 
-“It was what you said about her evidence at the inquest that set me off.”
-
+“It is partly your fault that I ever came to suspect her. It was what you said about her evidence at the inquest that set me off.”
+e:hastings=annoyed
 
 Poirot looked puzzled.
 s=none;e:poirot=confused
@@ -7058,10 +7127,10 @@ s=none;e:poirot=confused
 s=poirot
 
 “Don’t you remember? When I cited her and John Cavendish as being above suspicion?”
-s=hastings
+s=hastings;e:hastings=contemplative
 
 “Oh—ah—yes.”
-s=poirot;e:poirot=nervous
+s=poirot
 
 He seemed a little confused, but recovered himself.
 s=none
@@ -7072,8 +7141,14 @@ s=poirot;e:poirot=neutral
 “Certainly. What is it?”
 s=hastings
 
-“Next time you happen to be alone with Lawrence Cavendish, I want you to say this to him. ‘I have a message for you, from Poirot. He says: “Find the extra coffee-cup, and you can rest in peace!”’ Nothing more. Nothing less.”
+“Next time you happen to be alone with Lawrence Cavendish, I want you to say this to him.”
 s=poirot
+
+“‘I have a message for you, from Poirot. He says: “Find the extra coffee-cup, and you can rest in peace!”’”
+e:poirot=serious
+
+“Nothing more. Nothing less.”
+
 
 “‘Find the extra coffee-cup, and you can rest in peace.’ Is that right?” I asked, much mystified.
 s=hastings;e:hastings=confused
@@ -7091,34 +7166,40 @@ s=poirot;e:poirot=smirking
 s=hastings;e:hastings=weary
 
 We were running into Tadminster now, and Poirot directed the car to the “Analytical Chemist.”
-s=none;e:poirot=neutral
+s=none;e:poirot=neutral;b=light
 
-Poirot hopped down briskly, and went inside. In a few minutes he was back again.
+Poirot hopped down briskly, and went inside.
 
+
+In a few minutes he was back again.
+b=car
 
 “There,” he said.
-s=poirot
+s=poirot;e:poirot=thinking
 
 “That is all my business.”
 
 
 “What were you doing there?” I asked, in lively curiosity.
-s=hastings;e:hastings=excited
+s=hastings;e:hastings=
 
 “I left something to be analysed.”
 s=poirot;e:poirot=neutral
 
 “Yes, but what?”
-s=hastings
+s=hastings;e:hastings=confused
 
 “The sample of cocoa I took from the saucepan in the bedroom.”
 s=poirot
 
-“But that has already been tested!” I cried, stupefied. “Dr. Bauerstein had it tested, and you yourself laughed at the possibility of there being strychnine in it.”
+“But that has already been tested!” I cried, stupefied.
 s=hastings;e:hastings=surprised
 
+“Dr. Bauerstein had it tested, and you yourself laughed at the possibility of there being strychnine in it.”
+e:hastings=confused
+
 “I know Dr. Bauerstein had it tested,” replied Poirot quietly.
-s=poirot;e:poirot=serious
+s=poirot;e:poirot=contemplative
 
 “Well, then?”
 s=hastings
@@ -7129,29 +7210,32 @@ s=poirot;e:poirot=smirking
 And not another word on the subject could I drag out of him.
 s=none;e:hastings=annoyed
 
-This proceeding of Poirot’s, in respect of the cocoa, puzzled me intensely.
-e:hastings=thinking
+This proceeding of Poirot’s, in respect of the cocoa, puzzled me intensely. I could see neither rhyme nor reason in it.
+e:hastings=thinking;b=think
 
-I could see neither rhyme nor reason in it. However, my confidence in him, which at one time had rather waned, was fully restored since his belief in Alfred Inglethorp’s innocence had been so triumphantly vindicated.
+However, my confidence in him, which at one time had rather waned, was fully restored since his belief in Alfred Inglethorp’s innocence had been so triumphantly vindicated.
 e:hastings=happy
 
 The funeral of Mrs. Inglethorp took place the following day, and on Monday, as I came down to a late breakfast, John drew me aside, and informed me that Mr. Inglethorp was leaving that morning, to take up his quarters at the Stylites Arms until he should have completed his plans.
 e:john=neutral
 
 “And really it’s a great relief to think he’s going, Hastings,” continued my honest friend.
-s=john
+s=john;b=styles-dining;x:hastings=;x:poirot=;e:john=thinking
 
 “It was bad enough before, when we thought he’d done it, but I’m hanged if it isn’t worse now, when we all feel guilty for having been so down on the fellow.”
-e:john=weary
+
 
 “The fact is, we’ve treated him abominably. Of course, things did look black against him. I don’t see how anyone could blame us for jumping to the conclusions we did.”
-
+e:john=weary
 
 “Still, there it is, we were in the wrong, and now there’s a beastly feeling that one ought to make amends; which is difficult, when one doesn’t like the fellow a bit better than one did before.”
+e:john=thinking
 
-
-“The whole thing’s damned awkward! And I’m thankful he’s had the tact to take himself off.”
+“The whole thing’s damned awkward!”
 e:john=annoyed
+
+“And I’m thankful he’s had the tact to take himself off.”
+e:john=thinking
 
 “It’s a good thing Styles wasn’t the mater’s to leave to him. Couldn’t bear to think of the fellow lording it here. He’s welcome to her money.”
 
@@ -7163,7 +7247,7 @@ s=hastings;e:hastings=neutral
 s=john;e:john=neutral
 
 “We shall be pinched at first, of course, because, as I once told you, I am in a bit of a hole financially myself. Still, the Johnnies will wait now.”
-e:john=smirking
+e:john=
 
 In the general relief at Inglethorp’s approaching departure, we had the most genial breakfast we had experienced since the tragedy.
 s=none
@@ -7175,25 +7259,31 @@ The papers, of course, had been full of the tragedy.
 
 
 Glaring headlines, sandwiched biographies of every member of the household, subtle innuendoes, the usual familiar tag about the police having a clue.
+b=styles-wide
+
+Nothing was spared us. It was a slack time.
 
 
-Nothing was spared us. It was a slack time. The war was momentarily inactive, and the newspapers seized with avidity on this crime in fashionable life: “The Mysterious Affair at Styles” was the topic of the moment.
+The war was momentarily inactive, and the newspapers seized with avidity on this crime in fashionable life: “The Mysterious Affair at Styles” was the topic of the moment.<e>She said it!</e>
 
 
-Naturally it was very annoying for the Cavendishes. The house was constantly besieged by reporters, who were consistently denied admission, but who continued to haunt the village and the grounds, where they lay in wait with cameras, for any unwary members of the household.
+Naturally it was very annoying for the Cavendishes.
+
+
+The house was constantly besieged by reporters, who were consistently denied admission, but who continued to haunt the village and the grounds, where they lay in wait with cameras, for any unwary members of the household.
 e:john=annoyed;e:mary=annoyed
 
-We all lived in a blast of publicity. The Scotland Yard men came and went, examining, questioning, lynx-eyed and reserved of tongue.
+We all lived in a blast of publicity.
+
+
+The Scotland Yard men came and went, examining, questioning, lynx-eyed and reserved of tongue. Towards what end they were working, we did not know.
 e:japp=serious
-
-Towards what end they were working, we did not know.
-
 
 Had they any clue, or would the whole thing remain in the category of undiscovered crimes?
 e:hastings=thinking
 
 After breakfast, Dorcas came up to me rather mysteriously, and asked if she might have a few words with me.
-e:dorcas=nervous
+e:dorcas=nervous;b=styles-smoking
 
 “Certainly. What is it, Dorcas?”
 s=hastings;e:hastings=neutral
@@ -7205,7 +7295,7 @@ I nodded.
 s=none
 
 “Well, sir, you know how he asked me so particular if the mistress, or anyone else, had a green dress?”
-s=dorcas
+s=dorcas;e:dorcas=contemplative
 
 “Yes, yes. You have found one?”
 s=hastings;e:hastings=excited
@@ -7220,43 +7310,64 @@ John and Lawrence were still the “young gentlemen” to Dorcas—
 s=none
 
 “call the ‘dressing-up box.’”
-s=dorcas;m=
+s=dorcas;m=;e:dorcas=contemplative
 
-“It’s up in the front attic, sir. A great chest, full of old clothes and fancy dresses, and whatnot. And it came to me sudden like that there might be a green dress amongst them. So, if you’d tell the Belgian gentleman—”
+“It’s up in the front attic, sir. A great chest, full of old clothes and fancy dresses, and whatnot. And it came to me sudden like that there might be a green dress amongst them.”
+e:dorcas=
+
+“So, if you’d tell the Belgian gentleman—”
 
 
 “I will tell him, Dorcas,” I promised.
 s=hastings;e:hastings=happy
 
-“Thank you very much, sir. A very nice gentleman he is, sir. And quite a different class from them two detectives from London, what goes prying about, and asking questions.”
-s=dorcas;e:dorcas=happy
+“Thank you very much, sir.”
+s=dorcas;e:dorcas=
+
+“A very nice gentleman he is, sir. And quite a different class from them two detectives from London, what goes prying about, and asking questions.”
+e:dorcas=happy
 
 “I don’t hold with foreigners as a rule, but from what the newspapers say I make out as how these brave Belges isn’t the ordinary run of foreigners, and certainly he’s a most polite spoken gentleman.”
+e:dorcas=contemplative
 
-
-Dear old Dorcas! As she stood there, with her honest face upturned to mine, I thought what a fine specimen she was of the old-fashioned servant that is so fast dying out.
+Dear old Dorcas!
 s=none
 
+As she stood there, with her honest face upturned to mine, I thought what a fine specimen she was of the old-fashioned servant that is so fast dying out.<e>"old-fashioned servant" twice in one book lmao.</e>
+
+
 I thought I might as well go down to the village at once, and look up Poirot; but I met him halfway, coming up to the house, and at once gave him Dorcas’s message.
-e:poirot=happy
+e:poirot=happy;b=styles-drive
 
-“Ah, the brave Dorcas! We will look at the chest, although—but no matter—we will examine it all the same.”
-s=poirot
+“Ah, the brave Dorcas!”
+s=poirot;x:poirot=hat;x:hastings=hat;e:poirot=happy
 
-We entered the house by one of the windows. There was no one in the hall, and we went straight up to the attic.
-s=none;e:poirot=neutral
+“We will look at the chest, although—but no matter—we will examine it all the same.”
+e:poirot=thinking
+
+We entered the house by one of the windows.
+s=none;e:poirot=neutral;b=styles-down-hall
+
+There was no one in the hall,
+m=joined
+
+and we went straight up to the attic.
+m=;b=styles-attic
 
 Sure enough, there was the chest, a fine old piece, all studded with brass nails, and full to overflowing with every imaginable type of garment.
 
 
-Poirot bundled everything out on the floor with scant ceremony. There were one or two green fabrics of varying shades; but Poirot shook his head over them all. He seemed somewhat apathetic in the search, as though he expected no great results from it.
+Poirot bundled everything out on the floor with scant ceremony.
 e:poirot=weary
+
+There were one or two green fabrics of varying shades; but Poirot shook his head over them all. He seemed somewhat apathetic in the search, as though he expected no great results from it.
+
 
 Suddenly he gave an exclamation.
 e:poirot=surprised
 
 “What is it?”
-s=hastings
+s=hastings;x:hastings=;x:poirot=;e:hastings=surprised
 
 “Look!”
 s=poirot;e:poirot=excited
@@ -7273,32 +7384,38 @@ s=none;e:poirot=serious
 “New,” he remarked. “Yes, quite new.”
 s=poirot
 
-After a moment’s hesitation, he replaced it in the chest, heaped all the other things on top of it as before, and made his way briskly downstairs.
-s=none
+After a moment’s hesitation, he replaced it in the chest, heaped all the other things on top of it as before,
+s=none;m=joined
+
+and made his way briskly downstairs.
+b=styles-down-hall;m=
 
 He went straight to the pantry, where we found Dorcas busily polishing her silver.
-e:dorcas=neutral
+e:dorcas=neutral;b=styles-pantry
 
 Poirot wished her good morning with Gallic politeness, and went on:
 
 
-“We have been looking through that chest, Dorcas. I am much obliged to you for mentioning it. There is, indeed, a fine collection there. Are they often used, may I ask?”
+“We have been looking through that chest, Dorcas. I am much obliged to you for mentioning it. There is, indeed, a fine collection there.”
 s=poirot;e:poirot=happy
 
+“Are they often used, may I ask?”
+e:poirot=
+
 “Well, sir, not very often nowadays, though from time to time we do have what the young gentlemen call ‘a dress-up night.’”
-s=dorcas;e:dorcas=happy
+s=dorcas;e:dorcas=
 
 “And very funny it is sometimes, sir. Mr. Lawrence, he’s wonderful. Most comic!”
-
+e:dorcas=happy
 
 “I shall never forget the night he came down as the Char of Persia, I think he called it—a sort of Eastern King it was.”
 
 
 “He had the big paper knife in his hand, and ‘Mind, Dorcas,’ he says, ‘you’ll have to be very respectful. This is my specially sharpened scimitar, and it’s off with your head if I’m at all displeased with you!’”
-e:dorcas=smirking
+
 
 “Miss Cynthia, she was what they call an Apache, or some such name—a Frenchified sort of cutthroat, I take it to be.”
-
+e:dorcas=thinking
 
 “A real sight she looked. You’d never have believed a pretty young lady like that could have made herself into such a ruffian. Nobody would have known her.”
 
@@ -7315,14 +7432,20 @@ s=dorcas;e:dorcas=happy
 “And well I know it, for he borrowed two skeins of my black wool to make it with! And I’m sure it looked wonderfully natural at a distance.”
 
 
-“I didn’t know as there was a beard up there at all. It must have been got quite lately, I think. There was a red wig, I know, but nothing else in the way of hair.”
+“I didn’t know as there was a beard up there at all. It must have been got quite lately, I think.”
 e:dorcas=thinking
 
-“Burnt corks they use mostly—though ’tis messy getting it off again. Miss Cynthia was a nigger once, and, oh, the trouble she had.”<e>Well at least she didn't use the word in the title of her book this time.</e>
+“There was a red wig, I know, but nothing else in the way of hair.”
+
+
+“Burnt corks they use mostly—though ’tis messy getting it off again.”<e>Hmmm…</e>
+
+
+“Miss Cynthia was a nigger once, and, oh, the trouble she had.”<e>Well, better here than <book>And Then There Were None|in the title of the book</book> I suppose.</e>
 
 
 “So Dorcas knows nothing about that black beard,” said Poirot thoughtfully, as we walked out into the hall again.
-s=poirot;e:poirot=contemplative
+s=poirot;e:poirot=contemplative;b=styles-down-hall
 
 “Do you think it is *the* one?” I whispered eagerly.
 s=hastings;e:hastings=excited
@@ -7334,10 +7457,13 @@ s=none
 s=poirot;e:poirot=serious
 
 “No.”
-s=hastings
+s=hastings;e:hastings=
 
-“Yes. It was cut exactly the shape of Mr. Inglethorp’s, and I found one or two snipped hairs. Hastings, this affair is very deep.”
+“Yes. It was cut exactly the shape of Mr. Inglethorp’s, and I found one or two snipped hairs.”
 s=poirot
+
+“Hastings, this affair is very deep.”
+
 
 “Who put it in the chest, I wonder?”
 s=hastings;e:hastings=thinking
@@ -7349,7 +7475,7 @@ s=poirot;e:poirot=smirking
 e:poirot=serious
 
 “But we must be more intelligent. We must be so intelligent that he does not suspect us of being intelligent at all.”
-
+e:poirot=thinking
 
 I acquiesced.
 s=none
@@ -7370,43 +7496,58 @@ This was naturally gratifying, but Poirot’s next words were not so welcome.
 s=none
 
 “I must have an ally in the house,” he observed reflectively.
-s=poirot
+s=poirot;e:poirot=thinking
 
 “You have me,” I protested.
 s=hastings;e:hastings=annoyed
 
 “True, but you are not sufficient.”
-s=poirot;e:poirot=neutral
+s=poirot
 
-I was hurt, and showed it. Poirot hurried to explain himself.
+I was hurt, and showed it.
 s=none;e:hastings=upset
+
+Poirot hurried to explain himself.
+
 
 “You do not quite take my meaning. You are known to be working with me. I want somebody who is not associated with us in any way.”
 s=poirot;e:poirot=serious
 
-“Oh, I see. How about John?”
-s=hastings;e:hastings=neutral
+“Oh, I see.”
+s=hastings;e:hastings=contemplative
+
+“How about John?”
+
 
 “No, I think not.”
-s=poirot;e:poirot=thinking
+s=poirot;e:poirot=
 
 “The dear fellow isn’t perhaps very bright,” I said thoughtfully.
 s=hastings;e:hastings=thinking
 
-“Here comes Miss Howard,” said Poirot suddenly. “She is the very person.”
+“Here comes Miss Howard,” said Poirot suddenly.
 s=poirot;e:poirot=surprised
 
-“But I am in her black books, since I cleared Mr. Inglethorp. Still, we can but try.”
-e:poirot=wary
+“She is the very person.”
+e:poirot=serious
+
+“But I am in her black books, since I cleared Mr. Inglethorp.”
+e:poirot=thinking
+
+“Still, we can but try.”
+e:poirot=serious
 
 With a nod that was barely civil, Miss Howard assented to Poirot’s request for a few minutes’ conversation.
 s=none;e:evie=annoyed
 
 We went into the little morning-room, and Poirot closed the door.
+b=styles-morning
 
+“Well, Monsieur Poirot,” said Miss Howard impatiently, “what is it?”
+s=evie;e:evie=annoyed
 
-“Well, Monsieur Poirot,” said Miss Howard impatiently, “what is it? Out with it. I’m busy.”
-s=evie;e:evie=angry
+“Out with it. I’m busy.”
+
 
 “Do you remember, mademoiselle, that I once asked you to help me?”
 s=poirot;e:poirot=neutral
@@ -7420,23 +7561,32 @@ s=none
 “And I told you I’d help you with pleasure—to hang Alfred Inglethorp.”
 s=evie;e:evie=scowling
 
-“Ah!” Poirot studied her seriously.
-s=none;e:poirot=serious
+“Ah!”
+s=poirot;e:poirot=serious
+
+Poirot studied her seriously.
+s=
 
 “Miss Howard, I will ask you one question. I beg of you to reply to it truthfully.”
-s=poirot
+s=poirot;e:poirot=
 
 “Never tell lies,” replied Miss Howard.
 s=evie;e:evie=serious
 
 “It is this. Do you still believe that Mrs. Inglethorp was poisoned by her husband?”
-s=poirot
+s=poirot;e:poirot=serious
 
 “What do you mean?” she asked sharply.
-s=evie;e:evie=angry
+s=evie;e:evie=annoyed
 
-“You needn’t think your pretty explanations influence me in the slightest. I’ll admit that it wasn’t he who bought strychnine at the chemist’s shop. What of that? I dare say he soaked fly paper, as I told you at the beginning.”
+“You needn’t think your pretty explanations influence me in the slightest.”
 
+
+“I’ll admit that it wasn’t he who bought strychnine at the chemist’s shop.”
+e:evie=serious
+
+“What of that? I dare say he soaked fly paper, as I told you at the beginning.”
+e:evie=annoyed
 
 “That is arsenic—not strychnine,” said Poirot mildly.
 s=poirot;e:poirot=neutral
@@ -7459,26 +7609,29 @@ s=evie;e:evie=surprised
 “Haven’t I always told you the man is a villain? Haven’t I always told you he would murder her in her bed? Haven’t I always hated him like poison?”
 e:evie=angry
 
-“Exactly,” said Poirot. “That bears out my little idea entirely.”
+“Exactly,” said Poirot.
 s=poirot;e:poirot=happy
+
+“That bears out my little idea entirely.”
+
 
 “What little idea?”
 s=evie;e:evie=confused
 
 “Miss Howard, do you remember a conversation that took place on the day of my friend’s arrival here?”
-s=poirot;e:poirot=neutral
+s=poirot;e:poirot=serious
 
 “He repeated it to me, and there is a sentence of yours that has impressed me very much.”
 
 
 “Do you remember affirming that if a crime had been committed, and anyone you loved had been murdered, you felt certain that you would know by instinct who the criminal was, even if you were quite unable to prove it?”
-
+e:poirot=thinking
 
 “Yes, I remember saying that. I believe it too. I suppose you think it nonsense?”
 s=evie;e:evie=serious
 
 “Not at all.”
-s=poirot
+s=poirot;e:poirot=
 
 “And yet you will pay no attention to my instinct against Alfred Inglethorp.”
 s=evie;e:evie=annoyed
@@ -7492,8 +7645,11 @@ s=poirot;e:poirot=serious
 “What?”
 s=evie;e:evie=surprised
 
-“No. You wish to believe he committed the crime. You believe him capable of committing it. But your instinct tells you he did not commit it. It tells you more—shall I go on?”
+“No. You wish to believe he committed the crime. You believe him capable of committing it. But your instinct tells you he did not commit it.”
 s=poirot;e:poirot=serious
+
+“It tells you more—shall I go on?”
+
 
 She was staring at him, fascinated, and made a slight affirmative movement of the hand.
 s=none;e:evie=fearful
@@ -7505,10 +7661,10 @@ s=poirot
 
 
 “No, no, no!” cried Miss Howard wildly, flinging up her hands.
-s=evie;e:evie=upset
+s=evie;e:evie=hands
 
 “Don’t say it! Oh, don’t say it! It isn’t true! It can’t be true.”
-e:evie=crying
+e:evie=upset
 
 “I don’t know what put such a wild—such a dreadful—idea into my head!”
 
@@ -7517,7 +7673,7 @@ e:evie=crying
 s=poirot;e:poirot=serious
 
 “Yes, yes; you must be a wizard to have guessed. But it can’t be so—it’s too monstrous, too impossible. It must be Alfred Inglethorp.”
-s=evie;e:evie=fearful
+s=evie;e:evie=upset
 
 Poirot shook his head gravely.
 s=none
@@ -7528,11 +7684,17 @@ s=evie;e:evie=upset
 Poirot nodded, as if satisfied.
 s=none;e:poirot=neutral
 
-“I will ask you nothing. It is enough for me that it is as I thought. And I—I, too, have an instinct. We are working together towards a common end.”
+“I will ask you nothing. It is enough for me that it is as I thought.”
 s=poirot
 
-“Don’t ask me to help you, because I won’t. I wouldn’t lift a finger to—to—” She faltered.
+“And I—I, too, have an instinct. We are working together towards a common end.”
+e:poirot=thinking
+
+“Don’t ask me to help you, because I won’t. I wouldn’t lift a finger to—to—”
 s=evie;e:evie=weary
+
+She faltered.
+s=
 
 “You will help me in spite of yourself. I ask you nothing—but you will be my ally.”
 s=poirot;e:poirot=serious
@@ -7544,16 +7706,19 @@ s=poirot;e:poirot=serious
 s=evie;e:evie=confused
 
 “You will watch!”
-s=poirot
+s=poirot;e:poirot=excited
 
 Evelyn Howard bowed her head.
 s=none;e:evie=weary
 
 “Yes, I can’t help doing that. I am always watching—always hoping I shall be proved wrong.”
-s=evie
+s=evie;e:evie=bowed
 
-“If we are wrong, well and good,” said Poirot. “No one will be more pleased than I shall.”
+“If we are wrong, well and good,” said Poirot.
 s=poirot;e:poirot=neutral
+
+“No one will be more pleased than I shall.”
+e:poirot=happy
 
 “But, if we are right? If we are right, Miss Howard, on whose side are you then?”
 e:poirot=serious
@@ -7565,13 +7730,16 @@ s=evie;e:evie=upset
 s=poirot
 
 “It could be hushed up.”
-s=evie;e:evie=nervous
+s=evie;e:evie=facehands
 
 “There must be no hushing up.”
 s=poirot;e:poirot=angry
 
-“But Emily herself—” She broke off.
-s=evie;e:evie=crying
+“But Emily herself—”
+s=evie
+
+She broke off.
+s=
 
 “Miss Howard,” said Poirot gravely, “this is unworthy of you.”
 s=poirot;e:poirot=serious
@@ -7580,7 +7748,7 @@ Suddenly she took her face from her hands.
 s=none;e:evie=neutral
 
 “Yes,” she said quietly, “that was not Evelyn Howard who spoke!”
-s=evie
+s=evie;e:evie=bowed
 
 She flung her head up proudly.
 s=none;e:evie=serious
@@ -7591,14 +7759,20 @@ s=evie
 And with these words, she walked firmly out of the room.
 s=none
 
-“There,” said Poirot, looking after her, “goes a very valuable ally. That woman, Hastings, has got brains as well as a heart.”
+“There,” said Poirot, looking after her, “goes a very valuable ally.”
 s=poirot;e:poirot=smirking
+
+“That woman, Hastings, has got brains as well as a heart.”
+
 
 I did not reply.
 s=none
 
-“Instinct is a marvellous thing,” mused Poirot. “It can neither be explained nor ignored.”
-s=poirot;e:poirot=contemplative
+“Instinct is a marvellous thing,” mused Poirot.
+s=poirot;e:poirot=thinking
+
+“It can neither be explained nor ignored.”
+
 
 “You and Miss Howard seem to know what you are talking about,” I observed coldly.
 s=hastings;e:hastings=annoyed
@@ -7628,7 +7802,7 @@ s=hastings;e:hastings=annoyed
 s=poirot;e:poirot=smirking
 
 “Well, I think it is very unfair to keep back facts from me.”
-s=hastings;e:hastings=angry
+s=hastings;e:hastings=annoyed
 
 “I am not keeping back facts. Every fact that I know is in your possession. You can draw your own deductions from them. This time it is a question of ideas.”
 s=poirot;e:poirot=neutral
@@ -7643,7 +7817,7 @@ s=none;e:poirot=serious
 s=poirot;e:poirot=weary
 
 “It was intelligence you were requiring just now,” I pointed out.
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=confused
 
 “The two often go together,” said Poirot enigmatically.
 s=poirot;e:poirot=smirking
