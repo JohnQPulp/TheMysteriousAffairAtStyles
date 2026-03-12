@@ -799,7 +799,7 @@ b=styles-gardens
 I noticed that John’s manner was somewhat unusual. He seemed very excited and restless.
 e:john=nervous;e:hastings=thinking
 
-After tea, Mrs. Inglethorp went to lie down to rest before her efforts in the evening and I challenged Mary Cavendish to a single at tennis.
+After tea, Mrs. Inglethorp went to lie down to rest before her efforts in the evening and I challenged Mary Cavendish to a single at tennis.<e>If you're well enough to play tennis, you're well enough to get back in the trenches. Someone get this man a white feather.</e>
 b=styles-wide;f:b:styles-wide=
 
 About a quarter to seven, Mrs. Inglethorp called us that we should be late as supper was early that night.
@@ -3379,7 +3379,7 @@ e:mary=neutral
 I watched her as she sat at the head of the table, graceful, composed, enigmatic.
 
 
-In her soft grey frock, with white ruffles at the wrists falling over her slender hands, she looked very beautiful.
+In her soft grey frock, with white ruffles at the wrists falling over her slender hands, she looked very beautiful.<e>Sorry Christie, but you fell into the "slender hands" trap. Now it's officially a bad book. Them's the rules.</e>
 
 
 When she chose, however, her face could be sphinxlike in its inscrutability.
@@ -4000,8 +4000,8 @@ s=poirot;e:poirot=happy
 “Though the good God gave her no beauty!”
 e:poirot=thinking
 
-I followed John’s example, and went out into the hall, where Miss Howard was endeavouring to extricate herself from the voluminous mass of veils that enveloped her head.
-s=none;e:evie=neutral;x:evie=veiled;b=styles-down-hall
+I followed John’s example, and went out into the hall, where Miss Howard was endeavouring to extricate herself from the voluminous mass of veils that enveloped her head.<e>"veils" referring to motoring veils. Which, if you've never seen a photo of before: look them up. Highly amusing <book>Invisible Man</book> aesthetic.</e>
+s=none;e:evie=neutral;b=styles-down-hall;x:evie=hat
 
 As her eyes fell on me, a sudden pang of guilt shot through me.
 e:hastings=wary
@@ -10328,7 +10328,7 @@ Dorcas shook her head.
 s=none;e:dorcas=thinking
 
 “I don’t remember, sir. It may have done, but Mr. Lawrence was away from home part of June.”
-s=dorcas;x:dorcas=hat
+s=dorcas
 
 “In the event of a parcel arriving for him whilst he was away, what would be done with it?”
 s=philips
