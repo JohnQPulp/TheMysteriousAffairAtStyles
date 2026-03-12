@@ -134,7 +134,7 @@ s=hastings;e:hastings=serious
 s=john;e:john=angry
 
 Thus it came about that, three days later, I descended from the train at Styles St. Mary, an absurd little station, with no apparent reason for existence, perched up in the midst of green fields and country lanes.
-s=none;e:hastings=neutral;b=train-platform
+s=none;e:hastings=neutral;b=train-platform;c=
 
 John Cavendish was waiting on the platform, and piloted me out to the car.
 e:john=neutral
@@ -1091,7 +1091,7 @@ Her hand clenched itself on the banisters, then she seemed to nerve herself for 
 s=none;e:mary=serious
 
 As I ran out to the tennis court a few moments later, I had to pass the open boudoir window, and was unable to help overhearing the following scrap of dialogue.
-b=styles-gardens
+b=styles-gardens;x:hastings=tennis
 
 Mary Cavendish was saying in the voice of a woman desperately controlling herself:
 e:mary=angry;m=nospeaker
@@ -1508,7 +1508,7 @@ s=wilkins;e:wilkins=unhappy
 s=wilkins;x:wilkins=night
 
 “I warned her. Her heart was far from strong.”
-x:wilkins=thinking
+e:wilkins=thinking
 
 “‘Take it easy,’ I said to her, ‘Take—it—easy.’ But no—her zeal for good works was too great. Nature rebelled. Na-ture re-belled.”
 
@@ -3380,7 +3380,7 @@ I watched her as she sat at the head of the table, graceful, composed, enigmatic
 
 
 In her soft grey frock, with white ruffles at the wrists falling over her slender hands, she looked very beautiful.
-x:mary=frock
+
 
 When she chose, however, her face could be sphinxlike in its inscrutability.
 
@@ -5324,7 +5324,7 @@ Dorcas’s evidence on this point was substantially what Poirot and I had alread
 
 
 The next witness was Mary Cavendish. She stood very upright, and spoke in a low, clear, and perfectly composed voice.
-e:mary=serious;x:mary=lace
+e:mary=serious;x:mary=hat
 
 In answer to the Coroner’s question, she told how, her alarm clock having aroused her at 4:30 as usual, she was dressing, when she was startled by the sound of something heavy falling.
 
@@ -9911,7 +9911,7 @@ Poirot followed me down the narrow stairs. Mary Cavendish was standing in the do
 b=belgium-doorway
 
 “I have been visiting an old woman in the village,” she explained, “and as Lawrence told me you were with Monsieur Poirot I thought I would call for you.”
-s=mary;x:mary=hat
+s=mary;x:mary=coat
 
 “Alas, madame,” said Poirot, “I thought you had come to honour me with a visit!”
 s=poirot;e:poirot=smirking
@@ -10484,7 +10484,7 @@ As we went home, Mary Cavendish spoke bitterly against the prosecuting counsel.
 e:mary=angry;b=london-wide
 
 “That hateful man! What a net he has drawn around my poor John! How he twisted every little fact until he made it seem what it wasn’t!”
-s=mary;x:mary=hat
+s=mary;x:mary=coat
 
 “Well,” I said consolingly, “it will be the other way about tomorrow.”
 s=hastings;e:hastings=serious;x:hastings=hat
