@@ -1118,10 +1118,10 @@ s=none;e:mary=upset
 s=mary
 
 Cynthia was waiting for me, and greeted me eagerly with:
-s=none;e:cynthia=excited;m=;b=tennis-court;x:cynthia=tennis;c=cynthia
+s=none;e:cynthia=excited;m=;b=tennis-court;x:cynthia=tennis
 
 “I say! There’s been the most awful row! I’ve got it all out of Dorcas.”
-s=cynthia
+s=cynthia;c=cynthia
 
 “What kind of a row?”
 s=hastings;e:hastings=surprised
@@ -1145,10 +1145,10 @@ I thought of Mrs. Raikes’s gipsy face, and Evelyn Howard’s warnings, but wis
 s=none;e:hastings=contemplative;c=;b=think
 
 “Aunt Emily will send him away, and will never speak to him again.”
-e:cynthia=happy;b=tennis-court
+e:cynthia=excited;b=tennis-court;s=cynthia
 
 I was anxious to get hold of John, but he was nowhere to be seen.
-e:hastings=wary
+e:hastings=wary;s=
 
 Evidently something very momentous had occurred that afternoon.
 e:hastings=thinking;b=think
