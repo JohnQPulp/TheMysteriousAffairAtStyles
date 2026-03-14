@@ -989,7 +989,7 @@ Poirot was an extraordinary looking little man.
 s=;b=light
 
 He was hardly more than five feet, four inches, but carried himself with great dignity.
-s=none;c=poirot;e:poirot=dignity
+s=none;c=poirot;e:poirot=
 
 His head was exactly the shape of an egg, and he always perched it a little on one side. His moustache was very stiff and military. The neatness of his attire was almost incredible. I believe a speck of dust would have caused him more pain than a bullet wound.
 
@@ -3848,7 +3848,7 @@ s=poirot
 s=manning;e:manning=
 
 “Tell me in your own words exactly what happened after that.”
-s=poirot;e:poirot=thinkng
+s=poirot;e:poirot=thinking
 
 “Well, sir, nothing much.”
 s=manning
