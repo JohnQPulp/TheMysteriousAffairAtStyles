@@ -191,7 +191,7 @@ s=john;e:john=neutral
 b=think
 
 “She works in the Red Cross Hospital at Tadminster, seven miles away.”
-b=hospital-ext;f:b:hospital-ext=blur(3px)
+b=hospital-bottles;f:b:hospital-bottles=blur(3px)
 
 As he spoke the last words, we drew up in front of the fine old house.
 s=none;b=styles-entrance
@@ -530,10 +530,10 @@ John left me, and a few minutes later I saw him from my window walking slowly ac
 e:hastings=thinking
 
 I heard Mrs. Inglethorp call “Cynthia” impatiently, and the girl started and ran back to the house.
-e:cynthia=nervous;e:emily=annoyed
+e:cynthia=nervous;e:emily=annoyed;m=dialogue
 
 At the same moment, a man stepped out from the shadow of a tree and walked slowly in the same direction.
-e:lawrence=wary
+e:lawrence=wary;m=
 
 He looked about forty, very dark with a melancholy clean-shaven face. Some violent emotion seemed to be mastering him.
 e:hastings=surprised
@@ -599,7 +599,7 @@ s=none;e:evie=serious
 s=evie
 
 “I said right out: ‘You’re an old woman, Emily, and there’s no fool like an old fool. The man’s twenty years younger than you, and don’t you fool yourself as to what he married you for. Money! Well, don’t let him have too much of it. Farmer Raikes has got a very pretty young wife. Just ask your Alfred how much time he spends over there.’”
-e:evie=;b=argument-room;f:b:argument-room=blur(3px)
+e:evie=;b=styles-boudoir;f:b:styles-boudoir=blur(3px)
 
 “She was very angry. Natural!”
 e:evie=thinking
@@ -833,7 +833,7 @@ Mrs. Inglethorp replied that this was an excellent idea, but as she had several 
 
 
 We were detained under suspicion by the hospital porter, until Cynthia appeared to vouch for us, looking very cool and sweet in her long white overall.
-e:cynthia=happy;x:cynthia=vad;b=hospital-ext
+e:cynthia=happy;x:cynthia=vad
 
 She took us up to her sanctum, and introduced us to her fellow dispenser, a rather awe-inspiring individual, whom Cynthia cheerily addressed as “Nibs.”
 n:nibs=Nibs;e:nibs=serious;b=hospital-bottles
@@ -869,7 +869,7 @@ e:cynthia=
 
 
 We had a very cheery tea, and assisted Cynthia to wash up afterwards. We had just put away the last teaspoon when a knock came at the door.
-s=none;e:cynthia=happy;e:lawrence=happy;b=hospital-tea
+s=none;e:cynthia=happy;e:lawrence=happy
 
 The countenances of Cynthia and Nibs were suddenly petrified into a stern and forbidding expression.
 e:cynthia=serious;e:nibs=serious
@@ -953,7 +953,7 @@ But they were both gay enough this afternoon, and chatted together like a couple
 e:lawrence=happy;e:cynthia=happy;c=
 
 As we drove through the village, I remembered that I wanted some stamps, so accordingly we pulled up at the post office.
-b=village-road
+b=belgium-ext
 
 As I came out again, I cannoned into a little man who was just entering.
 
@@ -1001,7 +1001,7 @@ As a detective, his flair had been extraordinary, and he had achieved triumphs b
 
 
 He pointed out to me the little house inhabited by him and his fellow Belgians, and I promised to go and see him at an early date.
-b=village-road
+b=belgium-ext
 
 Then he raised his hat with a flourish to Cynthia, and we drove away.
 
@@ -1282,7 +1282,7 @@ r=title
 To make this part of my story clear, I append the following plan of the first floor of Styles.
 e:hastings=neutral;b=light
 
-The servants’ rooms are reached through the door B. They have no communication with the right wing, where the Inglethorps’ rooms were situated.
+The servants’ rooms are reached through the door B. They have no communication with the right wing, where the Inglethorps’ rooms were situated.<e>Christie, did you spell Cynthia Murdoch's last name wrong?</e>
 o=illustration1
 
 It seemed to be the middle of the night when I was awakened by Lawrence Cavendish.
