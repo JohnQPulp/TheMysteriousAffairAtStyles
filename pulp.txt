@@ -155,7 +155,7 @@ I felt I had suddenly strayed into another world.
 
 
 As we turned in at the lodge gates, John said:
-b=styles-drive
+b=lodge-gates
 
 “I’m afraid you’ll find it very quiet down here, Hastings.”
 s=john;e:john=neutral
@@ -707,7 +707,7 @@ He took the path through the plantation, and we walked down to the village throu
 s=none;b=light;x:john=hat;x:hastings=hat
 
 As we passed through one of the gates on our way home again, a pretty young woman of gipsy type coming in the opposite direction bowed and smiled.
-n:raikes=Mrs. Raikes;e:raikes=happy;b=styles-drive
+n:raikes=Mrs. Raikes;e:raikes=happy;b=lodge-gates
 
 “That’s a pretty girl,” I remarked appreciatively.
 s=hastings;e:hastings=
@@ -1943,7 +1943,7 @@ We hurried up the village, and turned in at the lodge gates.
 s=none;b=lodge-gates
 
 Poirot stopped for a moment, and gazed sorrowfully over the beautiful expanse of park, still glittering with morning dew.
-e:poirot=weary;b=styles-drive
+e:poirot=weary
 
 “So beautiful, so beautiful, and yet, the poor family, plunged in sorrow, prostrated with grief.”
 s=poirot;e:poirot=unhappy;x:poirot=hat;x:hastings=hat
@@ -3071,7 +3071,7 @@ s=poirot;e:poirot=happy
 e:poirot=
 
 “By the way, whose is the smaller desk in the corner?”
-e:poirot=confused
+e:poirot=confused;o=roller-desk
 
 “Mr. Inglethorp’s.”
 s=hastings;e:hastings=neutral
@@ -3080,7 +3080,7 @@ s=hastings;e:hastings=neutral
 s=poirot;e:poirot=thinking
 
 He tried the roll top tentatively.
-s=none
+s=none;o=
 
 “Locked. But perhaps one of Mrs. Inglethorp’s keys would open it.”
 s=poirot;e:poirot=
@@ -7337,7 +7337,7 @@ As she stood there, with her honest face upturned to mine, I thought what a fine
 
 
 I thought I might as well go down to the village at once, and look up Poirot; but I met him halfway, coming up to the house, and at once gave him Dorcas’s message.
-e:poirot=happy;b=styles-drive
+e:poirot=happy;b=lodge-gates
 
 “Ah, the brave Dorcas!”
 s=poirot;x:poirot=hat;x:hastings=hat;e:poirot=happy
@@ -9629,7 +9629,7 @@ Monsieur Poirot was within. Would I mount?
 
 
 I mounted accordingly.
-b=belgium-commons
+b=poirot-room
 
 Poirot was sitting by the table, his head buried in his hands.
 e:poirot=weary;x:poirot=
@@ -10001,7 +10001,7 @@ She ranged herself passionately on her husband’s side, scorning the mere idea 
 
 
 I expressed my admiration to Poirot, and he nodded thoughtfully.
-e:poirot=thinking;e:hastings=serious;b=belgium-commons
+e:poirot=thinking;e:hastings=serious;b=poirot-room
 
 “Yes, she is of those women who show at their best in adversity. It brings out all that is sweetest and truest in them.”
 s=poirot
@@ -10502,7 +10502,7 @@ But I myself was puzzled,
 s=none;e:hastings=confused;m=allowbreak
 
 and as soon as I was alone with Poirot I asked him what he thought Sir Ernest was driving at.
-m=;b=london-room
+m=;b=london-poirot-room
 
 “Ah!” said Poirot appreciatively.
 s=poirot;e:poirot=smirking;x:hastings=
@@ -10973,7 +10973,7 @@ He had that little frown between the eyes that I knew so well.
 
 
 “What is it, Poirot?” I inquired.
-s=hastings;e:hastings=wary;b=london-room;x:hastings=hat;x:poirot=hat
+s=hastings;e:hastings=wary;b=london-wide;x:hastings=hat;x:poirot=hat
 
 “Ah, *mon ami*, things are going badly, badly.”
 s=poirot;e:poirot=unhappy
@@ -10985,7 +10985,7 @@ Evidently there was a likelihood of John Cavendish being acquitted.
 
 
 When we reached the house, my little friend waved aside Mary’s offer of tea.
-b=london-room;x:hastings=;x:poirot=
+b=london-drawing-room;x:hastings=;x:poirot=
 
 “No, I thank you, madame. I will mount to my room.”
 s=poirot
@@ -11141,7 +11141,7 @@ Poirot’s abrupt departure had intrigued us all greatly.
 b=light
 
 Sunday morning wore away, and still he did not reappear.
-b=london-room
+b=london-wide
 
 But about three o’clock a ferocious and prolonged hooting outside drove us to the window, to see Poirot alighting from a car, accompanied by Japp and Summerhaye.
 
