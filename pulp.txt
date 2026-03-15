@@ -11702,7 +11702,7 @@ A quick movement on his part, and his assailant fell with a crash.
 b=action
 
 “Messieurs, mesdames,” said Poirot, with a flourish, “let me introduce you to the murderer, Mr. Alfred Inglethorp!”
-s=poirot;e:poirot=smirking;b=londong-drawing
+s=poirot;e:poirot=smirking;b=london-drawing
 
 ## 13. Poirot Explains
 r=title
