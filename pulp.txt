@@ -26,7 +26,7 @@ Having no near relations or friends, I was trying to make up my mind what to do,
 n:john=John Cavendish;e:hastings=neutral;x:hastings=hat
 
 I had seen very little of him for some years. Indeed, I had never known him particularly well.
-b=light;z:john=102,,2
+b=light;z:john=102,51,2
 
 He was a good fifteen years my senior, for one thing, though he hardly looked his forty-five years.
 c=john
@@ -41,7 +41,7 @@ e:hastings=happy;e:john=happy;b=arbitrary;x:john=hat
 s=john;c=john;v=,135,55
 
 “Your mother keeps well?” I asked.
-s=hastings;e:hastings=neutral;z:hastings=,,4;e:hastings=happy
+s=hastings;e:hastings=neutral;z:hastings=,49,4;e:hastings=happy
 
 “Oh, yes. I suppose you know that she has married again?”
 s=john;e:john=thinking
@@ -362,7 +362,7 @@ Mary Cavendish leant forward.
 s=none;e:mary=curious
 
 “What would you really choose as a profession, if you could just consult your inclination?”
-s=mary;z:mary=104,,8
+s=mary;z:mary=108,55,9
 
 “Well, that depends.”
 s=hastings
@@ -1282,7 +1282,7 @@ r=title;v=100,130
 To make this part of my story clear, I append the following plan of the first floor of Styles.
 e:hastings=neutral;b=light
 
-The servants’ rooms are reached through the door B. They have no communication with the right wing, where the Inglethorps’ rooms were situated.<e>Christie, did you spell Cynthia Murdoch's last name wrong?</e>
+The servants’ rooms are reached through the door B. They have no communication with the right wing, where the Inglethorps’ rooms were situated.<e>Christie, you spelled Cynthia's last name wrong.</e>
 o=illustration1
 
 It seemed to be the middle of the night when I was awakened by Lawrence Cavendish.
@@ -1295,7 +1295,7 @@ e:lawrence=fearful
 s=hastings;e:hastings=confused;x:hastings=night1
 
 “We are afraid my mother is very ill. She seems to be having some kind of fit.”
-s=lawrence;x:lawrence=night
+s=lawrence;x:lawrence=night;z:lawrence=,,3
 
 “Unfortunately she has locked herself in.”
 
@@ -1337,12 +1337,9 @@ s=dorcas;e:dorcas=fearful
 s=dorcas;e:dorcas=upset
 
 Suddenly I realized that Alfred Inglethorp was not with us—that he alone had given no sign of his presence.
-s=none;e:hastings=surprised;b=think
+s=none;e:hastings=surprised;
 
-John opened the door of his room.
-
-
-It was pitch dark, but Lawrence was following with the candle, and by its feeble light we saw that the bed had not been slept in, and that there was no sign of the room having been occupied.
+John opened the door of his room. It was pitch dark, but Lawrence was following with the candle, and by its feeble light we saw that the bed had not been slept in, and that there was no sign of the room having been occupied.
 b=alfred-room
 
 We went straight to the connecting door. That, too, was locked or bolted on the inside.
@@ -1382,7 +1379,7 @@ s=john
 
 
 We strained and heaved together.
-s=none;b=think
+s=none
 
 The framework of the door was solid, and for a long time it resisted our efforts,
 m=joined
@@ -1397,7 +1394,7 @@ Mrs. Inglethorp was lying on the bed, her whole form agitated by violent convuls
 b=emily-bed
 
 John strode across the room, and lit the gas.
-n:annie=Annie;e:john=serious;b=emily-windows
+n:annie=Annie;e:john=serious
 
 Turning to Annie, one of the housemaids, he sent her downstairs to the dining-room for brandy.
 
@@ -1418,7 +1415,7 @@ It was as though he had seen something that turned him to stone.
 
 
 I instinctively followed the direction of his eyes, but I could see nothing unusual.
-e:hastings=confused;b=emily-windows
+e:hastings=confused;b=emily-windows;f:b:emily-windows=brightness(85%)
 
 The still feebly flickering ashes in the grate, and the row of prim ornaments on the mantelpiece, were surely harmless enough.
 
@@ -1469,10 +1466,10 @@ For one instant he stopped dead, staring at the figure on the bed, and, at the s
 e:bauerstein=surprised
 
 “Alfred—Alfred—”
-s=emily;e:emily=
+s=emily;e:emily=weary
 
 Then she fell back motionless on the pillows.
-s=none
+s=none;m=
 
 With a stride, the doctor reached the bed, and seizing her arms worked them energetically, applying what I knew to be artificial respiration.
 e:bauerstein=serious
@@ -1502,7 +1499,7 @@ With a faint gesture of the hand, he indicated the figure on the bed.
 
 
 “Ve-ry sad. Ve-ry sad,” murmured Dr. Wilkins.
-s=wilkins;e:wilkins=unhappy
+s=wilkins;e:wilkins=unhappy;z:wilkins=80,,
 
 “Poor dear lady. Always did far too much—far too much—against my advice.”
 s=wilkins
@@ -1526,7 +1523,7 @@ s=bauerstein
 s=wilkins;e:wilkins=thinking
 
 “I should like to speak to you in private,” said Dr. Bauerstein.
-s=bauerstein;e:bauerstein=serious
+s=bauerstein;e:bauerstein=serious;z:bauerstein=,55
 
 He turned to John.
 s=none
@@ -1535,19 +1532,19 @@ s=none
 s=bauerstein
 
 “Certainly not.”
-s=john;e:john=neutral
+s=john;e:john=weary
 
 We all trooped out into the corridor, leaving the two doctors alone, and I heard the key turned in the lock behind us.
-s=none;b=styles-right-hall
+s=none;b=styles-right-hall-night
 
 We went slowly down the stairs. I was violently excited.
-e:hastings=excited;b=styles-stairs
+e:hastings=excited;b=think
 
 I have a certain talent for deduction, and Dr. Bauerstein’s manner had started a flock of wild surmises in my mind.
 e:hastings=thinking
 
 Mary Cavendish laid her hand upon my arm.
-e:mary=wary;b=styles-down-hall
+e:mary=wary;b=styles-down-hall-night
 
 “What is it? Why did Dr. Bauerstein seem so—peculiar?”
 s=mary
@@ -1559,10 +1556,10 @@ s=none;e:hastings=serious
 s=hastings
 
 “What?”
-s=mary
+s=mary;e:mary=serious
 
 “Listen!”
-s=hastings
+s=hastings;e:hastings=listen
 
 I looked round, the others were out of earshot.
 s=none
@@ -1583,7 +1580,7 @@ Then, with a sudden cry that startled me, she cried out:
 e:hastings=surprised
 
 “No, no—not that—not that!”
-s=mary
+s=mary;e:mary=upset
 
 And breaking from me, fled up the stairs.
 s=none;e:mary=crying
@@ -1616,7 +1613,7 @@ John shook his head.
 s=none;e:john=weary
 
 “He’s not in the house.”
-s=john
+s=john;e:john=serious
 
 Our eyes met. Where *was* Alfred Inglethorp?
 s=none;e:hastings=surprised
@@ -1658,10 +1655,10 @@ s=none;e:john=weary
 s=john
 
 “Thank you,” said Dr. Wilkins briskly.
-s=wilkins;e:wilkins=neutral
+s=wilkins;e:wilkins=thinking
 
 “We propose that it should take place tomorrow night—or rather tonight.”
-s=wilkins
+s=wilkins;e:wilkins=annoyed
 
 And he glanced at the daylight.
 s=none
@@ -1700,16 +1697,16 @@ s=john;e:john=wary
 s=hastings
 
 “Yes.”
-s=john
+s=john;e:john=serious
 
 “I want you to let me call him in—to investigate this matter.”
-s=hastings
+s=hastings;e:hastings=listen
 
 “What—now? Before the postmortem?”
 s=john;e:john=surprised
 
 “Yes, time is an advantage if—if—there has been foul play.”
-s=hastings
+s=hastings;e:hastings=serious
 
 “Rubbish!” cried Lawrence angrily.
 s=lawrence;e:lawrence=angry
