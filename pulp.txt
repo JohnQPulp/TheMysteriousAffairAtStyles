@@ -1,11 +1,11 @@
 <div class='center'><span class='big italics'>The Mysterious Affair at Styles</span> by&nbsp;Agatha&nbsp;Christie</div>
-b=title;t=author
+b=title;t=author;z:author=90,,3;z:author-abased=50,54,
 
 <div class='center'>To my Mother</div>
 t=
 
 ## 1. I Go to Styles
-r=title
+r=title;v=100,130
 
 The intense interest aroused in the public by what was known at the time as “The Styles Case” has now somewhat subsided.
 n:hastings=?;e:hastings=thinking;b=styles-wide
@@ -767,7 +767,7 @@ Just for a moment I had a premonition of approaching evil.
 e:hastings=fearful
 
 ## 2. The 16th and 17th of July
-r=title
+r=title;v=100,130
 
 I had arrived at Styles on the 5th of July. I come now to the events of the 16th and 17th of that month.
 e:hastings=neutral;b=styles-wide
@@ -1277,7 +1277,7 @@ s=none
 s=alfred
 
 ## 3. The Night of the Tragedy
-r=title
+r=title;v=100,130
 
 To make this part of my story clear, I append the following plan of the first floor of Styles.
 e:hastings=neutral;b=light
@@ -1751,7 +1751,7 @@ I spent it in ransacking the library until I discovered a medical book which gav
 
 
 ## 4. Poirot Investigates
-r=title
+r=title;v=100,130
 
 The house which the Belgians occupied in the village was quite close to the park gates. One could save time by taking a narrow path through the long grass, which cut off the detours of the winding drive. So I, accordingly, went that way.
 b=long-grass
@@ -3119,7 +3119,7 @@ He pulled a crumpled envelope out of his pocket, and tossed it over to me. It wa
 s=none;e:hastings=surprised;o=illustration4
 
 ## 5. “It Isn’t Strychnine, Is It?”<e>"The strychnine's right behind me, isn't it?"</e>
-r=title
+r=title;v=100,130
 
 “Where did you find this?” I asked Poirot, in lively curiosity.
 s=hastings;e:hastings=surprised;b=styles-boudoir
@@ -5045,7 +5045,7 @@ s=poirot;e:poirot=thinking
 
 
 ## 6. The Inquest
-r=title
+r=title;v=100,130
 
 In the interval before the inquest, Poirot was unfailing in his activity. Twice he was closeted with Mr. Wells. He also took long walks into the country.
 b=styles-wide
@@ -5870,7 +5870,7 @@ I was still staring, when I was startled and recalled by the verdict being given
 m=dialogue
 
 ## 7. Poirot Pays His Debts
-r=title
+r=title;v=100,130
 
 As we came out of the Stylites Arms, Poirot drew me aside by a gentle pressure of the arm.
 b=inquest-ext
@@ -6662,7 +6662,7 @@ s=poirot
 e:poirot=excited
 
 ## 8. Fresh Suspicions
-r=title
+r=title;v=100,130
 
 There was a moment’s stupefied silence.
 s=none;b=styles-drawing
@@ -7832,7 +7832,7 @@ There are times when it is one’s duty to assert oneself.
 e:hastings=serious
 
 ## 9. Dr. Bauerstein
-r=title
+r=title;v=100,130
 
 I had had no opportunity as yet of passing on Poirot’s message to Lawrence.
 e:hastings=contemplative;b=croquet
@@ -8870,7 +8870,7 @@ I waited to hear no more, but tore up the village to find Poirot.
 s=none;e:hastings=excited;b=village-wide
 
 ## 10. The Arrest<e>Probably could have waited a little more there tbh.</e>
-r=title
+r=title;v=100,130
 
 To my extreme annoyance, Poirot was not in, and the old Belgian who answered my knock informed me that he believed he had gone to London.
 s=none;e:hastings=annoyed;b=belgium-ext
@@ -9989,7 +9989,7 @@ Behind me, with a wild cry, Mary Cavendish fell heavily against me, and as I tur
 s=none;e:mary=crying;e:poirot=smirking
 
 ## 11. The Case for the Prosecution
-r=title
+r=title;v=100,130
 
 The trial of John Cavendish for the murder of his stepmother took place two months later.
 b=think
@@ -11135,7 +11135,7 @@ But night fell, and Poirot had not returned.
 s=none;b=think
 
 ## 12. The Last Link
-r=title
+r=title;v=100,130
 
 Poirot’s abrupt departure had intrigued us all greatly.
 b=light
@@ -11705,7 +11705,7 @@ b=action
 s=poirot;e:poirot=smirking;b=london-drawing
 
 ## 13. Poirot Explains
-r=title
+r=title;v=100,130
 
 “Poirot, you old villain,” I said, “I’ve half a mind to strangle you!”
 s=hastings;e:hastings=annoyed;b=library
