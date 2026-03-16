@@ -533,13 +533,13 @@ I heard Mrs. Inglethorp call “Cynthia” impatiently, and the girl started and
 e:cynthia=nervous;e:emily=annoyed;m=dialogue
 
 At the same moment, a man stepped out from the shadow of a tree and walked slowly in the same direction.
-e:lawrence=wary;m=
+e:lawrence=serious;m=;b=light
 
 He looked about forty, very dark with a melancholy clean-shaven face. Some violent emotion seemed to be mastering him.
-e:hastings=surprised
+e:hastings=surprised;c=lawrence;x:lawrence=hat;v=,130
 
 He looked up at my window as he passed, and I recognized him, though he had changed much in the fifteen years that had elapsed since we last met.
-
+b=hastings-room;c=
 
 It was John’s younger brother, Lawrence Cavendish. I wondered what it was that had brought that singular expression to his face.
 e:hastings=thinking
@@ -776,7 +776,7 @@ I had arrived at Styles on the 5th of July. I come now to the events of the 16th
 e:hastings=neutral;b=styles-wide
 
 For the convenience of the reader I will recapitulate the incidents of those days in as exact a manner as possible.
-f:b:styles-wide=blur(3px)
+
 
 They were elicited subsequently at the trial by a process of long and tedious cross-examinations.
 
@@ -802,7 +802,7 @@ b=styles-gardens
 I noticed that John’s manner was somewhat unusual. He seemed very excited and restless.
 e:john=nervous;e:hastings=thinking
 
-After tea, Mrs. Inglethorp went to lie down to rest before her efforts in the evening and I challenged Mary Cavendish to a single at tennis.<e>If you're well enough to play tennis, you're well enough to get back in the trenches. Someone get this man a white feather.</e>
+After tea, Mrs. Inglethorp went to lie down to rest before her efforts in the evening and I challenged Mary Cavendish to a single at tennis.<e>Tennis? What happened to being "invalided"? (Someone get this man a white feather.)</e>
 b=styles-wide;f:b:styles-wide=
 
 About a quarter to seven, Mrs. Inglethorp called us that we should be late as supper was early that night.
@@ -817,11 +817,8 @@ e:emily=happy;e:cynthia=happy;b=light
 There were also some tableaux in which Cynthia took part. She did not return with us, having been asked to a supper party, and to remain the night with some friends who had been acting with her in the tableaux.
 
 
-The following morning, Mrs. Inglethorp stayed in bed to breakfast, as she was rather overtired;
-e:emily=happy;m=joined;b=styles-hall
-
-but she appeared in her briskest mood about 12:30, and swept Lawrence and myself off to a luncheon party.
-m=;b=styles-drawing
+The following morning, Mrs. Inglethorp stayed in bed to breakfast, as she was rather overtired; but she appeared in her briskest mood about 12:30, and swept Lawrence and myself off to a luncheon party.
+e:emily=happy;b=styles-drawing
 
 “Such a charming invitation from Mrs. Rolleston. Lady Tadminster’s sister, you know. The Rollestons came over with the Conqueror—one of our oldest families.”
 s=emily
@@ -845,7 +842,7 @@ n:nibs=Nibs;e:nibs=serious;b=hospital-bottles
 s=hastings;e:hastings=surprised
 
 “Do you really know what’s in them all?”
-
+e:hastings=curious
 
 “Say something original,” groaned Cynthia.
 s=cynthia;e:cynthia=annoyed
@@ -884,7 +881,7 @@ A young and rather scared looking nurse appeared with a bottle which she proffer
 n:nurse1=Nurse;s=none
 
 “*I’m* not really here today.”
-s=nibs;e:nibs=neutral
+s=nibs;e:nibs=neutral;z:nibs=93,,1
 
 Cynthia took the bottle and examined it with the severity of a judge.
 s=none;e:cynthia=serious
@@ -893,7 +890,7 @@ s=none;e:cynthia=serious
 s=cynthia
 
 “Sister is very sorry. She forgot.”
-s=nurse1;e:nurse1=nervous
+s=nurse1;e:nurse1=nervous;z:nurse1=88,,1
 
 “Sister should read the rules outside the door.”
 s=cynthia;e:cynthia=annoyed
@@ -944,16 +941,16 @@ s=nibs
 s=cynthia
 
 I had seen Lawrence in quite a different light that afternoon. Compared to John, he was an astoundingly difficult person to get to know.
-s=none;e:hastings=thinking;b=light
+s=none;e:hastings=thinking;b=think
 
 He was the opposite of his brother in almost every respect, being unusually shy and reserved. Yet he had a certain charm of manner, and I fancied that, if one really knew him well, one could have a deep affection for him.
-e:lawrence=thinking;c=lawrence
+e:lawrence=thinking;c=lawrence,;v=40,130
 
 I had always fancied that his manner to Cynthia was rather constrained, and that she on her side was inclined to be shy of him.
-c=cynthia;e:cynthia=contemplative
+c=,cynthia;e:cynthia=contemplative
 
 But they were both gay enough this afternoon, and chatted together like a couple of children.
-e:lawrence=happy;e:cynthia=happy;c=
+e:lawrence=happy;e:cynthia=happy;c=;v=,130
 
 As we drove through the village, I remembered that I wanted some stamps, so accordingly we pulled up at the post office.
 b=belgium-ext
@@ -965,10 +962,10 @@ I drew aside and apologised, when suddenly, with a loud exclamation, he clasped 
 n:poirot=?;e:poirot=excited;x:hastings=hat;x:lawrence=hat
 
 “*Mon ami* Hastings!” he cried. “It is indeed *mon ami* Hastings!”
-s=poirot;x:poirot=hat
+s=poirot;x:poirot=hat;z:poirot=85,46,4
 
 “Poirot!” I exclaimed.
-s=hastings;e:hastings=surprised
+s=hastings;e:hastings=excited
 
 I turned to the pony-trap.
 s=none
@@ -980,7 +977,7 @@ s=hastings;e:hastings=happy
 s=cynthia;e:cynthia=happy
 
 “Yes, indeed,” said Poirot seriously. “I know Mademoiselle Cynthia. It is by the charity of that good Mrs. Inglethorp that I am here.”
-s=poirot;e:poirot=serious;n:poirot=Mr. Poirot
+s=poirot;e:poirot=serious;n:poirot=Poirot
 
 Then, as I looked at him inquiringly:
 s=none
@@ -992,13 +989,13 @@ Poirot was an extraordinary looking little man.
 s=;b=light
 
 He was hardly more than five feet, four inches, but carried himself with great dignity.
-s=none;c=poirot;e:poirot=
+s=none;c=poirot;e:poirot=;v=,175,30
 
 His head was exactly the shape of an egg, and he always perched it a little on one side. His moustache was very stiff and military. The neatness of his attire was almost incredible. I believe a speck of dust would have caused him more pain than a bullet wound.
 
 
 Yet this quaint dandyfied little man who, I was sorry to see, now limped badly, had been in his time one of the most celebrated members of the Belgian police.
-c=
+c=;v=,130
 
 As a detective, his flair had been extraordinary, and he had achieved triumphs by unravelling some of the most baffling cases of the day.
 
@@ -1010,7 +1007,7 @@ Then he raised his hat with a flourish to Cynthia, and we drove away.
 
 
 “He’s a dear little man,” said Cynthia. “I’d no idea you knew him.”
-s=cynthia;e:cynthia=happy;b=light
+s=cynthia;e:cynthia=happy;b=village-wide
 
 “You’ve been entertaining a celebrity unawares,” I replied.
 s=hastings;e:hastings=smirking
@@ -1037,7 +1034,7 @@ s=emily;e:emily=annoyed
 
 
 Then catching sight of Dorcas, the parlourmaid, going into the dining-room, she called to her to bring some stamps into the boudoir.
-n:dorcas=Dorcas;s=none
+n:dorcas=Dorcas;s=none;z:dorcas=98,,4
 
 “Yes, m’m.”
 s=dorcas
@@ -1079,7 +1076,7 @@ Mrs. Cavendish was coming down the stairs. It may have been my fancy, but she, t
 e:mary=upset
 
 “Had a good walk with Dr. Bauerstein?” I asked, trying to appear as indifferent as I could.
-s=hastings;e:hastings=
+s=hastings;e:hastings=thinking
 
 “I didn’t go,” she replied abruptly.
 s=mary;e:mary=annoyed
@@ -1124,7 +1121,7 @@ Cynthia was waiting for me, and greeted me eagerly with:
 s=none;e:cynthia=excited;m=;b=tennis-court;x:cynthia=tennis
 
 “I say! There’s been the most awful row! I’ve got it all out of Dorcas.”
-s=cynthia;c=cynthia
+s=cynthia;c=cynthia;v=,140
 
 “What kind of a row?”
 s=hastings;e:hastings=surprised
@@ -1145,16 +1142,16 @@ s=cynthia;e:cynthia=smirking
 s=cynthia;e:cynthia=thinking
 
 I thought of Mrs. Raikes’s gipsy face, and Evelyn Howard’s warnings, but wisely decided to hold my peace, whilst Cynthia exhausted every possible hypothesis, and cheerfully hoped,
-s=none;e:hastings=contemplative;c=;b=think
+s=none;e:hastings=contemplative;c=;f:b:tennis-court=blur(5px)
 
 “Aunt Emily will send him away, and will never speak to him again.”
 e:cynthia=excited;b=tennis-court;s=cynthia
 
 I was anxious to get hold of John, but he was nowhere to be seen.
-e:hastings=wary;s=
+e:hastings=wary;s=;c=
 
 Evidently something very momentous had occurred that afternoon.
-e:hastings=thinking;b=think
+e:hastings=thinking;v=,130
 
 I tried to forget the few words I had overheard; but, do what I would, I could not dismiss them altogether from my mind.
 
@@ -1169,22 +1166,22 @@ His face was impassive as ever, and the strange unreality of the man struck me a
 
 
 Mrs. Inglethorp came down last. She still looked agitated, and during the meal there was a somewhat constrained silence. Inglethorp was unusually quiet.
-e:emily=nervous;b=think
+e:emily=nervous;b=styles-dining
 
 As a rule, he surrounded his wife with little attentions, placing a cushion at her back, and altogether playing the part of the devoted husband.
 
 
 Immediately after supper, Mrs. Inglethorp retired to her boudoir again.
-b=styles-down-hall
+b=styles-down-hall-night
 
 “Send my coffee in here, Mary,” she called.
-s=emily;e:emily=serious
+s=emily;e:emily=serious;m=nospeaker
 
 “I’ve just five minutes to catch the post.”
 
 
 Cynthia and I went and sat by the open window in the drawing-room.
-s=none;e:cynthia=neutral;b=styles-drawing-night
+s=none;e:cynthia=neutral;b=styles-drawing-night;m=
 
 Mary Cavendish brought our coffee to us. She seemed excited.
 e:mary=smirking
@@ -1253,22 +1250,22 @@ At this juncture, Mrs. Inglethorp called to Cynthia from the hall, and the girl 
 s=none
 
 “Just carry up my despatch-case, will you, dear? I’m going to bed.”
-s=emily;e:emily=weary
+s=emily;e:emily=weary;
 
 The door into the hall was a wide one. I had risen when Cynthia did, John was close by me.
-s=none;e:hastings=serious
+s=none;e:hastings=serious;f:b:styles-drawing-night=blur(5px)
 
 There were therefore three witnesses who could swear that Mrs. Inglethorp was carrying her coffee, as yet untasted, in her hand.
-b=think
 
-My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein. It seemed to me the man would never go.<e>"Could this evening be any more complicated?"</e>
-e:hastings=annoyed;b=styles-drawing-night
+
+My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein. It seemed to me the man would never go.<e>"Could this evening be any more spoilt?"</e>
+e:hastings=annoyed;b=styles-drawing-night;f:b:styles-drawing-night=
 
 He rose at last, however, and I breathed a sigh of relief.
 e:hastings=happy
 
 “I’ll walk down to the village with you,” said Mr. Inglethorp.
-s=alfred;e:alfred=neutral
+s=alfred;e:alfred=thinking
 
 “I must see our agent over those estate accounts.”
 
@@ -1277,7 +1274,7 @@ He turned to John.
 s=none
 
 “No one need sit up. I will take the latchkey.”
-s=alfred
+s=alfred;e:alfred=
 
 ## 3. The Night of the Tragedy
 r=title;v=100,130
