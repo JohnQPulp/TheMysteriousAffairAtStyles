@@ -1343,7 +1343,7 @@ John opened the door of his room.
 
 
 It was pitch dark, but Lawrence was following with the candle, and by its feeble light we saw that the bed had not been slept in, and that there was no sign of the room having been occupied.
-b=alfred-room-dark
+b=alfred-room
 
 We went straight to the connecting door. That, too, was locked or bolted on the inside.
 
@@ -1373,7 +1373,7 @@ He ran rapidly down the corridor to Cynthia’s room. Mary Cavendish was there, 
 s=none;e:mary=wary;e:cynthia=weary;b=think
 
 In a moment or two he was back.
-;b=alfred-room-dark
+;b=alfred-room
 
 “No good. That’s bolted too. We must break in the door.”
 s=john
@@ -2738,7 +2738,7 @@ s=hastings;e:hastings=curious
 s=poirot;e:poirot=smirking
 
 He suddenly produced a small cardboard box, such as chemists use for powders.
-s=none;o=box
+s=none;
 
 “Where did you find it?”
 s=hastings;e:hastings=surprised
@@ -4529,7 +4529,7 @@ s=cynthia
 s=poirot
 
 Poirot produced the empty box which had contained powders.
-s=none;o=box
+s=none
 
 She nodded.
 
@@ -11996,7 +11996,7 @@ s=poirot;e:poirot=thinking
 e:poirot=excited
 
 “He enters the room, unlocking the door by means of one of the other doorkeys﻿—they were all much alike.”
-e:poirot=thinking
+e:poirot=thinking;b=emily-windows;f:b:emily-windows=blur(3px)
 
 “He hurries to the despatch-case﻿—it is locked, and the keys are nowhere to be seen. That is a terrible blow to him, for it means that his presence in the room cannot be concealed as he had hoped.”
 
@@ -12023,7 +12023,7 @@ I shook my head.
 s=none;e:hastings=confused
 
 “In a moment, he has torn the letter into long thin strips, and rolling them up into spills he thrusts them hurriedly in amongst the other spills in the vase on the mantelpiece.”
-s=poirot;e:poirot=thinking;b=emily-windows-vase
+s=poirot;e:poirot=thinking
 
 I uttered an exclamation.
 s=none;e:hastings=surprised
