@@ -557,7 +557,7 @@ I did not see Mrs. Cavendish until lunchtime, when she volunteered to take me fo
 
 
 As we entered the large hall, John beckoned us both into the smoking-room.
-e:john=serious;x:john=;x:hastings=;b=styles-stairs
+e:john=serious;x:john=;x:hastings=;b=styles-down-hall
 
 I saw at once by his face that something disturbing had occurred.
 e:hastings=wary
@@ -587,7 +587,7 @@ She looked excited and determined, and slightly on the defensive.
 
 
 “At any rate,” she burst out, “I’ve spoken my mind!”
-s=evie;e:evie=angry
+s=evie;e:evie=annoyed
 
 “My dear Evelyn,” cried Mrs. Cavendish, “this can’t be true!”
 s=mary;e:mary=surprised
@@ -599,7 +599,7 @@ s=none;e:evie=serious
 s=evie
 
 “I said right out: ‘You’re an old woman, Emily, and there’s no fool like an old fool. The man’s twenty years younger than you, and don’t you fool yourself as to what he married you for. Money! Well, don’t let him have too much of it. Farmer Raikes has got a very pretty young wife. Just ask your Alfred how much time he spends over there.’”
-e:evie=;b=styles-boudoir;f:b:styles-boudoir=blur(3px)
+e:evie=scowling;b=styles-boudoir;f:b:styles-boudoir=blur(3px)
 
 “She was very angry. Natural!”
 e:evie=thinking
@@ -611,10 +611,10 @@ e:evie=serious
 s=mary;e:mary=wary
 
 Miss Howard made an extremely expressive grimace.
-s=none;e:evie=scowling
+s=none;e:evie=scowling;b=styles-smoking
 
 “ ‘Darling Alfred’﻿—‘dearest Alfred’﻿—‘wicked calumnies’﻿—‘wicked lies’﻿—‘wicked woman’﻿—to accuse her ‘dear husband’!”
-s=evie
+s=evie;e:evie=angry
 
 “The sooner I left her house the better. So I’m off.”
 e:evie=annoyed;b=styles-smoking
@@ -647,7 +647,7 @@ She laid her hand on my arm, and sank her voice to a whisper.
 
 
 “Look after her, Mr. Hastings. My poor Emily. They’re a lot of sharks﻿—all of them.”
-s=evie;e:evie=
+s=evie;e:evie=thinking
 
 “Oh, I know what I’m talking about. There isn’t one of them that’s not hard up and trying to get money out of her.”
 e:evie=upset
@@ -659,7 +659,7 @@ e:evie=upset
 s=hastings;e:hastings=nervous
 
 She interrupted me by slowly shaking her forefinger.
-s=none;e:evie=serious
+s=none;e:evie=forefinger
 
 “Young man, trust me. I’ve lived in the world rather longer than you have. All I ask you is to keep your eyes open. You’ll see what I mean.”
 s=evie
@@ -704,12 +704,12 @@ s=none;e:john=scowling
 s=john;e:john=weary
 
 He took the path through the plantation, and we walked down to the village through the woods which bordered one side of the estate.
-s=none;b=light;x:john=hat;x:hastings=hat
+s=none;b=woods;x:john=hat;x:hastings=hat
 
 As we passed through one of the gates on our way home again, a pretty young woman of gipsy type coming in the opposite direction bowed and smiled.
 n:raikes=Mrs. Raikes;e:raikes=happy;b=lodge-gates
 
-“That’s a pretty girl,” I remarked appreciatively.
+“That’s a pretty girl,” I remarked appreciatively.<e>Good adverb.</e>
 s=hastings;e:hastings=
 
 John’s face hardened.
@@ -725,13 +725,13 @@ s=hastings;e:hastings=surprised
 s=john;e:john=annoyed
 
 I thought of the white-haired old lady in the big house, and that vivid wicked little face that had just smiled into ours, and a vague chill of foreboding crept over me.
-s=none;e:hastings=fearful
+s=none;e:hastings=fearful;b=think
 
 I brushed it aside.
 e:hastings=neutral
 
 “Styles is really a glorious old place,” I said to John.
-s=hastings;e:hastings=
+s=hastings;e:hastings=;b=styles-wide
 
 He nodded rather gloomily.
 s=none;e:john=unhappy
@@ -751,8 +751,11 @@ s=hastings;e:hastings=
 “Lawrence? He’s gone through every penny he ever had, publishing rotten verses in fancy bindings. No, we’re an impecunious lot.”
 s=john;e:john=contemplative
 
-“My mother’s always been awfully good to us, I must say. That is, up to now. Since her marriage, of course﻿—” he broke off, frowning.
+“My mother’s always been awfully good to us, I must say. That is, up to now.”
 e:john=unhappy
+
+“Since her marriage, of course﻿—” he broke off, frowning.
+e:john=upset
 
 For the first time I felt that, with Evelyn Howard, something indefinable had gone from the atmosphere.
 s=none;e:hastings=wary
@@ -760,8 +763,8 @@ s=none;e:hastings=wary
 Her presence had spelt security. Now that security was removed﻿—and the air seemed rife with suspicion.
 
 
-The sinister face of Dr. Bauerstein recurred to me unpleasantly. A vague suspicion of everyone and everything filled my mind.
-e:hastings=suspicious
+The sinister face of Dr. Bauerstein recurred to me unpleasantly. A vague suspicion of everyone and everything filled my mind.<e>I wonder if Dr. Bauerstein and <book>The Great Gatsby|Dr. Eckleburg</book> ever get together.</e>
+e:hastings=suspicious;b=think
 
 Just for a moment I had a premonition of approaching evil.
 e:hastings=fearful
