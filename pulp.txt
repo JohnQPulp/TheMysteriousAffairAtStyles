@@ -5840,19 +5840,19 @@ I understood his object. He was waiting for the Scotland Yard men.
 
 
 In a few moments, they emerged, and Poirot at once stepped forward, and accosted the shorter of the two.
-x:poirot=hat;x:hastings=hat;x:japp=hat;n:summerhaye=Superintendent Summerhaye;x:summerhaye=hat;
+x:poirot=hat;x:hastings=hat;x:japp=hat;n:summerhaye=Superintendent Summerhaye;x:summerhaye=hat;z:summerhaye=104;v=140,140,60;z:japp=98
 
 “I fear you do not remember me, Inspector Japp.”
-s=poirot;e:poirot=smirking;c=summerhaye,japp
+s=poirot;e:poirot=smirking;c=japp
 
 “Why, if it isn’t Mr. Poirot!” cried the Inspector.
 s=japp;e:japp=happy
 
 He turned to the other man.
-s=none;e:japp=turn
+s=none;e:japp=turn;c=
 
 “You’ve heard me speak of Mr. Poirot?”
-s=japp
+s=japp;c=,japp,summerhaye;e:summerhaye=contemplative
 
 “It was in 1904 he and I worked together—the Abercrombie forgery case—you remember, he was run down in Brussels.”
 e:japp=thinking
@@ -5867,10 +5867,10 @@ e:japp=smirking
 
 
 As these friendly reminiscences were being indulged in, I drew nearer, and was introduced to Detective-Inspector Japp, who, in his turn, introduced us both to his companion, Superintendent Summerhaye.
-s=none;e:summerhaye=contemplative;e:japp=neutral
+s=none;e:summerhaye=contemplative;e:japp=neutral;c=
 
 “I need hardly ask what you are doing here, gentlemen,” remarked Poirot.
-s=poirot;e:poirot=neutral
+s=poirot;e:poirot=neutral;c=,japp,summerhaye;e:summerhaye=
 
 Japp closed one eye knowingly.
 s=none;e:japp=eye
@@ -5912,7 +5912,7 @@ s=none;e:poirot=smirking
 s=poirot
 
 Summerhaye was still looking rather sceptical, but Japp continued his scrutiny of Poirot.
-s=none;e:summerhaye=contemplative
+s=none
 
 “It’s this way,” he said, “so far, we’ve only seen the case from the outside.”
 s=japp;e:poirot=
@@ -5942,10 +5942,10 @@ e:japp=contemplative
 s=poirot;e:poirot=smirking
 
 A kind of wooden shutter of officialdom came down from Japp’s expressive countenance.
-s=none;e:japp=serious
+s=none;e:japp=
 
 “Perhaps I have, and perhaps I haven’t,” he remarked dryly.
-s=japp;e:japp=serious
+s=japp;e:japp=
 
 Poirot looked at him thoughtfully.
 s=none;e:poirot=thinking
@@ -5957,22 +5957,19 @@ s=poirot;e:poirot=serious
 s=summerhaye;e:summerhaye=scowling
 
 Japp was regarding Poirot with comical perplexity.
-s=none;e:japp=confused
+s=none;e:japp=smirking;c=
 
 “Can’t you go a little further, Mr. Poirot? A wink’s as good as a nod—from you.”
-s=japp
+s=japp;e:japp=;c=japp
 
 “You’ve been on the spot—and the Yard doesn’t want to make any mistakes, you know.”
-e:japp=
+e:japp=contemplative
 
 Poirot nodded gravely.
 s=none;e:poirot=serious
 
-“That is exactly what I thought. Well, I will tell you this.”
+“That is exactly what I thought. Well, I will tell you this. Use your warrant: Arrest Mr. Inglethorp.”
 s=poirot
-
-“Use your warrant: Arrest Mr. Inglethorp.”
-
 
 “But it will bring you no kudos—the case against him will be dismissed at once! *Comme ça!*”
 e:poirot=smirking
@@ -5981,28 +5978,22 @@ And he snapped his fingers expressively.
 s=
 
 Japp’s face grew grave, though Summerhaye gave an incredulous snort.
-s=none;e:japp=handkerchief;e:summerhaye=annoyed
+s=none;e:japp=handkerchief;e:summerhaye=annoyed;c=
 
 As for me, I was literally dumb with astonishment. I could only conclude that Poirot was mad.
-e:hastings=surprised
+
 
 Japp had taken out a handkerchief, and was gently dabbing his brow.
+c=japp
 
-
-“I daren’t do it, Mr. Poirot.”
+“I daren’t do it, Mr. Poirot. I’d take your word, but there’s others over me who’ll be asking what the devil I mean by it. Can’t you give me a little more to go on?”
 s=japp
 
-“I’d take your word, but there’s others over me who’ll be asking what the devil I mean by it.”
-e:japp=wary;e:japp=serious
-
-“Can’t you give me a little more to go on?”
-
-
 Poirot reflected a moment.
-s=none;e:poirot=thinking
+s=none;e:poirot=thinking;c=
 
 “It can be done,” he said at last.
-s=poirot;e:poirot=thinking;e:summerhaye=incredulous
+s=poirot;e:poirot=thinking;e:summerhaye=incredulous;c=japp;e:japp=serious
 
 “I admit I do not wish it. It forces my hand.”
 e:poirot=unhappy
@@ -6014,7 +6005,7 @@ e:poirot=thinking
 e:poirot=serious
 
 “See, then, my good Japp, you go at once to Styles?”
-
+e:poirot=contemplative
 
 “Well, in about half an hour. We’re seeing the Coroner and the doctor first.”
 s=japp;e:japp=neutral
@@ -6029,7 +6020,7 @@ e:poirot=serious
 e:poirot=smirking
 
 “That’s a bargain,” said Japp heartily.
-s=japp;e:japp=happy
+s=japp;e:japp=smirking
 
 “And, on behalf of the Yard, I’m much obliged to you, though I’m bound to confess I can’t at present see the faintest possible loophole in the evidence, but you always were a marvel!”
 e:japp=smirking
@@ -6038,7 +6029,7 @@ e:japp=smirking
 e:japp=
 
 The two detectives strode away, Summerhaye with an incredulous grin on his face.
-s=none;e:summerhaye=smirking;c=
+s=none;e:summerhaye=smirking;c=;b=village-wide
 
 “Well, my friend,” cried Poirot, before I could get in a word, “what do you think?”
 s=poirot;e:poirot=;b=village-wide
@@ -6050,16 +6041,13 @@ e:poirot=annoyed
 e:poirot=scowling
 
 “H’m! There are other explanations besides that of imbecility,” I remarked.
-s=hastings;e:hastings=thinking
+s=hastings;e:hastings=smirking
 
 “For, if the case against him is true, how could he defend himself except by silence?”
+e:hastings=thinking
 
-
-“Why, in a thousand ingenious ways,” cried Poirot.
+“Why, in a thousand ingenious ways,” cried Poirot. “See; say that it is I who have committed this murder, I can think of seven most plausible stories! Far more convincing than Mr. Inglethorp’s stony denials!”
 s=poirot;e:poirot=excited
-
-“See; say that it is I who have committed this murder, I can think of seven most plausible stories! Far more convincing than Mr. Inglethorp’s stony denials!”
-
 
 I could not help laughing.
 s=none;e:hastings=happy
@@ -6074,7 +6062,7 @@ e:hastings=
 s=poirot;e:poirot=neutral
 
 “But the evidence is so conclusive.”
-s=hastings
+s=hastings;e:hastings=contemplative
 
 “Yes, too conclusive.”
 s=poirot;e:poirot=thinking
@@ -6085,10 +6073,7 @@ s=none;b=belgium-ext
 “Yes, yes, too conclusive,” continued Poirot, almost to himself.
 s=poirot;e:poirot=contemplative;b=poirot-room;x:poirot=;x:hastings=
 
-“Real evidence is usually vague and unsatisfactory. It has to be examined—sifted.”
-
-
-“But here the whole thing is cut and dried.”
+“Real evidence is usually vague and unsatisfactory. It has to be examined—sifted. But here the whole thing is cut and dried.”
 
 
 “No, my friend, this evidence has been very cleverly manufactured—so cleverly that it has defeated its own ends.”
@@ -6140,7 +6125,7 @@ s=hastings;e:hastings=confused
 s=poirot;e:poirot=serious
 
 “I tell you, *mon ami*, it puzzles me. Me—Hercule Poirot!”
-e:poirot=thinking
+e:poirot=scowling
 
 “But if you believe him innocent, how do you explain his buying the strychnine?”
 s=hastings;e:hastings=wary
@@ -6158,7 +6143,7 @@ s=poirot;e:poirot=
 
 
 “Then you think—”
-s=hastings;e:hastings=wary
+s=hastings;e:hastings=confused
 
 “*Mon ami*, do you remember the two points I laid stress upon? Leave the first one for the moment, what was the second?”
 s=poirot;e:poirot=thinking
@@ -6206,10 +6191,10 @@ e:poirot=
 e:poirot=serious
 
 “How should he doubt that the man in his clothes, with his beard and his glasses, was not Alfred Inglethorp?”
-e:poirot=excited
+e:poirot=smirking
 
 “It may be so,” I said, fascinated by Poirot’s eloquence.
-s=hastings;e:hastings=contemplative
+s=hastings;e:hastings=nervous
 
 “But, if that was the case, why does he not say where he was at six o’clock on Monday evening?”
 e:hastings=confused
@@ -6226,8 +6211,11 @@ e:poirot=thinking
 “If he did not murder his wife, he is, nevertheless, a scoundrel, and has something of his own to conceal, quite apart from the murder.”
 e:poirot=scowling
 
-“What can it be?” I mused, won over to Poirot’s views for the moment, although still retaining a faint conviction that the obvious deduction was the correct one.
-s=hastings;e:hastings=thinking
+“What can it be?” I mused,
+s=hastings;e:hastings=thinking;m=allowbreak
+
+won over to Poirot’s views for the moment, although still retaining a faint conviction that the obvious deduction was the correct one.
+m=;s=
 
 “Can you not guess?” asked Poirot, smiling.
 s=poirot;e:poirot=smirking
@@ -6253,8 +6241,11 @@ s=none;e:poirot=serious
 “Tell me—you see now that he must not be arrested?”
 s=poirot
 
-“Perhaps,” I said doubtfully, for I was really quite indifferent to the fate of Alfred Inglethorp, and thought that a good fright would do him no harm.
-s=hastings;e:hastings=wary
+“Perhaps,” I said doubtfully,
+s=hastings;e:hastings=wary;m=allowbreak
+
+for I was really quite indifferent to the fate of Alfred Inglethorp, and thought that a good fright would do him no harm.
+m=;s=
 
 Poirot, who was watching me intently, gave a sigh.
 s=none;e:poirot=weary
@@ -6263,10 +6254,10 @@ s=none;e:poirot=weary
 s=poirot;e:poirot=neutral
 
 “Oh, pretty much what I expected.”
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=thinking
 
 “Did nothing strike you as peculiar about it?”
-s=poirot;e:poirot=thinking
+s=poirot;e:poirot=serious
 
 My thoughts flew to Mary Cavendish, and I hedged:
 s=none;e:hastings=nervous
@@ -6281,16 +6272,13 @@ I was relieved.
 s=none;e:hastings=happy
 
 “Oh, Lawrence! No, I don’t think so. He’s always a nervous chap.”
-s=hastings;e:hastings=thinking
+s=hastings;e:hastings=
 
 “His suggestion that his mother might have been poisoned accidentally by means of the tonic she was taking, that did not strike you as strange—*hein*?”
-s=poirot;e:poirot=serious
+s=poirot;e:poirot=thinking
 
-“No, I can’t say it did. The doctors ridiculed it of course.”
-s=hastings;e:hastings=neutral
-
-“But it was quite a natural suggestion for a layman to make.”
-
+“No, I can’t say it did. The doctors ridiculed it of course. But it was quite a natural suggestion for a layman to make.”
+s=hastings;e:hastings=suspicious
 
 “But Monsieur Lawrence is not a layman.”
 s=poirot;e:poirot=serious
@@ -6305,7 +6293,7 @@ I was rather startled.
 s=none
 
 “It *is* odd.”
-s=hastings;e:hastings=thinking
+s=hastings;e:hastings=contemplative
 
 Poirot nodded.
 s=none;e:poirot=serious
@@ -6335,7 +6323,7 @@ s=hastings;e:hastings=confused
 s=poirot;e:poirot=thinking
 
 “That’s another who is not telling all she knows!”
-e:poirot=excited
+e:poirot=smirking
 
 “What do you make of her attitude?”
 e:poirot=
@@ -6356,16 +6344,13 @@ s=poirot
 e:poirot=serious
 
 “And yet she is the last person one would accuse of stooping to eavesdrop!”
-s=hastings;e:hastings=surprised
+s=hastings;e:hastings=weary
 
 “Exactly.”
 s=poirot;e:poirot=smirking
 
-“One thing her evidence *has* shown me. I made a mistake.”
-e:poirot=thinking
-
-“Dorcas was quite right. The quarrel did take place earlier in the afternoon, about four o’clock, as she said.”
-
+“One thing her evidence *has* shown me. I made a mistake. Dorcas was quite right. The quarrel did take place earlier in the afternoon, about four o’clock, as she said.”
+e:poirot=contemplative
 
 I looked at him curiously. I had never understood his insistence on that point.
 s=none;e:hastings=confused
@@ -6377,13 +6362,10 @@ s=poirot;e:poirot=thinking
 
 
 “He has insomnia, I believe,” I said doubtfully.
-s=hastings;e:hastings=wary
+s=hastings;e:hastings=suspicious
 
-“Which is a very good, or a very bad explanation,” remarked Poirot.
+“Which is a very good, or a very bad explanation,” remarked Poirot. “It covers everything, and explains nothing.”
 s=poirot;e:poirot=smirking
-
-“It covers everything, and explains nothing.”
-
 
 “I shall keep my eye on our clever Dr. Bauerstein.”
 
@@ -6407,7 +6389,7 @@ s=hastings;e:hastings=annoyed
 s=poirot;e:poirot=smirking
 
 “One, I grant you, but both—!”
-e:poirot=excited
+
 
 His words gave me an unpleasant shock.
 s=none;e:hastings=wary
@@ -6418,11 +6400,8 @@ Miss Howard’s evidence, unimportant as it was, had been given in such a downri
 Still, I had a great respect for Poirot’s sagacity—except on the occasions when he was what I described to myself as “foolishly pigheaded.”
 e:hastings=thinking
 
-“Do you really think so?” I asked.
-s=hastings
-
-“Miss Howard had always seemed to me so essentially honest—almost uncomfortably so.”
-
+“Do you really think so?” I asked. “Miss Howard had always seemed to me so essentially honest—almost uncomfortably so.”
+s=hastings;e:hastings=nervous
 
 Poirot gave me a curious look, which I could not quite fathom.
 s=none;e:poirot=contemplative
@@ -6449,10 +6428,10 @@ Poirot seized his hat, gave a ferocious twist to his moustache, and, carefully b
 e:poirot=neutral
 
 there we joined the detectives and set out for Styles.
-b=belgium-ext;
+b=village-wide
 
 I think the appearance of the two Scotland Yard men was rather a shock—especially to John, though of course after the verdict, he had realized that it was only a matter of time.
-e:john=surprised;b=think
+e:john=surprised;b=styles-wide
 
 Still, the presence of the detectives brought the truth home to him more than anything else could have done.
 e:john=serious
@@ -6503,7 +6482,7 @@ I think everyone was a little surprised that it should be he and not one of the 
 e:hastings=surprised
 
 “Mesdames and messieurs,” said Poirot,
-s=poirot;e:poirot=bowing;m=allowbreak
+s=poirot;e:poirot=suspicious;m=allowbreak
 
 bowing as though he were a celebrity about to deliver a lecture,
 s=
@@ -6620,7 +6599,7 @@ s=poirot
 
 
 “There is absolutely no question as to the alibi!”
-e:poirot=excited
+e:poirot=angry
 
 ## 8. Fresh Suspicions
 r=title;v=100,130
