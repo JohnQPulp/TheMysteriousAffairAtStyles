@@ -5003,10 +5003,10 @@ I endeavoured to interrupt, but Poirot swept on.
 s=none
 
 “Let me tell you this, Hastings.”
-s=poirot;e:poirot=thinking
+s=poirot;e:poirot=unhappy
 
 “She would never forgive me if I let Alfred Inglethorp, her husband, be arrested now—when a word from me could save him!”
-e:poirot=serious
+e:poirot=annoyed
 
 ## 6. The Inquest
 r=title;v=100,130
@@ -5018,34 +5018,34 @@ I rather resented his not taking me into his confidence, the more so as I could 
 e:hastings=annoyed
 
 It occurred to me that he might have been making inquiries at Raikes’s farm; so, finding him out when I called at Leastways Cottage on Wednesday evening, I walked over there by the fields, hoping to meet him.
-e:hastings=neutral;b=light
+e:hastings=neutral;b=fields
 
 But there was no sign of him, and I hesitated to go right up to the farm itself.
 e:hastings=nervous;b=fields;x:hastings=hat
 
 As I walked away, I met an aged rustic, who leered at me cunningly.
-n:rustic=Rustic;e:rustic=smirking
+n:rustic=Aged Rustic
 
 “You’m from the Hall, bain’t you?” he asked.
-s=rustic;c=rustic
+s=rustic;c=rustic;z:rustic=97;e:rustic=smirking
 
 “Yes. I’m looking for a friend of mine whom I thought might have walked this way.”
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=nervous
 
 “A little chap? As waves his hands when he talks? One of them Belgies from the village?”
 s=rustic;e:rustic=
 
 “Yes,” I said eagerly. “He has been here, then?”
-s=hastings;e:hastings=
+s=hastings;e:hastings=curious
 
 “Oh, ay, he’s been here, right enough. More’n once too. Friend of yours, is he? Ah, you gentlemen from the Hall﻿—you’n a pretty lot!”
 s=rustic;e:rustic=smirking
 
 And he leered more jocosely than ever.
-s=none
+s=none;e:rustic=
 
 “Why, do the gentlemen from the Hall come here often?” I asked, as carelessly as I could.
-s=hastings;e:hastings=wary
+s=hastings;e:hastings=suspicious
 
 He winked at me knowingly.
 s=none;e:rustic=wink
@@ -5150,7 +5150,7 @@ I heard Poirot chuckle softly beside me.
 s=none;e:poirot=smirking
 
 “How did you know?” I whispered.
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=nervous
 
 “Listen.”
 s=poirot;e:poirot=smirking
@@ -5174,10 +5174,10 @@ s=none
 s=bauerstein
 
 “Then you consider it more likely that the drug was administered in the coffee, but that for some unknown reason its action was delayed.”
-s=wells;e:bauerstein=serious
+s=wells;e:wells=serious
 
 “Yes, but, the cup being completely smashed, there is no possibility of analyzing its contents.”
-s=bauerstein
+s=bauerstein;e:bauerstein=thinking
 
 This concluded Dr. Bauerstein’s evidence.
 s=none
@@ -5195,7 +5195,7 @@ His evidence was quite unimportant, being a mere repetition of that of his broth
 e:lawrence=neutral
 
 Just as he was about to step down, he paused, and said rather hesitatingly:
-e:lawrence=nervous
+e:lawrence=confused
 
 “I should like to make a suggestion if I may?”
 s=lawrence
@@ -5204,7 +5204,7 @@ He glanced deprecatingly at the Coroner, who replied briskly:
 s=none;e:wells=neutral
 
 “Certainly, Mr. Cavendish, we are here to arrive at the truth of this matter, and welcome anything that may lead to further elucidation.”
-s=wells
+s=wells;e:wells=serious
 
 “It is just an idea of mine,” explained Lawrence.
 s=lawrence;e:lawrence=nervous
@@ -5213,13 +5213,13 @@ s=lawrence;e:lawrence=nervous
 
 
 “How do you make that out, Mr. Cavendish?”
-s=wells;e:wells=serious
+s=wells;e:wells=annoyed
 
 “My mother, at the time of her death, and for some time before it, was taking a tonic containing strychnine.”
 s=lawrence;e:lawrence=contemplative
 
 “Ah!” said the Coroner.
-s=wells;e:wells=serious
+s=wells;e:wells=surprised
 
 The jury looked up, interested.
 s=none
@@ -5228,7 +5228,7 @@ s=none
 s=lawrence;e:lawrence=thinking
 
 “Also, is it not possible that she may have taken an overdose of her medicine by accident?”
-
+e:lawrence=contemplative
 
 “This is the first we have heard of the deceased taking strychnine at the time of her death. We are much obliged to you, Mr. Cavendish.”
 s=wells;e:wells=serious
@@ -5266,11 +5266,11 @@ s=wells
 “Certainly. The supposition is ridiculous.”
 s=wilkins;e:wilkins=annoyed
 
-The same juryman who had interrupted before here suggested that the chemist who made up the medicine might have committed an error.<e>Damnit, juror #8.</e>
+The same juryman who had interrupted before here suggested that the chemist who made up the medicine might have committed an error.<e>Juror #8 over here.</e>
 s=none
 
 “That, of course, is always possible,” replied the doctor.
-s=wilkins;e:wilkins=neutral
+s=wilkins;e:wilkins=thinking
 
 But Dorcas, who was the next witness called, dispelled even that possibility.
 s=none;e:dorcas=serious
@@ -5300,7 +5300,7 @@ s=wells;e:wells=serious
 s=mary;e:mary=thinking
 
 “In a few minutes a bell rang violently. Dorcas came running down and woke my husband, and we all went to my mother-in-law’s room, but it was locked﻿—”
-
+e:mary=serious
 
 The Coroner interrupted her.
 s=none
@@ -5351,7 +5351,7 @@ s=mary;e:mary=wary
 s=wells
 
 “In fact, they would be more audible where you were than in the hall.”
-
+e:wells=annoyed
 
 “Possibly.”
 s=mary;e:mary=wary
@@ -5363,7 +5363,7 @@ s=wells;e:wells=serious
 s=mary;e:mary=thinking
 
 “Do you mean to say you did not hear voices?”
-s=wells
+s=wells;e:wells=annoyed
 
 “Oh, yes, I heard the voices, but I did not hear what they said.”
 s=mary
@@ -5390,10 +5390,10 @@ s=none;e:mary=thinking
 s=mary
 
 “Ah!” the Coroner leant back satisfied.
-s=wells;e:wells=thinking
+s=wells;e:wells=smirking
 
 “That corresponds with what Dorcas heard.”
-e:wells=thinking
+e:wells=
 
 “But excuse me, Mrs. Cavendish, although you realized it was a private conversation, you did not move away? You remained where you were?”
 e:wells=serious
@@ -5429,7 +5429,7 @@ She had known nothing of the tragedy, until awakened by Mrs. Cavendish.
 
 
 “You did not hear the table fall?”
-s=wells;e:wells=neutral
+s=wells;e:wells=thinking
 
 “No. I was fast asleep.”
 s=cynthia
@@ -5456,7 +5456,7 @@ The following is a facsimile:
 
 
 <div class='center'><span class='upper'>Styles Court<br>Essex</span><br><span class='italics'>Hand written note: July 17th</span></div>
-o=letter
+
 
 My dear Evelyn<br>Can we not bury the hachet? I have found it hard to forgive the things you said against my dear husband but I am an old woman & very fond of you
 m=margin
@@ -5471,19 +5471,19 @@ m=;o=
 s=wells;e:wells=thinking
 
 “There is no mention of any of the events of that afternoon.”
-
+e:wells=serious
 
 “Plain as a pikestaff to me,” said Miss Howard shortly.
-s=evie;e:evie=annoyed
+s=evie;e:evie=angry
 
 “It shows clearly enough that my poor old friend had just found out she’d been made a fool of!”
-e:evie=angry
+e:evie=annoyed
 
 “It says nothing of the kind in the letter,” the Coroner pointed out.
 s=wells;e:wells=annoyed
 
 “No, because Emily never could bear to put herself in the wrong.”
-s=evie;e:evie=thinking
+s=evie;e:evie=angry
 
 “But I know her. She wanted me back. But she wasn’t going to own that I’d been right. She went round about. Most people do. Don’t believe in it myself.”
 
@@ -5509,11 +5509,8 @@ s=wells;e:wells=serious
 I fancy he breathed a sigh of relief when she complied.
 s=none;e:wells=weary
 
-Then came the sensation of the day.
-
-
-The Coroner called Albert Mace, chemist’s assistant.
-e:wells=serious
+Then came the sensation of the day. The Coroner called Albert Mace, chemist’s assistant.
+e:wells=serious;n:mace=Albert Mace
 
 It was our agitated young man of the pale face.
 e:mace=nervous
@@ -5534,10 +5531,10 @@ s=mace
 s=wells;e:wells=serious
 
 “Last Monday night.”
-s=mace
+s=mace;e:mace=unhappy
 
 “Monday? Not Tuesday?”
-s=wells
+s=wells;e:wells=
 
 “No, sir, Monday, the 16th.”
 s=mace;e:mace=thinking
@@ -5567,7 +5564,7 @@ s=wells;e:wells=serious
 s=mace;e:mace=thinking
 
 “Are you in the habit of selling strychnine indiscriminately over the counter?”
-s=wells;e:wells=thinking
+s=wells;e:wells=annoyed
 
 The wretched young man wilted visibly under the Coroner’s frown.
 s=none;e:mace=fearful
@@ -5621,7 +5618,7 @@ s=alfred
 s=wells
 
 “I do.”
-s=alfred
+s=alfred;e:alfred=serious
 
 “Do you also deny *this*?”
 s=wells
@@ -5651,31 +5648,31 @@ The Coroner hesitated for a moment, and then said:
 s=none
 
 “Mr. Inglethorp, as a mere matter of form, would you mind telling us where you were on the evening of Monday, July 16th?”
-s=wells
+s=wells;e:wells=contemplative
 
 “Really﻿—I can’t remember.”
 s=alfred;e:alfred=thinking
 
 “That is absurd, Mr. Inglethorp,” said the Coroner sharply.
-s=wells;e:wells=serious
+s=wells;e:wells=annoyed
 
 “Think again.”
-
+e:wells=serious
 
 Inglethorp shook his head.
 s=none;e:alfred=neutral
 
 “I cannot tell you. I have an idea that I was out walking.”
-s=alfred
+s=alfred;e:alfred=upset
 
 “In what direction?”
 s=wells
 
 “I really can’t remember.”
-s=alfred;e:alfred=thinking
+s=alfred;e:alfred=unhappy
 
 The Coroner’s face grew graver.
-s=none;e:wells=serious
+s=none;e:wells=annoyed
 
 “Were you in company with anyone?”
 s=wells
@@ -5690,7 +5687,7 @@ s=wells
 s=alfred;e:alfred=contemplative
 
 “That is a pity,” said the Coroner dryly.
-s=wells;e:wells=thinking
+s=wells;e:wells=serious
 
 “I am to take it then that you decline to say where you were at the time that Mr. Mace positively recognized you as entering the shop to purchase strychnine?”
 e:wells=serious
@@ -5705,10 +5702,10 @@ Poirot was fidgeting nervously.
 s=none;e:poirot=nervous
 
 “*Sacré!*” he murmured.
-s=poirot;e:poirot=annoyed
+s=poirot;e:poirot=serious
 
 “Does this imbecile of a man *want* to be arrested?”
-
+e:poirot=scowling
 
 Inglethorp was indeed creating a bad impression. His futile denials would not have convinced a child.
 s=none
@@ -5729,13 +5726,13 @@ s=alfred;e:alfred=serious
 s=wells;e:wells=serious
 
 “You have my word,” said Inglethorp haughtily.
-s=alfred;e:alfred=annoyed
+s=alfred;e:alfred=scowling
 
 The Coroner did not trouble to reply.
 s=none;e:wells=scowling
 
 “There are two witnesses who will swear to having heard your disagreement with Mrs. Inglethorp.”
-s=wells;e:wells=serious
+s=wells;e:wells=annoyed
 
 “Those witnesses were mistaken.”
 s=alfred;e:alfred=thinking
@@ -5768,13 +5765,13 @@ s=alfred;e:alfred=neutral
 e:alfred=unhappy
 
 “Ah!” murmured Poirot to himself.
-s=poirot;e:poirot=smirking
+s=poirot;e:poirot=thinking
 
 “But it is an idea, that!”
-
+e:poirot=smirking
 
 “You think it is true?” I whispered.
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=curious
 
 “I do not say that. But it is truly an ingenious supposition.”
 s=poirot;e:poirot=thinking
