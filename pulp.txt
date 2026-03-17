@@ -1769,7 +1769,7 @@ s=none;e:alfred=nervous
 s=alfred;e:alfred=upset;x:hastings=hat
 
 “Where have you been?” I asked.
-s=hastings;e:hastings=suspicious
+s=hastings;e:hastings=nervous
 
 “Denby kept me late last night. It was one o’clock before we’d finished.”
 s=alfred
@@ -1915,8 +1915,11 @@ s=poirot;e:poirot=serious
 “I can’t see why,” I said, rather nettled.
 s=hastings;e:hastings=annoyed
 
-“As far as I can remember, she didn’t eat much. She was obviously upset, and it had taken her appetite away. That was only natural.”
+“As far as I can remember, she didn’t eat much. She was obviously upset, and it had taken her appetite away.”
 
+
+“That was only natural.”
+e:hastings=unhappy
 
 “Yes,” said Poirot thoughtfully, “it was only natural.”
 s=poirot;e:poirot=thinking;x:poirot=
@@ -1943,18 +1946,15 @@ Poirot stopped for a moment, and gazed sorrowfully over the beautiful expanse of
 e:poirot=weary
 
 “So beautiful, so beautiful, and yet, the poor family, plunged in sorrow, prostrated with grief.”
-s=poirot;e:poirot=unhappy;x:poirot=hat;x:hastings=hat
+s=poirot;e:poirot=contemplative;x:poirot=hat;x:hastings=hat
 
 He looked at me keenly as he spoke, and I was aware that I reddened under his prolonged gaze.
 s=none;e:poirot=suspicious;e:hastings=nervous
 
 Was the family prostrated by grief? Was the sorrow at Mrs. Inglethorp’s death so great?
-e:hastings=thinking
+e:hastings=thinking;b=styles-wide
 
-I realized that there was an emotional lack in the atmosphere.
-
-
-The dead woman had not the gift of commanding love.
+I realized that there was an emotional lack in the atmosphere. The dead woman had not the gift of commanding love.
 
 
 Her death was a shock and a distress, but she would not be passionately regretted.
@@ -1985,13 +1985,13 @@ s=poirot;e:poirot=serious
 
 
 “Yes?”
-s=hastings
+s=hastings;e:hastings=curious
 
 “Well, what time was the coffee served?”
 s=poirot;e:poirot=thinking
 
 “About eight o’clock.”
-s=hastings;e:hastings=thinking
+s=hastings;e:hastings=contemplative
 
 “Therefore she drank it between then and half-past eight—certainly not much later.”
 s=poirot;e:poirot=serious
@@ -2048,7 +2048,7 @@ e:poirot=annoyed
 s=john;e:john=thinking
 
 “That difficulty will not exist long,” pronounced Poirot quietly.
-s=poirot;e:poirot=serious
+s=poirot;e:poirot=curious
 
 John looked puzzled, not quite understanding the portent of this cryptic saying.
 s=none;e:john=confused
@@ -2068,11 +2068,14 @@ s=john;e:john=serious
 Poirot nodded thoughtfully.
 s=none;e:poirot=thinking
 
-“Then he is very sure. Well, that simplifies matters for us.”
-s=poirot;e:poirot=serious
+“Then he is very sure.”
+s=poirot;e:poirot=thinking
+
+“Well, that simplifies matters for us.”
+e:poirot=contemplative;
 
 We went up together to the room of the tragedy.
-s=none;b=light;x:poirot=;x:hastings=
+s=none;b=emily-windows;x:poirot=;x:hastings=
 
 For convenience I append a plan of the room and the principal articles of furniture in it.
 o=illustration2
@@ -2095,8 +2098,11 @@ s=poirot;e:poirot=annoyed
 I explained that I was afraid of obliterating any footmarks.
 s=none;e:hastings=wary
 
-“Footmarks? But what an idea! There has already been practically an army in the room! What footmarks are we likely to find?”
+“Footmarks? But what an idea!”
 s=poirot;e:poirot=smirking
+
+“There has already been practically an army in the room! What footmarks are we likely to find?”
+
 
 “No, come here and aid me in my search. I will put down my little case until I need it.”
 e:poirot=neutral
@@ -2143,11 +2149,14 @@ On the chest of drawers there was a tray with a spirit lamp and a small saucepan
 I wondered how I could have been so unobservant as to overlook this. Here was a clue worth having.
 e:hastings=thinking
 
-Poirot delicately dipped his finger into liquid, and tasted it gingerly. He made a grimace.
+Poirot delicately dipped his finger into liquid, and tasted it gingerly.
 e:poirot=upset
 
+He made a grimace.
+
+
 “Cocoa—with—I think—rum in it.”
-s=poirot;e:poirot=contemplative
+s=poirot;e:poirot=serious
 
 He passed on to the debris on the floor, where the table by the bed had been overturned.
 s=none;e:poirot=serious
@@ -2168,16 +2177,16 @@ s=poirot;e:poirot=serious
 s=hastings;e:hastings=weary
 
 “Exactly,” said Poirot, in an odd voice.
-s=poirot;e:poirot=contemplative
+s=poirot;e:poirot=suspicious
 
 “Someone stepped on it.”
-
+e:poirot=thinking
 
 He rose from his knees, and walked slowly across to the mantelpiece, where he stood abstractedly fingering the ornaments, and straightening them—a trick of his when he was agitated.
 s=none;e:poirot=nervous
 
 “*Mon ami*,” he said, turning to me, “somebody stepped on that cup, grinding it to powder, and the reason they did so was either because it contained strychnine or—which is far more serious—because it did not contain strychnine!”
-s=poirot;e:poirot=serious
+s=poirot;e:poirot=excited
 
 I made no reply. I was bewildered, but I knew that it was no good asking him to explain.
 s=none;e:hastings=confused
@@ -2209,8 +2218,11 @@ Finally, he poured a few drops of the cocoa into a test tube, sealing it up care
 His next proceeding was to take out a little notebook.
 
 
-“We have found in this room,” he said, writing busily, “six points of interest. Shall I enumerate them, or will you?”
-s=poirot;e:poirot=smirking
+“We have found in this room,” he said, writing busily, “six points of interest.”
+s=poirot;e:poirot=reading
+
+“Shall I enumerate them, or will you?”
+e:poirot=smirking
 
 “Oh, you,” I replied hastily.
 s=hastings;e:hastings=nervous
@@ -2225,43 +2237,46 @@ s=hastings;e:hastings=wary
 s=poirot;e:poirot=neutral
 
 “Ah!” I cried. “That was what you sealed up in the envelope.”
-s=hastings;e:hastings=excited
+s=hastings;e:hastings=curious
 
 “Yes. It may turn out to be a piece of one of Mrs. Inglethorp’s own dresses, and quite unimportant. We shall see.”
 s=poirot;e:poirot=thinking
 
 “Five, *this*!”
-e:poirot=gesture
+e:poirot=annoyed
 
 With a dramatic gesture, he pointed to a large splash of candle grease on the floor by the writing-table.
 s=none
 
 “It must have been done since yesterday, otherwise a good housemaid would have at once removed it with blotting-paper and a hot iron.”
-s=poirot;
+s=poirot;e:poirot=serious
 
 “One of my best hats once—but that is not to the point.”
-e:poirot=annoyed
+e:poirot=thinking
 
-“It was very likely done last night. We were very agitated. Or perhaps Mrs. Inglethorp herself dropped her candle.”
-s=hastings;e:hastings=thinking
+“It was very likely done last night. We were very agitated.”
+s=hastings;e:hastings=contemplative
+
+“Or perhaps Mrs. Inglethorp herself dropped her candle.”
+
 
 “You brought only one candle into the room?”
 s=poirot;e:poirot=serious
 
 “Yes. Lawrence Cavendish was carrying it. But he was very upset.”
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=contemplative
 
 “He seemed to see something over here”—I indicated the mantelpiece—“that absolutely paralysed him.”
-e:hastings=serious
+e:hastings=suspicious
 
 “That is interesting,” said Poirot quickly.
 s=poirot;e:poirot=contemplative
 
 “Yes, it is suggestive”—his eye sweeping the whole length of the wall—“but it was not his candle that made this great patch, for you perceive that this is white grease; whereas Monsieur Lawrence’s candle, which is still on the dressing-table, is pink.”
-e:poirot=serious
+e:poirot=smirking
 
 “On the other hand, Mrs. Inglethorp had no candlestick in the room, only a reading-lamp.”
-
+e:poirot=serious
 
 “Then,” I said, “what do you deduce?”
 s=hastings;e:hastings=confused
@@ -2270,7 +2285,7 @@ To which my friend only made a rather irritating reply, urging me to use my own 
 s=none;e:hastings=annoyed;e:poirot=smirking
 
 “And the sixth point?” I asked.
-s=hastings;e:hastings=wary
+s=hastings;e:hastings=annoyed
 
 “I suppose it is the sample of cocoa.”
 
@@ -2300,13 +2315,16 @@ Suddenly, he gave a faint exclamation.
 e:poirot=surprised
 
 “The forceps, Hastings!”
-s=poirot;e:poirot=excited
+s=poirot;e:poirot=scowling
 
 I quickly handed them to him, and with skill he extracted a small piece of half charred paper.
 s=none
 
-“There, *mon ami*!” he cried. “What do you think of that?”
-s=poirot;e:poirot=smirking;b=emily-windows
+“There, *mon ami*!” he cried.
+s=poirot;e:poirot=excited;b=emily-windows
+
+“What do you think of that?”
+e:poirot=smirking
 
 I scrutinized the fragment. This is an exact reproduction of it:—
 s=none;e:hastings=thinking;o=illustration3
@@ -2320,11 +2338,8 @@ e:hastings=surprised
 Suddenly an idea struck me.
 
 
-“Poirot!” I cried.
-s=hastings;e:hastings=excited
-
-“This is a fragment of a will!”
-
+“Poirot!” I cried. “This is a fragment of a will!”
+s=hastings;e:hastings=surprised
 
 “Exactly.”
 s=poirot;e:poirot=
@@ -2333,7 +2348,7 @@ I looked up at him sharply.
 s=none;e:hastings=wary
 
 “You are not surprised?”
-s=hastings
+s=hastings;e:hastings=serious
 
 “No,” he said gravely, “I expected it.”
 s=poirot;e:poirot=serious
@@ -2350,8 +2365,11 @@ e:hastings=thinking
 All the doors had been bolted on the inside.
 
 
-“Now, my friend,” said Poirot briskly, “we will go. I should like to ask a few questions of the parlourmaid—Dorcas, her name is, is it not?”
-s=poirot;e:poirot=happy
+“Now, my friend,” said Poirot briskly, “we will go.”
+s=poirot;e:poirot=
+
+“I should like to ask a few questions of the parlourmaid—Dorcas, her name is, is it not?”
+
 
 We passed through Alfred Inglethorp’s room, and Poirot delayed long enough to make a brief but fairly comprehensive examination of it.
 s=none;e:poirot=serious;b=alfred-room
@@ -2359,11 +2377,8 @@ s=none;e:poirot=serious;b=alfred-room
 We went out through that door, locking both it and that of Mrs. Inglethorp’s room as before.
 
 
-I took him down to the boudoir which he had expressed a wish to see,
-m=joined;b=styles-boudoir
-
-and went myself in search of Dorcas.
-m=;b=styles-wide
+I took him down to the boudoir which he had expressed a wish to see, and went myself in search of Dorcas.
+b=styles-down-hall
 
 When I returned with her, however, the boudoir was empty.
 e:hastings=confused;b=styles-boudoir
@@ -2372,16 +2387,16 @@ e:hastings=confused;b=styles-boudoir
 s=hastings;e:hastings=surprised
 
 “I am here, my friend.”
-s=poirot;e:poirot=happy
+s=poirot;e:poirot=smirking
 
 He had stepped outside the French window, and was standing, apparently lost in admiration, before the various shaped flower beds.
 s=none;e:poirot=happy
 
 “Admirable!” he murmured. “Admirable! What symmetry! Observe that crescent; and those diamonds—their neatness rejoices the eye.”
-s=poirot;e:poirot=excited
+s=poirot;e:poirot=happy
 
 “The spacing of the plants, also, is perfect. It has been recently done; is it not so?”
-e:poirot=happy
+e:poirot=
 
 “Yes, I believe they were at it yesterday afternoon. But come in—Dorcas is here.”
 s=hastings;e:hastings=annoyed
@@ -2398,11 +2413,14 @@ s=poirot;e:poirot=contemplative
 I shrugged my shoulders. There was really no arguing with him if he chose to take that line.
 s=none;e:hastings=weary
 
-“You do not agree? But such things have been. Well, we will come in and interview the brave Dorcas.”
-s=poirot;e:poirot=happy
+“You do not agree? But such things have been.”
+s=poirot;e:poirot=smirking
+
+“Well, we will come in and interview the brave Dorcas.”
+
 
 Dorcas was standing in the boudoir, her hands folded in front of her, and her grey hair rose in stiff waves under her white cap.
-s=none;e:dorcas=nervous;b=light
+s=none;e:dorcas=;b=light
 
 She was the very model and picture of a good old-fashioned servant.<e>Relatable prose from Mrs. "I couldn't imagine being too poor to afford servants".</e>
 c=dorcas
@@ -2426,7 +2444,7 @@ s=poirot;e:poirot=neutral
 s=dorcas;e:dorcas=contemplative
 
 “That is a long time, and very faithful service. You were much attached to her, were you not?”
-s=poirot;e:poirot=happy
+s=poirot;e:poirot=thinking
 
 “She was a very good mistress to me, sir.”
 s=dorcas;e:dorcas=unhappy
@@ -2438,7 +2456,7 @@ s=poirot;e:poirot=serious
 s=dorcas;e:dorcas=contemplative
 
 “Then I will begin by asking you about the events of yesterday afternoon. Your mistress had a quarrel?”
-s=poirot
+s=poirot;e:poirot=thinking
 
 “Yes, sir. But I don’t know that I ought—”
 s=dorcas;e:dorcas=wary
@@ -2468,13 +2486,13 @@ s=none;e:poirot=neutral
 s=poirot;e:poirot=serious
 
 “Well, sir, I happened to be going along the hall outside yesterday—”
-s=dorcas;e:dorcas=thinking
+s=dorcas;e:dorcas=thinking;
 
 “What time was that?”
 s=poirot
 
 “I couldn’t say exactly, sir, but it wasn’t teatime by a long way. Perhaps four o’clock—or it may have been a bit later.”
-s=dorcas
+s=dorcas;e:dorcas=contemplative
 
 “Well, sir, as I said, I happened to be passing along, when I heard voices very loud and angry in here.”
 e:dorcas=serious
@@ -2483,13 +2501,13 @@ e:dorcas=serious
 e:dorcas=wary
 
 “‘You have lied to me, and deceived me,’ she said.”
-e:dorcas=thinking
+e:dorcas=scowling
 
 “I didn’t hear what Mr. Inglethorp replied.”
 e:dorcas=wary
 
 “He spoke a good bit lower than she did—but she answered: ‘How dare you? I have kept you and clothed you and fed you! You owe everything to me! And this is how you repay me! By bringing disgrace upon our name!’”
-e:dorcas=serious
+e:dorcas=scowling
 
 “Again I didn’t hear what he said, but she went on: ‘Nothing that you can say will make any difference. I see my duty clearly. My mind is made up. You need not think that any fear of publicity, or scandal between husband and wife will deter me.’”
 
@@ -2513,7 +2531,7 @@ s=dorcas;e:dorcas=thinking
 e:dorcas=unhappy
 
 “‘Dorcas,’ she says, ‘I’ve had a great shock.’”
-e:dorcas=thinking
+e:dorcas=serious
 
 “‘I’m sorry for that, m’m,’ I says. ‘You’ll feel better after a nice hot cup of tea, m’m.’”
 e:dorcas=unhappy
@@ -2540,13 +2558,13 @@ s=poirot;e:poirot=serious
 s=dorcas;e:dorcas=neutral
 
 “What would she be likely to do with it afterwards?”
-s=poirot
+s=poirot;e:poirot=contemplative
 
 “Well, I don’t know, sir, I expect she would lock it up in that purple case of hers.”
 s=dorcas;e:dorcas=thinking
 
 “Is that where she usually kept important papers?”
-s=poirot
+s=poirot;e:poirot=serious
 
 “Yes, sir. She brought it down with her every morning, and took it up every night.”
 s=dorcas;e:dorcas=neutral
@@ -2570,7 +2588,7 @@ Poirot smiled.
 
 
 “Never mind, Dorcas, it is my business to know things. Is this the key that was lost?”
-s=poirot;e:poirot=happy
+s=poirot;e:poirot=smirking
 
 He drew from his pocket the key that he had found in the lock of the despatch-case upstairs.
 s=none
@@ -2600,7 +2618,7 @@ s=dorcas;e:dorcas=confused
 s=poirot;e:poirot=suspicious
 
 “Oh, yes, sir.”
-s=dorcas;e:dorcas=thinking
+s=dorcas;e:dorcas=nervous
 
 “Has anyone else in the house got a green dress?”
 s=poirot;e:poirot=neutral
@@ -2636,7 +2654,7 @@ e:poirot=serious
 s=dorcas;e:dorcas=contemplative
 
 “Why do you know so positively?”
-s=poirot;e:poirot=suspicious
+s=poirot;e:poirot=contemplative
 
 “Because the box was empty.”
 s=dorcas
@@ -2677,20 +2695,17 @@ e:dorcas=scowling
 Poirot lifted his hand.
 s=none;e:poirot=neutral
 
-“Since they have been left, Dorcas, leave them a little longer, I pray you.”
-s=poirot;e:poirot=serious
-
-“I should like to examine them.”
-
+“Since they have been left, Dorcas, leave them a little longer, I pray you. I should like to examine them.”
+s=poirot;e:poirot=smirking
 
 “Very well, sir.”
-s=dorcas;e:dorcas=neutral
+s=dorcas;e:dorcas=confused
 
 “What time did you go out last evening?”
-s=poirot
+s=poirot;e:poirot=serious
 
 “About six o’clock, sir.”
-s=dorcas
+s=dorcas;e:dorcas=nervous
 
 “Thank you, Dorcas, that is all I have to ask you.”
 s=poirot;e:poirot=happy
@@ -2717,13 +2732,13 @@ e:dorcas=contemplative
 e:dorcas=weary
 
 “The good times will come again, Dorcas. At least, we hope so.”
-s=poirot;e:poirot=happy
+s=poirot;e:poirot=serious
 
 “Now, will you send Annie to me here?”
 e:poirot=neutral
 
 “Yes, sir. Thank you, sir.”
-s=dorcas;e:dorcas=neutral
+s=dorcas;e:dorcas=contemplative
 
 “How did you know that Mrs. Inglethorp took sleeping powders?” I asked, in lively curiosity, as Dorcas left the room.
 s=hastings;e:hastings=curious
@@ -2741,7 +2756,7 @@ s=none;
 s=hastings;e:hastings=surprised
 
 “In the washstand drawer in Mrs. Inglethorp’s bedroom. It was Number Six of my catalogue.”
-s=poirot;e:poirot=happy
+s=poirot;e:poirot=
 
 “But I suppose, as the last powder was taken two days ago, it is not of much importance?”
 s=hastings;e:hastings=thinking
@@ -2770,17 +2785,14 @@ s=hastings;e:hastings=contemplative
 “Not the fact that there is no chemist’s name?”
 s=poirot;e:poirot=smirking
 
-“Ah!” I exclaimed.
+“Ah!” I exclaimed. “To be sure, that is odd!”
 s=hastings;e:hastings=surprised
 
-“To be sure, that is odd!”
-e:hastings=contemplative
-
 “Have you ever known a chemist to send out a box like that, without his printed name?”
-s=poirot
+s=poirot;e:poirot=serious
 
 “No, I can’t say that I have.”
-s=hastings;e:hastings=thinking
+s=hastings;e:hastings=curious
 
 I was becoming quite excited, but Poirot damped my ardour by remarking:
 s=none;e:hastings=excited;e:poirot=neutral
@@ -2810,10 +2822,10 @@ Annie considered.
 s=none;e:annie=thinking
 
 “There were four letters, sir. One was to Miss Howard, and one was to Mr. Wells, the lawyer, and the other two I don’t think I remember, sir—oh, yes, one was to Ross’s, the caterers in Tadminster.”
-s=annie
+s=annie;z:annie=90,,2
 
 “The other one, I don’t remember.”
-
+e:annie=contemplative
 
 “Think,” urged Poirot.
 s=poirot;e:poirot=serious
@@ -2825,10 +2837,13 @@ s=none;e:annie=thinking
 s=annie;e:annie=upset
 
 “It does not matter,” said Poirot, not betraying any sign of disappointment.
-s=poirot;e:poirot=neutral
+s=poirot;e:poirot=thinking
 
-“Now I want to ask you about something else. There is a saucepan in Mrs. Inglethorp’s room with some cocoa in it. Did she have that every night?”
+“Now I want to ask you about something else.”
 e:poirot=serious
+
+“There is a saucepan in Mrs. Inglethorp’s room with some cocoa in it. Did she have that every night?”
+
 
 “Yes, sir, it was put in her room every evening, and she warmed it up in the night—whenever she fancied it.”
 s=annie;e:annie=neutral
@@ -2843,13 +2858,13 @@ s=annie
 s=poirot
 
 “I did, sir.”
-s=annie
+s=annie;e:annie=nervous
 
 “Always?”
-s=poirot;e:poirot=suspicious
+s=poirot;e:poirot=thinking
 
 “Yes, sir.”
-s=annie;e:annie=nervous
+s=annie;e:annie=fearful
 
 “At what time?”
 s=poirot
@@ -2864,7 +2879,7 @@ s=poirot;e:poirot=serious
 s=annie;e:annie=thinking
 
 “Then I used to bring it up, and put it on the table by the swing door, and take it into her room later.”
-
+e:annie=contemplative
 
 “The swing door is in the left wing, is it not?”
 s=poirot;e:poirot=serious
@@ -2882,13 +2897,13 @@ s=annie
 s=poirot;e:poirot=thinking
 
 “About quarter-past seven, I should say, sir.”
-s=annie;e:annie=contemplative
+s=annie;e:annie=nervous
 
 “And when did you take it into Mrs. Inglethorp’s room?”
 s=poirot
 
 “When I went to shut up, sir. About eight o’clock.”
-s=annie
+s=annie;e:annie=contemplative
 
 “Mrs. Inglethorp came up to bed before I’d finished.”
 
@@ -2942,7 +2957,7 @@ e:hastings=annoyed
 s=poirot
 
 “Oh! Yes, sir; it always was. It had never been opened.”
-s=annie;e:annie=neutral
+s=annie;e:annie=confused
 
 “And the door into Mr. Inglethorp’s room?”
 s=poirot
@@ -2959,11 +2974,8 @@ s=annie;e:annie=nervous
 “When you finally left the room, did Mrs. Inglethorp bolt the door after you?”
 s=poirot
 
-“No, sir, not then, but I expect she did later. She usually did lock it at night.”
+“No, sir, not then, but I expect she did later. She usually did lock it at night. The door into the passage, that is.”
 s=annie;e:annie=thinking
-
-“The door into the passage, that is.”
-
 
 “Did you notice any candle grease on the floor when you did the room yesterday?”
 s=poirot;e:poirot=serious
@@ -2981,10 +2993,10 @@ Then Poirot repeated the question he had put to Dorcas:
 s=none;e:poirot=serious
 
 “Did your mistress ever have a green dress?”
-s=poirot
+s=poirot;e:poirot=thinking
 
 “No, sir.”
-s=annie
+s=annie;e:annie=contemplative
 
 “Nor a mantle, nor a cape, nor a—how do you call it?—a sports coat?”
 s=poirot;e:poirot=thinking
@@ -3002,7 +3014,7 @@ s=none;e:annie=thinking
 s=annie
 
 “You are sure of that?”
-s=poirot;e:poirot=suspicious
+s=poirot;e:poirot=
 
 “Quite sure.”
 s=annie;e:annie=
@@ -3010,38 +3022,32 @@ s=annie;e:annie=
 “*Bien!* That is all I want to know. Thank you very much.”
 s=poirot;e:poirot=happy
 
-With a nervous giggle, Annie took herself creakingly out of the room. My pent-up excitement burst forth.
+With a nervous giggle, Annie took herself creakingly out of the room.
 s=none;e:hastings=excited
 
-“Poirot,” I cried, “I congratulate you!”
+My pent-up excitement burst forth.
+
+
+“Poirot,” I cried, “I congratulate you! This is a great discovery.”
 s=hastings
 
-“This is a great discovery.”
-e:hastings=happy
-
 “What is a great discovery?”
-s=poirot;e:poirot=confused
+s=poirot;e:poirot=
 
-“Why, that it was the cocoa and not the coffee that was poisoned. That explains everything!”
-s=hastings;e:hastings=excited
-
-“Of course it did not take effect until the early morning, since the cocoa was only drunk in the middle of the night.”
-e:hastings=happy
+“Why, that it was the cocoa and not the coffee that was poisoned. That explains everything! Of course it did not take effect until the early morning, since the cocoa was only drunk in the middle of the night.”
+s=hastings;e:hastings=happy
 
 “So you think that the cocoa—mark well what I say, Hastings, the cocoa—contained strychnine?”
 s=poirot;e:poirot=smirking
 
-“Of course!”
-s=hastings;e:hastings=excited
-
-“That salt on the tray, what else could it have been?”
-e:hastings=
+“Of course! That salt on the tray, what else could it have been?”
+s=hastings;e:hastings=happy
 
 “It might have been salt,” replied Poirot placidly.
-s=none;e:poirot=neutral
+s=poirot;e:poirot=neutral
 
 I shrugged my shoulders. If he was going to take the matter that way, it was no good arguing with him.
-e:hastings=annoyed
+e:hastings=annoyed;s=
 
 The idea crossed my mind, not for the first time, that poor old Poirot was growing old.
 e:hastings=thinking
@@ -3055,11 +3061,8 @@ e:poirot=smirking
 “You are not pleased with me, *mon ami*?”
 s=poirot
 
-“My dear Poirot,” I said coldly, “it is not for me to dictate to you.”
+“My dear Poirot,” I said coldly, “it is not for me to dictate to you. You have a right to your own opinion, just as I have to mine.”
 s=hastings;e:hastings=annoyed
-
-“You have a right to your own opinion, just as I have to mine.”
-e:hastings=contemplative
 
 “A most admirable sentiment,” remarked Poirot, rising briskly to his feet.
 s=poirot;e:poirot=happy
@@ -3068,7 +3071,7 @@ s=poirot;e:poirot=happy
 e:poirot=
 
 “By the way, whose is the smaller desk in the corner?”
-e:poirot=confused;o=roller-desk
+e:poirot=contemplative;o=roller-desk
 
 “Mr. Inglethorp’s.”
 s=hastings;e:hastings=neutral
@@ -3083,7 +3086,7 @@ s=none;o=
 s=poirot;e:poirot=
 
 He tried several, twisting and turning them with a practiced hand, and finally uttering an ejaculation of satisfaction.
-e:poirot=happy;s=
+e:poirot=smirking;s=
 
 “*Voilà!* It is not the key, but it will open it at a pinch.”
 s=poirot
