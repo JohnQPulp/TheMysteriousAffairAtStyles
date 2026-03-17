@@ -1295,7 +1295,7 @@ e:lawrence=fearful
 s=hastings;e:hastings=confused;x:hastings=night1
 
 “We are afraid my mother is very ill. She seems to be having some kind of fit.”
-s=lawrence;x:lawrence=night;z:lawrence=,,3
+s=lawrence;x:lawrence=night;z:lawrence=,52,3
 
 “Unfortunately she has locked herself in.”
 
@@ -4469,7 +4469,7 @@ and we went out through the open window in the drawing-room.
 b=styles-drawing;m=
 
 Cynthia Murdoch was just coming in, and Poirot stood aside to let her pass.
-e:cynthia=neutral;x:cynthia=vad
+e:cynthia=neutral;x:cynthia=
 
 “Excuse me, mademoiselle, one minute.”
 s=poirot;x:poirot=hat;x:hastings=hat
@@ -4493,7 +4493,7 @@ The flush deepened as Cynthia replied:
 s=none
 
 “Oh, yes, I did make up some sleeping powders for her once.”
-s=cynthia
+s=cynthia;e:cynthia=unhappy
 
 “These?”
 s=poirot
@@ -4508,7 +4508,7 @@ She nodded.
 s=poirot;o=
 
 “No, they were bromide powders.”
-s=cynthia;e:cynthia=contemplative
+s=cynthia;e:cynthia=confused
 
 “Ah! Thank you, mademoiselle; good morning.”
 s=poirot;e:poirot=happy
@@ -7754,19 +7754,22 @@ Accordingly I accosted him.
 
 
 “I’ve been looking for you,” I remarked untruthfully.
-s=hastings;e:hastings=
+s=hastings;e:hastings=contemplative
 
 “Have you?”
-s=lawrence;e:lawrence=serious
+s=lawrence;e:lawrence=
 
 “Yes. The truth is, I’ve got a message for you﻿—from Poirot.”
-s=hastings
+s=hastings;e:hastings=thinking
 
 “Yes?”
 s=lawrence;e:lawrence=serious
 
-“He told me to wait until I was alone with you,” I said, dropping my voice significantly, and watching him intently out of the corner of my eye.
-s=hastings;e:hastings=serious
+“He told me to wait until I was alone with you,” I said,
+s=hastings;e:hastings=serious;m=allowbreak
+
+dropping my voice significantly, and watching him intently out of the corner of my eye.
+m=;s=
 
 I have always been rather good at what is called, I believe, creating an atmosphere.
 s=none;e:hastings=smirking
@@ -7778,13 +7781,13 @@ There was no change of expression in the dark melancholic face. Had he any idea 
 s=none;e:lawrence=neutral
 
 “This is the message.”
-s=hastings;e:hastings=serious
+s=hastings;e:hastings=nervous
 
 I dropped my voice still lower.
 s=none
 
 “ ‘Find the extra coffee-cup, and you can rest in peace.’ ”
-s=hastings
+s=hastings;e:hastings=serious
 
 “What on earth does he mean?”
 s=lawrence;e:lawrence=annoyed
@@ -7811,7 +7814,7 @@ s=hastings
 s=lawrence;e:lawrence=annoyed
 
 “I don’t know anything about the coffee-cups, except that we’ve got some that are never used, which are a perfect dream! Old Worcester.”
-e:lawrence=thinking
+e:lawrence=contemplative
 
 “You’re not a connoisseur, are you, Hastings?”
 e:lawrence=neutral
@@ -7823,13 +7826,13 @@ s=none;e:hastings=neutral
 s=lawrence;e:lawrence=thinking
 
 “Well, what am I to tell Poirot?”
-s=hastings;e:hastings=contemplative
+s=hastings;e:hastings=confused
 
 “Tell him I don’t know what he’s talking about. It’s double Dutch to me.”
 s=lawrence;e:lawrence=annoyed
 
 “All right.”
-s=hastings
+s=hastings;e:hastings=contemplative
 
 I was moving off towards the house again when he suddenly called me back.
 s=none
@@ -7838,7 +7841,7 @@ s=none
 s=lawrence;e:lawrence=serious
 
 “ ‘Find the extra coffee-cup, and you can rest in peace.’”
-s=hastings;e:hastings=contemplative
+s=hastings;e:hastings=nervous
 
 “Are you sure you don’t know what it means?” I asked him earnestly.
 
@@ -7865,7 +7868,7 @@ By tacit consent, all mention of the tragedy was barred. We conversed on the war
 
 
 But after the cheese and biscuits had been handed round, and Dorcas had left the room, Poirot suddenly leant forward to Mrs. Cavendish.
-e:poirot=serious;e:mary=neutral;x:hastings=
+e:poirot=;e:mary=neutral;x:hastings=
 
 “Pardon me, madame, for recalling unpleasant memories, but I have a little idea”—
 s=poirot;m=allowbreak;m=nospace
@@ -7874,7 +7877,7 @@ Poirot’s “little ideas” were becoming a perfect byword—
 s=none;e:hastings=weary
 
 “and would like to ask one or two questions.”
-s=poirot;m=
+s=poirot;m=;e:poirot=serious
 
 “Of me? Certainly.”
 s=mary;e:mary=confused
@@ -7928,7 +7931,7 @@ s=poirot
 s=mary
 
 “But *I* did,” interrupted Lawrence suddenly.
-s=lawrence;e:lawrence=serious
+s=lawrence;e:lawrence=serious;x:lawrence=
 
 “I happened to notice that it *was* bolted.”
 
@@ -7943,13 +7946,13 @@ I could not help rejoicing that, for once, one of his “little ideas” had com
 e:hastings=smirking
 
 After lunch Poirot begged me to accompany him home. I consented rather stiffly.
-e:hastings=annoyed;e:poirot=neutral;b=village-wide;x:hastings=hat;x:poirot=hat
+e:hastings=annoyed;e:poirot=neutral;x:hastings=hat;x:poirot=hat;b=village-wide
 
 “You are annoyed, is it not so?” he asked anxiously, as we walked through the park.
-s=poirot;e:poirot=nervous
+s=poirot;e:poirot=nervous;
 
 “Not at all,” I said coldly.
-s=hastings;e:hastings=annoyed
+s=hastings;e:hastings=suspicious
 
 “That is well. That lifts a great load from my mind.”
 s=poirot;e:poirot=happy
@@ -7961,13 +7964,13 @@ Still, the fervour of his words went towards the appeasing of my just displeasur
 e:hastings=neutral
 
 “I gave Lawrence your message,” I said.
-s=hastings
+s=hastings;e:hastings=contemplative
 
 “And what did he say? He was entirely puzzled?”
-s=poirot;e:poirot=excited
+s=poirot;e:poirot=smirking
 
 “Yes. I am quite sure he had no idea of what you meant.”
-s=hastings
+s=hastings;e:hastings=confused
 
 I had expected Poirot to be disappointed; but, to my surprise, he replied that that was as he had thought, and that he was very glad.
 s=none;e:poirot=happy;e:hastings=surprised
@@ -7982,7 +7985,7 @@ e:poirot=thinking
 s=poirot
 
 “She is at the hospital again. She resumed work today.”
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=contemplative
 
 “Ah, she is an industrious little demoiselle. And pretty too. She is like pictures I have seen in Italy.”
 s=poirot;e:poirot=happy
@@ -7996,26 +7999,23 @@ s=hastings;e:hastings=
 “Does she go there every day?”
 s=poirot;e:poirot=neutral
 
-“She has all Wednesdays off, and comes back to lunch on Saturdays.”
-s=hastings
-
-“Those are her only times off.”
-
+“She has all Wednesdays off, and comes back to lunch on Saturdays. Those are her only times off.”
+s=hastings;e:hastings=contemplative
 
 “I will remember. Women are doing great work nowadays, and Mademoiselle Cynthia is clever﻿—oh, yes, she has brains, that little one.”
 s=poirot;e:poirot=thinking
 
 “Yes. I believe she has passed quite a stiff exam.”
-s=hastings
+s=hastings;e:hastings=curious
 
 “Without doubt. After all, it is very responsible work. I suppose they have very strong poisons there?”
 s=poirot;e:poirot=serious
 
 “Yes, she showed them to us. They are kept locked up in a little cupboard.”
-s=hastings
+s=hastings;e:hastings=thinking
 
 “I believe they have to be very careful. They always take out the key before leaving the room.”
-
+e:hastings=curious
 
 “Indeed. It is near the window, this cupboard?”
 s=poirot;e:poirot=thinking
@@ -8048,28 +8048,25 @@ My thoughts of mankind were kindly and charitable. I even forgave Poirot for his
 e:hastings=contemplative
 
 Then I yawned.
-e:hastings=weary
+e:hastings=weary;f:b:woods=blur(3px)
 
 I thought about the crime, and it struck me as being very unreal and far off.
 e:hastings=thinking
 
 I yawned again.
-e:hastings=weary
+e:hastings=weary;f:b:woods=blur(10px)
 
 Probably, I thought, it really never happened. Of course, it was all a bad dream.
-e:hastings=contemplative;b=dream
+e:hastings=contemplative
 
 The truth of the matter was that it was Lawrence who had murdered Alfred Inglethorp with a croquet mallet.
 
 
-But it was absurd of John to make such a fuss about it, and to go shouting out:
-e:hastings=confused
-
-“I tell you I won’t have it!”
-m=dialogue
+But it was absurd of John to make such a fuss about it, and to go shouting out: “I tell you I won’t have it!”
+m=dialogue;e:hastings=confused
 
 I woke up with a start.
-e:hastings=surprised;m=;b=woods
+e:hastings=surprised;m=;f:b:woods=
 
 At once I realized that I was in a very awkward predicament.
 e:hastings=wary
@@ -8081,16 +8078,16 @@ And, quite as evidently, they were unaware of my vicinity, for before I could mo
 
 
 “I tell you, Mary, I won’t have it.”
-s=john;e:john=serious
+s=john;e:john=angry
 
 Mary’s voice came, cool and liquid:
 s=none
 
 “Have *you* any right to criticize my actions?”
-s=mary;e:mary=serious
+s=mary;e:mary=angry
 
 “It will be the talk of the village! My mother was only buried on Saturday, and here you are gadding about with the fellow.”
-s=john;e:john=angry
+s=john;e:john=annoyed
 
 “Oh,” she shrugged her shoulders, “if it is only village gossip that you mind!”
 s=mary;e:mary=annoyed
@@ -8105,16 +8102,16 @@ s=john;e:john=scowling
 s=mary;e:mary=annoyed
 
 “It leavens the”﻿—she looked at him﻿—“stolid stupidity of the ordinary Englishman.”
-
+e:mary=angry
 
 Fire in her eyes, ice in her voice. I did not wonder that the blood rose to John’s face in a crimson tide.
 s=none;e:mary=angry;e:john=angry
 
 “Mary!”
-s=john
+s=john;e:john=upset
 
 “Well?”
-s=mary;e:mary=serious
+s=mary;e:mary=annoyed
 
 Her tone did not change.
 s=
@@ -8123,16 +8120,16 @@ The pleading died out of his voice.
 s=none;e:john=serious
 
 “Am I to understand that you will continue to see Bauerstein against my express wishes?”
-s=john
+s=john;e:john=unhappy
 
 “If I choose.”
-s=mary
+s=mary;e:mary=thinking
 
 “You defy me?”
 s=john;e:john=angry
 
 “No, but I deny your right to criticize my actions.”
-s=mary
+s=mary;e:mary=serious
 
 “Have *you* no friends of whom I should disapprove?”
 
@@ -8144,10 +8141,10 @@ s=none;e:john=surprised
 s=john;e:john=nervous
 
 “You see!” said Mary quietly.
-s=mary;e:mary=serious
+s=mary;e:mary=thinking
 
 “You *do* see, don’t you, that *you* have no right to dictate to *me* as to the choice of my friends?”
-
+e:mary=serious
 
 John glanced at her pleadingly, a stricken look on his face.
 s=none;e:john=upset
@@ -8159,7 +8156,7 @@ He stretched out his hands.
 s=none
 
 “Mary﻿—”
-s=john
+s=john;e:john=unhappy
 
 For a moment, I thought she wavered.
 s=none;e:mary=wary
@@ -8176,11 +8173,11 @@ s=none;e:john=angry
 “Mary”﻿—
 s=john;e:john=serious;m=nospace;m=allowbreak
 
-his voice was very quiet now﻿—<e>His voice sounded like Jimmy Stewart now.</e>
+his voice was very quiet now﻿—
 s=
 
 “are you in love with this fellow Bauerstein?”
-s=john;e:john=unhappy;m=
+s=john;e:john=upset;m=
 
 She hesitated, and suddenly there swept across her face a strange expression, old as the hills, yet with something eternally young about it.
 s=none;e:mary=contemplative
@@ -8200,29 +8197,23 @@ s=
 Rather ostentatiously, I stepped forward, crackling some dead branches with my feet as I did so.
 s=none;e:hastings=nervous;e:john=wary
 
-John turned.
-
-
-Luckily, he took it for granted that I had only just come upon the scene.
+John turned. Luckily, he took it for granted that I had only just come upon the scene.
 e:hastings=neutral
 
 “Hullo, Hastings.”
-s=john;e:john=serious;c=john
+s=john;e:john=serious;
 
 “Have you seen the little fellow safely back to his cottage? Quaint little chap! Is he any good, though, really?”
 e:john=thinking
 
 “He was considered one of the finest detectives of his day.”
-s=hastings
+s=hastings;e:hastings=contemplative
 
-“Oh, well, I suppose there must be something in it, then.”
-s=john;
-
-“What a rotten world it is, though!”
-e:john=weary
+“Oh, well, I suppose there must be something in it, then. What a rotten world it is, though!”
+s=john;e:john=unhappy
 
 “You find it so?” I asked.
-s=hastings;e:hastings=contemplative
+s=hastings;e:hastings=nervous
 
 “Good Lord, yes! There’s this terrible business to start with. Scotland Yard men in and out of the house like a jack-in-the-box! Never know where they won’t turn up next.”
 s=john;e:john=angry
@@ -8236,17 +8227,14 @@ e:john=annoyed
 “Pretty thick, isn’t it?”
 
 
-“Cheer up, John!” I said soothingly.
-s=hastings;e:hastings=happy
-
-“It can’t last forever.”
-
+“Cheer up, John!” I said soothingly. “It can’t last forever.”
+s=hastings;e:hastings=
 
 “Can’t it, though? It can last long enough for us never to be able to hold up our heads again.”
 s=john;e:john=unhappy
 
 “No, no, you’re getting morbid on the subject.”
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=contemplative
 
 “Enough to make a man morbid, to be stalked by beastly journalists and stared at by gaping moon-faced idiots, wherever he goes! But there’s worse than that.”
 s=john;e:john=angry
@@ -8257,17 +8245,14 @@ s=hastings;e:hastings=confused
 John lowered his voice:
 s=none;e:john=nervous
 
-“Have you ever thought, Hastings﻿—it’s a nightmare to me﻿—who did it?”<e>Nah.</e>
+“Have you ever thought, Hastings﻿—it’s a nightmare to me﻿—who did it?”
 s=john
 
-“I can’t help feeling sometimes it must have been an accident.”
-
-
-“Because﻿—because﻿—who could have done it?”
+“I can’t help feeling sometimes it must have been an accident. Because﻿—because﻿—who could have done it?”
 e:john=upset
 
 “Now Inglethorp’s out of the way, there’s no one else; no one, I mean, except﻿—one of us.”
-
+e:john=unhappy
 
 Yes, indeed, that was nightmare enough for any man! One of us?
 s=none;e:hastings=fearful
@@ -8291,10 +8276,10 @@ s=hastings;e:hastings=serious
 s=john;e:john=confused
 
 “Can’t you guess?”
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=curious
 
 “No.”
-s=john
+s=john;e:john=unhappy
 
 I looked cautiously round, and lowered my voice.
 s=none;e:hastings=wary
@@ -8315,7 +8300,7 @@ s=john;e:john=confused
 s=hastings;e:hastings=thinking
 
 “Poirot? Does he? How do you know?”
-s=john;e:john=surprised
+s=john;e:john=serious
 
 I told him of Poirot’s intense excitement on hearing that Dr. Bauerstein had been at Styles on the fatal night, and added:
 s=none
@@ -8329,23 +8314,20 @@ e:hastings=serious
 “Isn’t it possible that, as Inglethorp brought him through the hall, the doctor dropped something into the coffee in passing?”
 
 
-“H’m,” said John.
-s=john;e:john=thinking
-
-“It would have been very risky.”
-
+“H’m,” said John. “It would have been very risky.”
+s=john;e:john=unhappy
 
 “Yes, but it was possible.”
 s=hastings
 
 “And then, how could he know it was her coffee? No, old fellow, I don’t think that will wash.”
-s=john
+s=john;e:john=nervous
 
 But I had remembered something else.
 s=none;e:hastings=surprised
 
 “You’re quite right. That wasn’t how it was done. Listen.”
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=suspicious
 
 And I then told him of the cocoa sample which Poirot had taken to be analysed.
 s=none
@@ -8357,34 +8339,25 @@ John interrupted just as I had done.
 s=john;e:john=confused
 
 “Yes, yes, that’s the point. I didn’t see it either until now. Don’t you understand?”
-s=hastings;e:hastings=excited
+s=hastings;e:hastings=contemplative
 
-“Bauerstein had it analysed﻿—that’s just it!”
-
-
-“If Bauerstein’s the murderer, nothing could be simpler than for him to substitute some ordinary cocoa for his sample, and send that to be tested.”
-e:hastings=smirking
-
-“And of course they would find no strychnine!”
-e:hastings=smirking
+“Bauerstein had it analysed﻿—that’s just it! If Bauerstein’s the murderer, nothing could be simpler than for him to substitute some ordinary cocoa for his sample, and send that to be tested. And of course they would find no strychnine!”
+e:hastings=serious
 
 “But no one would dream of suspecting Bauerstein, or think of taking another sample﻿—except Poirot,” I added, with belated recognition.
 e:hastings=thinking
 
 “Yes, but what about the bitter taste that cocoa won’t disguise?”
-s=john;e:john=confused
+s=john;e:john=unhappy
 
-“Well, we’ve only his word for that. And there are other possibilities.”
+“Well, we’ve only his word for that. And there are other possibilities. He’s admittedly one of the world’s greatest toxicologists﻿—”
 s=hastings;e:hastings=serious
 
-“He’s admittedly one of the world’s greatest toxicologists﻿—”
-e:hastings=thinking
-
 “One of the world’s greatest what? Say it again.”
-s=john;e:john=confused
+s=john;e:john=unhappy
 
 “He knows more about poisons than almost anybody,” I explained.
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=curious
 
 “Well, my idea is, that perhaps he’s found some way of making strychnine tasteless.”
 e:hastings=thinking
@@ -8392,11 +8365,8 @@ e:hastings=thinking
 “Or it may not have been strychnine at all, but some obscure drug no one has ever heard of, which produces much the same symptoms.”
 
 
-“H’m, yes, that might be,” said John.
-s=john;e:john=thinking
-
-“But look here, how could he have got at the cocoa? That wasn’t downstairs?”
-e:john=serious
+“H’m, yes, that might be,” said John. “But look here, how could he have got at the cocoa? That wasn’t downstairs?”
+s=john;e:john=serious
 
 “No, it wasn’t,” I admitted reluctantly.
 s=hastings;e:hastings=contemplative
@@ -8453,7 +8423,7 @@ Would not Mrs. Inglethorp have preferred to go unavenged rather than have such 
 e:hastings=unhappy
 
 “There’s another thing,” said John suddenly, and the unexpected sound of his voice made me start guiltily.
-s=john;e:john=serious;e:hastings=surprised;b=woods
+s=john;e:john=serious;e:hastings=surprised;b=styles-wide
 
 “Something which makes me doubt if what you say can be true.”
 
@@ -8495,7 +8465,7 @@ s=hastings
 e:hastings=serious
 
 “Oh, of course﻿—that goes without saying.”
-s=john;e:john=neutral
+s=john;e:john=unhappy
 
 We had walked, as we talked, and now we passed through the little gate into the garden.
 s=none;b=styles-gardens;f:b:styles-gardens=
@@ -8506,20 +8476,17 @@ Voices rose near at hand, for tea was spread out under the sycamore-tree, as it 
 Cynthia was back from the hospital, and I placed my chair beside her, and told her of Poirot’s wish to visit the dispensary.
 e:cynthia=neutral;x:cynthia=vad
 
-“Of course! I’d love him to see it. He’d better come to tea there one day.”
+“Of course! I’d love him to see it. He’d better come to tea there one day. I must fix it up with him. He’s such a dear little man!”
 s=cynthia;e:cynthia=happy
 
-“I must fix it up with him. He’s such a dear little man! But he *is* funny.”
-
-
-“He made me take the brooch out of my tie the other day, and put it in again, because he said it wasn’t straight.”
+“But he *is* funny. He made me take the brooch out of my tie the other day, and put it in again, because he said it wasn’t straight.”
 e:cynthia=smirking
 
 I laughed.
 s=none;e:hastings=happy
 
 “It’s quite a mania with him.”
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=curious
 
 “Yes, isn’t it?”
 s=cynthia;e:cynthia=happy
@@ -8531,7 +8498,7 @@ s=none;e:cynthia=nervous;e:mary=neutral
 s=cynthia
 
 “Yes?”
-s=hastings;e:hastings=serious
+s=hastings;e:hastings=nervous
 
 “After tea, I want to talk to you.”
 s=cynthia;e:cynthia=thinking
@@ -8561,7 +8528,7 @@ s=john
 
 
 “Lot of Paul Prys,” grunted Miss Howard.
-s=evie;e:evie=scowling
+s=evie;e:evie=annoyed
 
 Lawrence opined that they had to make a show of doing something.
 s=none;e:lawrence=weary
@@ -8573,7 +8540,7 @@ After tea, I invited Cynthia to come for a walk, and we sauntered off into the w
 e:cynthia=neutral;e:hastings=happy;b=woods
 
 “Well?” I inquired,
-s=hastings;m=allowbreak;e:hastings=
+s=hastings;m=allowbreak;e:hastings=contemplative
 
 as soon as we were protected from prying eyes by the leafy screen.
 s=;m=
@@ -8585,31 +8552,31 @@ The sunlight, piercing through the branches, turned the auburn of her hair to qu
 b=cynthia-sitting
 
 “Mr. Hastings﻿—you are always so kind, and you know such a lot.”
-s=cynthia;e:cynthia=nervous
+s=cynthia;e:cynthia=serious
 
 It struck me at this moment that Cynthia was really a very charming girl! Much more charming than Mary, who never said things of that kind.
 s=none;e:hastings=smirking
 
 “Well?” I asked benignantly, as she hesitated.
-s=hastings;e:hastings=contemplative
+s=hastings;e:hastings=nervous
 
 “I want to ask your advice. What shall I do?”
 s=cynthia;e:cynthia=unhappy
 
 “Do?”
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=contemplative
 
 “Yes. You see, Aunt Emily always told me I should be provided for.”
-s=cynthia;e:cynthia=unhappy
+s=cynthia;e:cynthia=serious
 
 “I suppose she forgot, or didn’t think she was likely to die﻿—anyway, I am *not* provided for! And I don’t know what to do.”
-
+e:cynthia=unhappy
 
 “Do you think I ought to go away from here at once?”
 
 
 “Good heavens, no! They don’t want to part with you, I’m sure.”
-s=hastings;e:hastings=serious
+s=hastings;e:hastings=confused
 
 Cynthia hesitated a moment, plucking up the grass with her tiny hands. Then she said:
 s=none
@@ -8618,19 +8585,16 @@ s=none
 s=cynthia;e:cynthia=thinking
 
 “Hates you?” I cried, astonished.
-s=hastings;e:hastings=surprised
+s=hastings;e:hastings=nervous
 
 Cynthia nodded.
 s=none
 
 “Yes. I don’t know why, but she can’t bear me; and *he* can’t, either.”
-s=cynthia
+s=cynthia;e:cynthia=serious
 
-“There I know you’re wrong,” I said warmly.
-s=hastings;e:hastings=happy
-
-“On the contrary, John is very fond of you.”
-
+“There I know you’re wrong,” I said warmly. “On the contrary, John is very fond of you.”
+s=hastings;e:hastings=curious
 
 “Oh, yes﻿—*John*. I meant Lawrence.”
 s=cynthia;e:cynthia=annoyed
@@ -8639,10 +8603,10 @@ s=cynthia;e:cynthia=annoyed
 e:cynthia=unhappy
 
 “But they do, Cynthia dear,” I said earnestly.
-s=hastings;e:hastings=serious
+s=hastings;e:hastings=confused
 
 “I’m sure you are mistaken. Look, there is John﻿—and Miss Howard﻿—”
-
+e:hastings=contemplative
 
 Cynthia nodded rather gloomily.
 s=none
@@ -8654,7 +8618,7 @@ s=cynthia
 
 
 “She wants Evie to stay on, is begging her to, but she doesn’t want me, and﻿—and﻿—I don’t know what to do.”
-
+e:cynthia=serious
 
 Suddenly the poor child burst out crying.
 s=none;b=woods
@@ -8666,7 +8630,7 @@ Her beauty, perhaps, as she sat there, with the sunlight glinting down on her he
 
 
 Anyway, I leant forward, and taking her little hand, I said awkwardly:
-e:hastings=nervous
+e:hastings=confused
 
 “Marry me, Cynthia.”
 s=hastings
@@ -8675,7 +8639,7 @@ Unwittingly, I had hit upon a sovereign remedy for her tears.
 s=none;e:cynthia=surprised
 
 She sat up at once, drew her hand away, and said, with some asperity:
-e:cynthia=serious
+e:cynthia=annoyed
 
 “Don’t be silly!”
 s=cynthia
@@ -8684,7 +8648,7 @@ I was a little annoyed.
 s=none;e:hastings=annoyed
 
 “I’m not being silly. I am asking you to do me the honour of becoming my wife.”
-s=hastings;e:hastings=annoyed
+s=hastings;e:hastings=serious
 
 To my intense surprise, Cynthia burst out laughing, and called me a “funny dear.”
 s=none;e:cynthia=happy;e:hastings=surprised;m=dialogue
@@ -8698,14 +8662,11 @@ s=hastings;e:hastings=nervous
 “Never mind what you’ve got. You don’t really want to﻿—and I don’t either.”
 s=cynthia;e:cynthia=happy
 
-“Well, of course, that settles it,” I said stiffly.
-s=hastings;e:hastings=serious
-
-“But I don’t see anything to laugh at. There’s nothing funny about a proposal.”<e>Yeah, way to make it weird, Cynthia.</e>
-
+“Well, of course, that settles it,” I said stiffly. “But I don’t see anything to laugh at. There’s nothing funny about a proposal.”<e>Yeah, way to make it weird, Cynthia.</e>
+e:hastings=serious;s=hastings;
 
 “No, indeed,” said Cynthia.
-s=cynthia;e:cynthia=smirking
+s=cynthia;e:cynthia=thinking
 
 “Somebody might accept you next time. Goodbye, you’ve cheered me up very much.”
 e:cynthia=happy
@@ -8717,7 +8678,7 @@ Thinking over the interview, it struck me as being profoundly unsatisfactory.
 e:hastings=weary
 
 It occurred to me suddenly that I would go down to the village, and look up Bauerstein. Somebody ought to be keeping an eye on the fellow.
-e:hastings=thinking;b=think
+e:hastings=thinking
 
 At the same time, it would be wise to allay any suspicions he might have as to his being suspected.
 
@@ -8741,22 +8702,22 @@ She stared at me.
 s=none;e:oldwoman=confused
 
 “Haven’t you heard?”
-s=oldwoman;e:oldwoman=serious
+s=oldwoman;e:oldwoman=serious;z:oldwoman=85,80,3
 
 “Heard what?”
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=contemplative
 
 “About him.”
 s=oldwoman
 
 “What about him?”
-s=hastings
+s=hastings;e:hastings=confused
 
 “He’s took.”
 s=oldwoman;e:oldwoman=
 
 “Took? Dead?”
-s=hastings;e:hastings=surprised
+s=hastings;e:hastings=serious
 
 “No, took by the perlice.”
 s=oldwoman;e:oldwoman=serious
@@ -8765,15 +8726,15 @@ s=oldwoman;e:oldwoman=serious
 s=hastings;e:hastings=surprised
 
 “Do you mean they’ve arrested him?”
-
+e:hastings=serious
 
 “Yes, that’s it, and﻿—”
 s=oldwoman;e:oldwoman=
 
-I waited to hear no more, but tore up the village to find Poirot.
+I waited to hear no more, but tore up the village to find Poirot.<e>I mean, you probably could've waited a little more.</e>
 s=none;e:hastings=excited;b=village-wide
 
-## 10. The Arrest<e>Probably could have waited a little more there tbh.</e>
+## 10. The Arrest
 r=title;v=100,130
 
 To my extreme annoyance, Poirot was not in, and the old Belgian who answered my knock informed me that he believed he had gone to London.
