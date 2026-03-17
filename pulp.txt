@@ -2422,7 +2422,7 @@ s=poirot;e:poirot=smirking
 Dorcas was standing in the boudoir, her hands folded in front of her, and her grey hair rose in stiff waves under her white cap.
 s=none;e:dorcas=;b=light
 
-She was the very model and picture of a good old-fashioned servant.<e>Relatable prose from Mrs. "I couldn't imagine being too poor to afford servants".</e>
+She was the very model and picture of a good old-fashioned servant.<e>Relatable prose as ever from Mrs. "I couldn't imagine being too poor to afford servants".</e>
 c=dorcas
 
 In her attitude towards Poirot, she was inclined to be suspicious, but he soon broke down her defences.
@@ -12421,5 +12421,5 @@ e:poirot=happy
 “We may hunt together again, who knows? And then﻿—”
 
 
-<e>The End.</e>
+<e>The End. Overall, there were three or four bullshit aspects of the mystery, but that's about par for the genre — not bad at all. So look forward to the subsequent installments of Poirot and the other guy.</e>
 b=title;s=
