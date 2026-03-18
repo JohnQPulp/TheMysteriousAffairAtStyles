@@ -1,8 +1,14 @@
 ### *The Mysterious Affair at Styles: The Visual Novel*
 
-This repository will contain the metadata and images for the visual novel transformation (pulpification) of Agatha Christie's book *The Mysterious Affair at Styles*.
+This repository contains the metadata and images for the visual novel transformation (pulpification) of Agatha Christie's book *The Mysterious Affair at Styles*.
 
-This VN is a work-in-progress.
+You can read it in a few ways:
+
+* Online at https://publicdomainpulp.com/vn/TheMysteriousAffairAtStyles
+* Locally at http://localhost:1929/vn/TheMysteriousAffairAtStyles running https://github.com/JohnQPulp/PublicDomainPulp (ASP.NET/C#) from source
+* Locally via static html file using the tool https://github.com/JohnQPulp/Pulpifier (C#) from source
+
+![Preview](images/preview.webp)
 
 ### License Information
 
