@@ -320,7 +320,7 @@ Then, turning to his wife:
 s=
 
 “Emily dearest, I think that cushion is a little damp.”
-s=alfred;e:alfred=
+s=alfred;e:alfred=;i=2
 
 She beamed fondly on him, as he substituted another with every demonstration of the tenderest care.
 s=none;e:emily=happy;n:emily=Emily Inglethorp
@@ -389,13 +389,13 @@ s=hastings;e:hastings=curious
 s=mary;e:mary=
 
 “Oh, Sherlock Holmes by all means. But really, seriously, I am awfully drawn to it.”
-s=hastings;e:hastings=
+s=hastings;e:hastings=contemplative
 
 “I came across a man in Belgium once, a very famous detective, and he quite inflamed me. He was a marvellous little fellow. He used to say that all good detective work was a mere matter of method.”
-e:hastings=contemplative
+
 
 “My system is based on his﻿—though of course I have progressed rather further. He was a funny little man, a great dandy, but wonderfully clever.”
-e:hastings=smirking
+e:hastings=smirking;i=2
 
 “Like a good detective story myself,” remarked Miss Howard.
 s=evie;e:evie=neutral
@@ -413,7 +413,7 @@ s=hastings;e:hastings=
 s=evie;e:evie=serious
 
 “Then,” I said, much amused, “you think that if you were mixed up in a crime, say a murder, you’d be able to spot the murderer right off?”
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=curious
 
 “Of course I should. Mightn’t be able to prove it to a pack of lawyers. But I’m certain I’d know. I’d feel it in my fingertips if he came near me.”
 s=evie;e:evie=serious
@@ -479,7 +479,7 @@ s=cynthia;e:cynthia=smirking;n:cynthia=Cynthia Murdoch
 s=hastings;e:hastings=curious
 
 “I should like to see them!” cried Cynthia with dignity.
-s=cynthia;e:cynthia=smirking
+s=cynthia;e:cynthia=smirking;i=2
 
 “I have got a cousin who is nursing,” I remarked. “And she is terrified of ‘Sisters.’ ”
 s=hastings;e:hastings=neutral
@@ -710,7 +710,7 @@ As we passed through one of the gates on our way home again, a pretty young woma
 n:raikes=Mrs. Raikes;e:raikes=happy;b=lodge-gates
 
 “That’s a pretty girl,” I remarked appreciatively.<e>Good adverb.</e>
-s=hastings;e:hastings=
+s=hastings;e:hastings=;i=2
 
 John’s face hardened.
 s=none;e:john=serious
@@ -746,7 +746,7 @@ s=hastings;e:hastings=contemplative
 s=john;e:john=weary
 
 “Couldn’t your brother help you?”
-s=hastings;e:hastings=
+s=hastings;e:hastings=contemplative;i=2
 
 “Lawrence? He’s gone through every penny he ever had, publishing rotten verses in fancy bindings. No, we’re an impecunious lot.”
 s=john;e:john=contemplative
@@ -760,14 +760,17 @@ e:john=upset
 For the first time I felt that, with Evelyn Howard, something indefinable had gone from the atmosphere.
 s=none;e:hastings=wary
 
-Her presence had spelt security. Now that security was removed﻿—and the air seemed rife with suspicion.
+Her presence had spelt security.
 
 
-The sinister face of Dr. Bauerstein recurred to me unpleasantly. A vague suspicion of everyone and everything filled my mind.<e>I wonder if Dr. Bauerstein and <book>The Great Gatsby|Dr. Eckleburg</book> ever get together.</e>
-e:hastings=suspicious;b=think
+Now that security was removed﻿—and the air seemed rife with suspicion.
+b=think
 
-Just for a moment I had a premonition of approaching evil.
-e:hastings=fearful
+The sinister face of Dr. Bauerstein recurred to me unpleasantly.<e>I wonder if Dr. Bauerstein and <book>The Great Gatsby|Dr. Eckleburg</book> ever get together.</e>
+e:hastings=suspicious;b=think;c=bauerstein
+
+A vague suspicion of everyone and everything filled my mind. Just for a moment I had a premonition of approaching evil.
+e:hastings=fearful;c=
 
 ## 2. The 16th and 17th of July
 r=title;v=100,130
@@ -802,7 +805,7 @@ b=styles-gardens
 I noticed that John’s manner was somewhat unusual. He seemed very excited and restless.
 e:john=nervous;e:hastings=thinking
 
-After tea, Mrs. Inglethorp went to lie down to rest before her efforts in the evening and I challenged Mary Cavendish to a single at tennis.<e>Tennis? What happened to being "invalided"? (Someone get this man a white feather.)</e>
+After tea, Mrs. Inglethorp went to lie down to rest before her efforts in the evening and I challenged Mary Cavendish to a single at tennis.<e>Well enough for tennis? Well enough for a white feather.</e>
 b=styles-wide;f:b:styles-wide=
 
 About a quarter to seven, Mrs. Inglethorp called us that we should be late as supper was early that night.
@@ -859,11 +862,8 @@ s=none;e:hastings=happy
 “If you people only knew how fatally easy it is to poison someone by mistake, you wouldn’t joke about it.”
 s=cynthia;e:cynthia=thinking
 
-“Come on, let’s have tea.”
+“Come on, let’s have tea. We’ve got all sorts of secret stories in that cupboard.”
 e:cynthia=
-
-“We’ve got all sorts of secret stories in that cupboard.”
-
 
 “No, Lawrence—that’s the poison cupboard. The big cupboard—that’s right.”
 
@@ -1010,7 +1010,7 @@ Then he raised his hat with a flourish to Cynthia, and we drove away.
 s=cynthia;e:cynthia=happy;b=village-wide
 
 “You’ve been entertaining a celebrity unawares,” I replied.
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=happy;i=2
 
 And, for the rest of the way home, I recited to them the various exploits and triumphs of Hercule Poirot.
 s=none;n:poirot=Hercule Poirot
@@ -1025,7 +1025,7 @@ e:emily=upset;b=styles-down-hall
 s=emily;x:hastings=;x:lawrence=
 
 “Is there anything the matter, Aunt Emily?” asked Cynthia.
-s=cynthia;e:cynthia=wary
+s=cynthia;e:cynthia=serious
 
 “Certainly not,” said Mrs. Inglethorp sharply.
 s=emily;e:emily=annoyed
@@ -1037,7 +1037,7 @@ Then catching sight of Dorcas, the parlourmaid, going into the dining-room, she 
 n:dorcas=Dorcas;s=none;z:dorcas=98,,4
 
 “Yes, m’m.”
-s=dorcas
+s=dorcas;e:dorcas=confused
 
 The old servant hesitated, then added diffidently:
 s=none;e:dorcas=nervous
@@ -1052,7 +1052,7 @@ s=emily;e:emily=thinking
 e:emily=serious
 
 “Yes, m’m.”
-s=dorcas;e:dorcas=
+s=dorcas;e:dorcas=contemplative
 
 “Then I’ll go to bed directly after supper.”
 s=emily
@@ -1061,7 +1061,7 @@ She went into the boudoir again, and Cynthia stared after her.
 s=none;e:cynthia=surprised
 
 “Goodness gracious! I wonder what’s up?” she said to Lawrence.
-s=cynthia
+s=cynthia;e:cynthia=wary
 
 He did not seem to have heard her, for without a word he turned on his heel and went out of the house.
 s=none;e:lawrence=serious
@@ -1213,8 +1213,11 @@ s=mary;e:mary=leaf
 Alas, that these harmonious moments can never endure! My paradise was rudely shattered by the sound of a well known, and heartily disliked, voice in the hall.
 s=none;e:hastings=annoyed
 
-“Dr. Bauerstein!” exclaimed Cynthia. “What a funny time to come.”
+“Dr. Bauerstein!” exclaimed Cynthia.
 s=cynthia;e:cynthia=surprised
+
+“What a funny time to come.”
+e:cynthia=confused
 
 I glanced jealously at Mary Cavendish, but she seemed quite undisturbed, the delicate pallor of her cheeks did not vary.
 s=none;e:mary=neutral
@@ -1258,7 +1261,7 @@ s=none;e:hastings=serious;f:b:styles-drawing-night=blur(5px)
 There were therefore three witnesses who could swear that Mrs. Inglethorp was carrying her coffee, as yet untasted, in her hand.
 
 
-My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein. It seemed to me the man would never go.<e>"Could this evening be any more spoilt?"</e>
+My evening was utterly and entirely spoilt by the presence of Dr. Bauerstein. It seemed to me the man would never go.<e>"Could this evening <i>be</i> any more spoilt?"</e>
 e:hastings=annoyed;b=styles-drawing-night;f:b:styles-drawing-night=
 
 He rose at last, however, and I breathed a sigh of relief.
@@ -1592,10 +1595,10 @@ I found her leaning against the bannisters, deadly pale. She waved me away impat
 e:mary=annoyed
 
 “No, no—leave me. I’d rather be alone.”
-s=mary;e:mary=upset
+s=mary;e:mary=upset;i=2
 
 “Let me just be quiet for a minute or two. Go down to the others.”
-
+i=
 
 I obeyed her reluctantly.
 s=
@@ -1976,7 +1979,7 @@ s=none;e:poirot=thinking
 s=poirot;e:poirot=serious
 
 “The present contention is that Mrs. Inglethorp died of strychnine poisoning, presumably administered in her coffee.”
-
+e:poirot=contemplative
 
 “Yes?”
 s=hastings;e:hastings=curious
@@ -1991,10 +1994,10 @@ s=hastings;e:hastings=contemplative
 s=poirot;e:poirot=serious
 
 “Well, strychnine is a fairly rapid poison. Its effects would be felt very soon, probably in about an hour.”
-
+e:poirot=thinking;i=2
 
 “Yet, in Mrs. Inglethorp’s case, the symptoms do not manifest themselves until five o’clock the next morning: nine hours!”
-e:poirot=excited
+e:poirot=smirking
 
 “But a heavy meal, taken at about the same time as the poison, might retard its effects, though hardly to that extent. Still, it is a possibility to be taken into account.”
 e:poirot=thinking
@@ -2069,13 +2072,13 @@ s=poirot;e:poirot=thinking
 e:poirot=contemplative;
 
 We went up together to the room of the tragedy.
-s=none;b=emily-windows;x:poirot=;x:hastings=
+s=none;b=emily-windows-candle;x:poirot=;x:hastings=
 
 For convenience I append a plan of the room and the principal articles of furniture in it.
 o=illustration2
 
 Poirot locked the door on the inside, and proceeded to a minute inspection of the room.
-o=;b=emily-windows
+o=
 
 He darted from one object to the other with the agility of a grasshopper.
 e:poirot=excited
@@ -2288,7 +2291,7 @@ s=hastings;e:hastings=annoyed
 s=poirot;e:poirot=thinking
 
 “I might have included that in the six, but I did not. No, the sixth point I will keep to myself for the present.”
-
+e:poirot=serious;i=3
 
 He looked quickly round the room.
 s=
@@ -2315,7 +2318,7 @@ I quickly handed them to him, and with skill he extracted a small piece of half 
 s=none
 
 “There, *mon ami*!” he cried.
-s=poirot;e:poirot=excited;b=emily-windows
+s=poirot;e:poirot=excited;b=emily-windows-candle
 
 “What do you think of that?”
 e:poirot=smirking
@@ -2510,7 +2513,7 @@ e:dorcas=scowling
 e:dorcas=wary
 
 “You are sure it was Mr. Inglethorp’s voice you heard?”
-s=poirot;e:poirot=suspicious
+s=poirot;e:poirot=contemplative
 
 “Oh, yes, sir, whose else’s could it be?”
 s=dorcas;e:dorcas=confused
@@ -2552,7 +2555,7 @@ s=poirot;e:poirot=serious
 s=dorcas;e:dorcas=neutral
 
 “What would she be likely to do with it afterwards?”
-s=poirot;e:poirot=contemplative
+s=poirot;e:poirot=contemplative;i=2
 
 “Well, I don’t know, sir, I expect she would lock it up in that purple case of hers.”
 s=dorcas;e:dorcas=thinking
@@ -2657,7 +2660,7 @@ s=dorcas
 
 
 “You are quite sure of that?”
-s=poirot
+s=poirot;e:poirot=serious
 
 “Positive, sir.”
 s=dorcas
@@ -2876,13 +2879,13 @@ s=annie;e:annie=thinking
 e:annie=contemplative
 
 “The swing door is in the left wing, is it not?”
-s=poirot;e:poirot=serious
+s=poirot;e:poirot=contemplative;i=2
 
 “Yes, sir.”
 s=annie;e:annie=neutral
 
 “And the table, is it on this side of the door, or on the farther—servants’ side?”
-s=poirot
+s=poirot;e:poirot=serious
 
 “It’s this side, sir.”
 s=annie
@@ -2978,7 +2981,7 @@ s=poirot;e:poirot=serious
 s=annie;e:annie=confused
 
 “Then, if there had been a large patch of candle grease on the floor, you think you would have been sure to have seen it?”
-s=poirot;e:poirot=suspicious
+s=poirot;e:poirot=contemplative
 
 “Yes, sir, and I would have taken it out with a piece of blotting-paper and a hot iron.”
 s=annie;e:annie=neutral
@@ -3035,7 +3038,7 @@ s=hastings;e:hastings=happy
 s=poirot;e:poirot=smirking
 
 “Of course! That salt on the tray, what else could it have been?”
-s=hastings;e:hastings=happy
+s=hastings;e:hastings=curious;i=2
 
 “It might have been salt,” replied Poirot placidly.
 s=poirot;e:poirot=neutral
@@ -3112,7 +3115,7 @@ e:poirot=serious
 He pulled a crumpled envelope out of his pocket, and tossed it over to me. It was rather a curious document. A plain, dirty looking old envelope with a few words scrawled across it, apparently at random. The following is a facsimile of it.
 s=none;e:hastings=surprised;o=illustration4
 
-## 5. “It Isn’t Strychnine, Is It?”<e>"The strychnine's right behind me, isn't it?"</e>
+## 5. “It Isn’t Strychnine, Is It?”<e>Alternate chapter title: "The Strychnine's Right Behind Me, Isn't It?"</e>
 r=title;v=100,130;
 
 “Where did you find this?” I asked Poirot, in lively curiosity.
@@ -4208,7 +4211,7 @@ Taking the keys from Poirot, John unlocked it, and we all passed in.
 s=none
 
 The lawyer went straight to the desk, and John followed him.
-b=emily-windows
+b=emily-windows-candle
 
 “My mother kept most of her important papers in this despatch-case, I believe,” he said.
 s=john;e:john=
@@ -7400,7 +7403,7 @@ I acquiesced.
 s=none
 
 “There, *mon ami*, you will be of great assistance to me.”
-s=poirot;e:poirot=happy
+s=poirot;e:poirot=smirking
 
 I was pleased with the compliment.
 s=none;e:hastings=happy
@@ -8725,7 +8728,7 @@ e:hastings=serious
 “Yes, that’s it, and﻿—”
 s=oldwoman;e:oldwoman=
 
-I waited to hear no more, but tore up the village to find Poirot.<e>I mean, you probably could've waited a little more.</e>
+I waited to hear no more, but tore up the village to find Poirot.<e>Probably could've waited a <i>little</i> more tbh.</e>
 s=none;e:hastings=excited;b=village-wide
 
 ## 10. The Arrest
@@ -9001,7 +9004,7 @@ s=hastings;e:hastings=surprised
 What did he mean?
 s=
 
-In spite of myself, an agreeable warmth spread over me.<e>Hastings doesn't give a shit that she's married lmao.</e>
+In spite of myself, an agreeable warmth spread over me.<e>Hastings doesn't give a shit that she's married to his friend lmao.</e>
 s=none;e:hastings=happy
 
 I am not a vain man where women are concerned, but I remembered certain evidences, too lightly thought of at the time, perhaps, but which certainly seemed to indicate—
@@ -9736,7 +9739,7 @@ e:poirot=
 “What is that?”
 s=hastings;e:hastings=nervous
 
-“Why, that there is altogether too much strychnine about this case. This is the third time we run up against it.”<e>Also there's the strychnine in the guacamole.</e>
+“Why, that there is altogether too much strychnine about this case. This is the third time we run up against it.”<e>Plus there's the strychnine in the guacamole.</e>
 s=poirot;e:poirot=annoyed
 
 “There was strychnine in Mrs. Inglethorp’s tonic. There is the strychnine sold across the counter at Styles St. Mary by Mace. Now we have more strychnine, handled by one of the household.”
@@ -11770,7 +11773,7 @@ e:poirot=serious
 “She decides to say nothing to her husband, but sits down and writes to her solicitor, asking him to come on the morrow, and she also determines to destroy immediately the will which she has just made.”
 
 
-“She keeps the fatal letter.”<e>Wait, but shouldn't she realize that keeping the letter will make him know that she knows, as soon as he happens to look in his desk? And for that matter: when the hell did he even realize it was missing? It must have been the morning afterwards, right? Why did he even think it was safe to leave the letter in his desk overnight, knowing he'd be the prime suspect?</e>
+“She keeps the fatal letter.”<e>Wait, but shouldn't she realize that keeping the letter will make him know that she knows, as soon as he happens to look in his desk? And for that matter: when the hell did he even realize it was missing? It must have been the morning afterwards, right? Why did he think it was safe to leave the letter in his desk overnight, knowing he'd be the prime suspect?</e>
 
 
 “It was to discover that letter, then, that her husband forced the lock of the despatch-case?”
@@ -11779,7 +11782,7 @@ s=hastings;e:hastings=contemplative;i=2
 “Yes, and from the enormous risk he ran we can see how fully he realized its importance.”
 s=poirot;e:poirot=contemplative
 
-“That letter excepted, there was absolutely nothing to connect him with the crime.”<e>I mean… what about the fact that he had such a concrete alibi that there's no reason an impostor should have ever expected that disguise plan to work? How come <i>that</i> never came up?</e>
+“That letter excepted, there was absolutely nothing to connect him with the crime.”<e>I mean… what about the fact that he had such a concrete alibi that there's no reason the hypothetical impostor should have ever expected the disguise plan to work? How come <i>that</i> never came up?</e>
 
 
 “There’s only one thing I can’t make out, why didn’t he destroy it at once when he got hold of it?”
@@ -11827,7 +11830,7 @@ e:poirot=smirking
 I shook my head.
 s=none;e:hastings=confused
 
-“In a moment, he has torn the letter into long thin strips, and rolling them up into spills he thrusts them hurriedly in amongst the other spills in the vase on the mantelpiece.”<e>Note that earlier on the book said vase<i>s</i> (plural), so that's why there's two.</e>
+“In a moment, he has torn the letter into long thin strips, and rolling them up into spills he thrusts them hurriedly in amongst the other spills in the vase on the mantelpiece.”
 s=poirot;e:poirot=thinking
 
 I uttered an exclamation.
@@ -11875,7 +11878,7 @@ e:hastings=confused
 “Yes, and it was a race for time.”
 s=poirot;e:poirot=smirking;i=2
 
-“But I still can’t understand why Inglethorp was such a fool as to leave it there when he had plenty of opportunity to destroy it.”<e>Or, you know, such a fool <i>to write the thing in the first place</i>.</e>
+“But I still can’t understand why Inglethorp was such a fool as to leave it there when he had plenty of opportunity to destroy it.”<e>Or, you know, such a fool to write the thing in the first place. (Everything about this letter is really really dumb lol.)</e>
 s=hastings;e:hastings=confused
 
 “Ah, but he had no opportunity. I saw to that.”
