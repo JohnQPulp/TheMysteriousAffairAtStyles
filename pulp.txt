@@ -3188,13 +3188,13 @@ s=poirot
 e:poirot=
 
 “John Cavendish’s. I saw him put it down there.”
-s=hastings;e:hastings=neutral
+s=hastings;e:hastings=contemplative;i=2
 
 “Good. One, two, three, four, five—but where, then, is the cup of Mr. Inglethorp?”
 s=poirot;e:poirot=thinking
 
 “He does not take coffee.”
-s=hastings
+s=hastings;e:hastings=
 
 “Then all are accounted for. One moment, my friend.”
 s=poirot;e:poirot=serious
@@ -3329,7 +3329,7 @@ s=john;e:john=wary
 s=poirot;e:poirot=thinking
 
 “If anyone had chanced to look this morning before his return, and seen it there, it would have been a valuable point in his favour. That is all.”
-e:poirot=thinking
+e:poirot=contemplative;i=2
 
 John looked perplexed.
 s=none;e:john=confused
@@ -3401,13 +3401,13 @@ He jumped up and took her cup.
 s=none
 
 “No sugar,” said Cynthia, watching him, as he picked up the sugar-tongs.
-s=cynthia;e:cynthia=neutral
+s=cynthia;e:cynthia=confused
 
 “No sugar? You abandon it in the wartime, eh?”
 s=poirot;e:poirot=
 
 “No, I never take it in coffee.”
-s=cynthia
+s=cynthia;e:cynthia=
 
 “*Sacré!*” murmured Poirot to himself, as he brought back the replenished cup.
 s=poirot;e:poirot=serious
@@ -3641,7 +3641,7 @@ He reflected for a moment, and then asked:
 s=none
 
 “Was Mrs. Inglethorp herself aware of that fact?”
-s=poirot;e:poirot=
+s=poirot;e:poirot=contemplative
 
 “I do not know. She may have been.”
 s=wells;e:wells=contemplative
@@ -3665,7 +3665,7 @@ s=wells;e:wells=neutral
 s=wells
 
 “Suppose,” suggested Poirot, “that, unknown to you, she had made a new will in favour of someone who was not, in any sense of the word, a member of the family—we will say Miss Howard, for instance—would you be surprised?”
-s=poirot
+s=poirot;e:poirot=contemplative;i=2
 
 “Not in the least.”
 s=wells
@@ -3689,7 +3689,7 @@ s=none;e:poirot=smirking
 s=poirot
 
 “Then why did you ask?”
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=confused
 
 “Hush!”
 s=poirot;e:poirot=serious
@@ -3827,7 +3827,7 @@ s=poirot
 s=manning;e:manning=contemplative
 
 “And Mrs. Inglethorp came to the window and called you, did she not?”
-s=poirot
+s=poirot;i=3
 
 “Yes, sir, she did.”
 s=manning;e:manning=
@@ -4310,7 +4310,7 @@ e:poirot=angry
 
 
 “It is destroyed—but is it destroyed? Is there not yet a chance—we must leave no stone unturned—”
-e:poirot=serious
+e:poirot=contemplative;i=2
 
 He rushed like a madman from the room, and I followed him as soon as I had sufficiently recovered my wits.
 s=none;e:hastings=surprised
@@ -4643,7 +4643,7 @@ s=poirot;e:poirot=
 
 
 “Now, if it had been lost and recovered, Mrs. Inglethorp would at once have replaced it on her bunch; but on her bunch I found what was obviously the duplicate key, very new and bright, which led me to the hypothesis that somebody else had inserted the original key in the lock of the despatch-case.”
-e:poirot=thinking
+e:poirot=thinking;i=2
 
 “Yes,” I said, “Alfred Inglethorp, without doubt.”
 s=hastings;e:hastings=serious
@@ -4733,13 +4733,10 @@ e:hastings=
 s=poirot;e:poirot=happy
 
 “Well,” I said, encouraged, “as the person who entered did not do so by the window, nor by miraculous means, it follows that the door must have been opened from inside by Mrs. Inglethorp herself.”
-s=hastings
+s=hastings;e:hastings=curious
 
-“That strengthens the conviction that the person in question was her husband.”
-e:hastings=serious
-
-“She would naturally open the door to her own husband.”
-
+“That strengthens the conviction that the person in question was her husband. She would naturally open the door to her own husband.”
+e:hastings=contemplative
 
 Poirot shook his head.
 s=none;e:poirot=serious
@@ -4859,7 +4856,7 @@ Poirot’s face remained quite impassive.
 s=none;e:poirot=
 
 “Only the doctors can tell us that, Mr. Mace.”
-s=poirot
+s=poirot;e:poirot=thinking;i=2
 
 “Yes, exactly—of course—”
 s=mace
@@ -4951,11 +4948,8 @@ s=hastings;e:hastings=angry
 “No, it is very momentous.”
 s=poirot;e:poirot=thinking
 
-“And supposing the Coroner’s jury returns a verdict of Wilful Murder against Alfred Inglethorp.”
+“And supposing the Coroner’s jury returns a verdict of Wilful Murder against Alfred Inglethorp. What becomes of your theories, then?”
 s=hastings;e:hastings=serious
-
-“What becomes of your theories, then?”
-
 
 “They would not be shaken because twelve stupid men had happened to make a mistake!”
 s=poirot;e:poirot=angry
@@ -5314,11 +5308,8 @@ s=mary;e:mary=annoyed
 There was a faint insolence in her voice. She raised her hand and adjusted the ruffle of lace at her neck, turning her head a little as she did so.
 s=none;e:mary=annoyed
 
-And quite spontaneously the thought flashed across my mind:
+And quite spontaneously the thought flashed across my mind: “She is gaining time!”
 e:hastings=thinking
-
-“She is gaining time!”
-t=hastings;e:hastings=suspicious
 
 “Yes. I understand,” continued the Coroner deliberately, “that you were sitting reading on the bench just outside the long window of the boudoir.”
 s=wells;e:wells=serious;t=
@@ -5804,7 +5795,7 @@ He put his lips to my ear.
 
 
 “Do you know who that little man is?”
-s=poirot;e:poirot=
+s=poirot;e:poirot=suspicious
 
 I shook my head.
 s=none
@@ -6092,7 +6083,7 @@ s=none;e:hastings=thinking
 s=poirot;e:poirot=thinking
 
 “He has lived by his wits as the saying goes. Presumably, therefore, he has some wits. He is not altogether a fool.”
-
+e:poirot=
 
 “Well, how does he set about it?”
 e:poirot=
@@ -6197,10 +6188,10 @@ s=hastings;e:hastings=nervous
 e:hastings=confused
 
 “Ah, why indeed?” said Poirot, calming down.
-s=poirot;e:poirot=thinking
+s=poirot;e:poirot=thinking;i=2
 
 “If he were arrested, he probably would speak, but I do not want it to come to that.”
-
+e:poirot=
 
 “I must make him see the gravity of his position. There is, of course, something discreditable behind his silence.”
 e:poirot=thinking
@@ -6302,7 +6293,7 @@ s=poirot
 e:poirot=thinking
 
 “If it had been Monsieur John, I could have understood it. He has no technical knowledge, and is by nature unimaginative.”
-
+e:poirot=contemplative;i=2
 
 “But Monsieur Lawrence—no!”
 e:poirot=serious
@@ -6356,7 +6347,7 @@ s=none;e:hastings=confused
 s=poirot;e:poirot=thinking
 
 “Dr. Bauerstein, now, what was *he* doing up and dressed at that hour in the morning? It is astonishing to me that no one commented on the fact.”
-
+e:poirot=serious;i=3
 
 “He has insomnia, I believe,” I said doubtfully.
 s=hastings;e:hastings=suspicious
