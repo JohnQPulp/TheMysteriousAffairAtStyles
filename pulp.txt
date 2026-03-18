@@ -8873,10 +8873,10 @@ s=poirot;e:poirot=happy
 s=hastings;e:hastings=annoyed
 
 “Nothing at all, of course,” replied Poirot, smiling.
-s=poirot;e:poirot=smirking
+s=poirot;e:poirot=happy;i=2
 
 “But we were speaking of the arrest of Dr. Bauerstein.”
-
+e:poirot=smirking
 
 “Well, he is arrested for the murder of Mrs. Inglethorp—”
 s=hastings;e:hastings=serious
@@ -8897,7 +8897,7 @@ s=poirot;e:poirot=smirking
 s=hastings;e:hastings=nervous
 
 “Oh, yes, very likely. But for espionage, *mon ami*.”
-s=poirot;e:poirot=happy
+s=poirot;e:poirot=happy;i=2
 
 “Espionage?” I gasped.
 s=hastings;e:hastings=surprised
@@ -9089,7 +9089,7 @@ and whirled me down the hall, calling out in French in his excitement:
 m=;b=styles-down-hall
 
 “Mademoiselle Dorcas, Mademoiselle Dorcas, *un moment, s’il vous plaît*!”
-s=poirot;e:poirot=excited
+s=poirot;e:poirot=excited;i=2
 
 Dorcas, quite flurried by the noise, came hurrying out of the pantry.
 s=none;e:dorcas=surprised
@@ -9374,7 +9374,7 @@ s=hastings;e:hastings=nervous
 s=mary;i=2
 
 “Of the arrest?”
-s=hastings
+s=hastings;e:hastings=wary;i=2
 
 “What should I think? Apparently he is a German spy; so the gardener had told John.”
 s=mary;e:mary=thinking
@@ -9848,7 +9848,7 @@ e:poirot=thinking;e:hastings=serious;b=poirot-room
 s=poirot
 
 “Her pride and her jealousy have﻿—”
-
+e:poirot=serious;i=3
 
 “Jealousy?” I queried.
 s=hastings;e:hastings=confused
@@ -9971,7 +9971,7 @@ s=poirot;e:poirot=thinking
 e:poirot=
 
 “And﻿—ah, by the way, I have a word of caution to give you, my friend. I must not appear in the case.”
-e:poirot=serious
+e:poirot=serious;i=2
 
 “What?”
 s=hastings;e:hastings=confused
@@ -10358,7 +10358,7 @@ s=poirot;e:poirot=serious
 e:poirot=thinking
 
 “He is endeavouring to make out that there is quite as much evidence against Lawrence as against John﻿—and I am not at all sure that he will not succeed.”
-e:poirot=serious
+e:poirot=serious;i=3
 
 Detective-inspector Japp was the first witness called when the trial was reopened, and gave his evidence succinctly and briefly.
 s=none;e:japp=serious;b=bailey
@@ -11747,16 +11747,16 @@ e:poirot=serious
 
 
 “He fears that if he remains in the room he may have to open it again, and that Mrs. Inglethorp might catch sight of the letter before he could snatch it up.”
-
+i=3
 
 “So he goes out and walks in the woods, little dreaming that Mrs. Inglethorp will open his desk, and discover the incriminating document.”
 
 
 “But this, as we know, is what happened.”
-e:poirot=serious
+e:poirot=thinking;i=
 
 “Mrs. Inglethorp reads it, and becomes aware of the perfidy of her husband and Evelyn Howard, though, unfortunately, the sentence about the bromides conveys no warning to her mind.”
-
+e:poirot=serious
 
 “She knows that she is in danger﻿—but is ignorant of where the danger lies.”
 
@@ -12028,7 +12028,7 @@ s=poirot;e:poirot=serious
 “It was in my mind when I asked Mr. Wells that first question about the will.”
 
 
-“Then there were the bromide powders which she had made up, and her clever male impersonations, as Dorcas recounted them to us.”<e>Is "clever male impersonations" referring to the Apache costume or the blackface costume?</e>
+“Then there were the bromide powders which she had made up, and her clever male impersonations, as Dorcas recounted them to us.”<e>Now is "clever male impersonations" referring to the Apache costume or the blackface costume?</e>
 
 
 “There was really more evidence against her than anyone else.”
@@ -12287,10 +12287,10 @@ e:hastings=weary
 s=poirot;e:poirot=
 
 “Nothing,” I said sadly.
-s=hastings;e:hastings=unhappy
+s=hastings;e:hastings=contemplative
 
 “They are two delightful women!”
-e:hastings=contemplative
+e:hastings=unhappy
 
 “And neither of them is for you?” finished Poirot.
 s=poirot;e:poirot=smirking
