@@ -6935,13 +6935,13 @@ s=poirot;e:poirot=neutral
 
 
 “Oh!” I said, rather nonplussed.
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=surprised
 
 “Really,” I continued, “it’s her extraordinary vehemence against Inglethorp that started me off suspecting her. I can’t help feeling she’d do anything against him.”
-e:hastings=thinking
+e:hastings=contemplative
 
 “And I had an idea she might know something about the destroying of the will. She might have burnt the new one, mistaking it for the earlier one in his favour.”
-
+e:hastings=thinking
 
 “She is so terribly bitter against him.”
 e:hastings=contemplative
@@ -7018,11 +7018,8 @@ s=hastings;e:hastings=confused
 Poirot smiled.
 s=none
 
-“That was for a reason. I did not want to mention the name of the person who was actually in my mind.”
+“That was for a reason. I did not want to mention the name of the person who was actually in my mind. Miss Howard occupied very much the same position, so I used her name instead.”
 s=poirot;e:poirot=smirking
-
-“Miss Howard occupied very much the same position, so I used her name instead.”
-
 
 “Still, Mrs. Inglethorp might have done so. Why, that will, made on the afternoon of her death may—”
 s=hastings;e:hastings=serious
@@ -7070,7 +7067,7 @@ s=poirot
 e:poirot=serious
 
 “Nothing more. Nothing less.”
-e:poirot=thinking
+e:poirot=thinking;i=2
 
 “‘Find the extra coffee-cup, and you can rest in peace.’ Is that right?” I asked, much mystified.
 s=hastings;e:hastings=confused
@@ -7286,7 +7283,7 @@ e:poirot=surprised
 s=hastings;x:hastings=;x:poirot=;e:hastings=surprised
 
 “Look!”
-s=poirot;e:poirot=excited
+s=poirot;e:poirot=excited;i=2
 
 The chest was nearly empty, and there, reposing right at the bottom, was a magnificent black beard.
 s=none
@@ -7304,7 +7301,7 @@ After a moment’s hesitation, he replaced it in the chest, heaped all the other
 s=none;m=joined
 
 and made his way briskly downstairs.
-b=styles-down-hall;m=
+b=styles-stairs;m=
 
 He went straight to the pantry, where we found Dorcas busily polishing her silver.
 e:dorcas=neutral;b=styles-pantry
@@ -7526,7 +7523,7 @@ s=poirot;e:poirot=serious
 
 
 “Do you remember affirming that if a crime had been committed, and anyone you loved had been murdered, you felt certain that you would know by instinct who the criminal was, even if you were quite unable to prove it?”
-e:poirot=thinking
+e:poirot=contemplative;i=2
 
 “Yes, I remember saying that. I believe it too. I suppose you think it nonsense?”
 s=evie;e:evie=serious
@@ -7622,7 +7619,7 @@ e:poirot=serious
 s=evie;e:evie=upset
 
 “Come now.”
-s=poirot
+s=poirot;i=3
 
 “It could be hushed up.”
 s=evie;e:evie=weary
@@ -7769,7 +7766,7 @@ There was no change of expression in the dark melancholic face. Had he any idea 
 s=none;e:lawrence=neutral
 
 “This is the message.”
-s=hastings;e:hastings=nervous
+s=hastings;e:hastings=serious;i=2
 
 I dropped my voice still lower.
 s=none
@@ -7976,7 +7973,7 @@ s=poirot
 s=hastings;e:hastings=contemplative
 
 “Ah, she is an industrious little demoiselle. And pretty too. She is like pictures I have seen in Italy.”
-s=poirot;e:poirot=happy
+s=poirot;e:poirot=happy;i=2
 
 “I would rather like to see that dispensary of hers. Do you think she would show it to me?”
 e:poirot=thinking
@@ -8009,7 +8006,7 @@ e:hastings=curious
 s=poirot;e:poirot=thinking
 
 “No, right the other side of the room. Why?”
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=suspicious
 
 Poirot shrugged his shoulders.
 s=none;e:poirot=neutral
@@ -8185,8 +8182,11 @@ s=
 Rather ostentatiously, I stepped forward, crackling some dead branches with my feet as I did so.
 s=none;e:hastings=nervous;e:john=wary
 
-John turned. Luckily, he took it for granted that I had only just come upon the scene.
+John turned.
 e:hastings=neutral
+
+Luckily, he took it for granted that I had only just come upon the scene.
+
 
 “Hullo, Hastings.”
 s=john;e:john=serious;
@@ -8486,7 +8486,7 @@ s=none;e:cynthia=nervous;e:mary=neutral
 s=cynthia
 
 “Yes?”
-s=hastings;e:hastings=nervous
+s=hastings;e:hastings=nervous;i=2
 
 “After tea, I want to talk to you.”
 s=cynthia;e:cynthia=thinking
@@ -8699,13 +8699,13 @@ s=hastings;e:hastings=contemplative
 s=oldwoman
 
 “What about him?”
-s=hastings;e:hastings=confused
+s=hastings;e:hastings=nervous;i=2
 
 “He’s took.”
 s=oldwoman;e:oldwoman=
 
 “Took? Dead?”
-s=hastings;e:hastings=serious
+s=hastings;e:hastings=confused
 
 “No, took by the perlice.”
 s=oldwoman;e:oldwoman=serious
