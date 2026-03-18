@@ -9839,7 +9839,7 @@ s=none;e:mary=crying;e:poirot=smirking
 r=title;v=100,130
 
 The trial of John Cavendish for the murder of his stepmother took place two months later.
-b=think
+b=light
 
 Of the intervening weeks I will say little, but my admiration and sympathy went out unfeignedly to Mary Cavendish.
 
@@ -9875,7 +9875,7 @@ With his tenderness for “a woman’s happiness,” I felt glad that the decisi
 s=hastings;e:hastings=contemplative
 
 “You see, up to the very last minute, I thought it was Lawrence!”
-e:hastings=surprised
+e:hastings=confused
 
 Poirot grinned.
 s=none;e:poirot=smirking
@@ -9884,7 +9884,7 @@ s=none;e:poirot=smirking
 s=poirot
 
 “But John! My old friend John!”
-s=hastings;e:hastings=upset
+s=hastings;e:hastings=unhappy
 
 “Every murderer is probably somebody’s old friend,” observed Poirot philosophically.
 s=poirot;e:poirot=contemplative
@@ -9922,23 +9922,20 @@ s=poirot;e:poirot=serious
 “It is one thing to know that a man is guilty, it is quite another matter to prove him so. And, in this case, there is terribly little evidence.”
 
 
-“That is the whole trouble. I, Hercule Poirot, know, but I lack the last link in my chain.”
+“That is the whole trouble. I, Hercule Poirot, know, but I lack the last link in my chain. And unless I can find that missing link﻿—”
 e:poirot=thinking
-
-“And unless I can find that missing link﻿—”
-
 
 He shook his head gravely.
 s=
 
-“When did you first suspect John Cavendish?” I asked, after a minute or two.<e>Timer.</e>
-s=hastings;e:hastings=thinking
+“When did you first suspect John Cavendish?” I asked, after a minute or two.
+s=hastings;e:hastings=confused
 
 “Did you not suspect him at all?”
 s=poirot;e:poirot=neutral
 
 “No, indeed.”
-s=hastings
+s=hastings;i=2
 
 “Not after that fragment of conversation you overheard between Mrs. Cavendish and her mother-in-law, and her subsequent lack of frankness at the inquest?”
 s=poirot;e:poirot=serious
@@ -9950,13 +9947,13 @@ s=hastings;e:hastings=contemplative
 s=poirot;e:poirot=thinking
 
 “Now, if it was Lawrence, Mary Cavendish’s conduct was just as inexplicable.”
-
+e:poirot=serious
 
 “But if, on the other hand, it was John, the whole thing was explained quite naturally.”
 e:poirot=serious
 
 “So,” I cried, a light breaking in upon me, “it was John who quarrelled with his mother that afternoon?”
-s=hastings;e:hastings=surprised
+s=hastings;e:hastings=fearful
 
 “Exactly.”
 s=poirot;e:poirot=smirking
@@ -9974,16 +9971,16 @@ Poirot shrugged his shoulders.
 s=none
 
 “Certainly I do. At the police court proceedings, we shall hear the case for the prosecution, but in all probability his solicitors will advise him to reserve his defence.”
-s=poirot
+s=poirot;e:poirot=thinking
 
 “That will be sprung upon us at the trial.”
-
+e:poirot=
 
 “And﻿—ah, by the way, I have a word of caution to give you, my friend. I must not appear in the case.”
 e:poirot=serious
 
 “What?”
-s=hastings;e:hastings=surprised
+s=hastings;e:hastings=confused
 
 “No. Officially, I have nothing to do with it. Until I have found that last link in my chain, I must remain behind the scenes.”
 s=poirot;e:poirot=neutral
@@ -10001,7 +9998,7 @@ s=poirot;e:poirot=serious
 
 
 “If I am called upon to give evidence at all”﻿—
-m=allowbreak;m=nospace
+m=allowbreak;m=nospace;e:poirot=serious
 
 he smiled broadly﻿—
 s=
@@ -10028,7 +10025,7 @@ Poirot was a true prophet.
 s=none;
 
 I will not go into the details of the police court proceedings, as it involves many tiresome repetitions.
-b=think
+b=light
 
 I will merely state baldly that John Cavendish reserved his defence, and was duly committed for trial.
 
@@ -10121,7 +10118,7 @@ Sir Ernest Heavywether, who was famous all over England for the unscrupulous man
 e:heavywether=serious
 
 “I take it, Dr. Bauerstein, that strychnine, as a drug, acts quickly?”
-s=heavywether
+s=heavywether;z:heavywether=97,,1
 
 “Yes.”
 s=bauerstein;e:bauerstein=neutral
@@ -10130,7 +10127,7 @@ s=bauerstein;e:bauerstein=neutral
 s=heavywether
 
 “Yes.”
-s=bauerstein
+s=bauerstein;i=2
 
 “Thank you.”
 s=heavywether;e:heavywether=smirking
@@ -10169,25 +10166,25 @@ After various questions on other matters, Mr. Philips asked:
 
 
 “In the month of June last, do you remember a parcel arriving for Mr. Lawrence Cavendish from Parkson’s?”
-s=philips;e:philips=serious
+s=philips;e:philips=serious;z:philips=,45,2
 
 Dorcas shook her head.
 s=none;e:dorcas=thinking
 
 “I don’t remember, sir. It may have done, but Mr. Lawrence was away from home part of June.”
-s=dorcas
+s=dorcas;e:dorcas=unhappy
 
 “In the event of a parcel arriving for him whilst he was away, what would be done with it?”
-s=philips
+s=philips;i=2
 
 “It would either be put in his room or sent on after him.”
-s=dorcas;e:dorcas=
+s=dorcas;e:dorcas=contemplative
 
 “By you?”
 s=philips
 
 “No, sir, I should leave it on the hall table. It would be Miss Howard who would attend to anything like that.”
-s=dorcas;e:dorcas=thinking
+s=dorcas;e:dorcas=unhappy
 
 Evelyn Howard was called and, after being examined on other points, was questioned as to the parcel.
 s=none;e:evie=serious
@@ -10199,16 +10196,16 @@ s=evie;x:evie=hat
 s=philips
 
 “Don’t think it was sent after him. Should have remembered it if it was.”
-s=evie;e:evie=thinking
+s=evie;e:evie=annoyed
 
 “Supposing a parcel arrived addressed to Mr. Lawrence Cavendish, and afterwards it disappeared, should you remark its absence?”
-s=philips
+s=philips;e:philips=thinking
 
 “No, don’t think so. I should think someone had taken charge of it.”
-s=evie
+s=evie;e:evie=contemplative
 
 “I believe, Miss Howard, that it was you who found this sheet of brown paper?”
-s=philips
+s=philips;e:philips=serious
 
 He held up the same dusty piece which Poirot and I had examined in the morning-room at Styles.
 s=none
@@ -10220,10 +10217,10 @@ s=evie;e:evie=
 s=philips;e:philips=thinking
 
 “The Belgian detective who was employed on the case asked me to search for it.”
-s=evie
+s=evie;e:evie=serious;i=2
 
 “Where did you eventually discover it?”
-s=philips
+s=philips;e:philips=serious
 
 “On the top of﻿—of﻿—a wardrobe.”
 s=evie;e:evie=wary
@@ -10238,10 +10235,10 @@ s=evie;
 s=philips
 
 “Yes.”
-s=evie;e:evie=thinking
+s=evie;e:evie=contemplative
 
 “Then you must know where you found it?”
-s=philips
+s=philips;i=2
 
 “Yes, it was on the prisoner’s wardrobe.”
 s=evie;e:evie=serious
@@ -10265,10 +10262,10 @@ e:heavywether=serious
 s=heavywether
 
 “From Styles Court.”
-s=assistant;e:assistant=neutral
+s=assistant;e:assistant=neutral;z:assistant=70,55,-1
 
 “The same address to which you sent the parcel?”
-s=heavywether
+s=heavywether;i=2
 
 “Yes.”
 s=assistant
@@ -10367,7 +10364,7 @@ s=poirot;e:poirot=serious
 e:poirot=thinking
 
 “He is endeavouring to make out that there is quite as much evidence against Lawrence as against John﻿—and I am not at all sure that he will not succeed.”
-
+e:poirot=serious
 
 Detective-inspector Japp was the first witness called when the trial was reopened, and gave his evidence succinctly and briefly.
 s=none;e:japp=serious;b=bailey
@@ -10406,7 +10403,7 @@ s=heavywether
 s=japp;e:japp=
 
 “Exactly a week after the tragedy?”
-s=heavywether
+s=heavywether;i=2
 
 “Yes.”
 s=japp
@@ -10463,16 +10460,16 @@ s=japp;e:japp=annoyed
 s=heavywether;e:heavywether=serious
 
 “I should not think it likely.”
-s=japp
-
-“But it is possible?”
-s=heavywether
-
-“Yes.”
 s=japp;e:japp=serious
 
+“But it is possible?”
+s=heavywether;i=2
+
+“Yes.”
+s=japp;e:japp=annoyed
+
 “That is all.”
-s=heavywether
+s=heavywether;e:heavywether=smirking
 
 More evidence followed.
 s=none
@@ -10502,7 +10499,7 @@ s=heavywether
 s=lawrence
 
 “Ah! In the event of anything happening to your brother, who will inherit Styles Court?”
-s=heavywether
+s=heavywether;i=2
 
 The brutality of the question called a flush to Lawrence’s pale face.
 s=none;e:lawrence=upset
@@ -10535,7 +10532,7 @@ s=heavywether;e:heavywether=smirking
 
 
 “Really, Sir Ernest,” protested the judge, “these questions are not relevant.”
-s=judge;e:judge=annoyed
+s=judge;e:judge=annoyed;z:judge=95,52,2
 
 Sir Ernest bowed, and having shot his arrow proceeded.
 s=none;e:heavywether=neutral
@@ -10547,7 +10544,7 @@ s=heavywether;e:heavywether=serious
 s=lawrence
 
 “Did you﻿—while you happened to be alone for a few seconds﻿—unlock the poison cupboard, and examine some of the bottles?”
-s=heavywether
+s=heavywether;i=2
 
 “I﻿—I﻿—may have done so.”
 s=lawrence;e:lawrence=nervous
@@ -10567,20 +10564,17 @@ s=heavywether
 “No, I do not think so.”
 s=lawrence
 
-“Be careful, Mr. Cavendish.”
-s=heavywether;e:heavywether=serious
-
-“I am referring to a little bottle of Hydrochloride of Strychnine.”
-
+“Be careful, Mr. Cavendish. I am referring to a little bottle of Hydrochloride of Strychnine.”
+s=heavywether;e:heavywether=smirking
 
 Lawrence was turning a sickly greenish colour.
 s=none;e:lawrence=fearful
 
 “N﻿—o﻿—I am sure I didn’t.”
-s=lawrence;e:lawrence=sickly
+s=lawrence;e:lawrence=serious
 
 “Then how do you account for the fact that you left the unmistakable impress of your fingerprints on it?”
-s=heavywether;e:heavywether=smirking
+s=heavywether;e:heavywether=smirking;i=2
 
 The bullying manner was highly efficacious with a nervous disposition.
 s=none
@@ -10622,7 +10616,7 @@ Lawrence stammered pitiably.
 s=none;e:lawrence=sickly
 
 “I﻿—I﻿—”
-s=lawrence
+s=lawrence;e:lawrence=nervous;i=2
 
 With a satisfied and expressive countenance, Sir Ernest observed:
 s=none;e:heavywether=smirking
@@ -10724,10 +10718,10 @@ At the close of his examination, he paused, and said:
 
 
 “I should like to make one thing clear. I utterly reject and disapprove of Sir Ernest Heavywether’s insinuations against my brother.”
-s=john;e:john=serious
+s=john;e:john=unhappy
 
 “My brother, I am convinced, had no more to do with the crime than I have.”
-
+e:john=serious
 
 Sir Ernest merely smiled, and noted with a sharp eye that John’s protest had produced a very favourable impression on the jury.
 s=none;e:heavywether=smirking
@@ -10748,7 +10742,7 @@ s=john;e:john=serious
 s=philips
 
 “I did not recognize them.”
-s=john
+s=john;i=2
 
 “Your memory must be unusually short!”
 s=philips;e:philips=thinking
@@ -10757,7 +10751,7 @@ s=philips;e:philips=thinking
 s=john;e:john=serious
 
 “I paid very little attention to my mother’s actual words.”
-
+e:john=upset
 
 Mr. Philips’ incredulous sniff was a triumph of forensic skill.
 s=none;e:philips=smirking
@@ -10784,7 +10778,7 @@ s=john;e:john=serious
 s=philips;e:philips=serious
 
 “No.”
-s=john
+s=john;i=2
 
 “I put it to you that, anxious to prove an alibi, you conceived the idea of a fictitious and rather incredible appointment, and wrote this note yourself in order to bear out your statement!”
 s=philips
@@ -10793,10 +10787,10 @@ s=philips
 s=john
 
 “Is it not a fact that, at the time you claim to have been waiting about at a solitary and unfrequented spot, you were really in the chemist’s shop in Styles St. Mary, where you purchased strychnine in the name of Alfred Inglethorp?”
-s=philips
+s=philips;i=2
 
 “No, that is a lie.”
-s=john;e:john=angry
+s=john;e:john=annoyed
 
 “I put it to you that, wearing a suit of Mr. Inglethorp’s clothes, with a black beard trimmed to resemble his, you were there﻿—and signed the register in his name!”
 s=philips
@@ -10805,7 +10799,7 @@ s=philips
 s=john
 
 “Then I will leave the remarkable similarity of handwriting between the note, the register, and your own, to the consideration of the jury,” said Mr. Philips,
-s=philips;e:philips=serious;m=allowbreak
+s=philips;e:philips=serious;i=2;m=allowbreak
 
 and sat down with the air of a man who has done his duty, but who was nevertheless horrified by such deliberate perjury.
 m=;s=
@@ -10820,7 +10814,7 @@ He had that little frown between the eyes that I knew so well.
 
 
 “What is it, Poirot?” I inquired.
-s=hastings;e:hastings=wary;b=london-wide;x:hastings=hat;x:poirot=hat
+s=hastings;e:hastings=confused;b=london-wide;x:hastings=hat;x:poirot=hat
 
 “Ah, *mon ami*, things are going badly, badly.”
 s=poirot;e:poirot=unhappy
@@ -10850,10 +10844,10 @@ My jaw dropped involuntarily, and he said at once:
 
 
 “No, *mon ami*, I am not in my second childhood! I steady my nerves, that is all.”
-s=poirot;e:poirot=smirking
+s=poirot;e:poirot=serious
 
 “This employment requires precision of the fingers. With precision of the fingers goes precision of the brain.”
-e:poirot=contemplative
+e:poirot=weary
 
 “And never have I needed that more than now!”
 e:poirot=serious
@@ -10874,7 +10868,7 @@ I could not quite tell what to say, so I held my peace, and he began slowly buil
 s=none;e:hastings=wary;e:poirot=serious
 
 “It is done﻿—so! By placing﻿—one card﻿—on another﻿—with mathematical﻿—precision!”
-s=poirot
+s=poirot;e:poirot=angry
 
 I watched the card house rising under his hands, story by story.
 s=none
@@ -10889,16 +10883,16 @@ s=hastings;e:hastings=contemplative
 
 
 “On an occasion when I was enraged, without doubt,” observed Poirot, with great placidity.
-s=poirot;e:poirot=neutral
+s=poirot;e:poirot=serious
 
 “Yes indeed! You were in a towering rage. Do you remember?”
-s=hastings;e:hastings=smirking
+s=hastings;e:hastings=curious
 
 “It was when you discovered that the lock of the despatch-case in Mrs. Inglethorp’s bedroom had been forced.”
 e:hastings=
 
 “You stood by the mantelpiece, twiddling the things on it in your usual fashion, and your hand shook like a leaf! I must say﻿—”
-e:hastings=smirking
+e:hastings=curious
 
 But I stopped suddenly.
 s=none;e:hastings=surprised
@@ -10906,26 +10900,23 @@ s=none;e:hastings=surprised
 For Poirot, uttering a hoarse and inarticulate cry, again annihilated his masterpiece of cards, and putting his hands over his eyes swayed backwards and forwards, apparently suffering the keenest agony.
 e:poirot=upset
 
-“Good heavens, Poirot!” I cried.
-s=hastings;e:hastings=surprised
+“Good heavens, Poirot!” I cried. “What is the matter? Are you taken ill?”
+s=hastings;e:hastings=fearful
 
-“What is the matter? Are you taken ill?”
-e:hastings=fearful
+“No, no,” he gasped. “It is﻿—it is﻿—”
+s=poirot;e:poirot=agony;m=nospace;m=allowbreak
 
-“No, no,” he gasped.
-s=poirot;e:poirot=agony
-
-“It is﻿—it is﻿—that I have an idea!”
-e:poirot=excited
+“that I have an idea!”
+e:poirot=excited;m=
 
 “Oh!” I exclaimed, much relieved.
-s=hastings;e:hastings=surprised
+s=hastings;e:hastings=confused
 
 “One of your ‘little ideas’?”
-e:hastings=smirking
+
 
 “Ah, *ma foi*, no!” replied Poirot frankly.
-s=poirot;e:poirot=serious
+s=poirot;e:poirot=angry
 
 “This time it is an idea gigantic! Stupendous!”
 e:poirot=excited
@@ -10943,10 +10934,10 @@ x:mary=
 s=mary;e:mary=confused
 
 “He rushed past me crying out: ‘A garage! For the love of Heaven, direct me to a garage, madame!’”
-e:mary=contemplative
+e:mary=serious
 
 “And, before I could answer, he had dashed out into the street.”
-
+e:mary=confused
 
 I hurried to the window.
 s=none;e:hastings=surprised
@@ -10961,19 +10952,19 @@ e:hastings=weary
 s=hastings
 
 “There he goes, round the corner!”
-e:hastings=serious
+e:hastings=confused
 
 Our eyes met, and we stared helplessly at one another.
 s=none;e:mary=confused
 
 “What can be the matter?”
-s=mary
+s=mary;e:mary=serious
 
 I shook my head.
 s=none
 
 “I don’t know. He was building card houses, when suddenly he said he had an idea, and rushed off as you saw.”
-s=hastings
+s=hastings;i=2
 
 “Well,” said Mary, “I expect he will be back before dinner.”
 s=mary;e:mary=contemplative
