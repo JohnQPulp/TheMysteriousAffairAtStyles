@@ -1,5 +1,5 @@
 The Mysterious Affair at Styles<br>Agatha Christie<e>It's not just a mystery novel. It's a <i>mysterious</i> mystery novel. The game: figure out whodunnit. The reward: self-satisfaction.</e>
-b=title;t=author;z:author=90,,3;z:author-abased=50,54,
+b=title;t=author;z:author=90,,3;z:author-abased=90,,7
 
 <div class='center'>To my Mother</div>
 t=
