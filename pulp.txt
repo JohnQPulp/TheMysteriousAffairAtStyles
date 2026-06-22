@@ -4,7 +4,7 @@ b=title;t=author;z:author=90,,3;z:author-abased=90,,7
 <div class='center'>To my Mother</div>
 t=
 
-## 1. I Go to Styles
+## I<br>I Go to Styles
 r=title;v=100,130
 
 The intense interest aroused in the public by what was known at the time as “The Styles Case” has now somewhat subsided.
@@ -772,7 +772,7 @@ e:hastings=suspicious;b=think;c=bauerstein
 A vague suspicion of everyone and everything filled my mind. Just for a moment I had a premonition of approaching evil.
 e:hastings=fearful;c=
 
-## 2. The 16th and 17th of July
+## II<br>The 16th and 17th of July
 r=title;v=100,130
 
 I had arrived at Styles on the 5th of July. I come now to the events of the 16th and 17th of that month.
@@ -1279,7 +1279,7 @@ s=none
 “No one need sit up. I will take the latchkey.”
 s=alfred;e:alfred=
 
-## 3. The Night of the Tragedy
+## III<br>The Night of the Tragedy
 r=title;v=100,130
 
 To make this part of my story clear, I append the following plan of the first floor of Styles.
@@ -1750,7 +1750,7 @@ b=think
 I spent it in ransacking the library until I discovered a medical book which gave a description of strychnine poisoning.
 
 
-## 4. Poirot Investigates
+## IV<br>Poirot Investigates
 r=title;v=100,130
 
 The house which the Belgians occupied in the village was quite close to the park gates. One could save time by taking a narrow path through the long grass, which cut off the detours of the winding drive. So I, accordingly, went that way.
@@ -3115,7 +3115,7 @@ e:poirot=serious
 He pulled a crumpled envelope out of his pocket, and tossed it over to me. It was rather a curious document. A plain, dirty looking old envelope with a few words scrawled across it, apparently at random. The following is a facsimile of it.
 s=none;e:hastings=surprised;o=illustration4
 
-## 5. “It Isn’t Strychnine, Is It?”<e>Alternate chapter title: "The Strychnine's Right Behind Me, Isn't It?"</e>
+## V<br>“It Isn’t Strychnine, Is It?”<e>Alternate chapter title: "The Strychnine's Right Behind Me, Isn't It?"</e>
 r=title;v=100,130;
 
 “Where did you find this?” I asked Poirot, in lively curiosity.
@@ -4999,7 +4999,7 @@ s=poirot;e:poirot=unhappy
 “She would never forgive me if I let Alfred Inglethorp, her husband, be arrested now—when a word from me could save him!”
 e:poirot=annoyed
 
-## 6. The Inquest
+## VI<br>The Inquest
 r=title;v=100,130
 
 In the interval before the inquest, Poirot was unfailing in his activity. Twice he was closeted with Mr. Wells. He also took long walks into the country.
@@ -5818,7 +5818,7 @@ I was still staring, when I was startled and recalled by the verdict being given
 “Wilful Murder against some person or persons unknown.”
 m=dialogue
 
-## 7. Poirot Pays His Debts
+## VII<br>Poirot Pays His Debts
 r=title;v=100,130
 
 As we came out of the Stylites Arms, Poirot drew me aside by a gentle pressure of the arm.
@@ -6589,7 +6589,7 @@ s=poirot
 “There is absolutely no question as to the alibi!”
 e:poirot=angry
 
-## 8. Fresh Suspicions
+## VIII<br>Fresh Suspicions
 r=title;v=100,130
 
 There was a moment’s stupefied silence.
@@ -7720,7 +7720,7 @@ e:hastings=smirking
 There are times when it is one’s duty to assert oneself.
 e:hastings=serious
 
-## 9. Dr. Bauerstein
+## IX<br>Dr. Bauerstein
 r=title;v=100,130
 
 I had had no opportunity as yet of passing on Poirot’s message to Lawrence.
@@ -8722,7 +8722,7 @@ s=oldwoman;e:oldwoman=
 I waited to hear no more, but tore up the village to find Poirot.<e>Probably could've waited a <i>little</i> more tbh.</e>
 s=none;e:hastings=excited;b=village-wide
 
-## 10. The Arrest
+## X<br>The Arrest
 r=title;v=100,130
 
 To my extreme annoyance, Poirot was not in, and the old Belgian who answered my knock informed me that he believed he had gone to London.
@@ -9829,7 +9829,7 @@ s=dorcas
 Behind me, with a wild cry, Mary Cavendish fell heavily against me, and as I turned to catch her I met the quiet triumph in Poirot’s eyes.
 s=none;e:mary=crying;e:poirot=smirking
 
-## 11. The Case for the Prosecution
+## XI<br>The Case for the Prosecution
 r=title;v=100,130
 
 The trial of John Cavendish for the murder of his stepmother took place two months later.
@@ -10966,7 +10966,7 @@ s=mary;e:mary=contemplative
 But night fell, and Poirot had not returned.
 s=none;b=think
 
-## 12. The Last Link
+## XII<br>The Last Link
 r=title;v=100,130
 
 Poirot’s abrupt departure had intrigued us all greatly.
@@ -11512,7 +11512,7 @@ b=action
 “Messieurs, mesdames,” said Poirot, with a flourish, “let me introduce you to the murderer, Mr. Alfred Inglethorp!”
 s=poirot;e:poirot=excited;b=london-drawing
 
-## 13. Poirot Explains
+## XIII<br>Poirot Explains
 r=title;v=100,130
 
 “Poirot, you old villain,” I said, “I’ve half a mind to strangle you! What do you mean by deceiving me as you have done?”
